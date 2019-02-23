@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=
+Comment=
+GenericName=
+Exec=@EXEC_NAME@ %U
+Icon=com.github.dar5hak.ergobadger
+Terminal=false
+Categories=Utility;GTK;Development;
+Keywords=Develop
