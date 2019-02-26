@@ -76,7 +76,7 @@ public class Badger.Application : Granite.Application {
             "legs",
             "Stretch your legs",
             "Stand up, twist your ankles, raise each leg and bend your knee.",
-            "Stretch legs",
+            "Stretch legs:",
             700,
             this
         );
@@ -84,7 +84,7 @@ public class Badger.Application : Granite.Application {
             "arms",
             "Stretch your arms",
             "Stretch and twist your arms, elbows and wrists for 10 seconds.",
-            "Stretch arms",
+            "Stretch arms:",
             800,
             this
         );
@@ -92,7 +92,7 @@ public class Badger.Application : Granite.Application {
             "neck",
             "Twist your neck",
             "Turn your head in all directions. Repeat 5 times.",
-            "Twist neck",
+            "Twist neck:",
             600,
             this
         );
