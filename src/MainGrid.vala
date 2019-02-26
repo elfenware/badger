@@ -33,7 +33,6 @@ public class Badger.MainGrid : Gtk.Grid {
 
         row_spacing = 6;
         column_spacing = 12;
-        margin = 12;
 
         attach (new Granite.HeaderLabel ("Reminders"), 0, 0, 2, 1);
 
