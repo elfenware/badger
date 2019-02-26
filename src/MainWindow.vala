@@ -32,7 +32,7 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
 
     construct {
         title = "Badger";
-        border_width = 12;
+        border_width = 24;
 
         settings = new GLib.Settings ("com.github.dar5hak.badger.window-state");
 
