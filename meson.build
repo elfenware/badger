@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.dar5hak.ergobadger', 'vala', 'c', version: '0.1.0')
+project('com.github.dar5hak.badger', 'vala', 'c', version: '0.1.0')
 
 message ('project name and programming language')
 
@@ -46,6 +46,12 @@ foreach i : icon_sizes
     )
 endforeach
 
+install_data(
+    'data/gschema.xml',
+    install_dir: join_paths(get_option('datadir'), 'glib-2.0', 'schemas'),
+    rename: meson.project_name() + '.gschema.xml'
+)
+
 config_data = configuration_data()
 config_data.set('EXEC_NAME', meson.project_name())
 
@@ -86,7 +92,10 @@ appstream_file = i18n.merge_file(
 message ('Adds files to build')
 
 code_files = files(
-    'src/Application.vala'
+    'src/Application.vala',
+    'src/MainWindow.vala',
+    'src/Reminder.vala',
+    'src/MainGrid.vala'
 )
 
 message ('Defines executable')
@@ -97,3 +106,6 @@ executable(
     dependencies: dependencies,
     install: true
 )
+
+meson.add_install_script('meson/post_install.py')
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema
+    path="/com/github/dar5hak/badger/reminders/"
+    id="com.github.dar5hak.badger.reminders"
+    gettext-domain="com.github.dar5hak.badger">
+    <key name="eyes" type="b">
+      <default>true</default>
+      <summary>Remind the user to blink their eyes</summary>
+    </key>
+    <key name="fingers" type="b">
+      <default>true</default>
+      <summary>Remind the user to stretch their fingers</summary>
+    </key>
+    <key name="legs" type="b">
+      <default>true</default>
+      <summary>Remind the user to stretch their legs</summary>
+    </key>
+    <key name="arms" type="b">
+      <default>true</default>
+      <summary>Remind the user to stretch their arms</summary>
+    </key>
+    <key name="neck" type="b">
+      <default>true</default>
+      <summary>Remind the user to stretch their neck</summary>
+    </key>
+  </schema>
+  <schema
+    path="/com/github/dar5hak/badger/window-state/"
+    id="com.github.dar5hak.badger.window-state"
+    gettext-domain="com.github.dar5hak.badger">
+    <key name="window-width" type="i">
+      <default>280</default>
+      <summary>The saved width of the window.</summary>
+      <description>The saved width of the window.</description>
+    </key>
+    <key name="window-height" type="i">
+      <default>320</default>
+      <summary>The saved height of the window.</summary>
+      <description>The saved height of the window.</description>
+    </key>
+    <key name="window-x" type="i">
+      <default>250</default>
+      <summary></summary>
+      <description></description>
+    </key>
+    <key name="window-y" type="i">
+      <default>250</default>
+      <summary></summary>
+      <description></description>
+    </key>
+  </schema>
+</schemalist>

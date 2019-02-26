@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2018 Darshak <{{email}}> -->
+<!-- Copyright 2018 Darshak Parikh <darshak@protonmail.com> -->
 <component type="desktop">
-  <id>com.github.dar5hak.ergobadger.desktop</id>
+  <id>com.github.dar5hak.badger.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_group>Darshak</project_group>
+  <project_group>Darshak Parikh</project_group>
   <project_license>GPL-3.0+</project_license>
   <name></name>
   <summary></summary>
@@ -12,7 +12,7 @@
     <release version="0.0.1" date="2018-05-05"/>
   </releases>
   <provides>
-    <binary>com.github.dar5hak.ergobadger</binary>
+    <binary>com.github.dar5hak.badger</binary>
   </provides>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
@@ -43,10 +43,10 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <developer_name>Darshak</developer_name>
-  <url type="homepage">https://dubiousdisc.xyz</url>
-  <url type="bugtracker">http://github.com/dar5hak/ergobadger/issues</url>
-  <url type="help">http://github.com/dar5hak/ergobadger/issues</url>
+  <developer_name>Darshak Parikh</developer_name>
+  <url type="homepage">http://github.com/dar5hak/badger</url>
+  <url type="bugtracker">http://github.com/dar5hak/badger/issues</url>
+  <url type="help">http://github.com/dar5hak/badger/issues</url>
   <update_contact>darshak_AT_protonmail.com</update_contact>
   <screenshots>
     <screenshot type="default">
