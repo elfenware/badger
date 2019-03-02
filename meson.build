@@ -7,7 +7,7 @@ message('project name and programming language')
 message('Adds project arguments')
 
 add_project_arguments([
-        '-DGETTEXT_PACKAGE=\"@0@\"'.format(meson.project_name())
+        '-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name())
     ],
     language: 'c',
 )
@@ -21,7 +21,7 @@ i18n = import('i18n')
 # Set our translation domain
 message('Set our translation domain')
 
-add_global_arguments('-DGETTEXT_PACKAGE=\"@0@\"'.format(meson.project_name()), language:'c')
+add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()), language:'c')
 
 # Include GResource
 asresources = gnome.compile_resources(
