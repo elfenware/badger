@@ -46,6 +46,14 @@ public class Badger.Application : Granite.Application {
 
         window.add (main);
         window.show_all ();
+
+        var provider = new Gtk.CssProvider ();
+        provider.load_from_resource ("/com/github/dar5hak/badger/Application.css");
+        Gtk.StyleContext.add_provider_for_screen (
+            Gdk.Screen.get_default (),
+            provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        );
     }
 
     public static int main (string[] args) {

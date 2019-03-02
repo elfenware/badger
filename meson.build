@@ -15,12 +15,20 @@ add_project_arguments([
 # Include the translations module
 message('Include the translations module')
 
+gnome = import('gnome')
 i18n = import('i18n')
 
 # Set our translation domain
 message ('Set our translation domain')
 
 add_global_arguments('-DGETTEXT_PACKAGE=\"@0@\"'.format (meson.project_name()), language:'c')
+
+# Include GResource
+asresources = gnome.compile_resources (
+    'as-resources', join_paths ('data', 'gresource.xml'),
+    source_dir: 'data',
+    c_name: 'as'
+)
 
 # Adding deps
 message ('Listing dependencies')
@@ -103,6 +111,7 @@ message ('Defines executable')
 executable(
     meson.project_name(),
     code_files,
+    asresources,
     dependencies: dependencies,
     install: true
 )
