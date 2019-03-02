@@ -52,7 +52,7 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
         header.show_close_button = true;
         header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         header.get_style_context ().add_class ("badger-headerbar");
-        
+
         return header;
     }
 
@@ -67,6 +67,7 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
         settings.set_int ("window-width", width);
         settings.set_int ("window-height", height);
 
-        return false;
+        hide ();
+        return true;
     }
 }
