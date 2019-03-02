@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.dar5hak.badger package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.dar5hak.badger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-03 02:40+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.dar5hak.badger.desktop.in:5
+msgid "Comment="
+msgstr ""
+
+#: data/com.github.dar5hak.badger.desktop.in:7
+msgid "Exec=@EXEC_NAME@ %U"
+msgstr ""
+
+#: data/com.github.dar5hak.badger.desktop.in:8
+msgid "com.github.dar5hak.badger"
+msgstr ""
+
+#: data/com.github.dar5hak.badger.desktop.in:11
+msgid "Develop"
+msgstr ""
+
+#: data/com.github.dar5hak.badger.appdata.xml.in:46
+msgid "Darshak Parikh"
+msgstr ""

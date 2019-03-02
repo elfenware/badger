@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=
+Name=Badger
 Comment=
 GenericName=
 Exec=@EXEC_NAME@ %U
