@@ -1,10 +1,10 @@
 # project name and programming language
 project('com.github.dar5hak.badger', 'vala', 'c', version: '0.1.0')
 
-message ('project name and programming language')
+message('project name and programming language')
 
 # Adds project arguments
-message ('Adds project arguments')
+message('Adds project arguments')
 
 add_project_arguments([
         '-DGETTEXT_PACKAGE=\"@0@\"'.format(meson.project_name())
@@ -19,19 +19,19 @@ gnome = import('gnome')
 i18n = import('i18n')
 
 # Set our translation domain
-message ('Set our translation domain')
+message('Set our translation domain')
 
-add_global_arguments('-DGETTEXT_PACKAGE=\"@0@\"'.format (meson.project_name()), language:'c')
+add_global_arguments('-DGETTEXT_PACKAGE=\"@0@\"'.format(meson.project_name()), language:'c')
 
 # Include GResource
-asresources = gnome.compile_resources (
-    'as-resources', join_paths ('data', 'gresource.xml'),
+asresources = gnome.compile_resources(
+    'as-resources', join_paths('data', 'gresource.xml'),
     source_dir: 'data',
     c_name: 'as'
 )
 
 # Adding deps
-message ('Listing dependencies')
+message('Listing dependencies')
 
 dependencies = [
     dependency('gio-unix-2.0', version: '>=2.20'),
@@ -39,7 +39,7 @@ dependencies = [
 ]
 
 # Adds subfolders specific build system
-message ('Adds subfolders specific build system')
+message('Adds subfolders specific build system')
 
 icon_sizes = ['128', '256']
 
@@ -64,7 +64,7 @@ config_data = configuration_data()
 config_data.set('EXEC_NAME', meson.project_name())
 
 # Src build
-message ('Src build')
+message('Src build')
 
 conf_data = configuration_data()
 conf_data.set_quoted('PROJECT_NAME', meson.project_name())
@@ -72,7 +72,7 @@ conf_data.set_quoted('GETTEXT_PACKAGE', meson.project_name())
 conf_data.set_quoted('VERSION', meson.project_version())
 conf_data.set_quoted('PREFIX', get_option('prefix'))
 
-message ('Configuring desktop entry: ' + meson.project_name() + '.desktop')
+message('Configuring desktop entry: ' + meson.project_name() + '.desktop')
 
 desktop_in_file = configure_file(
     input: join_paths('data', meson.project_name() + '.desktop.in.in'),
@@ -90,14 +90,14 @@ desktop_file = i18n.merge_file(
 )
 
 appstream_file = i18n.merge_file(
-    input: join_paths (meson.source_root(), 'data', meson.project_name() + '.appdata.xml.in'),
+    input: join_paths(meson.source_root(), 'data', meson.project_name() + '.appdata.xml.in'),
     output: '@BASENAME@',
     po_dir: join_paths(meson.source_root(), 'po'),
     install: true,
     install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
 
-message ('Adds files to build')
+message('Adds files to build')
 
 code_files = files(
     'src/Application.vala',
@@ -106,7 +106,7 @@ code_files = files(
     'src/MainGrid.vala'
 )
 
-message ('Defines executable')
+message('Defines executable')
 
 executable(
     meson.project_name(),
@@ -117,4 +117,3 @@ executable(
 )
 
 meson.add_install_script('meson/post_install.py')
-
