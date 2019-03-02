@@ -66,41 +66,41 @@ public class Badger.Application : Granite.Application {
         Reminder[] reminders = new Reminder[5];
         reminders[0] = new Reminder (
             "eyes",
-            "Blink your eyes",
-            "Look away from the screen and blink your eyes for 10 seconds.",
-            "Blink eyes:",
+            _ ("Blink your eyes"),
+            _ ("Look away from the screen and blink your eyes for 10 seconds."),
+            _ ("Blink eyes:"),
             300,
             this
         );
         reminders[1] = new Reminder (
             "fingers",
-            "Stretch your fingers",
-            "Spread out your palm wide, then close it into a fist. Repeat 10 times.",
-            "Stretch fingers:",
+            _ ("Stretch your fingers"),
+            _ ("Spread out your palm wide, then close it into a fist. Repeat 10 times."),
+            _ ("Stretch fingers:"),
             500,
             this
         );
         reminders[2] = new Reminder (
             "legs",
-            "Stretch your legs",
-            "Stand up, twist your ankles, raise each leg and bend your knee.",
-            "Stretch legs:",
+            _ ("Stretch your legs"),
+            _ ("Stand up, twist your ankles, raise each leg and bend your knee."),
+            _ ("Stretch legs:"),
             700,
             this
         );
         reminders[3] = new Reminder (
             "arms",
-            "Stretch your arms",
-            "Stretch and twist your arms, elbows and wrists for 10 seconds.",
-            "Stretch arms:",
+            _ ("Stretch your arms"),
+            _ ("Stretch and twist your arms, elbows and wrists for 10 seconds."),
+            _ ("Stretch arms:"),
             800,
             this
         );
         reminders[4] = new Reminder (
             "neck",
-            "Twist your neck",
-            "Turn your head in all directions. Repeat 5 times.",
-            "Twist neck:",
+            _ ("Twist your neck"),
+            _ ("Turn your head in all directions. Repeat 5 times."),
+            _ ("Twist neck:"),
             600,
             this
         );

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.dar5hak.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 02:40+0530\n"
+"POT-Creation-Date: 2019-03-03 03:00+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,72 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/com.github.dar5hak.badger.desktop.in:5
-msgid "Comment="
+#: src/Application.vala:69
+msgid "Blink your eyes"
 msgstr ""
 
-#: data/com.github.dar5hak.badger.desktop.in:7
-msgid "Exec=@EXEC_NAME@ %U"
+#: src/Application.vala:70
+msgid "Look away from the screen and blink your eyes for 10 seconds."
+msgstr ""
+
+#: src/Application.vala:71
+msgid "Blink eyes:"
+msgstr ""
+
+#: src/Application.vala:77
+msgid "Stretch your fingers"
+msgstr ""
+
+#: src/Application.vala:78
+msgid "Spread out your palm wide, then close it into a fist. Repeat 10 times."
+msgstr ""
+
+#: src/Application.vala:79
+msgid "Stretch fingers:"
+msgstr ""
+
+#: src/Application.vala:85
+msgid "Stretch your legs"
+msgstr ""
+
+#: src/Application.vala:86
+msgid "Stand up, twist your ankles, raise each leg and bend your knee."
+msgstr ""
+
+#: src/Application.vala:87
+msgid "Stretch legs:"
+msgstr ""
+
+#: src/Application.vala:93
+msgid "Stretch your arms"
+msgstr ""
+
+#: src/Application.vala:94
+msgid "Stretch and twist your arms, elbows and wrists for 10 seconds."
+msgstr ""
+
+#: src/Application.vala:95
+msgid "Stretch arms:"
+msgstr ""
+
+#: src/Application.vala:101
+msgid "Twist your neck"
+msgstr ""
+
+#: src/Application.vala:102
+msgid "Turn your head in all directions. Repeat 5 times."
+msgstr ""
+
+#: src/Application.vala:103
+msgid "Twist neck:"
+msgstr ""
+
+#: data/com.github.dar5hak.badger.desktop.in:4
+msgid "Badger"
+msgstr ""
+
+#: data/com.github.dar5hak.badger.desktop.in:6
+msgid "GenericName="
 msgstr ""
 
 #: data/com.github.dar5hak.badger.desktop.in:8

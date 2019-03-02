@@ -34,7 +34,7 @@ public class Badger.MainGrid : Gtk.Grid {
         row_spacing = 6;
         column_spacing = 12;
 
-        var heading = new Granite.HeaderLabel ("Reminders");
+        var heading = new Granite.HeaderLabel (_ ("Reminders"));
         heading.get_style_context ().add_class ("heading");
         attach (heading, 0, 0, 2, 1);
 
