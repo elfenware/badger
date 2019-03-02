@@ -34,7 +34,9 @@ public class Badger.MainGrid : Gtk.Grid {
         row_spacing = 6;
         column_spacing = 12;
 
-        attach (new Granite.HeaderLabel ("Reminders"), 0, 0, 2, 1);
+        var heading = new Granite.HeaderLabel ("Reminders");
+        heading.get_style_context ().add_class ("heading");
+        attach (heading, 0, 0, 2, 1);
 
         Gtk.Switch[] switches = new Gtk.Switch[reminders.length];
 

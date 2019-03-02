@@ -31,7 +31,7 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
     }
 
     construct {
-        title = "Badger";
+        set_titlebar (get_header());
         border_width = 24;
 
         settings = new GLib.Settings ("com.github.dar5hak.badger.window-state");
@@ -42,6 +42,18 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
         delete_event.connect (e => {
             return before_destroy ();
         });
+    }
+
+    private Gtk.HeaderBar get_header () {
+        var header = new Gtk.HeaderBar();
+
+        header.title = "Badger";
+        header.has_subtitle = false;
+        header.show_close_button = true;
+        header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
+        header.get_style_context ().add_class ("badger-headerbar");
+        
+        return header;
     }
 
     private bool before_destroy () {
