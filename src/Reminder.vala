@@ -22,12 +22,12 @@ using Gtk;
 
 public class Badger.Reminder : GLib.Object {
 
-    public string name { get; construct; }      // Unique name
+    public string name { get; set; }      // Unique name
     public string title { get; set; }           // Notification title
     public string message { get; set; }         // Notification body
     public string switch_label { get; set; }    // On/off switch label
     public int interval { get; set; }           // Reminder interval
-    public Gtk.Application app { get; construct; }
+    public Gtk.Application app { get; set; }
 
     private Notification notification;
     private bool active = true;
@@ -40,28 +40,27 @@ public class Badger.Reminder : GLib.Object {
         int interval,
         Application app
     ) {
-        Object(
-            name: name,
-            title: title,
-            message: message,
-            switch_label: switch_label,
-            interval: interval,
-            app: app
-        );
-    }
+        this.name = name;
+        this.title = title;
+        this.message = message;
+        this.switch_label = switch_label;
+        this.interval = interval;
+        this.app = app;
 
-    construct {
         notification = new Notification (title);
         notification.set_body (message);
     }
 
-    public void start_timer () {
-        active = true;
-        Timeout.add_seconds (interval, remind);
-    }
+    // Connected to the state_set signal on each switch
+    // Returns false because we never want to stop handling the change
+    public bool toggle_timer (bool state) {
+        active = state;
 
-    public void stop_timer ()  {
-        active = false;
+        if (state) {
+            Timeout.add_seconds (interval, remind);
+        }
+
+        return false;
     }
 
     public bool remind () {

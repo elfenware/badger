@@ -53,6 +53,13 @@ public class Badger.MainGrid : Gtk.Grid {
             attach_next_to (switches[index], label, Gtk.PositionType.RIGHT, 1, 1);
 
             settings.bind (reminders[index].name, switches[index], "active", GLib.SettingsBindFlags.DEFAULT);
+
+            var active = settings.get_boolean (reminders[index].name);
+            if (active) {
+                reminders[index].toggle_timer (true);
+            }
+
+            switches[index].state_set.connect (reminders[index].toggle_timer);
         }
     }
 }
