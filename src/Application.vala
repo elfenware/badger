@@ -19,7 +19,6 @@
  */
 
 using Granite;
-using Granite.Widgets;
 using Gtk;
 
 public class Badger.Application : Granite.Application {

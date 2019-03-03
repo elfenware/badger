@@ -18,15 +18,13 @@
  *
  */
 
-using Granite;
-using Granite.Widgets;
 using Gtk;
 
 public class Badger.MainWindow : Gtk.ApplicationWindow {
 
     private GLib.Settings settings;
 
-    public MainWindow (Granite.Application app) {
+    public MainWindow (Gtk.Application app) {
         Object (application: app);
     }
 
