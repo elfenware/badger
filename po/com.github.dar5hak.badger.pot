@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.dar5hak.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 22:04+0530\n"
+"POT-Creation-Date: 2019-03-03 22:16+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgid "Stretch arms:"
 msgstr ""
 
 #: src/Application.vala:100
-msgid "Twist your neck"
+msgid "Turn your neck"
 msgstr ""
 
 #: src/Application.vala:101
@@ -74,7 +74,7 @@ msgid "Turn your head in all directions. Repeat 3 times."
 msgstr ""
 
 #: src/Application.vala:102
-msgid "Twist neck:"
+msgid "Turn neck:"
 msgstr ""
 
 #: data/com.github.dar5hak.badger.desktop.in:4

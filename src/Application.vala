@@ -97,9 +97,9 @@ public class Badger.Application : Granite.Application {
         );
         reminders[4] = new Reminder (
             "neck",
-            _ ("Twist your neck"),
+            _ ("Turn your neck"),
             _ ("Turn your head in all directions. Repeat 3 times."),
-            _ ("Twist neck:"),
+            _ ("Turn neck:"),
             900,    // 15 minutes
             this
         );
