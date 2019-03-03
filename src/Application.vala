@@ -67,7 +67,7 @@ public class Badger.Application : Granite.Application {
         reminders[0] = new Reminder (
             "eyes",
             _ ("Blink your eyes"),
-            _ ("Look away from the screen and blink your eyes for 10 seconds."),
+            _ ("Look away from the screen and slowly blink your eyes for 10 seconds."),
             _ ("Blink eyes:"),
             1200,   // 20 minutes
             this
@@ -83,7 +83,7 @@ public class Badger.Application : Granite.Application {
         reminders[2] = new Reminder (
             "legs",
             _ ("Stretch your legs"),
-            _ ("Stand up, twist your ankles, raise each leg and bend your knee."),
+            _ ("Stand up, twist each ankle, and bend each knee."),
             _ ("Stretch legs:"),
             3300,   // 55 minutes
             this
@@ -91,7 +91,7 @@ public class Badger.Application : Granite.Application {
         reminders[3] = new Reminder (
             "arms",
             _ ("Stretch your arms"),
-            _ ("Stretch and twist your arms, elbows and wrists for 10 seconds."),
+            _ ("Stretch your arms, and twist your wrists for 10 seconds."),
             _ ("Stretch arms:"),
             2520,   // 42 minutes
             this
