@@ -1,6 +1,10 @@
 <h1 align="center">Badger</h1>
 <p align="center">Remind yourself to not sit and stare at the screen for too long</p>
 
+<p align="center">
+    <img src="data/window-screenshot.png" alt="Screenshot">
+</p>
+
 
 ## Badgers you to be ergonomic
 
