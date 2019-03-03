@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.dar5hak.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:00+0530\n"
+"POT-Creation-Date: 2019-03-03 22:04+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,63 +17,63 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Application.vala:69
+#: src/Application.vala:68
 msgid "Blink your eyes"
 msgstr ""
 
-#: src/Application.vala:70
-msgid "Look away from the screen and blink your eyes for 10 seconds."
+#: src/Application.vala:69
+msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr ""
 
-#: src/Application.vala:71
+#: src/Application.vala:70
 msgid "Blink eyes:"
 msgstr ""
 
-#: src/Application.vala:77
+#: src/Application.vala:76
 msgid "Stretch your fingers"
 msgstr ""
 
-#: src/Application.vala:78
-msgid "Spread out your palm wide, then close it into a fist. Repeat 10 times."
+#: src/Application.vala:77
+msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
 msgstr ""
 
-#: src/Application.vala:79
+#: src/Application.vala:78
 msgid "Stretch fingers:"
 msgstr ""
 
-#: src/Application.vala:85
+#: src/Application.vala:84
 msgid "Stretch your legs"
 msgstr ""
 
-#: src/Application.vala:86
-msgid "Stand up, twist your ankles, raise each leg and bend your knee."
+#: src/Application.vala:85
+msgid "Stand up, twist each ankle, and bend each knee."
 msgstr ""
 
-#: src/Application.vala:87
+#: src/Application.vala:86
 msgid "Stretch legs:"
 msgstr ""
 
-#: src/Application.vala:93
+#: src/Application.vala:92
 msgid "Stretch your arms"
 msgstr ""
 
-#: src/Application.vala:94
-msgid "Stretch and twist your arms, elbows and wrists for 10 seconds."
+#: src/Application.vala:93
+msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr ""
 
-#: src/Application.vala:95
+#: src/Application.vala:94
 msgid "Stretch arms:"
 msgstr ""
 
-#: src/Application.vala:101
+#: src/Application.vala:100
 msgid "Twist your neck"
 msgstr ""
 
-#: src/Application.vala:102
-msgid "Turn your head in all directions. Repeat 5 times."
+#: src/Application.vala:101
+msgid "Turn your head in all directions. Repeat 3 times."
 msgstr ""
 
-#: src/Application.vala:103
+#: src/Application.vala:102
 msgid "Twist neck:"
 msgstr ""
 
