@@ -16,7 +16,7 @@ your muscles free and your eyes unstrained.
 ## Built for elementary OS
 
 While Badger will happily compile on any Linux distribution, it is primarily
-built for elementary OS.
+built for [elementary OS].
 
 
 ## Developing and building
