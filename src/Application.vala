@@ -80,19 +80,19 @@ public class Badger.Application : Granite.Application {
             this
         );
         reminders[2] = new Reminder (
-            "legs",
-            _ ("Stretch your legs"),
-            _ ("Stand up, twist each ankle, and bend each knee."),
-            _ ("Stretch legs:"),
-            3300,   // 55 minutes
-            this
-        );
-        reminders[3] = new Reminder (
             "arms",
             _ ("Stretch your arms"),
             _ ("Stretch your arms, and twist your wrists for 10 seconds."),
             _ ("Stretch arms:"),
             2520,   // 42 minutes
+            this
+        );
+        reminders[3] = new Reminder (
+            "legs",
+            _ ("Stretch your legs"),
+            _ ("Stand up, twist each ankle, and bend each knee."),
+            _ ("Stretch legs:"),
+            3300,   // 55 minutes
             this
         );
         reminders[4] = new Reminder (
