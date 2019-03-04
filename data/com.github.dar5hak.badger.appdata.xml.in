@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2018 Darshak Parikh <darshak@protonmail.com> -->
+<!-- Copyright 2018 Darshak Parikh <darshak%protonmaildotkom> -->
 <component type="desktop">
-  <id>com.github.dar5hak.badger.desktop</id>
-  <metadata_license>CC0-1.0</metadata_license>
+  <id>com.github.dar5hak.badger</id>
+  <metadata_license>CC0</metadata_license>
   <project_group>Darshak Parikh</project_group>
   <project_license>GPL-3.0+</project_license>
-  <name></name>
-  <summary></summary>
-  <description></description>
+  <name>Badger</name>
+  <summary>Remind yourself to not sit and stare at the screen for too long</summary>
+  <description>
+    <p>Whether you're dashing through <i>Mario Kart</i> on
+    <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>,
+    binge-watching <i>Silicon Valley</i> on
+    <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>,
+    or writing your next novel on
+    <a href="appstream://com.github.lainsce.quilter">Quilter</a>,
+    you need to relax your body every once in a while.</p>
+
+    <p>Badger helps you do exactly that. It reminds you — or should I say,
+    badgers you — to destress yourself and rest your eyes and muscles.</p>
+
+    <p>Currently, it has these five reminders:</p>
+
+    <ul>
+      <li>Blink eyes</li>
+      <li>Stretch fingers</li>
+      <li>Stretch arms</li>
+      <li>Stretch legs</li>
+      <li>Turn neck</li>
+    </ul>
+
+    <p>Stay healthy.</p>
+  </description>
   <releases>
-    <release version="0.0.1" date="2018-05-05"/>
+    <release version="1.0.0" date="2019-03-04">
+      <description>
+        <p>Initial Release 🎉️</p>
+      </description>
+    </release>
   </releases>
   <provides>
     <binary>com.github.dar5hak.badger</binary>
@@ -44,12 +71,13 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <developer_name>Darshak Parikh</developer_name>
-  <url type="homepage">http://github.com/dar5hak/badger</url>
-  <url type="bugtracker">http://github.com/dar5hak/badger/issues</url>
-  <url type="help">http://github.com/dar5hak/badger/issues</url>
+  <url type="homepage">https://github.com/dar5hak/badger</url>
+  <url type="bugtracker">https://github.com/dar5hak/badger/issues</url>
+  <url type="help">https://github.com/dar5hak/badger/issues</url>
   <update_contact>darshak_AT_protonmail.com</update_contact>
   <screenshots>
     <screenshot type="default">
+      <image>https://raw.githubusercontent.com/dar5hak/badger/master/data/window-screenshot.png</image>
     </screenshot>
   </screenshots>
 </component>

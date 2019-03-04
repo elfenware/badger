@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
 Name=Badger
-Comment=
-GenericName=
-Exec=@EXEC_NAME@ %U
+GenericName=Ergonomic Reminder
+Comment=Remind yourself to relax your eyes and limbs
+Exec=com.github.dar5hak.badger %U
 Icon=com.github.dar5hak.badger
 Terminal=false
-Categories=Utility;GTK;Development;
-Keywords=Develop
+Categories=Office;Utility;GTK;
+Keywords=Ergonomics;Health;Eyes;Muscles;
