@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/elfenware/badger.svg?branch=master)](https://travis-ci.org/elfenware/badger)
+
 <h1 align="center">Badger</h1>
 <p align="center">Remind yourself to not sit and stare at the screen for too long</p>
 
