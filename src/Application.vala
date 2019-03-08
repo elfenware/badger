@@ -33,6 +33,14 @@ public class Badger.Application : Granite.Application {
     }
 
     protected override void activate () {
+        var settings = new GLib.Settings ("com.github.dar5hak.badger.state");
+        var first_run = settings.get_boolean ("first-run");
+
+        if (first_run) {
+            install_autostart ();
+            settings.set_boolean ("first-run", false);
+        }
+
         if (window != null) {
             window.present ();
             return;
@@ -59,6 +67,32 @@ public class Badger.Application : Granite.Application {
         var app = new Badger.Application ();
 
         return app.run (args);
+    }
+
+    private void install_autostart () {
+        var desktop_file_name = application_id + ".desktop";
+        var desktop_file_path = new DesktopAppInfo (desktop_file_name).filename;
+        var desktop_file = File.new_for_path (desktop_file_path);
+        var dest_path = Path.build_path (   Path.DIR_SEPARATOR_S,
+                                            Environment.get_user_config_dir (),
+                                            "autostart",
+                                            desktop_file_name);
+        var dest_file = File.new_for_path (dest_path);
+        try {
+            desktop_file.copy (dest_file, FileCopyFlags.OVERWRITE);
+            stdout.printf ("Copied desktop file at: %s", dest_path);
+        } catch (Error e) {
+            warning ("Error making copy of desktop file for autostart: %s", e.message);
+        }
+
+        var keyfile = new KeyFile ();
+        try {
+            keyfile.load_from_file (dest_path, KeyFileFlags.NONE);
+            keyfile.set_boolean ("Desktop Entry", "X-GNOME-Autostart-enabled", true);
+            keyfile.save_to_file (dest_path);
+        } catch (Error e) {
+            warning ("Error enabling autostart: %s", e.message);
+        }
     }
 
     private Reminder[] set_up_reminders () {
