@@ -23,6 +23,8 @@ using Gtk;
 
 public class Badger.Application : Granite.Application {
 
+    public bool headless = false;
+
     private Badger.MainWindow window;
 
     public Application () {
@@ -33,17 +35,22 @@ public class Badger.Application : Granite.Application {
     }
 
     protected override void activate () {
+        stdout.printf ("\n✔️ Activated");
+
         var settings = new GLib.Settings ("com.github.dar5hak.badger.state");
+        stdout.printf ("\n⚙️ State settings loaded");
+
         var first_run = settings.get_boolean ("first-run");
 
         if (first_run) {
+            stdout.printf ("\n🎉️ First run");
             install_autostart ();
             settings.set_boolean ("first-run", false);
         }
 
-        if (window != null) {
+        if (!headless && window != null) {
+            stdout.printf ("\n▶️ Process already running. Presenting window...");
             window.present ();
-            return;
         }
 
         window = new MainWindow (this);
@@ -51,20 +58,28 @@ public class Badger.Application : Granite.Application {
         var reminders = set_up_reminders ();
         var main = new MainGrid (reminders);
 
-        window.add (main);
-        window.show_all ();
+        if (!headless) {
+            window.add (main);
+            window.show_all ();
 
-        var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/com/github/dar5hak/badger/Application.css");
-        Gtk.StyleContext.add_provider_for_screen (
-            Gdk.Screen.get_default (),
-            provider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        );
+            var provider = new Gtk.CssProvider ();
+            provider.load_from_resource ("/com/github/dar5hak/badger/Application.css");
+            Gtk.StyleContext.add_provider_for_screen (
+                Gdk.Screen.get_default (),
+                provider,
+                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+            );
+        } else {
+            stdout.printf ("\n⚙️ Running in headless mode");
+        }
     }
 
     public static int main (string[] args) {
         var app = new Badger.Application ();
+
+        if (args.length > 1 && args[1] == "--headless") {
+            app.headless = true;
+        }
 
         return app.run (args);
     }
@@ -80,7 +95,7 @@ public class Badger.Application : Granite.Application {
         var dest_file = File.new_for_path (dest_path);
         try {
             desktop_file.copy (dest_file, FileCopyFlags.OVERWRITE);
-            stdout.printf ("Copied desktop file at: %s", dest_path);
+            stdout.printf ("\n📃️ Copied desktop file at: %s", dest_path);
         } catch (Error e) {
             warning ("Error making copy of desktop file for autostart: %s", e.message);
         }
@@ -89,6 +104,7 @@ public class Badger.Application : Granite.Application {
         try {
             keyfile.load_from_file (dest_path, KeyFileFlags.NONE);
             keyfile.set_boolean ("Desktop Entry", "X-GNOME-Autostart-enabled", true);
+            keyfile.set_string ("Desktop Entry", "Exec", application_id + " --headless");
             keyfile.save_to_file (dest_path);
         } catch (Error e) {
             warning ("Error enabling autostart: %s", e.message);
