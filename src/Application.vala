@@ -29,7 +29,7 @@ public class Badger.Application : Granite.Application {
 
     public Application () {
         Object(
-            application_id: "com.github.dar5hak.badger",
+            application_id: "com.github.elfenware.badger",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -37,7 +37,7 @@ public class Badger.Application : Granite.Application {
     protected override void activate () {
         stdout.printf ("\n✔️ Activated");
 
-        var settings = new GLib.Settings ("com.github.dar5hak.badger.state");
+        var settings = new GLib.Settings ("com.github.elfenware.badger.state");
         stdout.printf ("\n⚙️ State settings loaded");
 
         var first_run = settings.get_boolean ("first-run");
@@ -63,7 +63,7 @@ public class Badger.Application : Granite.Application {
             window.show_all ();
 
             var provider = new Gtk.CssProvider ();
-            provider.load_from_resource ("/com/github/dar5hak/badger/Application.css");
+            provider.load_from_resource ("/com/github/elfenware/badger/Application.css");
             Gtk.StyleContext.add_provider_for_screen (
                 Gdk.Screen.get_default (),
                 provider,

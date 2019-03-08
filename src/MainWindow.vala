@@ -32,7 +32,7 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
         set_titlebar (get_header());
         border_width = 24;
 
-        settings = new GLib.Settings ("com.github.dar5hak.badger.state");
+        settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
         move (settings.get_int ("window-x"), settings.get_int ("window-y"));
         resize (settings.get_int ("window-width"), settings.get_int ("window-height"));

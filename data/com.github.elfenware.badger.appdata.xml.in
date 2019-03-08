@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2018 Darshak Parikh <darshak%protonmaildotkom> -->
 <component type="desktop">
-  <id>com.github.dar5hak.badger</id>
+  <id>com.github.elfenware.badger</id>
   <metadata_license>CC0</metadata_license>
   <project_group>Darshak Parikh</project_group>
   <project_license>GPL-3.0+</project_license>
@@ -39,7 +39,7 @@
     </release>
   </releases>
   <provides>
-    <binary>com.github.dar5hak.badger</binary>
+    <binary>com.github.elfenware.badger</binary>
   </provides>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
@@ -71,13 +71,13 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <developer_name>Darshak Parikh</developer_name>
-  <url type="homepage">https://github.com/dar5hak/badger</url>
-  <url type="bugtracker">https://github.com/dar5hak/badger/issues</url>
-  <url type="help">https://github.com/dar5hak/badger/issues</url>
+  <url type="homepage">https://github.com/elfenware/badger</url>
+  <url type="bugtracker">https://github.com/elfenware/badger/issues</url>
+  <url type="help">https://github.com/elfenware/badger/issues</url>
   <update_contact>darshak_AT_protonmail.com</update_contact>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/dar5hak/badger/master/data/window-screenshot.png</image>
+      <image>https://raw.githubusercontent.com/elfenware/badger/master/data/window-screenshot.png</image>
     </screenshot>
   </screenshots>
 </component>

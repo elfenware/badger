@@ -1,4 +1,4 @@
-Source: com.github.dar5hak.badger
+Source: com.github.elfenware.badger
 Section: x11
 Priority: extra
 Maintainer: Darshak Parikh <darshak@protonmail.com>
@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 10.5.1),
                valac (>= 0.28.0)
 Standards-Version: 4.1.1
 
-Package: com.github.dar5hak.badger
+Package: com.github.elfenware.badger
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Ergonomic reminder

@@ -28,7 +28,7 @@ public class Badger.MainGrid : Gtk.Grid {
     public MainGrid (Reminder[] reminders) {
         this.reminders = reminders;
 
-        var settings = new GLib.Settings ("com.github.dar5hak.badger.reminders");
+        var settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
 
         row_spacing = 6;
         column_spacing = 12;

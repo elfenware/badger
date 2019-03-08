@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.elfenware.badger package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.elfenware.badger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-08 22:42+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Application.vala:118
+msgid "Blink your eyes"
+msgstr ""
+
+#: src/Application.vala:119
+msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
+msgstr ""
+
+#: src/Application.vala:120
+msgid "Blink eyes:"
+msgstr ""
+
+#: src/Application.vala:126
+msgid "Stretch your fingers"
+msgstr ""
+
+#: src/Application.vala:127
+msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+msgstr ""
+
+#: src/Application.vala:128
+msgid "Stretch fingers:"
+msgstr ""
+
+#: src/Application.vala:134
+msgid "Stretch your arms"
+msgstr ""
+
+#: src/Application.vala:135
+msgid "Stretch your arms, and twist your wrists for 10 seconds."
+msgstr ""
+
+#: src/Application.vala:136
+msgid "Stretch arms:"
+msgstr ""
+
+#: src/Application.vala:142
+msgid "Stretch your legs"
+msgstr ""
+
+#: src/Application.vala:143
+msgid "Stand up, twist each ankle, and bend each knee."
+msgstr ""
+
+#: src/Application.vala:144
+msgid "Stretch legs:"
+msgstr ""
+
+#: src/Application.vala:150
+msgid "Turn your neck"
+msgstr ""
+
+#: src/Application.vala:151
+msgid "Turn your head in all directions. Repeat 3 times."
+msgstr ""
+
+#: src/Application.vala:152
+msgid "Turn neck:"
+msgstr ""
+
+#: data/com.github.elfenware.badger.desktop.in:4
+#: data/com.github.elfenware.badger.appdata.xml.in:8
+msgid "Badger"
+msgstr ""
+
+#: data/com.github.elfenware.badger.desktop.in:5
+msgid "Ergonomic Reminder"
+msgstr ""
+
+#: data/com.github.elfenware.badger.desktop.in:6
+msgid "Remind yourself to relax your eyes and limbs"
+msgstr ""
+
+#: data/com.github.elfenware.badger.desktop.in:8
+msgid "com.github.elfenware.badger"
+msgstr ""
+
+#: data/com.github.elfenware.badger.desktop.in:11
+msgid "Ergonomics;Health;Eyes;Muscles;"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:9
+msgid "Remind yourself to not sit and stare at the screen for too long"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:11
+msgid "Mario Kart"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:12
+msgid "MupenGUI"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:13
+msgid "Silicon Valley"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:14
+msgid "Cinema"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:16
+msgid "Quilter"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:19
+msgid ""
+"Badger helps you do exactly that. It reminds you — or should I say, badgers "
+"you — to destress yourself and rest your eyes and muscles."
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:22
+msgid "Currently, it has these five reminders:"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:25
+msgid "Blink eyes"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:26
+msgid "Stretch fingers"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:27
+msgid "Stretch arms"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:28
+msgid "Stretch legs"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:29
+msgid "Turn neck"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:32
+msgid "Stay healthy."
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:37
+msgid "Initial Release 🎉️"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:73
+msgid "Darshak Parikh"
+msgstr ""

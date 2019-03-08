@@ -47,7 +47,7 @@ sudo ninja install
 Then run it with:
 
 ```shell
-com.github.dar5hak.badger
+com.github.elfenware.badger
 ```
 
 [elementary OS]: https://elementary.io
