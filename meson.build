@@ -34,8 +34,9 @@ asresources = gnome.compile_resources(
 message('Listing dependencies')
 
 dependencies = [
-    dependency('gio-unix-2.0', version: '>=2.20'),
-    dependency('granite'),
+    dependency ('glib-2.0'),
+    dependency ('granite'),
+    dependency ('gtk+-3.0'),
 ]
 
 # Adds subfolders specific build system

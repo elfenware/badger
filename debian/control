@@ -5,6 +5,7 @@ Maintainer: Darshak Parikh <darshak@protonmail.com>
 Build-Depends: debhelper (>= 10.5.1),
                gettext,
                libgtk-3-dev (>= 3.10),
+               libgranite-dev,
                meson,
                valac (>= 0.28.0)
 Standards-Version: 4.1.1
