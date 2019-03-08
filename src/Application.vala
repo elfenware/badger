@@ -30,7 +30,7 @@ public class Badger.Application : Granite.Application {
     public Application () {
         Object(
             application_id: "com.github.elfenware.badger",
-            flags: ApplicationFlags.FLAGS_NONE
+            flags: ApplicationFlags.HANDLES_COMMAND_LINE
         );
     }
 
@@ -72,6 +72,42 @@ public class Badger.Application : Granite.Application {
         } else {
             stdout.printf ("\n⚙️ Running in headless mode");
         }
+    }
+
+    public override int command_line (ApplicationCommandLine command_line) {
+        stdout.printf ("\n💲️ Command line mode started");
+
+        bool headless_mode = false;
+        OptionEntry[] options = new OptionEntry[1];
+        options[0] = {
+            "headless", 0, 0, OptionArg.NONE,
+            ref headless_mode, "Run without window", null
+        };
+
+        // We have to make an extra copy of the array, since .parse assumes
+        // that it can remove strings from the array without freeing them.
+        string[] args = command_line.get_arguments ();
+        string[] _args = new string[args.length];
+        for (int i = 0; i < args.length; i++) {
+            _args[i] = args[i];
+        }
+
+        try {
+            var ctx = new OptionContext ();
+            ctx.set_help_enabled (true);
+            ctx.add_main_entries (options, null);
+            unowned string[] tmp = _args;
+            ctx.parse (ref tmp);
+        } catch (OptionError e) {
+            command_line.print ("error: %s\n", e.message);
+            return 0;
+        }
+
+        headless = headless_mode;
+
+        hold ();
+        activate ();
+        return 0;
     }
 
     public static int main (string[] args) {
