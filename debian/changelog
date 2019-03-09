@@ -1,11 +1,11 @@
-com.github.elfenware.badger (1.0.1) bionic; urgency=medium
+com.github.elfenware.badger (1.0.1) bionic; urgency=low
 
   * Fix: Use smaller window size by default
 
- -- Darshak Parikh <darshak@protonmail.com>  Fri, 08 Mar 2019 01:17:55 +0530
+ -- Darshak Parikh <darshak@protonmail.com>  Fri, 10 Mar 2019 03:09:00 +0530
 
 com.github.elfenware.badger (1.0.0) bionic; urgency=medium
 
   * Initial Release.
 
- -- Darshak Parikh <darshak@protonmail.com>  Fri, 08 Mar 2019 01:17:55 +0530
+ -- Darshak Parikh <darshak@protonmail.com>  Fri, 10 Mar 2019 00:00:00 +0530
