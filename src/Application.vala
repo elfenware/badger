@@ -48,17 +48,17 @@ public class Badger.Application : Granite.Application {
             settings.set_boolean ("first-run", false);
         }
 
-        if (!headless && window != null) {
-            stdout.printf ("\n▶️ Process already running. Presenting window...");
-            window.present ();
-        }
-
-        window = new MainWindow (this);
-
         var reminders = set_up_reminders ();
         var main = new MainGrid (reminders);
 
         if (!headless) {
+            if (window != null) {
+                stdout.printf ("\n▶️ Process already running. Presenting window...");
+                window.present ();
+            } else if (window == null) {
+                window = new MainWindow (this);
+            }
+
             window.add (main);
             window.show_all ();
 
