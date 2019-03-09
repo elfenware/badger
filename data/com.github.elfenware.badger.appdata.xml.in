@@ -31,6 +31,11 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="1.0.1" date="2019-03-10">
+      <description>
+        <p>Fix: Use smaller window size by default</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2019-03-10">
       <description>
         <p>Initial Release 🎉️</p>
