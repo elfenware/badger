@@ -3,7 +3,6 @@
 <component type="desktop">
   <id>com.github.elfenware.badger</id>
   <metadata_license>CC0</metadata_license>
-  <project_group>Darshak Parikh</project_group>
   <project_license>GPL-3.0+</project_license>
   <name>Badger</name>
   <summary>Remind yourself to not sit and stare at the screen for too long</summary>
@@ -32,7 +31,7 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
-    <release version="1.0.0" date="2019-03-04">
+    <release version="1.0.0" date="2019-03-10">
       <description>
         <p>Initial Release 🎉️</p>
       </description>
@@ -70,7 +69,7 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <developer_name>Darshak Parikh</developer_name>
+  <developer_name>Elfenware</developer_name>
   <url type="homepage">https://github.com/elfenware/badger</url>
   <url type="bugtracker">https://github.com/elfenware/badger/issues</url>
   <url type="help">https://github.com/elfenware/badger/issues</url>
