@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/elfenware/badger.svg?branch=master)](https://travis-ci.org/elfenware/badger)
 
+<p align="center">
+    <img src="data/icons/128/com.github.elfenware.badger.svg" alt="Icon" />
+</p>
+
 <h1 align="center">Badger</h1>
 <p align="center">Remind yourself to not sit and stare at the screen for too long</p>
 
