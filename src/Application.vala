@@ -70,7 +70,7 @@ public class Badger.Application : Granite.Application {
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );
         } else {
-            stdout.printf ("\n⚙️ Running in headless mode");
+            stdout.printf ("\n🧟 Running in headless mode");
         }
     }
 
