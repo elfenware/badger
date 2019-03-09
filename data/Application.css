@@ -18,16 +18,16 @@
  *
  */
 
-@define-color colorPrimary @COCOA_700;
-@define-color colorAccent @BANANA_700;
+@define-color colorPrimary @BLACK_500;
+@define-color colorAccent @BLACK_500;
 @define-color textColorPrimary white;
 
-window.background, .badger-headerbar {
+.badger-headerbar {
     background-color: @colorPrimary;
     color: @textColorPrimary;
     box-shadow: none;
 }
 
 .heading {
-    color: @textColorPrimary;
+    color: @colorPrimary;
 }
