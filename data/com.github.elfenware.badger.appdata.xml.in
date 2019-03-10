@@ -83,8 +83,8 @@
     </screenshot>
   </screenshots>
   <custom>
-     <value key="x-appcenter-color-primary">@COCOA_700</value>
-     <value key="x-appcenter-color-primary-text">#fff</value>
+     <value key="x-appcenter-color-primary">#fff</value>
+     <value key="x-appcenter-color-primary-text">#333</value>
      <value key="x-appcenter-suggested-price">0</value>
   </custom>
 </component>
