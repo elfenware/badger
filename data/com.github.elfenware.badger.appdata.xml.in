@@ -7,16 +7,9 @@
   <name>Badger</name>
   <summary>Remind yourself to not sit and stare at the screen for too long</summary>
   <description>
-    <p>Whether you're dashing through <i>Mario Kart</i> on
-    <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>,
-    binge-watching <i>Silicon Valley</i> on
-    <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>,
-    or writing your next novel on
-    <a href="appstream://com.github.lainsce.quilter">Quilter</a>,
-    you need to relax your body every once in a while.</p>
+    <p>Whether you're dashing through <i>Mario Kart</i> on <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>, binge-watching <i>Silicon Valley</i> on <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>, or writing your next novel on <a href="appstream://com.github.lainsce.quilter">Quilter</a>, you need to relax your body every once in a while.</p>
 
-    <p>Badger helps you do exactly that. It reminds you — or should I say,
-    badgers you — to destress yourself and rest your eyes and muscles.</p>
+    <p>Badger helps you do exactly that. It reminds you — or should I say, badgers you — to destress yourself and rest your eyes and muscles.</p>
 
     <p>Currently, it has these five reminders:</p>
 
@@ -31,6 +24,11 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="1.0.2" date="2019-03-10">
+      <description>
+        <p>Fix: Remove manual line breaks from appdata</p>
+      </description>
+    </release>
     <release version="1.0.1" date="2019-03-10">
       <description>
         <p>Fix: Use smaller window size by default</p>
