@@ -48,19 +48,11 @@ public class Badger.Application : Granite.Application {
             settings.set_boolean ("first-run", false);
         }
 
-        var reminders = set_up_reminders ();
-        var main = new MainGrid (reminders);
-
-        if (!headless) {
-            if (window != null) {
-                stdout.printf ("\n▶️ Process already running. Presenting window...");
-                window.present ();
-            } else if (window == null) {
-                window = new MainWindow (this);
-            }
-
+        if (window == null) {
+            var reminders = set_up_reminders ();
+            var main = new MainGrid (reminders);
+            window = new MainWindow (this);
             window.add (main);
-            window.show_all ();
 
             var provider = new Gtk.CssProvider ();
             provider.load_from_resource ("/com/github/elfenware/badger/Application.css");
@@ -69,8 +61,15 @@ public class Badger.Application : Granite.Application {
                 provider,
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );
-        } else {
-            stdout.printf ("\n🧟 Running in headless mode");
+
+            if (!headless) {
+                window.show_all ();
+            }
+        }
+
+        if (window != null && !headless) {
+            stdout.printf ("\n▶️ Process already running. Presenting window...");
+            window.present ();
         }
     }
 
