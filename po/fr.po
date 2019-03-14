@@ -1,0 +1,171 @@
+# French translations for the com.github.elfenware.badger package.
+# Copyright (C) 2019 THE com.github.elfenware.badger'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.elfenware.badger package.
+# NathanBnm, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.elfenware.badger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-10 01:03+0530\n"
+"PO-Revision-Date: 2019-03-14 11:57+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Application.vala:153
+msgid "Blink your eyes"
+msgstr "Clignez des yeux"
+
+#: src/Application.vala:154
+msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
+msgstr "Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 secondes."
+
+#: src/Application.vala:155
+msgid "Eyes"
+msgstr "Yeux"
+
+#: src/Application.vala:161
+msgid "Stretch your fingers"
+msgstr "Étirez vos doigts"
+
+#: src/Application.vala:162
+msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+msgstr "Étendez la paume de votre main, puis fermez-la en un poing. Répétez 5 fois."
+
+#: src/Application.vala:163
+msgid "Fingers"
+msgstr "Doigts"
+
+#: src/Application.vala:169
+msgid "Stretch your arms"
+msgstr "Étirez vos bras"
+
+#: src/Application.vala:170
+msgid "Stretch your arms, and twist your wrists for 10 seconds."
+msgstr "Tendez les bras et tournez les poignets pendant 10 secondes."
+
+#: src/Application.vala:171
+msgid "Arms"
+msgstr "Bras"
+
+#: src/Application.vala:177
+msgid "Stretch your legs"
+msgstr "Étirez vos jambes"
+
+#: src/Application.vala:178
+msgid "Stand up, twist each ankle, and bend each knee."
+msgstr "Levez-vous, tournez chaque cheville et pliez chaque genou."
+
+#: src/Application.vala:179
+msgid "Legs"
+msgstr "Jambes"
+
+#: src/Application.vala:185
+msgid "Turn your neck"
+msgstr "Tournez votre cou"
+
+#: src/Application.vala:186
+msgid "Turn your head in all directions. Repeat 3 times."
+msgstr "Tournez votre tête dans toutes les directions. Répétez 3 fois."
+
+#: src/Application.vala:187
+msgid "Neck"
+msgstr "Cou"
+
+#: data/com.github.elfenware.badger.desktop.in:3
+#: data/com.github.elfenware.badger.appdata.xml.in:7
+msgid "Badger"
+msgstr "Badger"
+
+#: data/com.github.elfenware.badger.desktop.in:5
+msgid "Ergonomic Reminder"
+msgstr "Rappel pour une meilleure ergonomie"
+
+#: data/com.github.elfenware.badger.desktop.in:6
+msgid "Remind yourself to relax your eyes and limbs"
+msgstr "Rappelez-vous de reposer vos yeux et vos membres."
+
+#: data/com.github.elfenware.badger.desktop.in:11
+msgid "Ergonomics;Health;Eyes;Muscles;"
+msgstr "Ergonomie;Santé;Yeux;Muscles;"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:8
+msgid "Remind yourself to not sit and stare at the screen for too long"
+msgstr "Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop longtemps."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:10
+msgid ""
+"Whether you're dashing through <i>Mario Kart</i> on <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>, "
+"binge-watching <i>Silicon Valley</i> on <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>, or writing "
+"your next novel on <a href="appstream://com.github.lainsce.quilter">Quilter</a>, you need to relax your body every once "
+"in a while."
+msgstr ""
+"Que vous soyez en train de vous défier à <i>Mario Kart</i> sur <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>, "
+"regarder des vidéos sur la <i>Silicon Valley</i> sur <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>, ou entrain d'écrire "
+"votre prochain roman sur <a href="appstream://com.github.lainsce.quilter">Quilter</a>, vous avez besoin de vous détendre de temps "
+"à autre."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:12
+msgid ""
+"Badger helps you do exactly that. It reminds you — or should I say, badgers "
+"you — to destress yourself and rest your eyes and muscles."
+msgstr ""
+"C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou devrais-je dire, vous "
+"harcèle - de vous déstresser et de vous reposer les yeux et les muscles."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:14
+msgid "Currently, it has these five reminders:"
+msgstr "Pout l'instant, il y a ces cinq rappels :"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:17
+msgid "Blink eyes"
+msgstr "Clignez des yeux"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:18
+msgid "Stretch fingers"
+msgstr "Étirez vos doigts"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:19
+msgid "Stretch arms"
+msgstr "Étirez vos bras"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:20
+msgid "Stretch legs"
+msgstr "Étirez vos jambes"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:21
+msgid "Turn neck"
+msgstr "Tournez votre cou"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:24
+msgid "Stay healthy."
+msgstr "Restez en bonne santé."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:29
+msgid "Added French translations (@NathanBnm)"
+msgstr "Ajout des traductions françaises (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:34
+msgid "Fix: Multiple notifications when window is opened >1 times"
+msgstr "Correction : Il y avait des notifications en double si l'application était ouverte plus d'une fois"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:39
+msgid "Fix: Remove manual line breaks from appdata"
+msgstr "Correction : Retrait des retours manuels à la ligne dans appdata"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:44
+msgid "Fix: Use smaller window size by default"
+msgstr "Correction : Fenêtre plus petite par défaut"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:49
+msgid "Initial Release 🎉️"
+msgstr "Version initiale 🎉️"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:85
+msgid "Elfenware"
+msgstr "Elfenware"
