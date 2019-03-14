@@ -1,3 +1,9 @@
+com.github.elfenware.badger (1.0.3) bionic; urgency=medium
+
+  * Fix: Multiple notifications when window is opened >1 times
+
+ -- Darshak Parikh <darshak@protonmail.com>  Thu, 14 Mar 2019 09:34:33 +0530
+
 com.github.elfenware.badger (1.0.2) bionic; urgency=low
 
   * Fix: Remove manual line breaks from appdata

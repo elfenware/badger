@@ -24,6 +24,11 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="1.0.3" date="2019-03-10">
+      <description>
+        <p>Fix: Multiple notifications when window is opened >1 times</p>
+      </description>
+    </release>
     <release version="1.0.2" date="2019-03-10">
       <description>
         <p>Fix: Remove manual line breaks from appdata</p>

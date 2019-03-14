@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.elfenware.badger', 'vala', 'c', version: '1.0.2')
+project('com.github.elfenware.badger', 'vala', 'c', version: '1.0.3')
 
 message('project name and programming language')
 
@@ -116,4 +116,3 @@ executable(
 subdir('po')
 
 meson.add_install_script('meson/post_install.py')
-
