@@ -4,6 +4,10 @@
     path="/com/github/elfenware/badger/reminders/"
     id="com.github.elfenware.badger.reminders"
     gettext-domain="com.github.elfenware.badger">
+    <key name="all" type="b">
+      <default>true</default>
+      <summary>Global switch to control all reminders</summary>
+    </key>
     <key name="eyes" type="b">
       <default>true</default>
       <summary>Remind the user to blink their eyes</summary>
