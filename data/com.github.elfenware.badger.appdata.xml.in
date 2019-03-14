@@ -24,6 +24,11 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="1.0.4" date="2019-03-31">
+      <description>
+        <p>Added French translations (@NathanBnm)</p>
+      </description>
+    </release>
     <release version="1.0.3" date="2019-03-10">
       <description>
         <p>Fix: Multiple notifications when window is opened >1 times</p>
