@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-10 01:03+0530\n"
+"POT-Creation-Date: 2019-03-15 01:23+0530\n"
 "PO-Revision-Date: 2019-03-14 11:57+0100\n"
 "Last-Translator: NathanBnm\n"
 "Language-Team: Français\n"
@@ -23,7 +23,9 @@ msgstr "Clignez des yeux"
 
 #: src/Application.vala:154
 msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
-msgstr "Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 secondes."
+msgstr ""
+"Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 "
+"secondes."
 
 #: src/Application.vala:155
 msgid "Eyes"
@@ -35,7 +37,8 @@ msgstr "Étirez vos doigts"
 
 #: src/Application.vala:162
 msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
-msgstr "Étendez la paume de votre main, puis fermez-la en un poing. Répétez 5 fois."
+msgstr ""
+"Étendez la paume de votre main, puis fermez-la en un poing. Répétez 5 fois."
 
 #: src/Application.vala:163
 msgid "Fingers"
@@ -77,7 +80,7 @@ msgstr "Tournez votre tête dans toutes les directions. Répétez 3 fois."
 msgid "Neck"
 msgstr "Cou"
 
-#: data/com.github.elfenware.badger.desktop.in:3
+#: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7
 msgid "Badger"
 msgstr "Badger"
@@ -90,33 +93,39 @@ msgstr "Rappel pour une meilleure ergonomie"
 msgid "Remind yourself to relax your eyes and limbs"
 msgstr "Rappelez-vous de reposer vos yeux et vos membres."
 
+#: data/com.github.elfenware.badger.desktop.in:8
+msgid "com.github.elfenware.badger"
+msgstr ""
+
 #: data/com.github.elfenware.badger.desktop.in:11
 msgid "Ergonomics;Health;Eyes;Muscles;"
 msgstr "Ergonomie;Santé;Yeux;Muscles;"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:8
 msgid "Remind yourself to not sit and stare at the screen for too long"
-msgstr "Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop longtemps."
+msgstr ""
+"Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop "
+"longtemps."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:10
 msgid ""
-"Whether you're dashing through <i>Mario Kart</i> on <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>, "
-"binge-watching <i>Silicon Valley</i> on <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>, or writing "
-"your next novel on <a href="appstream://com.github.lainsce.quilter">Quilter</a>, you need to relax your body every once "
-"in a while."
+"Whether you're dashing through Mario Kart on MupenGUI, binge-watching "
+"Silicon Valley on Cinema, or writing your next novel on Quilter, you need to "
+"relax your body every once in a while."
 msgstr ""
-"Que vous soyez en train de vous défier à <i>Mario Kart</i> sur <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>, "
-"regarder des vidéos sur la <i>Silicon Valley</i> sur <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>, ou entrain d'écrire "
-"votre prochain roman sur <a href="appstream://com.github.lainsce.quilter">Quilter</a>, vous avez besoin de vous détendre de temps "
-"à autre."
+"Que vous soyez en train de vous défier à Mario Kart sur MupenGUI, regarder "
+"des vidéos sur la Silicon Valley sur Cinema, ou entrain d'écrire votre "
+"prochain roman sur Quilter, vous avez besoin de vous détendre de temps à "
+"autre."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
 msgid ""
 "Badger helps you do exactly that. It reminds you — or should I say, badgers "
 "you — to destress yourself and rest your eyes and muscles."
 msgstr ""
-"C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou devrais-je dire, vous "
-"harcèle - de vous déstresser et de vous reposer les yeux et les muscles."
+"C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou "
+"devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les "
+"yeux et les muscles."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:14
 msgid "Currently, it has these five reminders:"
@@ -151,8 +160,11 @@ msgid "Added French translations (@NathanBnm)"
 msgstr "Ajout des traductions françaises (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:34
-msgid "Fix: Multiple notifications when window is opened >1 times"
-msgstr "Correction : Il y avait des notifications en double si l'application était ouverte plus d'une fois"
+#, fuzzy
+msgid "Fix: Multiple notifications when window is opened &gt;1 times"
+msgstr ""
+"Correction : Il y avait des notifications en double si l'application était "
+"ouverte plus d'une fois"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:39
 msgid "Fix: Remove manual line breaks from appdata"

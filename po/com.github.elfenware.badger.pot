@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 12:00+0100\n"
+"POT-Creation-Date: 2019-03-15 01:23+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Neck"
 msgstr ""
 
-#: data/com.github.elfenware.badger.desktop.in:3
+#: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7
 msgid "Badger"
 msgstr ""
@@ -90,6 +90,10 @@ msgstr ""
 msgid "Remind yourself to relax your eyes and limbs"
 msgstr ""
 
+#: data/com.github.elfenware.badger.desktop.in:8
+msgid "com.github.elfenware.badger"
+msgstr ""
+
 #: data/com.github.elfenware.badger.desktop.in:11
 msgid "Ergonomics;Health;Eyes;Muscles;"
 msgstr ""
@@ -100,10 +104,9 @@ msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:10
 msgid ""
-"Whether you're dashing through <i>Mario Kart</i> on <a href="appstream://com.github.efdos.mupengui">MupenGUI</a>, "
-"binge-watching <i>Silicon Valley</i> on <a href="appstream://com.github.artemanufrij.playmyvideos">Cinema</a>, or writing "
-"your next novel on <a href="appstream://com.github.lainsce.quilter">Quilter</a>, you need to relax your body every once "
-"in a while."
+"Whether you're dashing through Mario Kart on MupenGUI, binge-watching "
+"Silicon Valley on Cinema, or writing your next novel on Quilter, you need to "
+"relax your body every once in a while."
 msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
@@ -145,7 +148,7 @@ msgid "Added French translations (@NathanBnm)"
 msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:34
-msgid "Fix: Multiple notifications when window is opened >1 times"
+msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:39
