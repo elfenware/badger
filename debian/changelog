@@ -1,3 +1,9 @@
+com.github.elfenware.badger (1.1.0) bionic; urgency=medium
+
+  * Add: French translations (@NathanBnm)
+
+ -- Darshak Parikh <darshak@protonmail.com>  Fri, 15 Mar 2019 23:47:55 +0530
+
 com.github.elfenware.badger (1.0.3) bionic; urgency=medium
 
   * Fix: Multiple notifications when window is opened >1 times
