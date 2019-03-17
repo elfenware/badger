@@ -35,7 +35,6 @@ public class Badger.MainGrid : Gtk.Grid {
         orientation = Gtk.Orientation.VERTICAL;
 
         var heading = new Granite.HeaderLabel (_ ("Reminders"));
-        heading.get_style_context ().add_class ("heading");
         attach (heading, 0, 0, 1, 1);
 
         var checkboxes = new Gtk.CheckButton[reminders.length];

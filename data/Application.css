@@ -27,7 +27,3 @@
     color: @textColorPrimary;
     box-shadow: none;
 }
-
-.heading {
-    color: @colorPrimary;
-}
