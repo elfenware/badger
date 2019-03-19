@@ -8,6 +8,10 @@
 <p align="center">Remind yourself to not sit and stare at the screen for too long</p>
 
 <p align="center">
+  <a href="https://appcenter.elementary.io/com.github.elfenware.badger"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>
+</p>
+
+<p align="center">
     <img src="data/window-screenshot.png" alt="Screenshot">
 </p>
 
@@ -23,6 +27,8 @@ your muscles free and your eyes unstrained.
 
 While Badger will happily compile on any Linux distribution, it is primarily
 built for [elementary OS].
+
+[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)][AppCenter]
 
 
 ## Developing and building
@@ -57,3 +63,4 @@ com.github.elfenware.badger
 ```
 
 [elementary OS]: https://elementary.io
+[AppCenter]: https://appcenter.elementary.io/com.github.elfenware.badger
