@@ -1,3 +1,10 @@
+com.github.elfenware.badger (1.2.0) bionic; urgency=medium
+
+  * Add: Lithuanian translations (@welaq)
+  * Fix: Illegible heading in dark mode
+
+ -- Darshak Parikh <darshak@vostro>  Thu, 21 Mar 2019 22:56:58 +0530
+
 com.github.elfenware.badger (1.1.0) bionic; urgency=medium
 
   * Add: French translations (@NathanBnm)

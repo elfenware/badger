@@ -24,6 +24,12 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="1.2.0" date="2019-03-15">
+      <description>
+        <p>Add: Lithuanian translations (@welaq)</p>
+        <p>Fix: Illegible heading in dark mode</p>
+      </description>
+    </release>
     <release version="1.1.0" date="2019-03-15">
       <description>
         <p>Add: French translations (@NathanBnm)</p>
