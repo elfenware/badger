@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.elfenware.badger package.
+# Moo, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.elfenware.badger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-15 01:23+0530\n"
+"PO-Revision-Date: 2019-03-20 20:09+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Moo\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: lt\n"
+
+#: src/Application.vala:153
+msgid "Blink your eyes"
+msgstr "Pamirksėkite"
+
+#: src/Application.vala:154
+msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
+msgstr "Atsisukite nuo ekrano ir lėtai 10 sekundžių pamirksėkite."
+
+#: src/Application.vala:155
+msgid "Eyes"
+msgstr "Akys"
+
+#: src/Application.vala:161
+msgid "Stretch your fingers"
+msgstr "Ištieskite pirštus"
+
+#: src/Application.vala:162
+msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+msgstr ""
+"Išskleiskite delnus, o tuomet suspauskite kumščius. Pakartokite 5 kartus."
+
+#: src/Application.vala:163
+msgid "Fingers"
+msgstr "Pirštai"
+
+#: src/Application.vala:169
+msgid "Stretch your arms"
+msgstr "Ištieskite rankas"
+
+#: src/Application.vala:170
+msgid "Stretch your arms, and twist your wrists for 10 seconds."
+msgstr "Ištieskite rankas ir 10 sekundžių pasukite riešus."
+
+#: src/Application.vala:171
+msgid "Arms"
+msgstr "Rankos"
+
+#: src/Application.vala:177
+msgid "Stretch your legs"
+msgstr "Ištieskite kojas"
+
+#: src/Application.vala:178
+msgid "Stand up, twist each ankle, and bend each knee."
+msgstr "Atsistokite, pasukite kiekvieną kulkšnį ir sulenkite kiekvieną kelį."
+
+#: src/Application.vala:179
+msgid "Legs"
+msgstr "Kojos"
+
+#: src/Application.vala:185
+msgid "Turn your neck"
+msgstr "Pasukite kaklą"
+
+#: src/Application.vala:186
+msgid "Turn your head in all directions. Repeat 3 times."
+msgstr "Pasukite galvą į kiekvieną puse. Pakartokite 3 kartus."
+
+#: src/Application.vala:187
+msgid "Neck"
+msgstr "Kaklas"
+
+#: data/com.github.elfenware.badger.desktop.in:4
+#: data/com.github.elfenware.badger.appdata.xml.in:7
+msgid "Badger"
+msgstr "Badger"
+
+#: data/com.github.elfenware.badger.desktop.in:5
+msgid "Ergonomic Reminder"
+msgstr "Priminimų apie ergonomiką įrankis"
+
+#: data/com.github.elfenware.badger.desktop.in:6
+msgid "Remind yourself to relax your eyes and limbs"
+msgstr "Priminkite sau atpalaiduoti akis ir galūnes"
+
+#: data/com.github.elfenware.badger.desktop.in:8
+msgid "com.github.elfenware.badger"
+msgstr "com.github.elfenware.badger"
+
+#: data/com.github.elfenware.badger.desktop.in:11
+msgid "Ergonomics;Health;Eyes;Muscles;"
+msgstr "Ergonomika;Sveikata;Akys;Raumenys;"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:8
+msgid "Remind yourself to not sit and stare at the screen for too long"
+msgstr "Priminkite sau nesedėti ilgai ir nespoksoti į ekraną"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:10
+msgid ""
+"Whether you're dashing through Mario Kart on MupenGUI, binge-watching "
+"Silicon Valley on Cinema, or writing your next novel on Quilter, you need to "
+"relax your body every once in a while."
+msgstr ""
+"Nesvarbu, ar žaidžiate žaidimą naudodami MupenGUI, ar žiūrkite mėgstamą "
+"filmą naudodami Cinema, ar rašote novelę naudodami Quilter, kartas nuo karto "
+"jūsų kūnui reikia atsipalaiduoti."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:12
+msgid ""
+"Badger helps you do exactly that. It reminds you — or should I say, badgers "
+"you — to destress yourself and rest your eyes and muscles."
+msgstr ""
+"Badger padeda daryti būtent tai. Ši programa primena jums atsipalaiduoti ir "
+"leisti pailsėti savo akims ir raumenims."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:14
+msgid "Currently, it has these five reminders:"
+msgstr "Šiuo metu, programoje yra šie penki priminimai:"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:17
+msgid "Blink eyes"
+msgstr "Pamirksėti akimis"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:18
+msgid "Stretch fingers"
+msgstr "Ištiesti pirštus"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:19
+msgid "Stretch arms"
+msgstr "Ištiesti rankas"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:20
+msgid "Stretch legs"
+msgstr "Ištiesti kojas"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:21
+msgid "Turn neck"
+msgstr "Pasukti kaklą"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:24
+msgid "Stay healthy."
+msgstr "Išlikite sveiki."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:29
+msgid "Added French translations (@NathanBnm)"
+msgstr "Pridėtas prancūzų kalbos vertimas (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:34
+msgid "Fix: Multiple notifications when window is opened &gt;1 times"
+msgstr "Pataisa: Keli pranešimai, kai langas yra atveriamas &gt;1 kartų"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:39
+msgid "Fix: Remove manual line breaks from appdata"
+msgstr "Pataisa: Pašalinta rankinė nauja eilutė iš programos duomenų"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:44
+msgid "Fix: Use smaller window size by default"
+msgstr "Pataisa: Pagal numatymą naudoti mažesnį lango dydį"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:49
+msgid "Initial Release 🎉️"
+msgstr "Pradinė laida 🎉️"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:85
+msgid "Elfenware"
+msgstr "Elfenware"
