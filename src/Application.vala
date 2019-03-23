@@ -69,6 +69,7 @@ public class Badger.Application : Granite.Application {
 
         if (window != null && !headless) {
             stdout.printf ("\n▶️ Process already running. Presenting window...");
+            window.show_all ();
             window.present ();
         }
     }
@@ -192,4 +193,3 @@ public class Badger.Application : Granite.Application {
         return reminders;
     }
 }
-
