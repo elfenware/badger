@@ -1,9 +1,15 @@
+com.github.elfenware.badger (1.2.1) bionic; urgency=high
+
+  * Fix: Empty window on launch
+
+ -- Darshak Parikh <darshak@protonmail.com>  Sun, 24 Mar 2019 11:52:01 +0530
+
 com.github.elfenware.badger (1.2.0) bionic; urgency=medium
 
   * Add: Lithuanian translations (@welaq)
   * Fix: Illegible heading in dark mode
 
- -- Darshak Parikh <darshak@vostro>  Thu, 21 Mar 2019 22:56:58 +0530
+ -- Darshak Parikh <darshak@protonmail.com>  Thu, 21 Mar 2019 22:56:58 +0530
 
 com.github.elfenware.badger (1.1.0) bionic; urgency=medium
 
