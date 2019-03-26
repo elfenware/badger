@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 10:57+0100\n"
+"POT-Creation-Date: 2019-03-26 13:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,6 +75,10 @@ msgstr ""
 
 #: src/Application.vala:188
 msgid "Neck"
+msgstr ""
+
+#: src/MainGrid.vala:37
+msgid "Reminders"
 msgstr ""
 
 #: data/com.github.elfenware.badger.desktop.in:4
@@ -144,33 +148,37 @@ msgid "Stay healthy."
 msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:29
+msgid "Fix: Empty window on launch"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:34
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:30
+#: data/com.github.elfenware.badger.appdata.xml.in:35
 msgid "Fix: Illegible heading in dark mode"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:35
+#: data/com.github.elfenware.badger.appdata.xml.in:40
 msgid "Add: French translations (@NathanBnm)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:40
+#: data/com.github.elfenware.badger.appdata.xml.in:45
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:45
+#: data/com.github.elfenware.badger.appdata.xml.in:50
 msgid "Fix: Remove manual line breaks from appdata"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:50
+#: data/com.github.elfenware.badger.appdata.xml.in:55
 msgid "Fix: Use smaller window size by default"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:55
+#: data/com.github.elfenware.badger.appdata.xml.in:60
 msgid "Initial Release 🎉️"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:91
+#: data/com.github.elfenware.badger.appdata.xml.in:96
 msgid "Elfenware"
 msgstr ""

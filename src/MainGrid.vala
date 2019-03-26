@@ -34,7 +34,7 @@ public class Badger.MainGrid : Gtk.Grid {
         column_spacing = 12;
         orientation = Gtk.Orientation.VERTICAL;
 
-        var heading = new Granite.HeaderLabel (_ ("Reminders"));
+        var heading = new Granite.HeaderLabel (_("Reminders"));
         attach (heading, 0, 0, 1, 1);
 
         var checkboxes = new Gtk.CheckButton[reminders.length];

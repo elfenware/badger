@@ -1,3 +1,4 @@
 src/Application.vala
+src/MainGrid.vala
 data/com.github.elfenware.badger.desktop.in
 data/com.github.elfenware.badger.appdata.xml.in

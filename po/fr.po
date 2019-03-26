@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 10:57+0100\n"
+"POT-Creation-Date: 2019-03-26 13:02+0100\n"
 "PO-Revision-Date: 2019-03-14 11:57+0100\n"
 "Last-Translator: NathanBnm\n"
 "Language-Team: Français\n"
@@ -80,6 +80,10 @@ msgstr "Tournez votre tête dans toutes les directions. Répétez 3 fois."
 msgid "Neck"
 msgstr "Cou"
 
+#: src/MainGrid.vala:37
+msgid "Reminders"
+msgstr "Rappels"
+
 #: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7
 msgid "Badger"
@@ -119,7 +123,6 @@ msgstr ""
 "autre."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
-#, fuzzy
 msgid ""
 "Badger helps you do exactly that. It reminds you—or should I say, badgers you"
 "—to destress yourself and rest your eyes and muscles."
@@ -157,38 +160,39 @@ msgid "Stay healthy."
 msgstr "Restez en bonne santé."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:29
-#, fuzzy
-msgid "Add: Lithuanian translations (@welaq)"
-msgstr "Ajout des traductions lituaniennes (@welaq)"
+msgid "Fix: Empty window on launch"
+msgstr "Correction : Fenêtre vide au démarrage"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:30
+#: data/com.github.elfenware.badger.appdata.xml.in:34
+msgid "Add: Lithuanian translations (@welaq)"
+msgstr "Ajout des traductions en lithuanien (@welaq)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:35
 msgid "Fix: Illegible heading in dark mode"
 msgstr "Correction : Titre illisible en mode sombre"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:35
-#, fuzzy
-msgid "Add: French translations (@NathanBnm)"
-msgstr "Ajout des traductions françaises (@NathanBnm)"
-
 #: data/com.github.elfenware.badger.appdata.xml.in:40
-#, fuzzy
+msgid "Add: French translations (@NathanBnm)"
+msgstr "Ajout des traductions en français (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:45
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr ""
 "Correction : Il y avait des notifications en double si l'application était "
 "ouverte plus d'une fois"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:45
+#: data/com.github.elfenware.badger.appdata.xml.in:50
 msgid "Fix: Remove manual line breaks from appdata"
 msgstr "Correction : Retrait des retours manuels à la ligne dans appdata"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:50
+#: data/com.github.elfenware.badger.appdata.xml.in:55
 msgid "Fix: Use smaller window size by default"
 msgstr "Correction : Fenêtre plus petite par défaut"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:55
+#: data/com.github.elfenware.badger.appdata.xml.in:60
 msgid "Initial Release 🎉️"
 msgstr "Version initiale 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:91
+#: data/com.github.elfenware.badger.appdata.xml.in:96
 msgid "Elfenware"
 msgstr "Elfenware"
