@@ -1,3 +1,10 @@
+com.github.elfenware.badger (1.3.0) bionic; urgency=medium
+
+  * Add: Danish translation (@siigdev)
+  * Update: French translation (@NathanBnm)
+
+ -- Darshak Parikh <darshak@protonmail.com>  Sat, 30 Mar 2019 11:50:41 +0530
+
 com.github.elfenware.badger (1.2.1) bionic; urgency=high
 
   * Fix: Empty window on launch

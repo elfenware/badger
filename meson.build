@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.elfenware.badger', 'vala', 'c', version: '1.2.1')
+project('com.github.elfenware.badger', 'vala', 'c', version: '1.3.0')
 
 message('project name and programming language')
 
