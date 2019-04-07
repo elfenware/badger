@@ -23,11 +23,9 @@ using Gtk;
 
 public class Badger.MainGrid : Gtk.Grid {
 
-    public Reminder[] reminders;
+    delegate void ToggleHandler();
 
     public MainGrid (Reminder[] reminders) {
-        this.reminders = reminders;
-
         var settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
 
         row_spacing = 6;
@@ -46,13 +44,15 @@ public class Badger.MainGrid : Gtk.Grid {
 
             settings.bind (reminders[index].name, checkboxes[index], "active", GLib.SettingsBindFlags.DEFAULT);
 
+            ToggleHandler toggle_timer = reminders[index].toggle_timer;
+
             var active = settings.get_boolean (reminders[index].name);
             if (active) {
-                reminders[index].toggle_timer (true);
+                toggle_timer ();
             }
 
-            checkboxes[index].state_flags_changed.connect (flags => {
-                reminders[index].toggle_timer (flags == Gtk.StateFlags.ACTIVE);
+            checkboxes[index].toggled.connect (toggle_button => {
+                toggle_timer ();
             });
         }
     }

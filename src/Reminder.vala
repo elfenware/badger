@@ -22,7 +22,7 @@ using Gtk;
 
 public class Badger.Reminder : GLib.Object {
 
-    public string name { get; set; }      // Unique name
+    public string name { get; set; }            // Unique name
     public string title { get; set; }           // Notification title
     public string message { get; set; }         // Notification body
     public string switch_label { get; set; }    // On/off switch label
@@ -30,7 +30,8 @@ public class Badger.Reminder : GLib.Object {
     public Gtk.Application app { get; set; }
 
     private Notification notification;
-    private bool active = true;
+    private bool active = false;
+    private uint timeout_id = 0;
 
     public Reminder (
         string name,
@@ -51,27 +52,18 @@ public class Badger.Reminder : GLib.Object {
         notification.set_body (message);
     }
 
-    // Connected to the state_set signal on each switch
-    // Returns false because we never want to stop handling the change
-    public bool toggle_timer (bool state) {
-        active = state;
+    public void toggle_timer () {
+        active = !active;
 
-        if (state) {
-            Timeout.add_seconds (interval, remind);
+        if (active) {
+            timeout_id = Timeout.add_seconds (interval, remind);
+        } else if (timeout_id != 0) {
+            Source.remove (timeout_id);
         }
-
-        return false;
     }
 
     public bool remind () {
-        // Stop timer if the reminder has been turned off
-        if (!active) {
-            return false;
-        }
-
         app.send_notification (name, notification);
-
         return true;
     }
 }
-
