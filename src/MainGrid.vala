@@ -24,9 +24,31 @@ using Gtk;
 public class Badger.MainGrid : Gtk.Grid {
 
     delegate void ToggleHandler();
+    delegate void ChangeInterval(uint interval);
 
     public MainGrid (Reminder[] reminders) {
-        var settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
+        var old_settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
+        var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+
+        /* GSettings migration code. Will be removed at some point */
+        if (!settings.get_boolean ("old-settings-replaced")) {
+            var key_names = new string[5];
+            key_names[0] = "eyes";
+            key_names[1] = "fingers";
+            key_names[2] = "legs";
+            key_names[3] = "arms";
+            key_names[4] = "neck";
+
+            foreach (string key in key_names) {
+                bool old_value = old_settings.get_boolean (key);
+                if (!old_value) {
+                    settings.set_uint (key, 0);
+                }
+            }
+
+            settings.set_boolean ("old-settings-replaced", true);
+        }
+        /* GSettings migration code ends. */
 
         row_spacing = 6;
         column_spacing = 12;
@@ -42,11 +64,12 @@ public class Badger.MainGrid : Gtk.Grid {
 
             add (checkboxes[index]);
 
-            settings.bind (reminders[index].name, checkboxes[index], "active", GLib.SettingsBindFlags.DEFAULT);
+            old_settings.bind (reminders[index].name, checkboxes[index], "active", GLib.SettingsBindFlags.DEFAULT);
 
             ToggleHandler toggle_timer = reminders[index].toggle_timer;
+            ChangeInterval change_interval = reminders[index].change_interval;
 
-            var active = settings.get_boolean (reminders[index].name);
+            var active = old_settings.get_boolean (reminders[index].name);
             if (active) {
                 toggle_timer ();
             }
