@@ -26,7 +26,7 @@ public class Badger.Reminder : GLib.Object {
     public string title { get; set; }           // Notification title
     public string message { get; set; }         // Notification body
     public string switch_label { get; set; }    // On/off switch label
-    public int interval { get; set; }           // Reminder interval
+    public uint interval { get; set; }           // Reminder interval
     public Gtk.Application app { get; set; }
 
     private Notification notification;
@@ -60,6 +60,12 @@ public class Badger.Reminder : GLib.Object {
         } else if (timeout_id != 0) {
             Source.remove (timeout_id);
         }
+    }
+
+    public void change_interval (uint new_interval) {
+        interval = new_interval;
+        Source.remove (timeout_id);
+        timeout_id = Timeout.add_seconds (interval, remind);
     }
 
     public bool remind () {
