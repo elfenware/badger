@@ -27,11 +27,11 @@ public class Badger.MainGrid : Gtk.Grid {
     delegate void ChangeInterval(uint interval);
 
     public MainGrid (Reminder[] reminders) {
-        var old_settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
-
-        /* GSettings migration code. Will be removed at some point */
+        
+        /* GSettings migration code. Will be removed at some point. */
         if (!settings.get_boolean ("old-settings-replaced")) {
+            var old_settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
             var key_names = new string[5];
             key_names[0] = "eyes";
             key_names[1] = "fingers";
@@ -54,28 +54,62 @@ public class Badger.MainGrid : Gtk.Grid {
         column_spacing = 12;
         orientation = Gtk.Orientation.VERTICAL;
 
-        var heading = new Granite.HeaderLabel (_ ("Reminders"));
-        attach (heading, 0, 0, 1, 1);
+        var heading = new Gtk.Label (_ ("Reminders"));
+        heading.halign = Gtk.Align.START;
+        heading.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
+        attach (heading, 0, 0, 2, 1);
 
-        var checkboxes = new Gtk.CheckButton[reminders.length];
+        var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:"));
+        subheading.halign = Gtk.Align.START;
+        subheading.margin_bottom = 12;
+        attach (subheading, 0, 1, 2, 1);
+
+        var labels = new Gtk.Label[reminders.length];
+        var scales = new Gtk.Scale[reminders.length];
 
         for (int index = 0; index < reminders.length; index++) {
-            checkboxes[index] = new Gtk.CheckButton.with_label (reminders[index].switch_label);
+            Reminder reminder = reminders[index];
+            uint value = settings.get_uint (reminder.name);
 
-            add (checkboxes[index]);
+            Gtk.Label label = labels[index] = new Gtk.Label (reminder.switch_label);
+            label.halign = Gtk.Align.END;
+            label.valign = Gtk.Align.START;
+            label.xalign = 1;
+            label.width_request = 80;
+            label.margin_top = 6;
 
-            old_settings.bind (reminders[index].name, checkboxes[index], "active", GLib.SettingsBindFlags.DEFAULT);
+            Gtk.Scale scale = scales[index] = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
+            scale.draw_value = false;
+            scale.hexpand = true;
+            scale.width_request = 360;
+            scale.margin_top = 6;
 
-            ToggleHandler toggle_timer = reminders[index].toggle_timer;
-            ChangeInterval change_interval = reminders[index].change_interval;
+            scale.add_mark (0, Gtk.PositionType.BOTTOM, _ ("Never"));
+            scale.add_mark (15, Gtk.PositionType.BOTTOM, _ ("15 min"));
+            scale.add_mark (30, Gtk.PositionType.BOTTOM, _ ("30 min"));
+            scale.add_mark (45, Gtk.PositionType.BOTTOM, _ ("45 min"));
+            scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
-            var active = old_settings.get_boolean (reminders[index].name);
-            if (active) {
-                toggle_timer ();
+            scale.set_value (value);
+
+            attach (label, 0, index + 2, 1, 1);
+            attach (scale, 1, index + 2, 1, 1);
+
+            ToggleHandler deactivate_timer = reminder.deactivate_timer;
+            ChangeInterval change_interval = reminder.change_interval;
+
+            if (value > 0) {
+                change_interval (value);
+            } else {
+                deactivate_timer ();
             }
 
-            checkboxes[index].toggled.connect (toggle_button => {
-                toggle_timer ();
+            scale.value_changed.connect (() => {
+                uint new_value = (uint) scale.get_value ();
+                settings.set_uint (reminder.name, new_value);
+                if (new_value > 0) {
+                    change_interval (new_value);
+                }
             });
         }
     }

@@ -26,11 +26,10 @@ public class Badger.Reminder : GLib.Object {
     public string title { get; set; }           // Notification title
     public string message { get; set; }         // Notification body
     public string switch_label { get; set; }    // On/off switch label
-    public uint interval { get; set; }           // Reminder interval
+    public uint interval { get; set; }          // Reminder interval
     public Gtk.Application app { get; set; }
 
     private Notification notification;
-    private bool active = false;
     private uint timeout_id = 0;
 
     public Reminder (
@@ -52,12 +51,8 @@ public class Badger.Reminder : GLib.Object {
         notification.set_body (message);
     }
 
-    public void toggle_timer () {
-        active = !active;
-
-        if (active) {
-            timeout_id = Timeout.add_seconds (interval, remind);
-        } else if (timeout_id != 0) {
+    public void deactivate_timer () {
+        if (timeout_id > 0) {
             Source.remove (timeout_id);
         }
     }
@@ -65,7 +60,7 @@ public class Badger.Reminder : GLib.Object {
     public void change_interval (uint new_interval) {
         interval = new_interval;
         Source.remove (timeout_id);
-        timeout_id = Timeout.add_seconds (interval, remind);
+        timeout_id = Timeout.add_seconds (interval * 60, remind);
     }
 
     public bool remind () {

@@ -153,7 +153,7 @@ public class Badger.Application : Granite.Application {
             "eyes",
             _ ("Blink your eyes"),
             _ ("Look away from the screen and slowly blink your eyes for 10 seconds."),
-            _ ("Eyes"),
+            _ ("Eyes:"),
             1200,   // 20 minutes
             this
         );
@@ -161,7 +161,7 @@ public class Badger.Application : Granite.Application {
             "fingers",
             _ ("Stretch your fingers"),
             _ ("Spread out your palm wide, then close it into a fist. Repeat 5 times."),
-            _ ("Fingers"),
+            _ ("Fingers:"),
             2100,   // 35 minutes
             this
         );
@@ -169,7 +169,7 @@ public class Badger.Application : Granite.Application {
             "arms",
             _ ("Stretch your arms"),
             _ ("Stretch your arms, and twist your wrists for 10 seconds."),
-            _ ("Arms"),
+            _ ("Arms:"),
             2520,   // 42 minutes
             this
         );
@@ -177,7 +177,7 @@ public class Badger.Application : Granite.Application {
             "legs",
             _ ("Stretch your legs"),
             _ ("Stand up, twist each ankle, and bend each knee."),
-            _ ("Legs"),
+            _ ("Legs:"),
             3300,   // 55 minutes
             this
         );
@@ -185,7 +185,7 @@ public class Badger.Application : Granite.Application {
             "neck",
             _ ("Turn your neck"),
             _ ("Turn your head in all directions. Repeat 3 times."),
-            _ ("Neck"),
+            _ ("Neck:"),
             900,    // 15 minutes
             this
         );
