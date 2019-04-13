@@ -23,12 +23,11 @@ using Gtk;
 
 public class Badger.MainGrid : Gtk.Grid {
 
-    delegate void ToggleHandler();
-    delegate void ChangeInterval(uint interval);
+    delegate void SetInterval(uint interval);
 
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
-        
+
         /* GSettings migration code. Will be removed at some point. */
         if (!settings.get_boolean ("old-settings-replaced")) {
             var old_settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
@@ -69,9 +68,8 @@ public class Badger.MainGrid : Gtk.Grid {
 
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
-            uint value = settings.get_uint (reminder.name);
 
-            Gtk.Label label = labels[index] = new Gtk.Label (reminder.switch_label);
+            Gtk.Label label = labels[index] = new Gtk.Label (reminder.display_label);
             label.halign = Gtk.Align.END;
             label.valign = Gtk.Align.START;
             label.xalign = 1;
@@ -90,27 +88,22 @@ public class Badger.MainGrid : Gtk.Grid {
             scale.add_mark (45, Gtk.PositionType.BOTTOM, _ ("45 min"));
             scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
-            scale.set_value (value);
+            uint interval = settings.get_uint (reminder.name);
+            scale.set_value (interval);
 
-            attach (label, 0, index + 2, 1, 1);
-            attach (scale, 1, index + 2, 1, 1);
-
-            ToggleHandler deactivate_timer = reminder.deactivate_timer;
-            ChangeInterval change_interval = reminder.change_interval;
-
-            if (value > 0) {
-                change_interval (value);
-            } else {
-                deactivate_timer ();
-            }
+            SetInterval set_interval = reminder.set_reminder_interval;
+            set_interval (interval);
 
             scale.value_changed.connect (() => {
                 uint new_value = (uint) scale.get_value ();
                 settings.set_uint (reminder.name, new_value);
                 if (new_value > 0) {
-                    change_interval (new_value);
+                    set_interval (new_value);
                 }
             });
+
+            attach (label, 0, index + 2, 1, 1);
+            attach (scale, 1, index + 2, 1, 1);
         }
     }
 }

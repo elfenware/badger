@@ -25,7 +25,7 @@ public class Badger.Reminder : GLib.Object {
     public string name { get; set; }            // Unique name
     public string title { get; set; }           // Notification title
     public string message { get; set; }         // Notification body
-    public string switch_label { get; set; }    // On/off switch label
+    public string display_label { get; set; }   // UI label
     public uint interval { get; set; }          // Reminder interval
     public Gtk.Application app { get; set; }
 
@@ -36,31 +36,29 @@ public class Badger.Reminder : GLib.Object {
         string name,
         string title,
         string message,
-        string switch_label,
-        int interval,
+        string display_label,
         Application app
     ) {
         this.name = name;
         this.title = title;
         this.message = message;
-        this.switch_label = switch_label;
-        this.interval = interval;
+        this.display_label = display_label;
         this.app = app;
 
         notification = new Notification (title);
         notification.set_body (message);
     }
 
-    public void deactivate_timer () {
-        if (timeout_id > 0) {
-            Source.remove (timeout_id);
-        }
-    }
-
-    public void change_interval (uint new_interval) {
+    public void set_reminder_interval (uint new_interval) {
         interval = new_interval;
+
+        // Disable old timer to avoid repeated notifications
         Source.remove (timeout_id);
-        timeout_id = Timeout.add_seconds (interval * 60, remind);
+
+        // Setting a zero-second timer can hang the entire OS
+        if (interval > 0) {
+            timeout_id = Timeout.add_seconds (interval * 60, remind);
+        }
     }
 
     public bool remind () {

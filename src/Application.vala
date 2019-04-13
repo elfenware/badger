@@ -154,7 +154,6 @@ public class Badger.Application : Granite.Application {
             _ ("Blink your eyes"),
             _ ("Look away from the screen and slowly blink your eyes for 10 seconds."),
             _ ("Eyes:"),
-            1200,   // 20 minutes
             this
         );
         reminders[1] = new Reminder (
@@ -162,7 +161,6 @@ public class Badger.Application : Granite.Application {
             _ ("Stretch your fingers"),
             _ ("Spread out your palm wide, then close it into a fist. Repeat 5 times."),
             _ ("Fingers:"),
-            2100,   // 35 minutes
             this
         );
         reminders[2] = new Reminder (
@@ -170,7 +168,6 @@ public class Badger.Application : Granite.Application {
             _ ("Stretch your arms"),
             _ ("Stretch your arms, and twist your wrists for 10 seconds."),
             _ ("Arms:"),
-            2520,   // 42 minutes
             this
         );
         reminders[3] = new Reminder (
@@ -178,7 +175,6 @@ public class Badger.Application : Granite.Application {
             _ ("Stretch your legs"),
             _ ("Stand up, twist each ankle, and bend each knee."),
             _ ("Legs:"),
-            3300,   // 55 minutes
             this
         );
         reminders[4] = new Reminder (
@@ -186,7 +182,6 @@ public class Badger.Application : Granite.Application {
             _ ("Turn your neck"),
             _ ("Turn your head in all directions. Repeat 3 times."),
             _ ("Neck:"),
-            900,    // 15 minutes
             this
         );
 
