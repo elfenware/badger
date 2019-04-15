@@ -26,7 +26,6 @@ msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr "Kig væk fra skærmen og blink langsomt øjnene i 10 sekunder"
 
 #: src/Application.vala:156
-#, fuzzy
 msgid "Eyes:"
 msgstr "Øjne:"
 
@@ -39,7 +38,6 @@ msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
 msgstr "Stræk din håndflade ud, og luk så til en knytnæve. Gentag 5 gange."
 
 #: src/Application.vala:163
-#, fuzzy
 msgid "Fingers:"
 msgstr "Fingre:"
 
@@ -52,7 +50,6 @@ msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr "Stræk dine arme og drej dine håndled i 10 sekunder."
 
 #: src/Application.vala:170
-#, fuzzy
 msgid "Arms:"
 msgstr "Arme:"
 
@@ -65,7 +62,6 @@ msgid "Stand up, twist each ankle, and bend each knee."
 msgstr "Rejs dig op, drej hver ankel og bøj knæene."
 
 #: src/Application.vala:177
-#, fuzzy
 msgid "Legs:"
 msgstr "Ben:"
 
@@ -78,7 +74,6 @@ msgid "Turn your head in all directions. Repeat 3 times."
 msgstr "Drej dit hoved i alle retninger. Gentag 3 gange."
 
 #: src/Application.vala:184
-#, fuzzy
 msgid "Neck:"
 msgstr "Hals:"
 
@@ -88,27 +83,27 @@ msgstr "Påmindelser"
 
 #: src/MainGrid.vala:61
 msgid "Decide how often Badger should remind you to relax these:"
-msgstr ""
+msgstr "Vælg hvor ofte du ønsker Badger skal minde dig om at slappe af:"
 
 #: src/MainGrid.vala:85
 msgid "Never"
-msgstr ""
+msgstr "Aldrig"
 
 #: src/MainGrid.vala:86
 msgid "15 min"
-msgstr ""
+msgstr "15 min"
 
 #: src/MainGrid.vala:87
 msgid "30 min"
-msgstr ""
+msgstr "30 min"
 
 #: src/MainGrid.vala:88
 msgid "45 min"
-msgstr ""
+msgstr "45 min"
 
 #: src/MainGrid.vala:89
 msgid "1 hour"
-msgstr ""
+msgstr "1 time"
 
 #: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7
