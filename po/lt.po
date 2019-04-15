@@ -78,7 +78,7 @@ msgstr "Pasukite kaklą"
 
 #: src/Application.vala:183
 msgid "Turn your head in all directions. Repeat 3 times."
-msgstr "Pasukite galvą į kiekvieną puse. Pakartokite 3 kartus."
+msgstr "Pasukite galvą į kiekvieną pusę. Pakartokite 3 kartus."
 
 #: src/Application.vala:184
 #, fuzzy
@@ -87,7 +87,7 @@ msgstr "Kaklas:"
 
 #: src/MainGrid.vala:56
 msgid "Reminders"
-msgstr ""
+msgstr "Priminimai"
 
 #: src/MainGrid.vala:61
 msgid "Decide how often Badger should remind you to relax these:"
@@ -149,7 +149,6 @@ msgstr ""
 "jūsų kūnui reikia atsipalaiduoti."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
-#, fuzzy
 msgid ""
 "Badger helps you do exactly that. It reminds you—or should I say, badgers you"
 "—to destress yourself and rest your eyes and muscles."
@@ -197,20 +196,20 @@ msgstr "Pridėtas prancūzų kalbos vertimas (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:37
 msgid "Fix: Empty window on launch"
-msgstr ""
+msgstr "Pataisa: Tuščias langas paleidimo metu"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:42
 msgid "Add: Lithuanian translations (@welaq)"
-msgstr ""
+msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:43
 msgid "Fix: Illegible heading in dark mode"
-msgstr ""
+msgstr "Pataisa: Neįskaitoma antraštė tamsioje veiksenoje"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:48
 #, fuzzy
 msgid "Add: French translations (@NathanBnm)"
-msgstr "Pridėtas prancūzų kalbos vertimas (@NathanBnm)"
+msgstr "Pridėta: Prancūzų kalbos vertimas (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:53
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
