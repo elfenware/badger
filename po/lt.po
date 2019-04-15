@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-26 13:02+0100\n"
+"POT-Creation-Date: 2019-04-15 22:39+0530\n"
 "PO-Revision-Date: 2019-03-20 20:09+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: \n"
@@ -28,60 +28,89 @@ msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr "Atsisukite nuo ekrano ir lėtai 10 sekundžių pamirksėkite."
 
 #: src/Application.vala:156
-msgid "Eyes"
-msgstr "Akys"
+#, fuzzy
+msgid "Eyes:"
+msgstr "Akys:"
 
-#: src/Application.vala:162
+#: src/Application.vala:161
 msgid "Stretch your fingers"
 msgstr "Ištieskite pirštus"
 
-#: src/Application.vala:163
+#: src/Application.vala:162
 msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
 msgstr ""
 "Išskleiskite delnus, o tuomet suspauskite kumščius. Pakartokite 5 kartus."
 
-#: src/Application.vala:164
-msgid "Fingers"
-msgstr "Pirštai"
+#: src/Application.vala:163
+#, fuzzy
+msgid "Fingers:"
+msgstr "Pirštai:"
 
-#: src/Application.vala:170
+#: src/Application.vala:168
 msgid "Stretch your arms"
 msgstr "Ištieskite rankas"
 
-#: src/Application.vala:171
+#: src/Application.vala:169
 msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr "Ištieskite rankas ir 10 sekundžių pasukite riešus."
 
-#: src/Application.vala:172
-msgid "Arms"
-msgstr "Rankos"
+#: src/Application.vala:170
+#, fuzzy
+msgid "Arms:"
+msgstr "Rankos:"
 
-#: src/Application.vala:178
+#: src/Application.vala:175
 msgid "Stretch your legs"
 msgstr "Ištieskite kojas"
 
-#: src/Application.vala:179
+#: src/Application.vala:176
 msgid "Stand up, twist each ankle, and bend each knee."
 msgstr "Atsistokite, pasukite kiekvieną kulkšnį ir sulenkite kiekvieną kelį."
 
-#: src/Application.vala:180
-msgid "Legs"
-msgstr "Kojos"
+#: src/Application.vala:177
+#, fuzzy
+msgid "Legs:"
+msgstr "Kojos:"
 
-#: src/Application.vala:186
+#: src/Application.vala:182
 msgid "Turn your neck"
 msgstr "Pasukite kaklą"
 
-#: src/Application.vala:187
+#: src/Application.vala:183
 msgid "Turn your head in all directions. Repeat 3 times."
 msgstr "Pasukite galvą į kiekvieną puse. Pakartokite 3 kartus."
 
-#: src/Application.vala:188
-msgid "Neck"
-msgstr "Kaklas"
+#: src/Application.vala:184
+#, fuzzy
+msgid "Neck:"
+msgstr "Kaklas:"
 
-#: src/MainGrid.vala:37
+#: src/MainGrid.vala:56
 msgid "Reminders"
+msgstr ""
+
+#: src/MainGrid.vala:61
+msgid "Decide how often Badger should remind you to relax these:"
+msgstr ""
+
+#: src/MainGrid.vala:85
+msgid "Never"
+msgstr ""
+
+#: src/MainGrid.vala:86
+msgid "15 min"
+msgstr ""
+
+#: src/MainGrid.vala:87
+msgid "30 min"
+msgstr ""
+
+#: src/MainGrid.vala:88
+msgid "45 min"
+msgstr ""
+
+#: src/MainGrid.vala:89
+msgid "1 hour"
 msgstr ""
 
 #: data/com.github.elfenware.badger.desktop.in:4
@@ -156,39 +185,49 @@ msgstr "Pasukti kaklą"
 msgid "Stay healthy."
 msgstr "Išlikite sveiki."
 
-#: data/com.github.elfenware.badger.appdata.xml.in:29
+#: data/com.github.elfenware.badger.appdata.xml.in:30
+#, fuzzy
+msgid "Add: Danish translation (@siigdev)"
+msgstr "Pridėtas prancūzų kalbos vertimas (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:31
+#, fuzzy
+msgid "Update: French translation (@NathanBnm)"
+msgstr "Pridėtas prancūzų kalbos vertimas (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:37
 msgid "Fix: Empty window on launch"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:34
+#: data/com.github.elfenware.badger.appdata.xml.in:42
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:35
+#: data/com.github.elfenware.badger.appdata.xml.in:43
 msgid "Fix: Illegible heading in dark mode"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:40
+#: data/com.github.elfenware.badger.appdata.xml.in:48
 #, fuzzy
 msgid "Add: French translations (@NathanBnm)"
 msgstr "Pridėtas prancūzų kalbos vertimas (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:45
+#: data/com.github.elfenware.badger.appdata.xml.in:53
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr "Pataisa: Keli pranešimai, kai langas yra atveriamas &gt;1 kartų"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:50
+#: data/com.github.elfenware.badger.appdata.xml.in:58
 msgid "Fix: Remove manual line breaks from appdata"
 msgstr "Pataisa: Pašalinta rankinė nauja eilutė iš programos duomenų"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:55
+#: data/com.github.elfenware.badger.appdata.xml.in:63
 msgid "Fix: Use smaller window size by default"
 msgstr "Pataisa: Pagal numatymą naudoti mažesnį lango dydį"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:60
+#: data/com.github.elfenware.badger.appdata.xml.in:68
 msgid "Initial Release 🎉️"
 msgstr "Pradinė laida 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:96
+#: data/com.github.elfenware.badger.appdata.xml.in:104
 msgid "Elfenware"
 msgstr "Elfenware"
