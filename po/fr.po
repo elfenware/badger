@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the com.github.elfenware.badger package.
 # NathanBnm, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
@@ -28,9 +27,8 @@ msgstr ""
 "secondes."
 
 #: src/Application.vala:156
-#, fuzzy
 msgid "Eyes:"
-msgstr "Yeux:"
+msgstr "Yeux :"
 
 #: src/Application.vala:161
 msgid "Stretch your fingers"
@@ -42,9 +40,8 @@ msgstr ""
 "Étendez la paume de votre main, puis fermez-la en un poing. Répétez 5 fois."
 
 #: src/Application.vala:163
-#, fuzzy
 msgid "Fingers:"
-msgstr "Doigts:"
+msgstr "Doigts :"
 
 #: src/Application.vala:168
 msgid "Stretch your arms"
@@ -55,9 +52,8 @@ msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr "Tendez les bras et tournez les poignets pendant 10 secondes."
 
 #: src/Application.vala:170
-#, fuzzy
 msgid "Arms:"
-msgstr "Bras:"
+msgstr "Bras :"
 
 #: src/Application.vala:175
 msgid "Stretch your legs"
@@ -68,9 +64,8 @@ msgid "Stand up, twist each ankle, and bend each knee."
 msgstr "Levez-vous, tournez chaque cheville et pliez chaque genou."
 
 #: src/Application.vala:177
-#, fuzzy
 msgid "Legs:"
-msgstr "Jambes:"
+msgstr "Jambes :"
 
 #: src/Application.vala:182
 msgid "Turn your neck"
@@ -81,9 +76,8 @@ msgid "Turn your head in all directions. Repeat 3 times."
 msgstr "Tournez votre tête dans toutes les directions. Répétez 3 fois."
 
 #: src/Application.vala:184
-#, fuzzy
 msgid "Neck:"
-msgstr "Cou:"
+msgstr "Cou :"
 
 #: src/MainGrid.vala:56
 msgid "Reminders"
@@ -91,27 +85,27 @@ msgstr "Rappels"
 
 #: src/MainGrid.vala:61
 msgid "Decide how often Badger should remind you to relax these:"
-msgstr ""
+msgstr "Décidez de la fréquence à laquelle Badger doit vous rappeler de vous reposer :"
 
 #: src/MainGrid.vala:85
 msgid "Never"
-msgstr ""
+msgstr "Jamais"
 
 #: src/MainGrid.vala:86
 msgid "15 min"
-msgstr ""
+msgstr "15 min"
 
 #: src/MainGrid.vala:87
 msgid "30 min"
-msgstr ""
+msgstr "30 min"
 
 #: src/MainGrid.vala:88
 msgid "45 min"
-msgstr ""
+msgstr "45 min"
 
 #: src/MainGrid.vala:89
 msgid "1 hour"
-msgstr ""
+msgstr "1 heure"
 
 #: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7
@@ -189,14 +183,12 @@ msgid "Stay healthy."
 msgstr "Restez en bonne santé."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:30
-#, fuzzy
 msgid "Add: Danish translation (@siigdev)"
-msgstr "Ajout des traductions en lithuanien (@welaq)"
+msgstr "Ajout des traductions en danois (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
-#, fuzzy
 msgid "Update: French translation (@NathanBnm)"
-msgstr "Ajout des traductions en français (@NathanBnm)"
+msgstr "Mise à jour des traductions en français (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:37
 msgid "Fix: Empty window on launch"
