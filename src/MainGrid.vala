@@ -73,7 +73,7 @@ public class Badger.MainGrid : Gtk.Grid {
             label.halign = Gtk.Align.END;
             label.valign = Gtk.Align.START;
             label.xalign = 1;
-            label.width_request = 80;
+            label.width_request = 60;
             label.margin_top = 6;
 
             Gtk.Scale scale = scales[index] = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
