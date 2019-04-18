@@ -22,56 +22,47 @@ using Gtk;
 
 public class Badger.Reminder : GLib.Object {
 
-    public string name { get; set; }      // Unique name
+    public string name { get; set; }            // Unique name
     public string title { get; set; }           // Notification title
     public string message { get; set; }         // Notification body
-    public string switch_label { get; set; }    // On/off switch label
-    public int interval { get; set; }           // Reminder interval
+    public string display_label { get; set; }   // UI label
+    public uint interval { get; set; }          // Reminder interval
     public Gtk.Application app { get; set; }
 
     private Notification notification;
-    private bool active = true;
+    private uint timeout_id = 0;
 
     public Reminder (
         string name,
         string title,
         string message,
-        string switch_label,
-        int interval,
+        string display_label,
         Application app
     ) {
         this.name = name;
         this.title = title;
         this.message = message;
-        this.switch_label = switch_label;
-        this.interval = interval;
+        this.display_label = display_label;
         this.app = app;
 
         notification = new Notification (title);
         notification.set_body (message);
     }
 
-    // Connected to the state_set signal on each switch
-    // Returns false because we never want to stop handling the change
-    public bool toggle_timer (bool state) {
-        active = state;
+    public void set_reminder_interval (uint new_interval) {
+        interval = new_interval;
 
-        if (state) {
-            Timeout.add_seconds (interval, remind);
+        // Disable old timer to avoid repeated notifications
+        Source.remove (timeout_id);
+
+        // Setting a zero-second timer can hang the entire OS
+        if (interval > 0) {
+            timeout_id = Timeout.add_seconds (interval * 60, remind);
         }
-
-        return false;
     }
 
     public bool remind () {
-        // Stop timer if the reminder has been turned off
-        if (!active) {
-            return false;
-        }
-
         app.send_notification (name, notification);
-
         return true;
     }
 }
-
