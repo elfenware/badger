@@ -51,6 +51,7 @@ public class Badger.MainGrid : Gtk.Grid {
 
         row_spacing = 6;
         column_spacing = 12;
+        margin_bottom = 12;
         orientation = Gtk.Orientation.VERTICAL;
 
         var heading = new Gtk.Label (_ ("Reminders"));
@@ -73,14 +74,13 @@ public class Badger.MainGrid : Gtk.Grid {
             label.halign = Gtk.Align.END;
             label.valign = Gtk.Align.START;
             label.xalign = 1;
-            label.width_request = 80;
-            label.margin_top = 6;
+            label.width_request = 60;
+            label.margin_top = 12;
 
             Gtk.Scale scale = scales[index] = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
-            scale.draw_value = false;
             scale.hexpand = true;
             scale.width_request = 360;
-            scale.margin_top = 6;
+            scale.margin_top = 12;
 
             scale.add_mark (0, Gtk.PositionType.BOTTOM, _ ("Never"));
             scale.add_mark (15, Gtk.PositionType.BOTTOM, _ ("15 min"));
@@ -100,6 +100,14 @@ public class Badger.MainGrid : Gtk.Grid {
                 if (new_value > 0) {
                     set_interval (new_value);
                 }
+            });
+
+            scale.format_value.connect (duration => {
+                if (duration == 0) {
+                    return _ ("Never");
+                }
+
+                return _ ("%.0f min").printf(duration);
             });
 
             attach (label, 0, index + 2, 1, 1);

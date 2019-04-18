@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 22:39+0530\n"
-"PO-Revision-Date: 2019-04-17 23:04+0300\n"
+"POT-Creation-Date: 2019-04-18 00:27+0530\n"
+"PO-Revision-Date: 2019-03-20 20:09+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: \n"
 "Language: lt\n"
@@ -82,17 +82,17 @@ msgstr "Pasukite galvą į kiekvieną pusę. Pakartokite 3 kartus."
 msgid "Neck:"
 msgstr "Kaklas:"
 
-#: src/MainGrid.vala:56
+#: src/MainGrid.vala:57
 msgid "Reminders"
 msgstr "Priminimai"
 
-#: src/MainGrid.vala:61
+#: src/MainGrid.vala:62
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
 "Nuspręskite kaip dažnai Badger turėtų jums priminti atpalaiduoti šias "
 "galūnes:"
 
-#: src/MainGrid.vala:85
+#: src/MainGrid.vala:85 src/MainGrid.vala:107
 msgid "Never"
 msgstr "Niekada"
 
@@ -111,6 +111,11 @@ msgstr "45 min."
 #: src/MainGrid.vala:89
 msgid "1 hour"
 msgstr "1 val."
+
+#: src/MainGrid.vala:110
+#, c-format
+msgid "%.0f min"
+msgstr "%.0f min"
 
 #: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7

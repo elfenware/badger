@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 22:39+0530\n"
+"POT-Creation-Date: 2019-04-18 00:27+0530\n"
 "PO-Revision-Date: 2019-03-28 17:55+0100\n"
 "Last-Translator: siigdev\n"
 "Language-Team: \n"
@@ -77,15 +77,15 @@ msgstr "Drej dit hoved i alle retninger. Gentag 3 gange."
 msgid "Neck:"
 msgstr "Hals:"
 
-#: src/MainGrid.vala:56
+#: src/MainGrid.vala:57
 msgid "Reminders"
 msgstr "Påmindelser"
 
-#: src/MainGrid.vala:61
+#: src/MainGrid.vala:62
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr "Vælg hvor ofte du ønsker Badger skal minde dig om at slappe af:"
 
-#: src/MainGrid.vala:85
+#: src/MainGrid.vala:85 src/MainGrid.vala:107
 msgid "Never"
 msgstr "Aldrig"
 
@@ -104,6 +104,10 @@ msgstr "45 min"
 #: src/MainGrid.vala:89
 msgid "1 hour"
 msgstr "1 time"
+
+#: src/MainGrid.vala:110
+msgid "%.0f min"
+msgstr "%.0f min"
 
 #: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7
@@ -136,17 +140,18 @@ msgid ""
 "Silicon Valley on Cinema, or writing your next novel on Quilter, you need to "
 "relax your body every once in a while."
 msgstr ""
-"Om du suser gennem Mario Kart på MupenGUI, binge-watcher"
-"Silicon Valley i fjernsynet eller skriver din næste novelle i Quilter, så har du brug for "
-"at slappe af i kroppen engang imellem."
+"Om du suser gennem Mario Kart på MupenGUI, binge-watcher Silicon Valley i "
+"fjernsynet eller skriver din næste novelle i Quilter, så har du brug for at "
+"slappe af i kroppen engang imellem."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
 msgid ""
 "Badger helps you do exactly that. It reminds you—or should I say, badgers you"
 "—to destress yourself and rest your eyes and muscles."
 msgstr ""
-"Badger hjælpere dig med at gøre præcis dette. Den påminder dig, eller anderledes sagt, den badger dig."
-"— for at afstresse dig selv og slappe af i øjne og muskler."
+"Badger hjælpere dig med at gøre præcis dette. Den påminder dig, eller "
+"anderledes sagt, den badger dig.— for at afstresse dig selv og slappe af i "
+"øjne og muskler."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:14
 msgid "Currently, it has these five reminders:"
