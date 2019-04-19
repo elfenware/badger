@@ -24,6 +24,16 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="2.0.0" date="2019-04-19">
+      <description>
+        <ul>
+          <li>Add: 🎉️ Most awaited feature, custom timers! 🎉️</li>
+          <li>Update: French translations (@NathanBnm)</li>
+          <li>Update: Lithuanian translations (@welaq)</li>
+          <li>Update: Danish translations (@siigdev)</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.3.0" date="2019-03-30">
       <description>
         <ul>
