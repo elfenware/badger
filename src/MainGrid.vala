@@ -23,7 +23,7 @@ using Gtk;
 
 public class Badger.MainGrid : Gtk.Grid {
 
-    delegate void SetInterval(uint interval);
+    delegate void SetInterval (uint interval);
 
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
@@ -107,7 +107,7 @@ public class Badger.MainGrid : Gtk.Grid {
                     return _ ("Never");
                 }
 
-                return _ ("%.0f min").printf(duration);
+                return _ ("%.0f min").printf (duration);
             });
 
             attach (label, 0, index + 2, 1, 1);

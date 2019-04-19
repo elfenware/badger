@@ -29,7 +29,7 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
     }
 
     construct {
-        set_titlebar (get_header());
+        set_titlebar (get_header ());
         border_width = 24;
 
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
@@ -43,7 +43,7 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
     }
 
     private Gtk.HeaderBar get_header () {
-        var header = new Gtk.HeaderBar();
+        var header = new Gtk.HeaderBar ();
 
         header.title = "Badger";
         header.has_subtitle = false;

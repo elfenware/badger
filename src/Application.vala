@@ -28,7 +28,7 @@ public class Badger.Application : Granite.Application {
     private Badger.MainWindow window;
 
     public Application () {
-        Object(
+        Object (
             application_id: "com.github.elfenware.badger",
             flags: ApplicationFlags.HANDLES_COMMAND_LINE
         );
@@ -68,7 +68,7 @@ public class Badger.Application : Granite.Application {
         }
 
         if (window != null && !headless) {
-            stdout.printf ("\n▶️ Process already running. Presenting window...");
+            stdout.printf ("\n▶️ Process already running. Presenting window…");
             window.show_all ();
             window.present ();
         }
@@ -124,10 +124,12 @@ public class Badger.Application : Granite.Application {
         var desktop_file_name = application_id + ".desktop";
         var desktop_file_path = new DesktopAppInfo (desktop_file_name).filename;
         var desktop_file = File.new_for_path (desktop_file_path);
-        var dest_path = Path.build_path (   Path.DIR_SEPARATOR_S,
-                                            Environment.get_user_config_dir (),
-                                            "autostart",
-                                            desktop_file_name);
+        var dest_path = Path.build_path (
+            Path.DIR_SEPARATOR_S,
+            Environment.get_user_config_dir (),
+            "autostart",
+            desktop_file_name
+        );
         var dest_file = File.new_for_path (dest_path);
         try {
             desktop_file.copy (dest_file, FileCopyFlags.OVERWRITE);
