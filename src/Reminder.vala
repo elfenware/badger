@@ -53,7 +53,9 @@ public class Badger.Reminder : GLib.Object {
         interval = new_interval;
 
         // Disable old timer to avoid repeated notifications
-        Source.remove (timeout_id);
+        if (timeout_id > 0) {
+            Source.remove (timeout_id);
+        }
 
         // Setting a zero-second timer can hang the entire OS
         if (interval > 0) {
