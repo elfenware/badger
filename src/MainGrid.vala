@@ -97,9 +97,7 @@ public class Badger.MainGrid : Gtk.Grid {
             scale.value_changed.connect (() => {
                 uint new_value = (uint) scale.get_value ();
                 settings.set_uint (reminder.name, new_value);
-                if (new_value > 0) {
-                    set_interval (new_value);
-                }
+                set_interval (new_value);
             });
 
             scale.format_value.connect (duration => {
