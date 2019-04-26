@@ -24,6 +24,13 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="2.0.1" date="2019-04-26">
+      <description>
+        <ul>
+          <li>Fix: "Never" option not disabling the timer</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.0" date="2019-04-19">
       <description>
         <ul>

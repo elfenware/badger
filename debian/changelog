@@ -1,3 +1,9 @@
+com.github.elfenware.badger (2.0.1) bionic; urgency=high
+
+  * Fix: "Never" option not disabling the timer
+
+ -- Darshak Parikh <darshak@protonmail.com>  Fri, 26 Apr 2019 23:48:48 +0530
+
 com.github.elfenware.badger (2.0.0) bionic; urgency=medium
 
   * Add: 🎉️ Most awaited feature, custom timers! 🎉️
