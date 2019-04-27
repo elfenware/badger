@@ -75,17 +75,17 @@ public class Badger.MainGrid : Gtk.Grid {
             label.valign = Gtk.Align.START;
             label.xalign = 1;
             label.width_request = 60;
-            label.margin_top = 12;
+            label.margin_top = 24;
 
             Gtk.Scale scale = scales[index] = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
             scale.hexpand = true;
             scale.width_request = 360;
-            scale.margin_top = 12;
+            scale.margin_top = 24;
 
             scale.add_mark (0, Gtk.PositionType.BOTTOM, _ ("Never"));
-            scale.add_mark (15, Gtk.PositionType.BOTTOM, _ ("15 min"));
+            scale.add_mark (15, Gtk.PositionType.BOTTOM, null);
             scale.add_mark (30, Gtk.PositionType.BOTTOM, _ ("30 min"));
-            scale.add_mark (45, Gtk.PositionType.BOTTOM, _ ("45 min"));
+            scale.add_mark (45, Gtk.PositionType.BOTTOM, null);
             scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
             uint interval = settings.get_uint (reminder.name);
