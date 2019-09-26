@@ -24,10 +24,17 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="2.2.0" date="2019-09-26">
+      <description>
+        <ul>
+          <li>Add: Turkish translation (@libreajans)</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.1.0" date="2019-07-12">
       <description>
         <ul>
-          <li>Add: Dutch translation</li>
+          <li>Add: Dutch translation (@Vistaus)</li>
         </ul>
       </description>
     </release>
