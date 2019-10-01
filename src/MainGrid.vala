@@ -65,20 +65,6 @@ public class Badger.MainGrid : Gtk.Grid {
         attach (global_switch, 1, 0, 1, 1);
 
         settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
-        global_switch.state_set.connect (state => {
-            if (state) {
-                foreach (Reminder reminder in reminders) {
-                    uint interval = settings.get_uint (reminder.name);
-                    reminder.set_reminder_interval (interval);
-                }
-            } else {
-                foreach (Reminder reminder in reminders) {
-                    reminder.set_reminder_interval (0);
-                }
-            }
-
-            return false;
-        });
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:"));
         subheading.halign = Gtk.Align.START;
