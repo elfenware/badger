@@ -54,15 +54,20 @@ public class Badger.MainGrid : Gtk.Grid {
         margin_bottom = 12;
         orientation = Gtk.Orientation.VERTICAL;
 
+        var top = new Gtk.Grid ();
+
         var heading = new Gtk.Label (_ ("Reminders"));
         heading.halign = Gtk.Align.START;
+        heading.hexpand = true;
         heading.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
-        attach (heading, 0, 0, 1, 1);
+        top.attach (heading, 0, 0, 1, 1);
 
         var global_switch = new Gtk.Switch ();
         global_switch.halign = Gtk.Align.END;
         global_switch.valign = Gtk.Align.CENTER;
-        attach (global_switch, 1, 0, 1, 1);
+        top.attach (global_switch, 1, 0, 1, 1);
+
+        attach (top, 0, 0, 2, 1);
 
         settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
 
