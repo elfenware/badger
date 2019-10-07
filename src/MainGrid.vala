@@ -120,6 +120,10 @@ public class Badger.MainGrid : Gtk.Grid {
                 return _ ("%.0f min").printf (duration);
             });
 
+            // If the "all" flag is false, disable all scales
+            settings.bind ("all", label, "sensitive", SettingsBindFlags.DEFAULT);
+            settings.bind ("all", scale, "sensitive", SettingsBindFlags.DEFAULT);
+
             attach (label, 0, index + 2, 1, 1);
             attach (scale, 1, index + 2, 1, 1);
         }
