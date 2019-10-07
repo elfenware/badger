@@ -27,6 +27,7 @@ public class Badger.Reminder : GLib.Object {
     public string message { get; set; }         // Notification body
     public string display_label { get; set; }   // UI label
     public uint interval { get; set; }          // Reminder interval
+    public bool active { get; set; }            // Whether to show the notification
     public Gtk.Application app { get; set; }
 
     private Notification notification;
@@ -47,6 +48,9 @@ public class Badger.Reminder : GLib.Object {
 
         notification = new Notification (title);
         notification.set_body (message);
+
+        var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+        settings.bind ("all", this, "active", SettingsBindFlags.DEFAULT);
     }
 
     public void set_reminder_interval (uint new_interval) {
@@ -64,7 +68,9 @@ public class Badger.Reminder : GLib.Object {
     }
 
     public bool remind () {
-        app.send_notification (name, notification);
+        if (active) {
+            app.send_notification (name, notification);
+        }
         return true;
     }
 }

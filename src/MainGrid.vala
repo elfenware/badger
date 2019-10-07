@@ -54,10 +54,22 @@ public class Badger.MainGrid : Gtk.Grid {
         margin_bottom = 12;
         orientation = Gtk.Orientation.VERTICAL;
 
+        var top = new Gtk.Grid ();
+
         var heading = new Gtk.Label (_ ("Reminders"));
         heading.halign = Gtk.Align.START;
+        heading.hexpand = true;
         heading.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
-        attach (heading, 0, 0, 2, 1);
+        top.attach (heading, 0, 0, 1, 1);
+
+        var global_switch = new Gtk.Switch ();
+        global_switch.halign = Gtk.Align.END;
+        global_switch.valign = Gtk.Align.CENTER;
+        top.attach (global_switch, 1, 0, 1, 1);
+
+        attach (top, 0, 0, 2, 1);
+
+        settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:"));
         subheading.halign = Gtk.Align.START;
@@ -107,6 +119,10 @@ public class Badger.MainGrid : Gtk.Grid {
 
                 return _ ("%.0f min").printf (duration);
             });
+
+            // If the "all" flag is false, disable all scales
+            settings.bind ("all", label, "sensitive", SettingsBindFlags.DEFAULT);
+            settings.bind ("all", scale, "sensitive", SettingsBindFlags.DEFAULT);
 
             attach (label, 0, index + 2, 1, 1);
             attach (scale, 1, index + 2, 1, 1);
