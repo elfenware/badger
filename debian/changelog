@@ -1,3 +1,9 @@
+com.github.elfenware.badger (2.3.0) bionic; urgency=medium
+
+  * Add: 🎉️ Global switch to turn off all reminders 🎉️
+
+ -- Darshak Parikh <darshak@protonmail.com>  Mon, 07 Oct 2019 20:51:05 +0530
+
 com.github.elfenware.badger (2.2.0) bionic; urgency=medium
 
   * Add: Turkish translation (@libreajans)

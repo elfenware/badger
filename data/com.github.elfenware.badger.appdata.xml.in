@@ -24,6 +24,13 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="2.3.0" date="2019-10-07">
+      <description>
+        <ul>
+          <li>Add: 🎉️ Global switch to turn off all reminders 🎉️</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.2.0" date="2019-09-26">
       <description>
         <ul>
