@@ -51,6 +51,13 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
         header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         header.get_style_context ().add_class ("badger-headerbar");
 
+        var global_switch = new Gtk.Switch ();
+        global_switch.halign = Gtk.Align.END;
+        global_switch.valign = Gtk.Align.CENTER;
+        var global_switch_settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+        global_switch_settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
+
+        header.pack_end (global_switch);
         return header;
     }
 
