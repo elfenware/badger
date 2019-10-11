@@ -76,20 +76,15 @@ public class Badger.MainGrid : Gtk.Grid {
         subheading.margin_bottom = 12;
         attach (subheading, 0, 1, 2, 1);
 
-        var labels = new Gtk.Label[reminders.length];
-        var scales = new Gtk.Scale[reminders.length];
-
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
 
-            Gtk.Label label = labels[index] = new Gtk.Label (reminder.display_label);
-            label.halign = Gtk.Align.END;
-            label.valign = Gtk.Align.START;
-            label.xalign = 1;
-            label.width_request = 60;
-            label.margin_top = 24;
+            Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label);
+            check_box.halign = Gtk.Align.BASELINE;
+            check_box.valign = Gtk.Align.START;
+            check_box.margin_top = 24;
 
-            Gtk.Scale scale = scales[index] = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
+            Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
             scale.hexpand = true;
             scale.width_request = 360;
             scale.margin_top = 24;
@@ -121,10 +116,10 @@ public class Badger.MainGrid : Gtk.Grid {
             });
 
             // If the "all" flag is false, disable all scales
-            settings.bind ("all", label, "sensitive", SettingsBindFlags.DEFAULT);
+            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.DEFAULT);
             settings.bind ("all", scale, "sensitive", SettingsBindFlags.DEFAULT);
 
-            attach (label, 0, index + 2, 1, 1);
+            attach (check_box, 0, index + 2, 1, 1);
             attach (scale, 1, index + 2, 1, 1);
         }
     }
