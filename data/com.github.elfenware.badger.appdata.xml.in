@@ -24,6 +24,13 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="2.3.1" date="2019-10-11">
+      <description>
+        <ul>
+          <li>Update: Screenshot</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.3.0" date="2019-10-07">
       <description>
         <ul>
@@ -150,8 +157,8 @@
     </screenshot>
   </screenshots>
   <custom>
-     <value key="x-appcenter-color-primary">#fff</value>
-     <value key="x-appcenter-color-primary-text">#333</value>
-     <value key="x-appcenter-suggested-price">0</value>
+    <value key="x-appcenter-color-primary">#fff</value>
+    <value key="x-appcenter-color-primary-text">#333</value>
+    <value key="x-appcenter-suggested-price">0</value>
   </custom>
 </component>
