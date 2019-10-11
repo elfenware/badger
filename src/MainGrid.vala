@@ -119,6 +119,8 @@ public class Badger.MainGrid : Gtk.Grid {
             settings.bind ("all", check_box, "sensitive", SettingsBindFlags.DEFAULT);
             settings.bind ("all", scale, "sensitive", SettingsBindFlags.DEFAULT);
 
+            settings.bind (reminder.name + "-active", check_box, "active", SettingsBindFlags.DEFAULT);
+
             attach (check_box, 0, index + 2, 1, 1);
             attach (scale, 1, index + 2, 1, 1);
         }

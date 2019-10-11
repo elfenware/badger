@@ -27,7 +27,8 @@ public class Badger.Reminder : GLib.Object {
     public string message { get; set; }         // Notification body
     public string display_label { get; set; }   // UI label
     public uint interval { get; set; }          // Reminder interval
-    public bool active { get; set; }            // Whether to show the notification
+    public bool global_active { get; set; }     // Whether to show every notification
+    public bool checkbox_active { get; set; }   // Whether to show this notification
     public Gtk.Application app { get; set; }
 
     private Notification notification;
@@ -50,7 +51,8 @@ public class Badger.Reminder : GLib.Object {
         notification.set_body (message);
 
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
-        settings.bind ("all", this, "active", SettingsBindFlags.DEFAULT);
+        settings.bind ("all", this, "global_active", SettingsBindFlags.DEFAULT);
+        settings.bind (name + "-active", this, "checkbox_active", SettingsBindFlags.DEFAULT);
     }
 
     public void set_reminder_interval (uint new_interval) {
@@ -68,7 +70,7 @@ public class Badger.Reminder : GLib.Object {
     }
 
     public bool remind () {
-        if (active) {
+        if (global_active && checkbox_active) {
             app.send_notification (name, notification);
         }
         return true;
