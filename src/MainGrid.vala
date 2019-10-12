@@ -84,12 +84,12 @@ public class Badger.MainGrid : Gtk.Grid {
             check_box.valign = Gtk.Align.START;
             check_box.margin_top = 24;
 
-            Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
+            Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5);
             scale.hexpand = true;
             scale.width_request = 360;
             scale.margin_top = 24;
 
-            scale.add_mark (0, Gtk.PositionType.BOTTOM, _ ("Never"));
+            scale.add_mark (1, Gtk.PositionType.BOTTOM, _ ("1 min"));
             scale.add_mark (15, Gtk.PositionType.BOTTOM, null);
             scale.add_mark (30, Gtk.PositionType.BOTTOM, _ ("30 min"));
             scale.add_mark (45, Gtk.PositionType.BOTTOM, null);
@@ -108,16 +108,13 @@ public class Badger.MainGrid : Gtk.Grid {
             });
 
             scale.format_value.connect (duration => {
-                if (duration == 0) {
-                    return _ ("Never");
-                }
-
                 return _ ("%.0f min").printf (duration);
             });
 
             // If the "all" flag is false, disable all scales
-            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.DEFAULT);
             settings.bind ("all", scale, "sensitive", SettingsBindFlags.DEFAULT);
+            
+            // settings.bind ("all", check_box, "sensitive", SettingsBindFlags.DEFAULT);
 
             settings.bind (reminder.name + "-active", check_box, "active", SettingsBindFlags.DEFAULT);
 
