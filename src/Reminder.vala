@@ -51,8 +51,8 @@ public class Badger.Reminder : GLib.Object {
         notification.set_body (message);
 
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
-        settings.bind ("all", this, "global_active", SettingsBindFlags.DEFAULT);
-        settings.bind (name + "-active", this, "checkbox_active", SettingsBindFlags.DEFAULT);
+        settings.bind ("all", this, "global_active", SettingsBindFlags.GET);
+        settings.bind (name + "-active", this, "checkbox_active", SettingsBindFlags.GET);
     }
 
     public void set_reminder_interval (uint new_interval) {

@@ -111,12 +111,12 @@ public class Badger.MainGrid : Gtk.Grid {
                 return _ ("%.0f min").printf (duration);
             });
 
-            // If the "all" flag is false, disable all scales
-            settings.bind ("all", scale, "sensitive", SettingsBindFlags.DEFAULT);
-            
-            // settings.bind ("all", check_box, "sensitive", SettingsBindFlags.DEFAULT);
+            // If the "all" flag is false, disable all scales and checkboxes
+            settings.bind ("all", scale, "sensitive", SettingsBindFlags.GET);
+            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
 
-            settings.bind (reminder.name + "-active", check_box, "active", SettingsBindFlags.DEFAULT);
+            // When the checkbox is pressed, set the option.
+            settings.bind (reminder.name + "-active", check_box, "active", SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY);
 
             attach (check_box, 0, index + 2, 1, 1);
             attach (scale, 1, index + 2, 1, 1);
