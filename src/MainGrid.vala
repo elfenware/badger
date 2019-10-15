@@ -76,6 +76,28 @@ public class Badger.MainGrid : Gtk.Grid {
         subheading.margin_bottom = 12;
         attach (subheading, 0, 1, 2, 1);
 
+        HashTable<string, Scale> scales = new HashTable<string, Scale> (str_hash, str_equal);
+
+        // Change a single scale when the corresponding checkbox is pressed
+        settings.changed.connect ((key) => {
+            // just check for '-active' keys
+            if (key.has_suffix("-active")) {
+                bool value = settings.get_boolean(key);
+                scales.get(key).sensitive = value;
+            }
+        });
+
+        // Change all the scales when the global switch is pressed
+        global_switch.state_set.connect ((value) => {
+            global_switch.set_active(value);
+            scales.foreach ((key, scale) => {
+                scale.sensitive = value == true ? settings.get_boolean (key) : false;
+            });
+            
+            // We don't care about handling the switch animation ourselves, so return false
+            return false;
+        });
+
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
 
@@ -95,6 +117,11 @@ public class Badger.MainGrid : Gtk.Grid {
             scale.add_mark (45, Gtk.PositionType.BOTTOM, null);
             scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
+            // Get the scale default value
+            scale.sensitive = settings.get_boolean("all") == true ? settings.get_boolean(reminder.name + "-active") : false;
+            
+            scales.insert(reminder.name + "-active", scale);
+
             uint interval = settings.get_uint (reminder.name);
             scale.set_value (interval);
 
@@ -111,8 +138,7 @@ public class Badger.MainGrid : Gtk.Grid {
                 return _ ("%.0f min").printf (duration);
             });
 
-            // If the "all" flag is false, disable all scales and checkboxes
-            settings.bind ("all", scale, "sensitive", SettingsBindFlags.GET);
+            // If the "all" flag is false, disable all checkboxes
             settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
 
             // When the checkbox is pressed, set the option.
