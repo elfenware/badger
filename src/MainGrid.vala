@@ -91,7 +91,7 @@ public class Badger.MainGrid : Gtk.Grid {
         global_switch.state_set.connect ((value) => {
             global_switch.set_active(value);
             scales.foreach ((key, scale) => {
-                scale.sensitive = value == true ? settings.get_boolean (key) : false;
+                scale.sensitive = value ? settings.get_boolean (key) : false;
             });
             
             // We don't care about handling the switch animation ourselves, so return false
@@ -118,7 +118,7 @@ public class Badger.MainGrid : Gtk.Grid {
             scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
             // Get the scale default value
-            scale.sensitive = settings.get_boolean("all") == true ? settings.get_boolean(reminder.name + "-active") : false;
+            scale.sensitive = settings.get_boolean("all") ? settings.get_boolean(reminder.name + "-active") : false;
             
             scales.insert(reminder.name + "-active", scale);
 
