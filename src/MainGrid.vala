@@ -76,31 +76,64 @@ public class Badger.MainGrid : Gtk.Grid {
         subheading.margin_bottom = 12;
         attach (subheading, 0, 1, 2, 1);
 
-        var labels = new Gtk.Label[reminders.length];
-        var scales = new Gtk.Scale[reminders.length];
+        HashTable<string, Scale> scales = new HashTable<string, Scale> (str_hash, str_equal);
+
+        // Change a single scale when the corresponding checkbox is pressed
+        settings.changed.connect ((key) => {
+            // just check for '-active' keys
+            if (key.has_suffix("-active")) {
+                bool value = settings.get_boolean(key);
+                scales.get(key).sensitive = value;
+            }
+        });
+
+        // Change all the scales when the global switch is pressed
+        global_switch.state_set.connect ((value) => {
+            global_switch.set_active(value);
+            scales.foreach ((key, scale) => {
+                scale.sensitive = value ? settings.get_boolean (key) : false;
+            });
+            
+            // We don't care about handling the switch animation ourselves, so return false
+            return false;
+        });
 
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
 
-            Gtk.Label label = labels[index] = new Gtk.Label (reminder.display_label);
-            label.halign = Gtk.Align.END;
-            label.valign = Gtk.Align.START;
-            label.xalign = 1;
-            label.width_request = 60;
-            label.margin_top = 24;
+            Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label);
+            check_box.halign = Gtk.Align.BASELINE;
+            check_box.valign = Gtk.Align.START;
+            check_box.margin_top = 24;
 
-            Gtk.Scale scale = scales[index] = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 60, 5);
+            Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5);
             scale.hexpand = true;
             scale.width_request = 360;
             scale.margin_top = 24;
 
-            scale.add_mark (0, Gtk.PositionType.BOTTOM, _ ("Never"));
+            scale.add_mark (1, Gtk.PositionType.BOTTOM, _ ("1 min"));
             scale.add_mark (15, Gtk.PositionType.BOTTOM, null);
             scale.add_mark (30, Gtk.PositionType.BOTTOM, _ ("30 min"));
             scale.add_mark (45, Gtk.PositionType.BOTTOM, null);
             scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
+            // Get the scale default value
+            scale.sensitive = settings.get_boolean("all") ? settings.get_boolean(reminder.name + "-active") : false;
+            
+            scales.insert(reminder.name + "-active", scale);
+
             uint interval = settings.get_uint (reminder.name);
+            // Old settings migration: interval == 0 meant "never" till 2.3.1
+            if ( interval == 0 ) {
+                // Reset to default value
+                settings.reset (reminder.name);
+                
+                // Read interval again (interval = default_value)
+                interval = settings.get_uint (reminder.name);
+
+                // Uncheck the corresponding checkbox
+                settings.set_boolean (reminder.name + "-active", false);
+            }
             scale.set_value (interval);
 
             SetInterval set_interval = reminder.set_reminder_interval;
@@ -113,18 +146,16 @@ public class Badger.MainGrid : Gtk.Grid {
             });
 
             scale.format_value.connect (duration => {
-                if (duration == 0) {
-                    return _ ("Never");
-                }
-
                 return _ ("%.0f min").printf (duration);
             });
 
-            // If the "all" flag is false, disable all scales
-            settings.bind ("all", label, "sensitive", SettingsBindFlags.DEFAULT);
-            settings.bind ("all", scale, "sensitive", SettingsBindFlags.DEFAULT);
+            // If the "all" flag is false, disable all checkboxes
+            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
 
-            attach (label, 0, index + 2, 1, 1);
+            // When the checkbox is pressed, set the option.
+            settings.bind (reminder.name + "-active", check_box, "active", SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY);
+
+            attach (check_box, 0, index + 2, 1, 1);
             attach (scale, 1, index + 2, 1, 1);
         }
     }

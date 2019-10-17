@@ -42,21 +42,41 @@
       <default>18</default>
       <summary>Timer (in minutes) to remind the user to blink their eyes</summary>
     </key>
+    <key name="eyes-active" type="b">
+      <default>true</default>
+      <summary>Whether to show the eyes reminders</summary>
+    </key>
     <key name="fingers" type="u">
       <default>38</default>
       <summary>Timer (in minutes) to remind the user to stretch their fingers</summary>
+    </key>
+    <key name="fingers-active" type="b">
+      <default>true</default>
+      <summary>Whether to show the fingers reminders</summary>
     </key>
     <key name="legs" type="u">
       <default>60</default>
       <summary>Timer (in minutes) to remind the user to stretch their legs</summary>
     </key>
+    <key name="legs-active" type="b">
+      <default>true</default>
+      <summary>Whether to show the legs reminders</summary>
+    </key>
     <key name="arms" type="u">
       <default>50</default>
       <summary>Timer (in minutes) to remind the user to stretch their arms</summary>
     </key>
+    <key name="arms-active" type="b">
+      <default>true</default>
+      <summary>Whether to show the arms reminders</summary>
+    </key>
     <key name="neck" type="u">
       <default>45</default>
       <summary>Timer (in minutes) to remind the user to turn their neck</summary>
+    </key>
+    <key name="neck-active" type="b">
+      <default>true</default>
+      <summary>Whether to show the neck reminders</summary>
     </key>
     <key name="old-settings-replaced" type="b">
       <default>false</default>
