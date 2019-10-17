@@ -123,6 +123,17 @@ public class Badger.MainGrid : Gtk.Grid {
             scales.insert(reminder.name + "-active", scale);
 
             uint interval = settings.get_uint (reminder.name);
+            // Old settings migration: interval == 0 meant "never" till 2.3.1
+            if ( interval == 0 ) {
+                // Reset to default value
+                settings.reset (reminder.name);
+                
+                // Read interval again (interval = default_value)
+                interval = settings.get_uint (reminder.name);
+
+                // Uncheck the corresponding checkbox
+                settings.set_boolean (reminder.name + "-active", false);
+            }
             scale.set_value (interval);
 
             SetInterval set_interval = reminder.set_reminder_interval;
