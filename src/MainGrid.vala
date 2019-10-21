@@ -49,7 +49,7 @@ public class Badger.MainGrid : Gtk.Grid {
         }
         /* GSettings migration code ends. */
 
-        row_spacing = 6;
+        row_spacing = 4;
         column_spacing = 12;
         margin_bottom = 12;
         orientation = Gtk.Orientation.VERTICAL;
