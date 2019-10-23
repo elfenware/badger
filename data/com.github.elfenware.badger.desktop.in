@@ -8,3 +8,4 @@ Icon=com.github.elfenware.badger
 Terminal=false
 Categories=Office;Utility;GTK;
 Keywords=Ergonomics;Health;Eyes;Muscles;
+X-GNOME-UsesNotifications=true
