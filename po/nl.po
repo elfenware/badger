@@ -199,7 +199,7 @@ msgstr "Toegevoegd: 🎉️ optie om alle herinneringen uit te schakelen 🎉️
 
 #: data/com.github.elfenware.badger.appdata.xml.in:44
 msgid "Add: Turkish translation (@libreajans)"
-msgstr "Toegevoegd: Turkse vertaling (@libreajeans)"
+msgstr "Toegevoegd: Turkse vertaling (@libreajans)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:51
 msgid "Add: Dutch translation (@Vistaus)"
