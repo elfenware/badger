@@ -15,9 +15,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: https://github.com/elfenware/badger/issues\n"
 "POT-Creation-Date: 2019-10-24 01:00+0530\n"
-"PO-Revision-Date: 2019-09-20 00:41+0300\n"
+"PO-Revision-Date: 2019-10-23 22:39+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: \n"
 "Language: tr\n"
@@ -89,15 +89,15 @@ msgstr "Boyun:"
 
 #: src/Application.vala:191
 msgid "Watch your posture"
-msgstr ""
+msgstr "Duruşunu izle"
 
 #: src/Application.vala:192
 msgid "Make sure your back is straight."
-msgstr ""
+msgstr "Sırtının düz olduğundan emin ol."
 
 #: src/Application.vala:193
 msgid "Posture:"
-msgstr ""
+msgstr "Duruş:"
 
 #: src/MainGrid.vala:59
 msgid "Reminders"
@@ -110,9 +110,8 @@ msgstr ""
 "karar verin:"
 
 #: src/MainGrid.vala:114
-#, fuzzy
 msgid "1 min"
-msgstr "15 dak"
+msgstr "1 dak"
 
 #: src/MainGrid.vala:116
 msgid "30 min"
@@ -206,44 +205,39 @@ msgstr "Sağlıklı kal."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:30
 msgid "Update: Screenshot"
-msgstr ""
+msgstr "Güncellendi: Ekran görüntüsü"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:37
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr ""
+msgstr "Eklendi: 🎉️ Tüm hatırlatıcıları kapatmak için genel anahtar 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:44
-#, fuzzy
 msgid "Add: Turkish translation (@libreajans)"
-msgstr "Eklendi: Danca çeviri (@siigdev)"
+msgstr "Eklendi: Türkçe çeviri (@libreajans)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:51
-#, fuzzy
 msgid "Add: Dutch translation (@Vistaus)"
-msgstr "Eklendi: Danca çeviri (@siigdev)"
+msgstr "Eklendi: Flemenkçe çeviri (@Vistaus)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:58
 msgid "Fix: \"Never\" option not disabling the timer"
-msgstr ""
+msgstr "Düzeltildi: \"Asla\" seçeneği zamanlayıcıyı devre dışı bırakmıyor"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:65
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-msgstr ""
+msgstr "Eklendi: 🎉️ En çok beklenen özellik, özel zamanlayıcı! 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:66
-#, fuzzy
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Güncellendi: Fransızca çeviri (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:67
-#, fuzzy
 msgid "Update: Lithuanian translations (@welaq)"
-msgstr "Eklendi: Litvanca çeviri (@welaq)"
+msgstr "Güncellendi: Litvanca çeviri (@welaq)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:68
-#, fuzzy
 msgid "Update: Danish translations (@siigdev)"
-msgstr "Eklendi: Danca çeviri (@siigdev)"
+msgstr "Güncellendi: Danca çeviri (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:75
 msgid "Add: Danish translation (@siigdev)"
@@ -291,9 +285,3 @@ msgstr "İlk Sürüm 🎉️"
 #: data/com.github.elfenware.badger.appdata.xml.in:149
 msgid "Elfenware"
 msgstr "Elfenware"
-
-#~ msgid "Never"
-#~ msgstr "Asla"
-
-#~ msgid "45 min"
-#~ msgstr "45 dak"
