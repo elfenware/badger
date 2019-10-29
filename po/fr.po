@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-24 01:00+0530\n"
+"POT-Creation-Date: 2019-10-29 18:05+0100\n"
 "PO-Revision-Date: 2019-03-14 11:57+0100\n"
 "Last-Translator: NathanBnm\n"
 "Language-Team: Français\n"
@@ -81,15 +81,15 @@ msgstr "Cou :"
 
 #: src/Application.vala:191
 msgid "Watch your posture"
-msgstr ""
+msgstr "Surveillez votre posture"
 
 #: src/Application.vala:192
 msgid "Make sure your back is straight."
-msgstr ""
+msgstr "Assurez-vous que votre dos est droit."
 
 #: src/Application.vala:193
 msgid "Posture:"
-msgstr ""
+msgstr "Posture :"
 
 #: src/MainGrid.vala:59
 msgid "Reminders"
@@ -102,9 +102,8 @@ msgstr ""
 "reposer :"
 
 #: src/MainGrid.vala:114
-#, fuzzy
 msgid "1 min"
-msgstr "15 min"
+msgstr "1 min"
 
 #: src/MainGrid.vala:116
 msgid "30 min"
@@ -115,7 +114,7 @@ msgid "1 hour"
 msgstr "1 heure"
 
 #: src/MainGrid.vala:149
-#, fuzzy, c-format
+#, c-format
 msgid "%.0f min"
 msgstr "%.0f min"
 
@@ -196,52 +195,48 @@ msgstr "Restez en bonne santé."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:30
 msgid "Update: Screenshot"
-msgstr ""
+msgstr "Mise à jour : Capture d'écran"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:37
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr ""
+msgstr "Ajout : 🎉️ Activation/Désactivation de tous les rappels 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:44
-#, fuzzy
 msgid "Add: Turkish translation (@libreajans)"
-msgstr "Ajout des traductions en danois (@siigdev)"
+msgstr "Ajout : Traductions en turque (@libreajans)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:51
-#, fuzzy
 msgid "Add: Dutch translation (@Vistaus)"
-msgstr "Ajout des traductions en danois (@siigdev)"
+msgstr "Ajout : Traductions en néerlandais (@Vistaus)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:58
 msgid "Fix: \"Never\" option not disabling the timer"
-msgstr ""
+msgstr "Correction : L'option « Jamais » ne désactivait pas le chrono"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:65
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr ""
+"Ajout : 🎉️ La fonctionnalité la plus attendue, des chronos personnalisés ! 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:66
-#, fuzzy
 msgid "Update: French translations (@NathanBnm)"
-msgstr "Mise à jour des traductions en français (@NathanBnm)"
+msgstr "Mise à jour : Traductions en français (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:67
-#, fuzzy
 msgid "Update: Lithuanian translations (@welaq)"
-msgstr "Ajout des traductions en lithuanien (@welaq)"
+msgstr "Mise à jour : Traductions en lituanien (@welaq)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:68
-#, fuzzy
 msgid "Update: Danish translations (@siigdev)"
-msgstr "Ajout des traductions en danois (@siigdev)"
+msgstr "Mise à jour : Traductions en danois (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:75
 msgid "Add: Danish translation (@siigdev)"
-msgstr "Ajout des traductions en danois (@siigdev)"
+msgstr "Ajout : Traductions en danois (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:76
 msgid "Update: French translation (@NathanBnm)"
-msgstr "Mise à jour des traductions en français (@NathanBnm)"
+msgstr "Mise à jour : Traductions en français (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:82
 msgid "Fix: Empty window on launch"
@@ -249,7 +244,7 @@ msgstr "Correction : Fenêtre vide au démarrage"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:87
 msgid "Add: Lithuanian translations (@welaq)"
-msgstr "Ajout des traductions en lithuanien (@welaq)"
+msgstr "Ajout : Traductions en lituanien (@welaq)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:88
 msgid "Fix: Illegible heading in dark mode"
@@ -257,7 +252,7 @@ msgstr "Correction : Titre illisible en mode sombre"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:93
 msgid "Add: French translations (@NathanBnm)"
-msgstr "Ajout des traductions en français (@NathanBnm)"
+msgstr "Ajout : Traductions en français (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:98
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
@@ -280,9 +275,3 @@ msgstr "Version initiale 🎉️"
 #: data/com.github.elfenware.badger.appdata.xml.in:149
 msgid "Elfenware"
 msgstr "Elfenware"
-
-#~ msgid "Never"
-#~ msgstr "Jamais"
-
-#~ msgid "45 min"
-#~ msgstr "45 min"
