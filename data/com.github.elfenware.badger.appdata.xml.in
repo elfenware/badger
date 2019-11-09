@@ -24,6 +24,15 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="3.0.0" date="2019-11-10">
+      <description>
+        <ul>
+          <li>Add: Checkboxes to toggle each timer (@andreasomaini)</li>
+          <li>Fix: Work correctly with the Notification Center (@nathanaelhoun)</li>
+          <li>Update: Improved icon</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.3.1" date="2019-10-11">
       <description>
         <ul>
