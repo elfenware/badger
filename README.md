@@ -33,7 +33,7 @@ built for [elementary OS].
 
 ## Developing and building
 
-Development is targeted at [elementary OS] Juno. If you want to hack on and
+Development is targeted at [elementary OS] Hera. If you want to hack on and
 build Badger yourself, you'll need the following dependencies:
 
 * libgranite-dev
@@ -41,7 +41,7 @@ build Badger yourself, you'll need the following dependencies:
 * meson
 * valac
 
-You can install them on elementary OS Juno with:
+You can install them on elementary OS Hera with:
 
 ```shell
 sudo apt install elementary-sdk
