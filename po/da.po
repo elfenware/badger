@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the com.github.elfenware.badger package.
 # siigdev, 2019
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
@@ -98,9 +97,8 @@ msgid "Decide how often Badger should remind you to relax these:"
 msgstr "Vælg hvor ofte du ønsker Badger skal minde dig om at slappe af:"
 
 #: src/MainGrid.vala:114
-#, fuzzy
 msgid "1 min"
-msgstr "15 min"
+msgstr "1 min"
 
 #: src/MainGrid.vala:116
 msgid "30 min"
@@ -196,14 +194,12 @@ msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr "Tilføjelse: 🎉️ Global knap til at slukke alle påmindelser 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:44
-#, fuzzy
 msgid "Add: Turkish translation (@libreajans)"
-msgstr "Tilføj: Litauisk oversættelse (@welaq)"
+msgstr "Tilføj: Tyrkisk oversættelse (@libreajans)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:51
-#, fuzzy
 msgid "Add: Dutch translation (@Vistaus)"
-msgstr "Tilføj: Litauisk oversættelse (@welaq)"
+msgstr "Tilføj: Hollandsk oversættelse (@Vistaus)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:58
 msgid "Fix: \"Never\" option not disabling the timer"
@@ -214,27 +210,24 @@ msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr "Tilføjelse: 🎉️ Mest ventede feature, personlige timere! 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:66
-#, fuzzy
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Tilføj: Fransk oversættelse (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:67
-#, fuzzy
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr "Tilføj: Litauisk oversættelse (@welaq)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:68
 #, fuzzy
 msgid "Update: Danish translations (@siigdev)"
-msgstr "Tilføj: Litauisk oversættelse (@welaq)"
+msgstr "Tilføj: Dansk oversættelse (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:75
 #, fuzzy
 msgid "Add: Danish translation (@siigdev)"
-msgstr "Tilføj: Litauisk oversættelse (@welaq)"
+msgstr "Tilføj: Dansk oversættelse (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:76
-#, fuzzy
 msgid "Update: French translation (@NathanBnm)"
 msgstr "Tilføj: Fransk oversættelse (@NathanBnm)"
 
