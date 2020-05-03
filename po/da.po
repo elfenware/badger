@@ -79,15 +79,15 @@ msgstr "Hals:"
 
 #: src/Application.vala:191
 msgid "Watch your posture"
-msgstr ""
+msgstr "Vær opmærksom på din kropsholdning"
 
 #: src/Application.vala:192
 msgid "Make sure your back is straight."
-msgstr ""
+msgstr "Vær opmærksom på din ryg er lige"
 
 #: src/Application.vala:193
 msgid "Posture:"
-msgstr ""
+msgstr "Kropsholdning:"
 
 #: src/MainGrid.vala:59
 msgid "Reminders"
@@ -189,11 +189,11 @@ msgstr "Forbliv sund."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:30
 msgid "Update: Screenshot"
-msgstr ""
+msgstr "Opdatering: Screenshot"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:37
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr ""
+msgstr "Tilføjelse: 🎉️ Global knap til at slukke alle påmindelser 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:44
 #, fuzzy
@@ -211,7 +211,7 @@ msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:65
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-msgstr ""
+msgstr "Tilføjelse: 🎉️ Mest ventede feature, personlige timere! 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:66
 #, fuzzy
