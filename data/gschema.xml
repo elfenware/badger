@@ -78,6 +78,14 @@
       <default>true</default>
       <summary>Whether to show the neck reminders</summary>
     </key>
+    <key name="posture" type="u">
+      <default>27</default>
+      <summary>Timer (in minutes) to remind the user sit straight</summary>
+    </key>
+    <key name="posture-active" type="b">
+      <default>false</default>
+      <summary>Whether to show the posture reminders</summary>
+    </key>
     <key name="old-settings-replaced" type="b">
       <default>false</default>
       <summary>Whether the installation has switched to the newer custom timers instead of booleans</summary>

@@ -150,7 +150,7 @@ public class Badger.Application : Granite.Application {
     }
 
     private Reminder[] set_up_reminders () {
-        Reminder[] reminders = new Reminder[5];
+        Reminder[] reminders = new Reminder[6];
         reminders[0] = new Reminder (
             "eyes",
             _ ("Blink your eyes"),
@@ -184,6 +184,13 @@ public class Badger.Application : Granite.Application {
             _ ("Turn your neck"),
             _ ("Turn your head in all directions. Repeat 3 times."),
             _ ("Neck:"),
+            this
+        );
+        reminders[5] = new Reminder (
+            "posture",
+            _ ("Watch your posture"),
+            _ ("Make sure your back is straight."),
+            _ ("Posture:"),
             this
         );
 
