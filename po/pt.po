@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.elfenware.badger package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.elfenware.badger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-24 01:00+0530\n"
+"PO-Revision-Date: 2020-08-18 00:43+0100\n"
+"Language-Team: Portuguese (Portugal)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: André Barata <andretiagob@protonmail.com\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+
+#: src/Application.vala:156
+msgid "Blink your eyes"
+msgstr "Pestaneje os seus olhos"
+
+#: src/Application.vala:157
+msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
+msgstr ""
+"Desvie o olhar do ecrã e pestaneje lentamente os seus olhos durante 10 "
+"segundos."
+
+#: src/Application.vala:158
+msgid "Eyes:"
+msgstr "Olhos:"
+
+#: src/Application.vala:163
+msgid "Stretch your fingers"
+msgstr "Estique os seus dedos"
+
+#: src/Application.vala:164
+msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+msgstr ""
+"Abra bem a palma da sua mão, a seguir feche-a em punho. Repita 5 vezes."
+
+#: src/Application.vala:165
+msgid "Fingers:"
+msgstr "Dedos:"
+
+#: src/Application.vala:170
+msgid "Stretch your arms"
+msgstr "Estique os seus braços"
+
+#: src/Application.vala:171
+msgid "Stretch your arms, and twist your wrists for 10 seconds."
+msgstr "Estique os seus braços, e torça os seus pulsos durante 10 segundos."
+
+#: src/Application.vala:172
+msgid "Arms:"
+msgstr "Braços:"
+
+#: src/Application.vala:177
+msgid "Stretch your legs"
+msgstr "Estique as suas pernas"
+
+#: src/Application.vala:178
+msgid "Stand up, twist each ankle, and bend each knee."
+msgstr "Levante-se, torça cada tornozelo, e dobre cada joelho."
+
+#: src/Application.vala:179
+msgid "Legs:"
+msgstr "Pernas:"
+
+#: src/Application.vala:184
+msgid "Turn your neck"
+msgstr "Vire o seu pescoço"
+
+#: src/Application.vala:185
+msgid "Turn your head in all directions. Repeat 3 times."
+msgstr "Vire a sua cabeça em todas as direções. Repita 3 vezes."
+
+#: src/Application.vala:186
+msgid "Neck:"
+msgstr "Pescoço:"
+
+#: src/Application.vala:191
+msgid "Watch your posture"
+msgstr "Veja a sua postura"
+
+#: src/Application.vala:192
+msgid "Make sure your back is straight."
+msgstr "Certifique-se que tem as costas direitas."
+
+#: src/Application.vala:193
+msgid "Posture:"
+msgstr "Postura:"
+
+#: src/MainGrid.vala:59
+msgid "Reminders"
+msgstr "Lembretes"
+
+#: src/MainGrid.vala:74
+msgid "Decide how often Badger should remind you to relax these:"
+msgstr "Decida com que frequência o Badger o deve lembrar para relaxar:"
+
+#: src/MainGrid.vala:114
+msgid "1 min"
+msgstr "1 min"
+
+#: src/MainGrid.vala:116
+msgid "30 min"
+msgstr "30 min"
+
+#: src/MainGrid.vala:118
+msgid "1 hour"
+msgstr "1 hora"
+
+#: src/MainGrid.vala:149
+#, c-format
+msgid "%.0f min"
+msgstr "%.0f min"
+
+#: data/com.github.elfenware.badger.desktop.in:4
+#: data/com.github.elfenware.badger.appdata.xml.in:7
+msgid "Badger"
+msgstr "Badger"
+
+#: data/com.github.elfenware.badger.desktop.in:5
+msgid "Ergonomic Reminder"
+msgstr "Lembrete Ergonómico"
+
+#: data/com.github.elfenware.badger.desktop.in:6
+msgid "Remind yourself to relax your eyes and limbs"
+msgstr "Lembre-se a si mesmo para relaxar aos seus olhos e membros"
+
+#: data/com.github.elfenware.badger.desktop.in:8
+msgid "com.github.elfenware.badger"
+msgstr "com.github.elfenware.badger"
+
+#: data/com.github.elfenware.badger.desktop.in:11
+msgid "Ergonomics;Health;Eyes;Muscles;"
+msgstr "Ergonomia;saúde;olhos;músculos;"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:8
+msgid "Remind yourself to not sit and stare at the screen for too long"
+msgstr ""
+"Lembre-se a si mesmo para não ficar sentado e olhar para o ecrã durante "
+"muito tempo"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:10
+msgid ""
+"Whether you're dashing through Mario Kart on MupenGUI, binge-watching "
+"Silicon Valley on Cinema, or writing your next novel on Quilter, you need to "
+"relax your body every once in a while."
+msgstr ""
+"Se você estiver a correr no Mario Kart no MupenGUI, a ter uma maratona de "
+"cinema em Silicon Valley, ou a escrever o seu próximo romance no Quilter, "
+"você tem que relaxar o seu corpo de vez em quando."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:12
+msgid ""
+"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
+"—to destress yourself and rest your eyes and muscles."
+msgstr ""
+"O Badger ajuda-o a fazer exatamente isso. Ele lembra-o—ou devo dizer, "
+"chateia-o—para se relaxar e descansar os seus olhos e músculos."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:14
+msgid "Currently, it has these five reminders:"
+msgstr "De momento, ele tem estes cinco lembretes:"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:17
+msgid "Blink eyes"
+msgstr "Pestanejar olhos"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:18
+msgid "Stretch fingers"
+msgstr "Esticar dedos"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:19
+msgid "Stretch arms"
+msgstr "Esticar braços"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:20
+msgid "Stretch legs"
+msgstr "Esticar pernas"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:21
+msgid "Turn neck"
+msgstr "Virar pescoço"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:24
+msgid "Stay healthy."
+msgstr "Manter-se saudável."
+
+#: data/com.github.elfenware.badger.appdata.xml.in:30
+msgid "Update: Screenshot"
+msgstr "Atualização: Disparo de Ecrã"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:37
+msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
+msgstr "Adicionado: 🎉️ Interruptor global para desligar todos os lembretes 🎉️"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:44
+msgid "Add: Turkish translation (@libreajans)"
+msgstr "Adicionado: Tradução Turca (@libreajans)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:51
+msgid "Add: Dutch translation (@Vistaus)"
+msgstr "Adicionado: Tradução Holandesa (@Vistaus)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:58
+msgid "Fix: \"Never\" option not disabling the timer"
+msgstr "Corrigido: Opção \"Nunca\" não desativar o temporizador"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:65
+msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
+msgstr ""
+"Adicionado: 🎉️ Funcionalidade mais esperada, temporizadores personalizados! 🎉️"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:66
+msgid "Update: French translations (@NathanBnm)"
+msgstr "Atualizado: Tradução Francesa (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:67
+msgid "Update: Lithuanian translations (@welaq)"
+msgstr "Atualizado: Tradução Lituana (@welaq)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:68
+msgid "Update: Danish translations (@siigdev)"
+msgstr "Atualizado: Tradução Dinamarquesa (@siigdev)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:75
+msgid "Add: Danish translation (@siigdev)"
+msgstr "Adicionado: Tradução Dinamarquesa (@siigdev)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:76
+msgid "Update: French translation (@NathanBnm)"
+msgstr "Atualizado: Tradução Francesa (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:82
+msgid "Fix: Empty window on launch"
+msgstr "Corrigido: Janela vazia ao iniciar"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:87
+msgid "Add: Lithuanian translations (@welaq)"
+msgstr "Adicionado: Tradução Lituana (@welaq)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:88
+msgid "Fix: Illegible heading in dark mode"
+msgstr "Corrigido: Título ilegível no modo escuro"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:93
+msgid "Add: French translations (@NathanBnm)"
+msgstr "Adicionado: Tradução Francesa (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:98
+msgid "Fix: Multiple notifications when window is opened &gt;1 times"
+msgstr "Corrigido: Múltiplas notificações quando a janela é aberta &gt; 1 vez"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:103
+msgid "Fix: Remove manual line breaks from appdata"
+msgstr "Corrigido: Quebras de linha manuais removidas da appdata"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:108
+msgid "Fix: Use smaller window size by default"
+msgstr "Corrigido: Usar o tamanho pequeno da janela por defeito"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:113
+msgid "Initial Release 🎉️"
+msgstr "Lançamento inicial 🎉️"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:149
+msgid "Elfenware"
+msgstr "Elfenware"
