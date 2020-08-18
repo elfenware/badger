@@ -152,7 +152,7 @@ msgid ""
 "relax your body every once in a while."
 msgstr ""
 "Se você estiver a correr no Mario Kart no MupenGUI, a ter uma maratona de "
-"cinema em Silicon Valley, ou a escrever o seu próximo romance no Quilter, "
+"Cinema em Silicon Valley, ou a escrever o seu próximo romance no Quilter, "
 "você tem que relaxar o seu corpo de vez em quando."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
