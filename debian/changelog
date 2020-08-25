@@ -1,3 +1,9 @@
+com.github.elfenware.badger (3.3.0) bionic; urgency=medium
+
+  * Add: Portuguese (Portugal) translation (@rottenpants466)
+
+ -- Darshak Parikh <darshak@protonmail.com>  Tue, 25 Aug 2020 20:18:12 +0530
+
 com.github.elfenware.badger (3.2.0) bionic; urgency=medium
 
   * Add: Spanish translation (@fitojb)

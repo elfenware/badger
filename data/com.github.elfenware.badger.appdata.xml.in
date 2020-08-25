@@ -24,6 +24,13 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="3.3.0" date="2020-08-25">
+      <description>
+        <ul>
+          <li>Add: Portuguese (Portugal) translation (@rottenpants466)</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.2.0" date="2020-05-31">
       <description>
         <ul>
