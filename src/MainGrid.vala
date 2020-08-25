@@ -56,24 +56,27 @@ public class Badger.MainGrid : Gtk.Grid {
 
         var top = new Gtk.Grid ();
 
-        var heading = new Gtk.Label (_ ("Reminders"));
-        heading.halign = Gtk.Align.START;
-        heading.hexpand = true;
+        var heading = new Gtk.Label (_ ("Reminders")) {
+            halign = Gtk.Align.START,
+            hexpand = true
+        };
         heading.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
         top.attach (heading, 0, 0, 1, 1);
 
-        var global_switch = new Gtk.Switch ();
-        global_switch.halign = Gtk.Align.END;
-        global_switch.valign = Gtk.Align.CENTER;
+        var global_switch = new Gtk.Switch () {
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.CENTER
+        };
         top.attach (global_switch, 1, 0, 1, 1);
 
         attach (top, 0, 0, 2, 1);
 
         settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
 
-        var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:"));
-        subheading.halign = Gtk.Align.START;
-        subheading.margin_bottom = 12;
+        var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
+            halign = Gtk.Align.START,
+            margin_bottom = 12
+        };
         attach (subheading, 0, 1, 2, 1);
 
         HashTable<string, Scale> scales = new HashTable<string, Scale> (str_hash, str_equal);
@@ -101,15 +104,17 @@ public class Badger.MainGrid : Gtk.Grid {
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
 
-            Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label);
-            check_box.halign = Gtk.Align.BASELINE;
-            check_box.valign = Gtk.Align.START;
-            check_box.margin_top = 24;
+            Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
+                halign = Gtk.Align.BASELINE,
+                valign = Gtk.Align.START,
+                margin_top = 24
+            };
 
-            Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5);
-            scale.hexpand = true;
-            scale.width_request = 360;
-            scale.margin_top = 24;
+            Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
+                hexpand = true,
+                width_request = 360,
+                margin_top = 24
+            };
 
             scale.add_mark (1, Gtk.PositionType.BOTTOM, _ ("1 min"));
             scale.add_mark (15, Gtk.PositionType.BOTTOM, null);

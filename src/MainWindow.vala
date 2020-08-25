@@ -43,11 +43,11 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
     }
 
     private Gtk.HeaderBar get_header () {
-        var header = new Gtk.HeaderBar ();
-
-        header.title = "Badger";
-        header.has_subtitle = false;
-        header.show_close_button = true;
+        var header = new Gtk.HeaderBar () {
+            title = "Badger",
+            has_subtitle = false,
+            show_close_button = true
+        };
         header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         header.get_style_context ().add_class ("badger-headerbar");
 
