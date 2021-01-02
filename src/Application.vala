@@ -18,11 +18,7 @@
  *
  */
 
-using Granite;
-using Gtk;
-
 public class Badger.Application : Granite.Application {
-
     public bool headless = false;
 
     private Badger.MainWindow window;

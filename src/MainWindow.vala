@@ -18,10 +18,7 @@
  *
  */
 
-using Gtk;
-
 public class Badger.MainWindow : Gtk.ApplicationWindow {
-
     private GLib.Settings settings;
 
     public MainWindow (Gtk.Application app) {

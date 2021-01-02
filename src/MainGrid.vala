@@ -18,11 +18,7 @@
  *
  */
 
-using Granite;
-using Gtk;
-
 public class Badger.MainGrid : Gtk.Grid {
-
     delegate void SetInterval (uint interval);
 
     public MainGrid (Reminder[] reminders) {
@@ -79,24 +75,24 @@ public class Badger.MainGrid : Gtk.Grid {
         };
         attach (subheading, 0, 1, 2, 1);
 
-        HashTable<string, Scale> scales = new HashTable<string, Scale> (str_hash, str_equal);
+        HashTable<string, Gtk.Scale> scales = new HashTable<string, Gtk.Scale> (str_hash, str_equal);
 
         // Change a single scale when the corresponding checkbox is pressed
         settings.changed.connect ((key) => {
             // just check for '-active' keys
-            if (key.has_suffix("-active")) {
-                bool value = settings.get_boolean(key);
-                scales.get(key).sensitive = value;
+            if (key.has_suffix ("-active")) {
+                bool value = settings.get_boolean (key);
+                scales.get (key).sensitive = value;
             }
         });
 
         // Change all the scales when the global switch is pressed
         global_switch.state_set.connect ((value) => {
-            global_switch.set_active(value);
+            global_switch.set_active (value);
             scales.foreach ((key, scale) => {
                 scale.sensitive = value ? settings.get_boolean (key) : false;
             });
-            
+
             // We don't care about handling the switch animation ourselves, so return false
             return false;
         });
@@ -123,16 +119,16 @@ public class Badger.MainGrid : Gtk.Grid {
             scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
             // Get the scale default value
-            scale.sensitive = settings.get_boolean("all") ? settings.get_boolean(reminder.name + "-active") : false;
-            
-            scales.insert(reminder.name + "-active", scale);
+            scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
+
+            scales.insert (reminder.name + "-active", scale);
 
             uint interval = settings.get_uint (reminder.name);
             // Old settings migration: interval == 0 meant "never" till 2.3.1
             if ( interval == 0 ) {
                 // Reset to default value
                 settings.reset (reminder.name);
-                
+
                 // Read interval again (interval = default_value)
                 interval = settings.get_uint (reminder.name);
 
@@ -158,7 +154,12 @@ public class Badger.MainGrid : Gtk.Grid {
             settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
 
             // When the checkbox is pressed, set the option.
-            settings.bind (reminder.name + "-active", check_box, "active", SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY);
+            settings.bind (
+                reminder.name + "-active",
+                check_box,
+                "active",
+                SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
+            );
 
             attach (check_box, 0, index + 2, 1, 1);
             attach (scale, 1, index + 2, 1, 1);

@@ -18,10 +18,7 @@
  *
  */
 
-using Gtk;
-
 public class Badger.Reminder : GLib.Object {
-
     public string name { get; set; }            // Unique name
     public string title { get; set; }           // Notification title
     public string message { get; set; }         // Notification body
