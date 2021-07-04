@@ -33,7 +33,7 @@ built for [elementary OS].
 
 ## Developing and building
 
-Development is targeted at [elementary OS] Hera. If you want to hack on and
+Development is targeted at [elementary OS]. If you want to hack on and
 build Badger yourself, you'll need the following dependencies:
 
 * libgranite-dev
