@@ -1,0 +1,19 @@
+app-id: com.github.elfenware.badger
+
+runtime: io.elementary.Platform
+runtime-version: 'daily'
+sdk: io.elementary.Sdk
+
+command: com.github.elfenware.badger
+
+finish-args:
+  - '--share=ipc'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+
+modules:
+  - name: badger
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
