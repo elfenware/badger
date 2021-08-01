@@ -18,7 +18,7 @@
  *
  */
 
-public class Badger.Application : Granite.Application {
+public class Badger.Application : Gtk.Application {
     public bool headless = false;
 
     private Badger.MainWindow window;
@@ -34,7 +34,21 @@ public class Badger.Application : Granite.Application {
         stdout.printf ("\n✔️ Activated");
 
         var settings = new GLib.Settings ("com.github.elfenware.badger.state");
+        var gtk_settings = Gtk.Settings.get_default ();
+        var granite_settings = Granite.Settings.get_default ();
         stdout.printf ("\n⚙️ State settings loaded");
+
+        stdout.printf (@"\n$(granite_settings.prefers_color_scheme)");
+
+        gtk_settings.gtk_application_prefer_dark_theme = (
+            granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK
+        );
+
+        granite_settings.notify["prefers-color-scheme"].connect (() => {
+            gtk_settings.gtk_application_prefer_dark_theme = (
+                granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK
+            );
+        });
 
         var first_run = settings.get_boolean ("first-run");
 
