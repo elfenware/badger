@@ -38,8 +38,6 @@ public class Badger.Application : Gtk.Application {
         var granite_settings = Granite.Settings.get_default ();
         stdout.printf ("\n⚙️ State settings loaded");
 
-        stdout.printf (@"\n$(granite_settings.prefers_color_scheme)");
-
         gtk_settings.gtk_application_prefer_dark_theme = (
             granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK
         );
