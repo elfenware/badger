@@ -18,12 +18,12 @@
  *
  */
 
-@define-color colorPrimary @BLACK_500;
-@define-color colorAccent @BLACK_500;
-@define-color textColorPrimary white;
+@define-color accent_color @BLACK_500;
 
 .badger-headerbar {
-    background-color: @colorPrimary;
-    color: @textColorPrimary;
     box-shadow: none;
+}
+
+scale value {
+    min-width: 40px;
 }
