@@ -18,7 +18,7 @@
  *
  */
 
-@define-color accent_color @BLACK_500;
+@define-color accent_color @BLACK_100;
 
 .badger-headerbar {
     box-shadow: none;
