@@ -24,6 +24,14 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="4.0.1" date="2021-08-06">
+      <description>
+        <p>Odin update 🎉️</p>
+        <ul>
+          <li>Add: Dark style support</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.0.0" date="2021-08-06">
       <description>
         <p>Odin update 🎉️</p>
