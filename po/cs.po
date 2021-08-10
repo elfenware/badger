@@ -119,7 +119,7 @@ msgstr "%.0f min"
 #: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.appdata.xml.in:7
 msgid "Badger"
-msgstr "Jezevec"
+msgstr "Badger"
 
 #: data/com.github.elfenware.badger.desktop.in:5
 msgid "Ergonomic Reminder"
@@ -156,7 +156,7 @@ msgid ""
 "Badger helps you do exactly that. It reminds you—or should I say, badgers you"
 "—to destress yourself and rest your eyes and muscles."
 msgstr ""
-"Jezevec vám přesně s tím pomůže. Připomíná vám, abyste se zbavili stresu a "
+"Badger vám přesně s tím pomůže. Připomíná vám, abyste se zbavili stresu a "
 "nechali odpočinout své oči a svaly."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:14
