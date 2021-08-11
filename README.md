@@ -8,7 +8,8 @@
 <p align="center">Remind yourself to not sit and stare at the screen for too long</p>
 
 <p align="center">
-  <a href="https://appcenter.elementary.io/com.github.elfenware.badger"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>
+  <a href="https://appcenter.elementary.io/com.github.elfenware.badger"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" height="75px" /></a>
+  <a href="https://flathub.org/apps/details/com.github.elfenware.badger"><img src="https://flathub.org/assets/badges/flathub-badge-en.svg" alt="Get it on Flathub" height="75px" /></a>
 </p>
 
 <p align="center">
@@ -28,7 +29,11 @@ your muscles free and your eyes unstrained.
 While Badger will happily compile on any Linux distribution, it is primarily
 built for [elementary OS].
 
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)][AppCenter]
+<a href="https://appcenter.elementary.io/com.github.elfenware.badger"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" height="75px" /></a>
+
+On other distributions you can get it on Flathub.
+
+<a href="https://flathub.org/apps/details/com.github.elfenware.badger"><img src="https://flathub.org/assets/badges/flathub-badge-en.svg" alt="Get it on Flathub" height="75px" /></a>
 
 
 ## Developing and building
@@ -63,4 +68,3 @@ com.github.elfenware.badger
 ```
 
 [elementary OS]: https://elementary.io
-[AppCenter]: https://appcenter.elementary.io/com.github.elfenware.badger
