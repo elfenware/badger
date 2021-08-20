@@ -7,11 +7,11 @@
   <name>Badger</name>
   <summary>Remind yourself to not sit and stare at the screen for too long</summary>
   <description>
-    <p>Whether you're dashing through Mario Kart on MupenGUI, binge-watching Silicon Valley on Cinema, or writing your next novel on Quilter, you need to relax your body every once in a while.</p>
+    <p>When you are using your computer for extended periods of time, you need to relax your body every once in a while.</p>
 
     <p>Badger helps you do exactly that. It reminds you—or should I say, badgers you—to destress yourself and rest your eyes and muscles.</p>
 
-    <p>Currently, it has these five reminders:</p>
+    <p>Currently, it has these six reminders:</p>
 
     <ul>
       <li>Blink eyes</li>
@@ -19,11 +19,20 @@
       <li>Stretch arms</li>
       <li>Stretch legs</li>
       <li>Turn neck</li>
+      <li>Maintain posture</li>
     </ul>
 
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="4.1.0" date="2021-08-20">
+      <description>
+        <ul>
+          <li>Add: Czech translation (@pervoj)</li>
+          <li>Add: Italian translation (@albanobattistella)</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.0.1" date="2021-08-06">
       <description>
         <p>Odin update 🎉️</p>
