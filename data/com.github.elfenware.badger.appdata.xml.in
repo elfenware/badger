@@ -28,8 +28,8 @@
     <release version="4.1.0" date="2021-08-20">
       <description>
         <ul>
-          <li>Add: Czech translation (@pervoj)</li>
-          <li>Add: Italian translation (@albanobattistella)</li>
+          <li>Add: Czech translations (@pervoj)</li>
+          <li>Add: Italian translations (@albanobattistella)</li>
         </ul>
       </description>
     </release>
@@ -52,15 +52,15 @@
     <release version="3.3.0" date="2020-08-25">
       <description>
         <ul>
-          <li>Add: Portuguese (Portugal) translation (@rottenpants466)</li>
+          <li>Add: Portuguese (Portugal) translations (@rottenpants466)</li>
         </ul>
       </description>
     </release>
     <release version="3.2.0" date="2020-05-31">
       <description>
         <ul>
-          <li>Add: Spanish translation (@fitojb)</li>
-          <li>Add: Ukrainian translation (@IhorHordiichuk)</li>
+          <li>Add: Spanish translations (@fitojb)</li>
+          <li>Add: Ukrainian translations (@IhorHordiichuk)</li>
         </ul>
       </description>
     </release>
@@ -104,14 +104,14 @@
     <release version="2.2.0" date="2019-09-26">
       <description>
         <ul>
-          <li>Add: Turkish translation (@libreajans)</li>
+          <li>Add: Turkish translations (@libreajans)</li>
         </ul>
       </description>
     </release>
     <release version="2.1.0" date="2019-07-12">
       <description>
         <ul>
-          <li>Add: Dutch translation (@Vistaus)</li>
+          <li>Add: Dutch translations (@Vistaus)</li>
         </ul>
       </description>
     </release>
@@ -135,8 +135,8 @@
     <release version="1.3.0" date="2019-03-30">
       <description>
         <ul>
-          <li>Add: Danish translation (@siigdev)</li>
-          <li>Update: French translation (@NathanBnm)</li>
+          <li>Add: Danish translations (@siigdev)</li>
+          <li>Update: French translations (@NathanBnm)</li>
         </ul>
       </description>
     </release>

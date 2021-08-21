@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-20 22:35+0530\n"
+"POT-Creation-Date: 2021-08-21 11:58+0200\n"
 "PO-Revision-Date: 2021-08-20 22:37+0530\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: \n"
@@ -152,8 +152,8 @@ msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
 msgid ""
-"Badger helps you do exactly that. It reminds you—or should I say, badgers you—"
-"to destress yourself and rest your eyes and muscles."
+"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
+"—to destress yourself and rest your eyes and muscles."
 msgstr ""
 "Badger le ayuda a hacerlo. La aplicación le recuerda periódicamente "
 "desestresarse y descansar los ojos y los músculos."
@@ -191,11 +191,13 @@ msgid "Stay healthy."
 msgstr "Permanezca saludable."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
-msgid "Add: Czech translation (@pervoj)"
+#, fuzzy
+msgid "Add: Czech translations (@pervoj)"
 msgstr "Adición: traducción en checo (@pervoj)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:32
-msgid "Add: Italian translation (@albanobattistella)"
+#, fuzzy
+msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Adición: traducción en italiano (@albanobattistella)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:38
@@ -209,15 +211,18 @@ msgid "Add: Dark style support"
 msgstr "Adición: soporte de estilo oscuro"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:55
-msgid "Add: Portuguese (Portugal) translation (@rottenpants466)"
+#, fuzzy
+msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr "Adición: traducción en portugués (@rottenpants466)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:62
-msgid "Add: Spanish translation (@fitojb)"
+#, fuzzy
+msgid "Add: Spanish translations (@fitojb)"
 msgstr "Adición: traducción en español (@fitojb)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:63
-msgid "Add: Ukrainian translation (@IhorHordiichuk)"
+#, fuzzy
+msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Adición: traducción en ucraniano (@IhorHordiichuk)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
@@ -243,14 +248,17 @@ msgstr "Actualización: icono mejorado"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:100
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr "Adición: 🎉️ interruptor global para desactivar todos los recordatorios 🎉️"
+msgstr ""
+"Adición: 🎉️ interruptor global para desactivar todos los recordatorios 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:107
-msgid "Add: Turkish translation (@libreajans)"
+#, fuzzy
+msgid "Add: Turkish translations (@libreajans)"
 msgstr "Adición: traducción en turco (@libreajans)."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:114
-msgid "Add: Dutch translation (@Vistaus)"
+#, fuzzy
+msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Adición: traducción en neerlandés (@Vistaus)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:121
@@ -262,6 +270,7 @@ msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr "Adición: 🎉️ la función más anticipada, temporizadores personalizados 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:129
+#: data/com.github.elfenware.badger.appdata.xml.in:139
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Actualización: traducción en francés (@NathanBnm)"
 
@@ -274,12 +283,9 @@ msgid "Update: Danish translations (@siigdev)"
 msgstr "Actualización: traducción en danés (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:138
-msgid "Add: Danish translation (@siigdev)"
+#, fuzzy
+msgid "Add: Danish translations (@siigdev)"
 msgstr "Adición: traducción en danés (@siigdev)"
-
-#: data/com.github.elfenware.badger.appdata.xml.in:139
-msgid "Update: French translation (@NathanBnm)"
-msgstr "Actualización: traducción en francés (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:145
 msgid "Fix: Empty window on launch"
@@ -317,3 +323,6 @@ msgstr "Publicación inicial 🎉️"
 #: data/com.github.elfenware.badger.appdata.xml.in:212
 msgid "Elfenware"
 msgstr "Elfenware"
+
+#~ msgid "Update: French translation (@NathanBnm)"
+#~ msgstr "Actualización: traducción en francés (@NathanBnm)"
