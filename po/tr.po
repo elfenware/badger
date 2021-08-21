@@ -239,7 +239,7 @@ msgstr "Eklendi: Danca çeviri (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:63
 #, fuzzy
-msgid "Add: Ukrainian translation (@IgorHordiichuk)"
+msgid "Add: Ukrainian translation (@IhorHordiichuk)"
 msgstr "Eklendi: Danca çeviri (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70

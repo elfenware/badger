@@ -217,8 +217,8 @@ msgid "Add: Spanish translation (@fitojb)"
 msgstr "Adición: traducción en español (@fitojb)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:63
-msgid "Add: Ukrainian translation (@IgorHordiichuk)"
-msgstr "Adición: traducción en ucraniano (@IgorHordiichuk)"
+msgid "Add: Ukrainian translation (@IhorHordiichuk)"
+msgstr "Adición: traducción en ucraniano (@IhorHordiichuk)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
 #: data/com.github.elfenware.badger.appdata.xml.in:93

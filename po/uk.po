@@ -218,8 +218,8 @@ msgid "Add: Spanish translation (@fitojb)"
 msgstr "Додано: Переклад іспанською (@fitojb)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:63
-msgid "Add: Ukrainian translation (@IgorHordiichuk)"
-msgstr "Додано: Переклад українською (@IgorHordiichuk)"
+msgid "Add: Ukrainian translation (@IhorHordiichuk)"
+msgstr "Додано: Переклад українською (@IhorHordiichuk)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
 #: data/com.github.elfenware.badger.appdata.xml.in:93
