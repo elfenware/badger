@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-20 22:35+0530\n"
+"POT-Creation-Date: 2021-08-21 11:58+0200\n"
 "PO-Revision-Date: 2019-03-28 17:55+0100\n"
 "Last-Translator: siigdev\n"
 "Language-Team: \n"
@@ -192,12 +192,12 @@ msgstr "Forbliv sund."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
 #, fuzzy
-msgid "Add: Czech translation (@pervoj)"
+msgid "Add: Czech translations (@pervoj)"
 msgstr "Tilføj: Dansk oversættelse (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:32
 #, fuzzy
-msgid "Add: Italian translation (@albanobattistella)"
+msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Tilføj: Litauisk oversættelse (@welaq)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:38
@@ -211,17 +211,17 @@ msgid "Add: Dark style support"
 msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:55
-msgid "Add: Portuguese (Portugal) translation (@rottenpants466)"
+msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:62
 #, fuzzy
-msgid "Add: Spanish translation (@fitojb)"
+msgid "Add: Spanish translations (@fitojb)"
 msgstr "Tilføj: Dansk oversættelse (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:63
 #, fuzzy
-msgid "Add: Ukrainian translation (@IhorHordiichuk)"
+msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Tilføj: Dansk oversættelse (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
@@ -250,11 +250,13 @@ msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr "Tilføjelse: 🎉️ Global knap til at slukke alle påmindelser 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:107
-msgid "Add: Turkish translation (@libreajans)"
+#, fuzzy
+msgid "Add: Turkish translations (@libreajans)"
 msgstr "Tilføj: Tyrkisk oversættelse (@libreajans)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:114
-msgid "Add: Dutch translation (@Vistaus)"
+#, fuzzy
+msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Tilføj: Hollandsk oversættelse (@Vistaus)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:121
@@ -266,6 +268,7 @@ msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr "Tilføjelse: 🎉️ Mest ventede feature, personlige timere! 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:129
+#: data/com.github.elfenware.badger.appdata.xml.in:139
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Tilføj: Fransk oversættelse (@NathanBnm)"
 
@@ -280,12 +283,8 @@ msgstr "Tilføj: Dansk oversættelse (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:138
 #, fuzzy
-msgid "Add: Danish translation (@siigdev)"
+msgid "Add: Danish translations (@siigdev)"
 msgstr "Tilføj: Dansk oversættelse (@siigdev)"
-
-#: data/com.github.elfenware.badger.appdata.xml.in:139
-msgid "Update: French translation (@NathanBnm)"
-msgstr "Tilføj: Fransk oversættelse (@NathanBnm)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:145
 msgid "Fix: Empty window on launch"
@@ -322,6 +321,9 @@ msgstr "Første Release 🎉️"
 #: data/com.github.elfenware.badger.appdata.xml.in:212
 msgid "Elfenware"
 msgstr "Elfenware"
+
+#~ msgid "Update: French translation (@NathanBnm)"
+#~ msgstr "Tilføj: Fransk oversættelse (@NathanBnm)"
 
 #~ msgid "Never"
 #~ msgstr "Aldrig"
