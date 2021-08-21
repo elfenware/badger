@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-20 22:35+0530\n"
-"PO-Revision-Date: 2020-05-22 03:46+0300\n"
+"PO-Revision-Date: 2021-08-21 02:50+0300\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0\n"
 
 #: src/Application.vala:164
 msgid "Blink your eyes"
@@ -143,27 +144,24 @@ msgid "Remind yourself to not sit and stare at the screen for too long"
 msgstr "Нагадайте собі не сидіти та не дивитися на екран занадто довго"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:10
-#, fuzzy
 msgid ""
 "When you are using your computer for extended periods of time, you need to "
 "relax your body every once in a while."
 msgstr ""
-"Незалежно від того, чи ви жваво граєте у Mario Kart на MupenGUI, чи спокійно "
-"переглядаєте Кремнієву долину в кіно, чи пишете наступний роман на Quilter, "
-"вам необхідно час від часу розслабляти ваше тіло."
+"Якщо ви працюєте за комп'ютер впродовж тривалого часу, варто час від часу "
+"розминати тіло."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
 msgid ""
 "Badger helps you do exactly that. It reminds you—or should I say, badgers you"
 "—to destress yourself and rest your eyes and muscles."
 msgstr ""
-"Badger допомагає зробити саме це. Він нагадує вам — чи то пак, змушує вас — "
-"відволіктися та розслабити ваші очі та м'язи."
+"Badger допомагає зробити саме це. Він нагадує вам, чи то пак, змушує вас "
+"зняти напруження та розслабити ваші очі та м'язи."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:14
-#, fuzzy
 msgid "Currently, it has these six reminders:"
-msgstr "Наразі, наявні п'ять нагадувань:"
+msgstr "Наразі, доступні шість нагадувань:"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:17
 msgid "Blink eyes"
@@ -187,45 +185,41 @@ msgstr "Покрутити шиєю"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:22
 msgid "Maintain posture"
-msgstr ""
+msgstr "Контроль постави"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:25
 msgid "Stay healthy."
 msgstr "Будьте здорові."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
-#, fuzzy
 msgid "Add: Czech translation (@pervoj)"
-msgstr "Додано: переклад данською (@siigdev)"
+msgstr "Додано: Переклад чеською (@pervoj)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:32
-#, fuzzy
 msgid "Add: Italian translation (@albanobattistella)"
-msgstr "Додано: переклад литовською (@welaq)"
+msgstr "Додано: Переклад італійською (@albanobattistella)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:38
 #: data/com.github.elfenware.badger.appdata.xml.in:46
 msgid "Odin update 🎉️"
-msgstr ""
+msgstr "Оновлено для Odin 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:40
 #: data/com.github.elfenware.badger.appdata.xml.in:48
 msgid "Add: Dark style support"
-msgstr ""
+msgstr "Додано: Підтримку темного стилю"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:55
 msgid "Add: Portuguese (Portugal) translation (@rottenpants466)"
-msgstr ""
+msgstr "Додано: Переклад португальською (Португалія) (@rottenpants466)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:62
-#, fuzzy
 msgid "Add: Spanish translation (@fitojb)"
-msgstr "Додано: переклад данською (@siigdev)"
+msgstr "Додано: Переклад іспанською (@fitojb)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:63
-#, fuzzy
 msgid "Add: Ukrainian translation (@IgorHordiichuk)"
-msgstr "Додано: переклад данською (@siigdev)"
+msgstr "Додано: Переклад українською (@IgorHordiichuk)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
 #: data/com.github.elfenware.badger.appdata.xml.in:93
@@ -234,19 +228,19 @@ msgstr "Оновлено: Знімки екрана"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:77
 msgid "Add: New reminder for correcting your posture"
-msgstr ""
+msgstr "Додано: Нове нагадування для виправлення постави"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:84
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-msgstr ""
+msgstr "Додано: Прапорці для перемикання кожного таймера (@andreasomaini)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:85
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-msgstr ""
+msgstr "Виправлення: Виправлено роботу з Центром сповіщень (@nathanaelhoun)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:86
 msgid "Update: Improved icon"
-msgstr ""
+msgstr "Оновлення: Вдосконалено піктограму"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:100
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
