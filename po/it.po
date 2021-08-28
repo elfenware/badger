@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-21 11:58+0200\n"
-"PO-Revision-Date: 2021-08-11 10:40-0200\n"
+"PO-Revision-Date: 2021-08-28 15:40-0200\n"
 "Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -144,15 +144,12 @@ msgid "Remind yourself to not sit and stare at the screen for too long"
 msgstr "Ricorda a te stesso di non sederti e fissare lo schermo troppo a lungo"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:10
-#, fuzzy
 msgid ""
 "When you are using your computer for extended periods of time, you need to "
 "relax your body every once in a while."
 msgstr ""
-"Indipendentemente dal fatto che tu tia giocando a Mario Kart con "
-"l'interfaccia grafica di Mupen, facendo una maratona Silycon Valley nel "
-"cinema o scrivendo il tuo prossimo romanzo con Quilter,hai bisogno di "
-"rilassare il tuo corpo di tanto in tanto."
+"Quando si utilizza il computer per lunghi periodi di tempo, è necessario "
+"rilassare il tuo corpo ogni tanto."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
 msgid ""
@@ -163,9 +160,8 @@ msgstr ""
 "tormenta—per rilassarti e riposare gli occhi e i muscoli."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:14
-#, fuzzy
 msgid "Currently, it has these six reminders:"
-msgstr "Attualmente, ha questi cinque promemoria:"
+msgstr "Attualmente, ha questi sei promemoria:"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:17
 msgid "Blink eyes"
@@ -189,45 +185,41 @@ msgstr "Gira il collo"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:22
 msgid "Maintain posture"
-msgstr ""
+msgstr "Mantieni la postura"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:25
 msgid "Stay healthy."
 msgstr "Rimani in salute."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
-#, fuzzy
 msgid "Add: Czech translations (@pervoj)"
-msgstr "Aggiunto: traduzione in danese (@siigdev)"
+msgstr "Aggiunta: traduzione in ceco (@pervoj)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:32
-#, fuzzy
 msgid "Add: Italian translations (@albanobattistella)"
-msgstr "Aggiunto: traduzione in lituano (@welaq)"
+msgstr "Aggiunta: traduzione in italiano (@albanobattistella)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:38
 #: data/com.github.elfenware.badger.appdata.xml.in:46
 msgid "Odin update 🎉️"
-msgstr ""
+msgstr "Aggiornamento Odino 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:40
 #: data/com.github.elfenware.badger.appdata.xml.in:48
 msgid "Add: Dark style support"
-msgstr ""
+msgstr "Aggiunto: supporto per lo stile scuro"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:55
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
-msgstr ""
+msgstr "Aggiunta: traduzione in portoghese (Portogallo) (@rottenpants466)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:62
-#, fuzzy
 msgid "Add: Spanish translations (@fitojb)"
-msgstr "Aggiunto: traduzione in danese (@siigdev)"
+msgstr "Aggiunta: traduzione in spagnolo (@fitojb))"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:63
-#, fuzzy
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
-msgstr "Aggiunto: traduzione in danese (@siigdev)"
+msgstr "Aggiunta: traduzione in ucraino (@IhorHordiichuk)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
 #: data/com.github.elfenware.badger.appdata.xml.in:93
@@ -236,31 +228,29 @@ msgstr "Aggiornamento: screenshot"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:77
 msgid "Add: New reminder for correcting your posture"
-msgstr ""
+msgstr "Aggiunto: Nuovo promemoria per correggere la postura"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:84
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-msgstr ""
+msgstr "Agginto: caselle di controllo per attivare o disattivare ogni timer (@andreasomaini)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:85
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-msgstr ""
+msgstr "Corretto: Funziona correttamente con il Centro notifiche (@nathanaelhoun)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:86
 msgid "Update: Improved icon"
-msgstr ""
+msgstr "Aggiornamento: icona migliorata"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:100
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr "Aggiunto: 🎉️ interruttore globale per disabilitare tutti i promemoria 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:107
-#, fuzzy
 msgid "Add: Turkish translations (@libreajans)"
-msgstr "Aggiunto: traduzione in turco (@libreajans)."
+msgstr "Aggiunta: traduzione in turco (@libreajans)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:114
-#, fuzzy
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Aggiunto: traduzione in olandese (@Vistaus)"
 
@@ -286,9 +276,8 @@ msgid "Update: Danish translations (@siigdev)"
 msgstr "Aggiornato: traduzione in danese (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:138
-#, fuzzy
 msgid "Add: Danish translations (@siigdev)"
-msgstr "Aggiunto: traduzione in danese (@siigdev)"
+msgstr "Aggiunta: traduzione in danese (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:145
 msgid "Fix: Empty window on launch"
