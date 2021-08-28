@@ -1,4 +1,5 @@
 build
 builddir
 .flatpak-builder
+*.mo
 *~
