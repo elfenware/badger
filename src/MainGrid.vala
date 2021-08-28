@@ -24,27 +24,6 @@ public class Badger.MainGrid : Gtk.Grid {
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
 
-        /* GSettings migration code. Will be removed at some point. */
-        if (!settings.get_boolean ("old-settings-replaced")) {
-            var old_settings = new GLib.Settings ("com.github.elfenware.badger.reminders");
-            var key_names = new string[5];
-            key_names[0] = "eyes";
-            key_names[1] = "fingers";
-            key_names[2] = "legs";
-            key_names[3] = "arms";
-            key_names[4] = "neck";
-
-            foreach (string key in key_names) {
-                bool old_value = old_settings.get_boolean (key);
-                if (!old_value) {
-                    settings.set_uint (key, 0);
-                }
-            }
-
-            settings.set_boolean ("old-settings-replaced", true);
-        }
-        /* GSettings migration code ends. */
-
         row_spacing = 4;
         column_spacing = 12;
         margin_bottom = 12;

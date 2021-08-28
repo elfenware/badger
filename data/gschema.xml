@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <!-- Obsolete. Replaced with the timers schema. Will be removed at some point. -->
-  <schema
-    path="/com/github/elfenware/badger/reminders/"
-    id="com.github.elfenware.badger.reminders"
-    gettext-domain="com.github.elfenware.badger">
-    <key name="all" type="b">
-      <default>true</default>
-      <summary>Global switch to control all reminders</summary>
-    </key>
-    <key name="eyes" type="b">
-      <default>true</default>
-      <summary>Remind the user to blink their eyes</summary>
-    </key>
-    <key name="fingers" type="b">
-      <default>true</default>
-      <summary>Remind the user to stretch their fingers</summary>
-    </key>
-    <key name="legs" type="b">
-      <default>true</default>
-      <summary>Remind the user to stretch their legs</summary>
-    </key>
-    <key name="arms" type="b">
-      <default>true</default>
-      <summary>Remind the user to stretch their arms</summary>
-    </key>
-    <key name="neck" type="b">
-      <default>true</default>
-      <summary>Remind the user to stretch their neck</summary>
-    </key>
-  </schema>
   <schema
     path="/com/github/elfenware/badger/timers/"
     id="com.github.elfenware.badger.timers"
@@ -85,10 +55,6 @@
     <key name="posture-active" type="b">
       <default>false</default>
       <summary>Whether to show the posture reminders</summary>
-    </key>
-    <key name="old-settings-replaced" type="b">
-      <default>false</default>
-      <summary>Whether the installation has switched to the newer custom timers instead of booleans</summary>
     </key>
   </schema>
   <schema
