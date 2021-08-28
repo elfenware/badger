@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-21 11:58+0200\n"
+"POT-Creation-Date: 2021-08-28 19:44+0530\n"
 "PO-Revision-Date: 2019-10-23 22:39+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: \n"
@@ -99,29 +99,29 @@ msgstr "Sırtının düz olduğundan emin ol."
 msgid "Posture:"
 msgstr "Duruş:"
 
-#: src/MainGrid.vala:55
+#: src/MainGrid.vala:34
 msgid "Reminders"
 msgstr "Hatırlatıcı"
 
-#: src/MainGrid.vala:72
+#: src/MainGrid.vala:51
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
 "Badger'ın size ne sıklıkta rahatlamanız gerektiğini hatırlatması gerektiğine "
 "karar verin:"
 
-#: src/MainGrid.vala:115
+#: src/MainGrid.vala:94
 msgid "1 min"
 msgstr "1 dak"
 
-#: src/MainGrid.vala:117
+#: src/MainGrid.vala:96
 msgid "30 min"
 msgstr "30 dak"
 
-#: src/MainGrid.vala:119
+#: src/MainGrid.vala:98
 msgid "1 hour"
 msgstr "1 saat"
 
-#: src/MainGrid.vala:150
+#: src/MainGrid.vala:129
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f dak"
@@ -210,135 +210,140 @@ msgstr "Sağlıklı kal."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
 #, fuzzy
+msgid "Update: Italian translations (@albanobattistella)"
+msgstr "Eklendi: Litvanca çeviri (@welaq)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:38
+#, fuzzy
 msgid "Add: Czech translations (@pervoj)"
 msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:32
+#: data/com.github.elfenware.badger.appdata.xml.in:39
 #, fuzzy
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Eklendi: Litvanca çeviri (@welaq)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:38
-#: data/com.github.elfenware.badger.appdata.xml.in:46
+#: data/com.github.elfenware.badger.appdata.xml.in:45
+#: data/com.github.elfenware.badger.appdata.xml.in:53
 msgid "Odin update 🎉️"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:40
-#: data/com.github.elfenware.badger.appdata.xml.in:48
+#: data/com.github.elfenware.badger.appdata.xml.in:47
+#: data/com.github.elfenware.badger.appdata.xml.in:55
 msgid "Add: Dark style support"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:55
+#: data/com.github.elfenware.badger.appdata.xml.in:62
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:62
+#: data/com.github.elfenware.badger.appdata.xml.in:69
 #, fuzzy
 msgid "Add: Spanish translations (@fitojb)"
 msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:63
+#: data/com.github.elfenware.badger.appdata.xml.in:70
 #, fuzzy
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:70
-#: data/com.github.elfenware.badger.appdata.xml.in:93
+#: data/com.github.elfenware.badger.appdata.xml.in:77
+#: data/com.github.elfenware.badger.appdata.xml.in:100
 msgid "Update: Screenshot"
 msgstr "Güncellendi: Ekran görüntüsü"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:77
+#: data/com.github.elfenware.badger.appdata.xml.in:84
 msgid "Add: New reminder for correcting your posture"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:84
+#: data/com.github.elfenware.badger.appdata.xml.in:91
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:85
+#: data/com.github.elfenware.badger.appdata.xml.in:92
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:86
+#: data/com.github.elfenware.badger.appdata.xml.in:93
 msgid "Update: Improved icon"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:100
+#: data/com.github.elfenware.badger.appdata.xml.in:107
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr "Eklendi: 🎉️ Tüm hatırlatıcıları kapatmak için genel anahtar 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:107
+#: data/com.github.elfenware.badger.appdata.xml.in:114
 #, fuzzy
 msgid "Add: Turkish translations (@libreajans)"
 msgstr "Eklendi: Türkçe çeviri (@libreajans)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:114
+#: data/com.github.elfenware.badger.appdata.xml.in:121
 #, fuzzy
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Eklendi: Flemenkçe çeviri (@Vistaus)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:121
+#: data/com.github.elfenware.badger.appdata.xml.in:128
 msgid "Fix: \"Never\" option not disabling the timer"
 msgstr "Düzeltildi: \"Asla\" seçeneği zamanlayıcıyı devre dışı bırakmıyor"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:128
+#: data/com.github.elfenware.badger.appdata.xml.in:135
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr "Eklendi: 🎉️ En çok beklenen özellik, özel zamanlayıcı! 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:129
-#: data/com.github.elfenware.badger.appdata.xml.in:139
+#: data/com.github.elfenware.badger.appdata.xml.in:136
+#: data/com.github.elfenware.badger.appdata.xml.in:146
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Güncellendi: Fransızca çeviri (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:130
+#: data/com.github.elfenware.badger.appdata.xml.in:137
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr "Güncellendi: Litvanca çeviri (@welaq)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:131
+#: data/com.github.elfenware.badger.appdata.xml.in:138
 msgid "Update: Danish translations (@siigdev)"
 msgstr "Güncellendi: Danca çeviri (@siigdev)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:138
+#: data/com.github.elfenware.badger.appdata.xml.in:145
 #, fuzzy
 msgid "Add: Danish translations (@siigdev)"
 msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:145
+#: data/com.github.elfenware.badger.appdata.xml.in:152
 msgid "Fix: Empty window on launch"
 msgstr "Düzeltme: Başlangıçta boş pencere"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:150
+#: data/com.github.elfenware.badger.appdata.xml.in:157
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr "Eklendi: Litvanca çeviri (@welaq)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:151
+#: data/com.github.elfenware.badger.appdata.xml.in:158
 msgid "Fix: Illegible heading in dark mode"
 msgstr "Düzeltme: Koyu kipde geçersiz başlık"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:156
+#: data/com.github.elfenware.badger.appdata.xml.in:163
 msgid "Add: French translations (@NathanBnm)"
 msgstr "Eklendi: Fransızca çeviri (@NathanBnm)"
 
 # &gt;1 kısmı birden çok defa olarak çevrildi
-#: data/com.github.elfenware.badger.appdata.xml.in:161
+#: data/com.github.elfenware.badger.appdata.xml.in:168
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr "Düzeltme: Pencere birden çok defa açıldığında çoklu uyarı"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:166
+#: data/com.github.elfenware.badger.appdata.xml.in:173
 msgid "Fix: Remove manual line breaks from appdata"
 msgstr ""
 "Düzeltme: El ile girilmiş satır sonlarını appdata dosyasından kaldırıldı"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:171
+#: data/com.github.elfenware.badger.appdata.xml.in:178
 msgid "Fix: Use smaller window size by default"
 msgstr "Düzeltme: Öntanımlı olarak daha küçük pencere boyutu kullan"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:176
+#: data/com.github.elfenware.badger.appdata.xml.in:183
 msgid "Initial Release 🎉️"
 msgstr "İlk Sürüm 🎉️"
 
 # Yazılım geliştiren oluşumun adı, çevirmeyin.
-#: data/com.github.elfenware.badger.appdata.xml.in:212
+#: data/com.github.elfenware.badger.appdata.xml.in:219
 msgid "Elfenware"
 msgstr "Elfenware"
 
