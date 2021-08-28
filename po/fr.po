@@ -8,13 +8,14 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-28 19:44+0530\n"
-"PO-Revision-Date: 2021-08-21 11:46+0200\n"
+"PO-Revision-Date: 2021-08-28 19:53+0530\n"
 "Last-Translator: Nathan Bonnemaisn (@NathanBnm)\n"
 "Language-Team: Français\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
 
 #: src/Application.vala:164
 msgid "Blink your eyes"
@@ -98,8 +99,7 @@ msgstr "Rappels"
 #: src/MainGrid.vala:51
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
-"Décidez de la fréquence à laquelle Badger doit vous rappeler de vous "
-"reposer :"
+"Décidez de la fréquence à laquelle Badger doit vous rappeler de vous reposer :"
 
 #: src/MainGrid.vala:94
 msgid "1 min"
@@ -142,25 +142,24 @@ msgstr "Ergonomie;Santé;Yeux;Muscles;"
 #: data/com.github.elfenware.badger.appdata.xml.in:8
 msgid "Remind yourself to not sit and stare at the screen for too long"
 msgstr ""
-"Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop "
-"longtemps"
+"Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop longtemps"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:10
 msgid ""
 "When you are using your computer for extended periods of time, you need to "
 "relax your body every once in a while."
 msgstr ""
-"Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous "
-"devez détendre votre corps de temps en temps."
+"Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous devez "
+"détendre votre corps de temps en temps."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
 msgid ""
-"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
-"—to destress yourself and rest your eyes and muscles."
+"Badger helps you do exactly that. It reminds you—or should I say, badgers you—"
+"to destress yourself and rest your eyes and muscles."
 msgstr ""
 "C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou "
-"devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les "
-"yeux et les muscles."
+"devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les yeux "
+"et les muscles."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:14
 msgid "Currently, it has these six reminders:"
@@ -195,9 +194,8 @@ msgid "Stay healthy."
 msgstr "Restez en bonne santé."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
-#, fuzzy
 msgid "Update: Italian translations (@albanobattistella)"
-msgstr "Ajout : Traductions en italien (@albanobattistella)"
+msgstr "Mise à jour : Traductions en italien (@albanobattistella)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:38
 msgid "Add: Czech translations (@pervoj)"
@@ -241,8 +239,7 @@ msgstr "Ajout : Nouveau rappel pour corriger votre posture"
 #: data/com.github.elfenware.badger.appdata.xml.in:91
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
 msgstr ""
-"Ajout : Cases à cocher pour activer/désactiver chaque minuteur "
-"(@andreasomaini)"
+"Ajout : Cases à cocher pour activer/désactiver chaque minuteur (@andreasomaini)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:92
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
@@ -317,8 +314,7 @@ msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:173
 msgid "Fix: Remove manual line breaks from appdata"
-msgstr ""
-"Correction : Retrait des retours à la ligne manuels dans les métadonnées"
+msgstr "Correction : Retrait des retours à la ligne manuels dans les métadonnées"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:178
 msgid "Fix: Use smaller window size by default"

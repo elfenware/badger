@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-28 19:44+0530\n"
-"PO-Revision-Date: 2021-08-28 15:40-0200\n"
+"PO-Revision-Date: 2021-08-28 19:52+0530\n"
 "Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/Application.vala:164
@@ -25,8 +25,7 @@ msgstr "Sbatti le palpebre"
 #: src/Application.vala:165
 msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr ""
-"Distogli lo sguardo dallo schermo e sbatti lentamente gli occhi per 10 "
-"secondi."
+"Distogli lo sguardo dallo schermo e sbatti lentamente gli occhi per 10 secondi."
 
 #: src/Application.vala:166
 msgid "Eyes:"
@@ -38,8 +37,7 @@ msgstr "Allunga le dita"
 
 #: src/Application.vala:172
 msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
-msgstr ""
-"Allarga il palmo della mano, quindi chiudilo a pugno. Ripetere 5 volte."
+msgstr "Allarga il palmo della mano, quindi chiudilo a pugno. Ripetere 5 volte."
 
 #: src/Application.vala:173
 msgid "Fingers:"
@@ -153,8 +151,8 @@ msgstr ""
 
 #: data/com.github.elfenware.badger.appdata.xml.in:12
 msgid ""
-"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
-"—to destress yourself and rest your eyes and muscles."
+"Badger helps you do exactly that. It reminds you—or should I say, badgers you—"
+"to destress yourself and rest your eyes and muscles."
 msgstr ""
 "Badger ti aiuta a fare esattamente questo. Ti ricorda, o dovrei dire, ti "
 "tormenta—per rilassarti e riposare gli occhi e i muscoli."
@@ -192,9 +190,8 @@ msgid "Stay healthy."
 msgstr "Rimani in salute."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
-#, fuzzy
 msgid "Update: Italian translations (@albanobattistella)"
-msgstr "Aggiunta: traduzione in italiano (@albanobattistella)"
+msgstr "Aggiornamento: traduzione in italiano (@albanobattistella)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:38
 msgid "Add: Czech translations (@pervoj)"

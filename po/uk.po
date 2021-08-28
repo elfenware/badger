@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-28 19:44+0530\n"
-"PO-Revision-Date: 2021-08-21 02:50+0300\n"
+"PO-Revision-Date: 2021-08-28 20:01+0530\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: src/Application.vala:164
 msgid "Blink your eyes"
@@ -192,17 +192,14 @@ msgid "Stay healthy."
 msgstr "Будьте здорові."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:31
-#, fuzzy
 msgid "Update: Italian translations (@albanobattistella)"
-msgstr "Додано: Переклад італійською (@albanobattistella)"
+msgstr "Оновлено: Переклад італійською (@albanobattistella)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:38
-#, fuzzy
 msgid "Add: Czech translations (@pervoj)"
 msgstr "Додано: Переклад чеською (@pervoj)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:39
-#, fuzzy
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Додано: Переклад італійською (@albanobattistella)"
 
@@ -217,17 +214,14 @@ msgid "Add: Dark style support"
 msgstr "Додано: Підтримку темного стилю"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:62
-#, fuzzy
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr "Додано: Переклад португальською (Португалія) (@rottenpants466)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:69
-#, fuzzy
 msgid "Add: Spanish translations (@fitojb)"
 msgstr "Додано: Переклад іспанською (@fitojb)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
-#, fuzzy
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Додано: Переклад українською (@IhorHordiichuk)"
 
@@ -257,12 +251,10 @@ msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr "Додано: 🎉️ Загальний вимикач усіх нагадувань 🎉️"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:114
-#, fuzzy
 msgid "Add: Turkish translations (@libreajans)"
 msgstr "Додано: переклад турецькою (@libreajans)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:121
-#, fuzzy
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Додано: переклад нідерландською (@Vistaus)"
 
@@ -288,7 +280,6 @@ msgid "Update: Danish translations (@siigdev)"
 msgstr "Оновлено: переклад данською (@siigdev)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:145
-#, fuzzy
 msgid "Add: Danish translations (@siigdev)"
 msgstr "Додано: переклад данською (@siigdev)"
 
