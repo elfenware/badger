@@ -25,14 +25,14 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
-    <release version="4.2.0" date="2021-08-20">
+    <release version="4.2.0" date="2021-08-28">
       <description>
         <ul>
           <li>Update: Italian translations (@albanobattistella)</li>
         </ul>
       </description>
     </release>
-    <release version="4.1.0" date="2021-08-20">
+    <release version="4.1.0" date="2021-08-28">
       <description>
         <ul>
           <li>Add: Czech translations (@pervoj)</li>
