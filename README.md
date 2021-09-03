@@ -1,5 +1,3 @@
-[![Build Status](https://api.travis-ci.com/elfenware/badger.svg?branch=master)](https://travis-ci.com/github/elfenware/badger)
-
 <p align="center">
     <img src="data/icons/128/com.github.elfenware.badger.svg" alt="Icon" />
 </p>
