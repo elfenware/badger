@@ -217,7 +217,7 @@ msgstr "Aggiunta: traduzione in portoghese (Portogallo) (@rottenpants466)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:69
 msgid "Add: Spanish translations (@fitojb)"
-msgstr "Aggiunta: traduzione in spagnolo (@fitojb))"
+msgstr "Aggiunta: traduzione in spagnolo (@fitojb)"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:70
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
