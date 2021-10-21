@@ -204,7 +204,7 @@ public class Badger.Application : Gtk.Application {
         reminders[6] = new Reminder (
             "breath",
             _ ("Focus on your breath"),
-            _ ("Make a three deep inhalations and exhalations cycle."),
+            _ ("Inhale and exhale deeply, thrice."),
             _ ("Breath:"),
             this
         );
