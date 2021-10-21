@@ -66,7 +66,7 @@
     </key>
     <key name="water" type="u">
       <default>15</default>
-      <summary>Timer (in minutes) to remind the user drink water</summary>
+      <summary>Timer (in minutes) to remind the user to drink water</summary>
     </key>
     <key name="water-active" type="b">
       <default>true</default>
