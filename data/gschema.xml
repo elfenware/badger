@@ -58,7 +58,7 @@
     </key>
     <key name="breath" type="u">
       <default>15</default>
-      <summary>Timer (in minutes) to remind the user breath conciously</summary>
+      <summary>Timer (in minutes) to remind the user to breathe consciously</summary>
     </key>
     <key name="breath-active" type="b">
       <default>true</default>
