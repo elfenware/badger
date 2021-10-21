@@ -211,7 +211,7 @@ public class Badger.Application : Gtk.Application {
         reminders[7] = new Reminder (
             "water",
             _ ("Hidrate your body"),
-            _ ("Take a glass of water."),
+            _ ("Drink a glass of water."),
             _ ("Water:"),
             this
         );
