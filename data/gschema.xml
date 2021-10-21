@@ -70,7 +70,7 @@
     </key>
     <key name="water-active" type="b">
       <default>true</default>
-      <summary>Whether to show the drinking reminders</summary>
+      <summary>Whether to show the water reminders</summary>
     </key>
   </schema>
   <schema
