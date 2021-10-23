@@ -11,7 +11,7 @@
 
     <p>Badger helps you do exactly that. It reminds you—or should I say, badgers you—to destress yourself and rest your eyes and muscles.</p>
 
-    <p>Currently, it has these six reminders:</p>
+    <p>Currently, it has these eight reminders:</p>
 
     <ul>
       <li>Blink eyes</li>
@@ -20,11 +20,20 @@
       <li>Stretch legs</li>
       <li>Turn neck</li>
       <li>Maintain posture</li>
+      <li>Drink water</li>
+      <li>Breathe consciously</li>  
     </ul>
 
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="4.2.1" date="2021-10-21">
+      <description>
+        <ul>
+          <li>Add: Two new reminders (@disegnovitruviano)</li>
+        </ul>
+      </description>
+    </release>      
     <release version="4.2.0" date="2021-08-28">
       <description>
         <ul>
