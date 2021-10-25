@@ -56,6 +56,22 @@
       <default>false</default>
       <summary>Whether to show the posture reminders</summary>
     </key>
+    <key name="breath" type="u">
+      <default>15</default>
+      <summary>Timer (in minutes) to remind the user to breathe consciously</summary>
+    </key>
+    <key name="breath-active" type="b">
+      <default>true</default>
+      <summary>Whether to show the breathing reminders</summary>
+    </key>
+    <key name="water" type="u">
+      <default>15</default>
+      <summary>Timer (in minutes) to remind the user to drink water</summary>
+    </key>
+    <key name="water-active" type="b">
+      <default>true</default>
+      <summary>Whether to show the water reminders</summary>
+    </key>
   </schema>
   <schema
     path="/com/github/elfenware/badger/state/"

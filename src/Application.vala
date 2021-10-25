@@ -158,7 +158,7 @@ public class Badger.Application : Gtk.Application {
     }
 
     private Reminder[] set_up_reminders () {
-        Reminder[] reminders = new Reminder[6];
+        Reminder[] reminders = new Reminder[8];
         reminders[0] = new Reminder (
             "eyes",
             _ ("Blink your eyes"),
@@ -201,7 +201,20 @@ public class Badger.Application : Gtk.Application {
             _ ("Posture:"),
             this
         );
-
+        reminders[6] = new Reminder (
+            "breath",
+            _ ("Focus on your breath"),
+            _ ("Inhale and exhale deeply, thrice."),
+            _ ("Breath:"),
+            this
+        );
+        reminders[7] = new Reminder (
+            "water",
+            _ ("Hydrate yourself"),
+            _ ("Drink a glass of water."),
+            _ ("Water:"),
+            this
+        );
         return reminders;
     }
 }
