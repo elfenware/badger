@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-28 19:44+0530\n"
-"PO-Revision-Date: 2021-08-28 19:48+0530\n"
+"POT-Creation-Date: 2021-10-29 10:11+0200\n"
+"PO-Revision-Date: 2021-10-29 10:15+0200\n"
 "Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"X-Generator: Gtranslator 41.0\n"
 
 #: src/Application.vala:164
 msgid "Blink your eyes"
@@ -91,6 +91,30 @@ msgstr "Ujistěte se, že máte rovná záda."
 msgid "Posture:"
 msgstr "Držení těla:"
 
+#: src/Application.vala:206
+msgid "Focus on your breath"
+msgstr "Soustřeďte se na svůj dech"
+
+#: src/Application.vala:207
+msgid "Inhale and exhale deeply, thrice."
+msgstr "Třikrát se zhluboka nadechněte a vydechněte."
+
+#: src/Application.vala:208
+msgid "Breath:"
+msgstr "Dýchání:"
+
+#: src/Application.vala:213
+msgid "Hydrate yourself"
+msgstr "Hydratujte se"
+
+#: src/Application.vala:214
+msgid "Drink a glass of water."
+msgstr "Napijte se vody."
+
+#: src/Application.vala:215
+msgid "Water:"
+msgstr "Voda:"
+
 #: src/MainGrid.vala:34
 msgid "Reminders"
 msgstr "Připomínky"
@@ -129,10 +153,6 @@ msgstr "Ergonomický upomínač"
 msgid "Remind yourself to relax your eyes and limbs"
 msgstr "Připomeňte si, že máte uvolnit oči a končetiny"
 
-#: data/com.github.elfenware.badger.desktop.in:8
-msgid "com.github.elfenware.badger"
-msgstr "com.github.elfenware.badger"
-
 #: data/com.github.elfenware.badger.desktop.in:11
 msgid "Ergonomics;Health;Eyes;Muscles;"
 msgstr "Ergonomie;Zdraví;Oči;Svaly;"
@@ -156,8 +176,8 @@ msgstr ""
 "nechali odpočinout své oči a svaly."
 
 #: data/com.github.elfenware.badger.appdata.xml.in:14
-msgid "Currently, it has these six reminders:"
-msgstr "V současné době obsahuje těchto šest připomínek:"
+msgid "Currently, it has these eight reminders:"
+msgstr "V současné době obsahuje těchto osm připomínek:"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:17
 msgid "Blink eyes"
@@ -181,141 +201,156 @@ msgstr "Otočte krkem"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:22
 msgid "Maintain posture"
-msgstr "Udržování správného držení těla"
+msgstr "Udržujte správné držení těla"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:25
+#: data/com.github.elfenware.badger.appdata.xml.in:23
+msgid "Drink water"
+msgstr "Napijte se vody"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:24
+msgid "Breathe consciously"
+msgstr "Dýchejte uvědoměle"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:27
 msgid "Stay healthy."
 msgstr "Zůstaňte zdraví."
 
-#: data/com.github.elfenware.badger.appdata.xml.in:31
+#: data/com.github.elfenware.badger.appdata.xml.in:33
+msgid "Add: Two new reminders (@disegnovitruviano)"
+msgstr "Přidáno: Dvě nové připomínky (@disegnovitruviano)"
+
+#: data/com.github.elfenware.badger.appdata.xml.in:40
 msgid "Update: Italian translations (@albanobattistella)"
 msgstr "Aktualizováno: Italský překlad (@albanobattistella)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:38
+#: data/com.github.elfenware.badger.appdata.xml.in:47
 msgid "Add: Czech translations (@pervoj)"
 msgstr "Přidáno: Český překlad (@pervoj)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:39
+#: data/com.github.elfenware.badger.appdata.xml.in:48
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Přidáno: Italský překlad (@albanobattistella)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:45
-#: data/com.github.elfenware.badger.appdata.xml.in:53
+#: data/com.github.elfenware.badger.appdata.xml.in:54
+#: data/com.github.elfenware.badger.appdata.xml.in:62
 msgid "Odin update 🎉️"
 msgstr "Aktualizace pro Odin 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:47
-#: data/com.github.elfenware.badger.appdata.xml.in:55
+#: data/com.github.elfenware.badger.appdata.xml.in:56
+#: data/com.github.elfenware.badger.appdata.xml.in:64
 msgid "Add: Dark style support"
 msgstr "Přidáno: Podpora tmavého režimu"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:62
+#: data/com.github.elfenware.badger.appdata.xml.in:71
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr "Přidáno: Portugalský překlad (@rottenpants466)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:69
+#: data/com.github.elfenware.badger.appdata.xml.in:78
 msgid "Add: Spanish translations (@fitojb)"
 msgstr "Přidáno: Španělský překlad (@fitojb)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:70
+#: data/com.github.elfenware.badger.appdata.xml.in:79
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Přidáno: Ukrajinský překlad (@IhorHordiichuk)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:77
-#: data/com.github.elfenware.badger.appdata.xml.in:100
+#: data/com.github.elfenware.badger.appdata.xml.in:86
+#: data/com.github.elfenware.badger.appdata.xml.in:109
 msgid "Update: Screenshot"
 msgstr "Aktualizováno: Screenshot"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:84
+#: data/com.github.elfenware.badger.appdata.xml.in:93
 msgid "Add: New reminder for correcting your posture"
 msgstr "Přidáno: Nová připomínka pro správné držení těla"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:91
+#: data/com.github.elfenware.badger.appdata.xml.in:100
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
 msgstr ""
 "Přidáno: Zaškrtávací políčka pro vypínání/zapínání jednotlivých připomínek "
 "(@andreasomaini)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:92
+#: data/com.github.elfenware.badger.appdata.xml.in:101
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
 msgstr "Opraveno: Správná práce s Centrem oznámení (@nathanaelhoun)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:93
+#: data/com.github.elfenware.badger.appdata.xml.in:102
 msgid "Update: Improved icon"
 msgstr "Aktualizováno: Vylepšena ikona"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:107
+#: data/com.github.elfenware.badger.appdata.xml.in:116
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr "Přidáno: 🎉️ Globální přepínač pro vypnutí všech připomínek 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:114
+#: data/com.github.elfenware.badger.appdata.xml.in:123
 msgid "Add: Turkish translations (@libreajans)"
 msgstr "Přidáno: Turecký překlad (@libreajans)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:121
+#: data/com.github.elfenware.badger.appdata.xml.in:130
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Přidáno: Holandský překlad (@Vistaus)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:128
+#: data/com.github.elfenware.badger.appdata.xml.in:137
 msgid "Fix: \"Never\" option not disabling the timer"
 msgstr "Opraveno: Možnost \"Nikdy\" nevypíná časovač"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:135
+#: data/com.github.elfenware.badger.appdata.xml.in:144
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr "Přidáno: 🎉️ Nejočekávanější funkce, vlastní časovače! 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:136
-#: data/com.github.elfenware.badger.appdata.xml.in:146
+#: data/com.github.elfenware.badger.appdata.xml.in:145
+#: data/com.github.elfenware.badger.appdata.xml.in:155
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Aktualizováno: Francouzský překlad (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:137
+#: data/com.github.elfenware.badger.appdata.xml.in:146
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr "Aktualizováno: Litevský překlad (@welaq)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:138
+#: data/com.github.elfenware.badger.appdata.xml.in:147
 msgid "Update: Danish translations (@siigdev)"
 msgstr "Aktualizováno: Dánský překlad (@siigdev)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:145
+#: data/com.github.elfenware.badger.appdata.xml.in:154
 msgid "Add: Danish translations (@siigdev)"
 msgstr "Přidáno: Dánský překlad (@siigdev)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:152
+#: data/com.github.elfenware.badger.appdata.xml.in:161
 msgid "Fix: Empty window on launch"
 msgstr "Opraveno: Prázdné okno po spuštění"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:157
+#: data/com.github.elfenware.badger.appdata.xml.in:166
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr "Přidáno: Litevský překlad (@welaq)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:158
+#: data/com.github.elfenware.badger.appdata.xml.in:167
 msgid "Fix: Illegible heading in dark mode"
 msgstr "Opraveno: Nečitelný nadpis v tmavém režimu"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:163
+#: data/com.github.elfenware.badger.appdata.xml.in:172
 msgid "Add: French translations (@NathanBnm)"
 msgstr "Přidáno: Francouzský překlad (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:168
+#: data/com.github.elfenware.badger.appdata.xml.in:177
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr "Opraveno: Vícenásobná oznámení při otevření okna &gt;1 krát"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:173
+#: data/com.github.elfenware.badger.appdata.xml.in:182
 msgid "Fix: Remove manual line breaks from appdata"
 msgstr "Opraveno: Odstranění ručního zalamování řádků z appdata"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:178
+#: data/com.github.elfenware.badger.appdata.xml.in:187
 msgid "Fix: Use smaller window size by default"
 msgstr "Opraveno: Použití menší velikosti okna ve výchozím nastavení"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:183
+#: data/com.github.elfenware.badger.appdata.xml.in:192
 msgid "Initial Release 🎉️"
 msgstr "První verze 🎉️"
 
-#: data/com.github.elfenware.badger.appdata.xml.in:219
+#: data/com.github.elfenware.badger.appdata.xml.in:229
 msgid "Elfenware"
 msgstr "Elfenware"
+
+#~ msgid "com.github.elfenware.badger"
+#~ msgstr "com.github.elfenware.badger"
 
 #~ msgid "Update: French translation (@NathanBnm)"
 #~ msgstr "Aktualizováno: Francouzský překlad (@NathanBnm)"
