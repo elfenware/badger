@@ -200,7 +200,7 @@ msgstr "Allungare le gambe"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:21
 msgid "Turn neck"
-msgstr "girare il collo"
+msgstr "Girare il collo"
 
 #: data/com.github.elfenware.badger.appdata.xml.in:22
 msgid "Maintain posture"
