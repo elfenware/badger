@@ -27,10 +27,11 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
-    <release version="4.2.1" date="2021-10-21">
+    <release version="4.3.0" date="2021-10-21">
       <description>
         <ul>
           <li>Add: Two new reminders (@disegnovitruviano)</li>
+          <li>Update: Make window compact</li>
         </ul>
       </description>
     </release>      
