@@ -195,24 +195,24 @@ public class Badger.Application : Gtk.Application {
             this
         );
         reminders[5] = new Reminder (
+            "water",
+            _ ("Hydrate yourself"),
+            _ ("Drink a glass of water."),
+            _ ("Water:"),
+            this
+        );
+        reminders[6] = new Reminder (
             "posture",
             _ ("Watch your posture"),
             _ ("Make sure your back is straight."),
             _ ("Posture:"),
             this
         );
-        reminders[6] = new Reminder (
+        reminders[7] = new Reminder (
             "breath",
             _ ("Focus on your breath"),
             _ ("Inhale and exhale deeply, thrice."),
             _ ("Breath:"),
-            this
-        );
-        reminders[7] = new Reminder (
-            "water",
-            _ ("Hydrate yourself"),
-            _ ("Drink a glass of water."),
-            _ ("Water:"),
             this
         );
         return reminders;
