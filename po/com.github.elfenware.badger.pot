@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 13:30+0200\n"
+"POT-Creation-Date: 2021-11-21 12:23+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,21 +121,21 @@ msgstr ""
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
 
-#: src/MainGrid.vala:94
+#: src/MainGrid.vala:126
+#, c-format
+msgid "%.0f min"
+msgstr ""
+
+#: src/Marks.vala:28
 msgid "1 min"
 msgstr ""
 
-#: src/MainGrid.vala:96
+#: src/Marks.vala:32
 msgid "30 min"
 msgstr ""
 
-#: src/MainGrid.vala:98
+#: src/Marks.vala:34
 msgid "1 hour"
-msgstr ""
-
-#: src/MainGrid.vala:129
-#, c-format
-msgid "%.0f min"
 msgstr ""
 
 #: data/com.github.elfenware.badger.desktop.in:4
