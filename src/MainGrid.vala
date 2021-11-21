@@ -54,6 +54,9 @@ public class Badger.MainGrid : Gtk.Grid {
         };
         attach (subheading, 0, 1, 2, 1);
 
+        var marks = new Marks ();
+        attach (marks, 1, 2, 1, 1);
+
         HashTable<string, Gtk.Scale> scales = new HashTable<string, Gtk.Scale> (str_hash, str_equal);
 
         // Change a single scale when the corresponding checkbox is pressed
@@ -88,14 +91,8 @@ public class Badger.MainGrid : Gtk.Grid {
             Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
                 hexpand = true,
                 width_request = 360,
-                margin_top = 24
+                margin_top = 10
             };
-
-            scale.add_mark (1, Gtk.PositionType.BOTTOM, _ ("1 min"));
-            scale.add_mark (15, Gtk.PositionType.BOTTOM, null);
-            scale.add_mark (30, Gtk.PositionType.BOTTOM, _ ("30 min"));
-            scale.add_mark (45, Gtk.PositionType.BOTTOM, null);
-            scale.add_mark (60, Gtk.PositionType.BOTTOM, _ ("1 hour"));
 
             // Get the scale default value
             scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
@@ -140,8 +137,8 @@ public class Badger.MainGrid : Gtk.Grid {
                 SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
             );
 
-            attach (check_box, 0, index + 2, 1, 1);
-            attach (scale, 1, index + 2, 1, 1);
+            attach (check_box, 0, index + 3, 1, 1);
+            attach (scale, 1, index + 3, 1, 1);
         }
     }
 }

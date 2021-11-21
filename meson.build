@@ -100,7 +100,8 @@ code_files = files(
     'src/Application.vala',
     'src/MainWindow.vala',
     'src/Reminder.vala',
-    'src/MainGrid.vala'
+    'src/MainGrid.vala',
+    'src/Marks.vala'
 )
 
 message('Defines executable')
