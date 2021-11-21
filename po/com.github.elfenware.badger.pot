@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 13:30+0200\n"
+"POT-Creation-Date: 2021-11-21 12:27+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,21 +121,21 @@ msgstr ""
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
 
-#: src/MainGrid.vala:94
+#: src/MainGrid.vala:126
+#, c-format
+msgid "%.0f min"
+msgstr ""
+
+#: src/Marks.vala:28
 msgid "1 min"
 msgstr ""
 
-#: src/MainGrid.vala:96
+#: src/Marks.vala:32
 msgid "30 min"
 msgstr ""
 
-#: src/MainGrid.vala:98
+#: src/Marks.vala:34
 msgid "1 hour"
-msgstr ""
-
-#: src/MainGrid.vala:129
-#, c-format
-msgid "%.0f min"
 msgstr ""
 
 #: data/com.github.elfenware.badger.desktop.in:4
@@ -219,130 +219,134 @@ msgstr ""
 msgid "Add: Two new reminders (@disegnovitruviano)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:40
+#: data/com.github.elfenware.badger.appdata.xml.in:34
+msgid "Update: Make window compact"
+msgstr ""
+
+#: data/com.github.elfenware.badger.appdata.xml.in:41
 msgid "Update: Italian translations (@albanobattistella)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:47
+#: data/com.github.elfenware.badger.appdata.xml.in:48
 msgid "Add: Czech translations (@pervoj)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:48
+#: data/com.github.elfenware.badger.appdata.xml.in:49
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:54
-#: data/com.github.elfenware.badger.appdata.xml.in:62
+#: data/com.github.elfenware.badger.appdata.xml.in:55
+#: data/com.github.elfenware.badger.appdata.xml.in:63
 msgid "Odin update 🎉️"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:56
-#: data/com.github.elfenware.badger.appdata.xml.in:64
+#: data/com.github.elfenware.badger.appdata.xml.in:57
+#: data/com.github.elfenware.badger.appdata.xml.in:65
 msgid "Add: Dark style support"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:71
+#: data/com.github.elfenware.badger.appdata.xml.in:72
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:78
+#: data/com.github.elfenware.badger.appdata.xml.in:79
 msgid "Add: Spanish translations (@fitojb)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:79
+#: data/com.github.elfenware.badger.appdata.xml.in:80
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:86
-#: data/com.github.elfenware.badger.appdata.xml.in:109
+#: data/com.github.elfenware.badger.appdata.xml.in:87
+#: data/com.github.elfenware.badger.appdata.xml.in:110
 msgid "Update: Screenshot"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:93
+#: data/com.github.elfenware.badger.appdata.xml.in:94
 msgid "Add: New reminder for correcting your posture"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:100
+#: data/com.github.elfenware.badger.appdata.xml.in:101
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:101
+#: data/com.github.elfenware.badger.appdata.xml.in:102
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:102
+#: data/com.github.elfenware.badger.appdata.xml.in:103
 msgid "Update: Improved icon"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:116
+#: data/com.github.elfenware.badger.appdata.xml.in:117
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:123
+#: data/com.github.elfenware.badger.appdata.xml.in:124
 msgid "Add: Turkish translations (@libreajans)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:130
+#: data/com.github.elfenware.badger.appdata.xml.in:131
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:137
+#: data/com.github.elfenware.badger.appdata.xml.in:138
 msgid "Fix: \"Never\" option not disabling the timer"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:144
+#: data/com.github.elfenware.badger.appdata.xml.in:145
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:145
-#: data/com.github.elfenware.badger.appdata.xml.in:155
+#: data/com.github.elfenware.badger.appdata.xml.in:146
+#: data/com.github.elfenware.badger.appdata.xml.in:156
 msgid "Update: French translations (@NathanBnm)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:146
+#: data/com.github.elfenware.badger.appdata.xml.in:147
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:147
+#: data/com.github.elfenware.badger.appdata.xml.in:148
 msgid "Update: Danish translations (@siigdev)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:154
+#: data/com.github.elfenware.badger.appdata.xml.in:155
 msgid "Add: Danish translations (@siigdev)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:161
+#: data/com.github.elfenware.badger.appdata.xml.in:162
 msgid "Fix: Empty window on launch"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:166
+#: data/com.github.elfenware.badger.appdata.xml.in:167
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:167
+#: data/com.github.elfenware.badger.appdata.xml.in:168
 msgid "Fix: Illegible heading in dark mode"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:172
+#: data/com.github.elfenware.badger.appdata.xml.in:173
 msgid "Add: French translations (@NathanBnm)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:177
+#: data/com.github.elfenware.badger.appdata.xml.in:178
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:182
+#: data/com.github.elfenware.badger.appdata.xml.in:183
 msgid "Fix: Remove manual line breaks from appdata"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:187
+#: data/com.github.elfenware.badger.appdata.xml.in:188
 msgid "Fix: Use smaller window size by default"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:192
+#: data/com.github.elfenware.badger.appdata.xml.in:193
 msgid "Initial Release 🎉️"
 msgstr ""
 
-#: data/com.github.elfenware.badger.appdata.xml.in:229
+#: data/com.github.elfenware.badger.appdata.xml.in:230
 msgid "Elfenware"
 msgstr ""
