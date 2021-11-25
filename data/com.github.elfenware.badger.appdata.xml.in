@@ -21,20 +21,20 @@
       <li>Turn neck</li>
       <li>Maintain posture</li>
       <li>Drink water</li>
-      <li>Breathe consciously</li>  
+      <li>Breathe consciously</li>
     </ul>
 
     <p>Stay healthy.</p>
   </description>
   <releases>
-    <release version="4.3.0" date="2021-10-21">
+    <release version="4.3.0" date="2021-11-25">
       <description>
         <ul>
           <li>Add: Two new reminders (@disegnovitruviano)</li>
           <li>Update: Make window compact</li>
         </ul>
       </description>
-    </release>      
+    </release>
     <release version="4.2.0" date="2021-08-28">
       <description>
         <ul>
