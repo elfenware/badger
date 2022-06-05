@@ -1,7 +1,7 @@
 app-id: com.github.elfenware.badger
 
 runtime: io.elementary.Platform
-runtime-version: '6'
+runtime-version: '7'
 sdk: io.elementary.Sdk
 
 command: com.github.elfenware.badger
@@ -10,7 +10,6 @@ finish-args:
   - '--share=ipc'
   - '--socket=fallback-x11'
   - '--socket=wayland'
-  - '--system-talk-name=org.freedesktop.Accounts'
 
 modules:
   - name: badger
