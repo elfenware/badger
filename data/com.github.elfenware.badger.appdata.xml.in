@@ -27,6 +27,13 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="4.4.0" date="2022-06-05">
+      <description>
+        <ul>
+          <li>Update: Use elementary Platform 7</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.3.0" date="2021-11-25">
       <description>
         <ul>
