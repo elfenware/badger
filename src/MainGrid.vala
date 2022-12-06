@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2019 Darshak Parikh
+ *  Copyright (C) 2019-2022 Darshak Parikh
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -26,7 +26,10 @@ public class Badger.MainGrid : Gtk.Grid {
 
         row_spacing = 4;
         column_spacing = 12;
-        margin_bottom = 12;
+        margin_top = 24;
+        margin_bottom = 36;
+        margin_start = 24;
+        margin_end = 24;
         orientation = Gtk.Orientation.VERTICAL;
 
         var top = new Gtk.Grid ();

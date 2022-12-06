@@ -33,9 +33,7 @@ public class Badger.MainWindow : Hdy.ApplicationWindow {
         var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         content.add (get_header ());
         content.add (main);
-        add(content);
-
-        border_width = 24;
+        add (content);
 
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
@@ -54,7 +52,6 @@ public class Badger.MainWindow : Hdy.ApplicationWindow {
             show_close_button = true
         };
         header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
-        header.get_style_context ().add_class ("badger-headerbar");
 
         return header;
     }
