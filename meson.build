@@ -37,6 +37,7 @@ dependencies = [
     dependency ('glib-2.0'),
     dependency ('granite'),
     dependency ('gtk+-3.0'),
+    dependency ('libhandy-1')
 ]
 
 # Adds subfolders specific build system
