@@ -59,8 +59,7 @@ public class Badger.Application : Gtk.Application {
         if (window == null) {
             var reminders = set_up_reminders ();
             var main = new MainGrid (reminders);
-            window = new MainWindow (this);
-            window.add (main);
+            window = new MainWindow (this, main);
 
             var provider = new Gtk.CssProvider ();
             provider.load_from_resource ("/com/github/elfenware/badger/Application.css");

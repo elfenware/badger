@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2019 Darshak Parikh
+ *  Copyright (C) 2019-2022 Darshak Parikh
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -18,16 +18,22 @@
  *
  */
 
-public class Badger.MainWindow : Gtk.ApplicationWindow {
+public class Badger.MainWindow : Hdy.ApplicationWindow {
     private GLib.Settings settings;
+    public MainGrid main { get; construct; }
 
-    public MainWindow (Gtk.Application app) {
-        Object (application: app);
+    public MainWindow (Gtk.Application app, MainGrid main) {
+        Object (
+            application: app,
+            main: main
+        );
     }
 
     construct {
-        set_titlebar (get_header ());
-        border_width = 24;
+        var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        content.add (get_header ());
+        content.add (main);
+        add (content);
 
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
@@ -39,14 +45,13 @@ public class Badger.MainWindow : Gtk.ApplicationWindow {
         });
     }
 
-    private Gtk.HeaderBar get_header () {
-        var header = new Gtk.HeaderBar () {
+    private Hdy.HeaderBar get_header () {
+        var header = new Hdy.HeaderBar () {
             title = "Badger",
             has_subtitle = false,
             show_close_button = true
         };
         header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
-        header.get_style_context ().add_class ("badger-headerbar");
 
         return header;
     }
