@@ -62,17 +62,20 @@ install_data(
     rename: meson.project_name() + '.gschema.xml'
 )
 
-config_data = configuration_data()
-config_data.set('EXEC_NAME', meson.project_name())
-
 # Src build
 message('Src build')
 
 conf_data = configuration_data()
 conf_data.set_quoted('PROJECT_NAME', meson.project_name())
+conf_data.set_quoted('LOCALEDIR', get_option('prefix') / get_option('localedir'))
 conf_data.set_quoted('GETTEXT_PACKAGE', meson.project_name())
 conf_data.set_quoted('VERSION', meson.project_version())
 conf_data.set_quoted('PREFIX', get_option('prefix'))
+conf_file = configure_file(
+    input: 'config.vala.in',
+    output: '@BASENAME@',
+    configuration: conf_data
+)
 
 message('Configuring desktop entry: ' + meson.project_name() + '.desktop')
 
@@ -111,6 +114,7 @@ executable(
     meson.project_name(),
     code_files,
     asresources,
+    conf_file,
     dependencies: dependencies,
     install: true
 )

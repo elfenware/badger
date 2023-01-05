@@ -30,6 +30,13 @@ public class Badger.Application : Gtk.Application {
         );
     }
 
+    construct {
+        Intl.setlocale (LocaleCategory.ALL, "");
+        Intl.bindtextdomain (Constants.GETTEXT_PACKAGE, Constants.LOCALEDIR);
+        Intl.bind_textdomain_codeset (Constants.GETTEXT_PACKAGE, "UTF-8");
+        Intl.textdomain (Constants.GETTEXT_PACKAGE);
+    }
+
     protected override void activate () {
         stdout.printf ("\n✔️ Activated");
 
