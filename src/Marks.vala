@@ -25,13 +25,15 @@ public class Badger.Marks : Gtk.Box {
         margin_top = 12;
         margin_bottom = 6;
 
-        pack_start (new Gtk.Label (_("1 min")) {
+        append (new Gtk.Label (_("1 min")) {
             halign = Gtk.Align.START
         });
 
-        set_center_widget (new Gtk.Label (_("30 min")));
+        append (new Gtk.Label (_("30 min")) {
+            halign = Gtk.Align.CENTER
+        });
 
-        pack_end (new Gtk.Label (_("1 hour")) {
+        append (new Gtk.Label (_("1 hour")) {
             halign = Gtk.Align.END
         });
     }

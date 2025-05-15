@@ -32,9 +32,9 @@ public class Badger.Application : Gtk.Application {
 
     construct {
         Intl.setlocale (LocaleCategory.ALL, "");
-        Intl.bindtextdomain (Constants.GETTEXT_PACKAGE, Constants.LOCALEDIR);
-        Intl.bind_textdomain_codeset (Constants.GETTEXT_PACKAGE, "UTF-8");
-        Intl.textdomain (Constants.GETTEXT_PACKAGE);
+        Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+        Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+        Intl.textdomain (GETTEXT_PACKAGE);
     }
 
     protected override void activate () {
@@ -70,20 +70,20 @@ public class Badger.Application : Gtk.Application {
 
             var provider = new Gtk.CssProvider ();
             provider.load_from_resource ("/com/github/elfenware/badger/Application.css");
-            Gtk.StyleContext.add_provider_for_screen (
-                Gdk.Screen.get_default (),
+            Gtk.StyleContext.add_provider_for_display (
+                Gdk.Display.get_default (),
                 provider,
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );
 
             if (!headless) {
-                window.show_all ();
+                window.show ();
             }
         }
 
         if (window != null && !headless) {
             stdout.printf ("\n▶️ Process already running. Presenting window…");
-            window.show_all ();
+            window.show ();
             window.present ();
         }
     }

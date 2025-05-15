@@ -33,14 +33,13 @@ public class Badger.MainWindow : Hdy.ApplicationWindow {
         var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         content.add (get_header ());
         content.add (main);
-        add (content);
+        set_child (content);
 
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
-        move (settings.get_int ("window-x"), settings.get_int ("window-y"));
-        resize (settings.get_int ("window-width"), settings.get_int ("window-height"));
+        set_default_size (settings.get_int ("window-width"), settings.get_int ("window-height"));
 
-        delete_event.connect (e => {
+        close_request.connect (e => {
             return before_destroy ();
         });
     }
@@ -51,7 +50,7 @@ public class Badger.MainWindow : Hdy.ApplicationWindow {
             has_subtitle = false,
             show_close_button = true
         };
-        header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
+        header.add_css_class (Gtk.STYLE_CLASS_FLAT);
 
         return header;
     }
@@ -59,11 +58,8 @@ public class Badger.MainWindow : Hdy.ApplicationWindow {
     private bool before_destroy () {
         int x, y, width, height;
 
-        get_position (out x, out y);
-        get_size (out width, out height);
+        get_default_size (out width, out height);
 
-        settings.set_int ("window-x", x);
-        settings.set_int ("window-y", y);
         settings.set_int ("window-width", width);
         settings.set_int ("window-height", height);
 

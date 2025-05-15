@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2018 Darshak Parikh <darshak%protonmaildotkom> -->
-<component type="desktop">
+<component type="desktop-application">
   <id>com.github.elfenware.badger</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
@@ -187,7 +187,7 @@
     </release>
     <release version="1.0.2" date="2019-03-10">
       <description>
-        <p>Fix: Remove manual line breaks from appdata</p>
+        <p>Fix: Remove manual line breaks from metainfo</p>
       </description>
     </release>
     <release version="1.0.1" date="2019-03-10">
