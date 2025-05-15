@@ -1,5 +1,5 @@
 # project name and programming language
-project('io.github.ellie_commons.badger', 'vala', 'c', version: '4.4.0')
+project('io.github.ellie_commons.badger', 'vala', 'c', version: '5.0.0')
 
 gnome = import('gnome')
 i18n = import('i18n')
@@ -35,7 +35,6 @@ executable(
     'src/MainWindow.vala',
     'src/Reminder.vala',
     'src/MainGrid.vala',
-    'src/Marks.vala',
     dependencies: [
         dependency ('glib-2.0'),
         dependency('granite-7'),

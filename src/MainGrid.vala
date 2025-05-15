@@ -54,7 +54,7 @@ public class Badger.MainGrid : Gtk.Box {
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
-            margin_bottom = 3
+            margin_bottom = 6
         };
         subheading.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
@@ -89,21 +89,27 @@ public class Badger.MainGrid : Gtk.Box {
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
 
-            Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+            Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
+                margin_top = 12,
+                margin_bottom = 12
+            };
 
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
-                halign = Gtk.Align.BASELINE,
+                halign = Gtk.Align.CENTER,
                 valign = Gtk.Align.START,
-                margin_top = 24
             };
 
             Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
                 hexpand = true,
-                width_request = 360,
-                margin_top = 10
+                halign = Gtk.Align.FILL,
+                valign = Gtk.Align.CENTER,
+                width_request = 300
             };
 
-            Gtk.Label label = new Gtk.Label (null);
+            Gtk.Label label = new Gtk.Label (null) {
+                halign = Gtk.Align.CENTER,
+                valign = Gtk.Align.END
+            };
 
             // Get the scale default value
             //scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;

@@ -55,13 +55,14 @@ public class Badger.Application : Gtk.Application {
             );
         });
 
-        var first_run = settings.get_boolean ("first-run");
+        // Illegal in the age of Flatpak/Wayland
+        //  var first_run = settings.get_boolean ("first-run");
 
-        if (first_run) {
-            stdout.printf ("\n🎉️ First run");
-            install_autostart ();
-            settings.set_boolean ("first-run", false);
-        }
+        //  if (first_run) {
+        //      stdout.printf ("\n🎉️ First run");
+        //      install_autostart ();
+        //      settings.set_boolean ("first-run", false);
+        //  }
 
         if (window == null) {
             var reminders = set_up_reminders ();
@@ -69,7 +70,7 @@ public class Badger.Application : Gtk.Application {
             window = new MainWindow (this, main);
 
             var provider = new Gtk.CssProvider ();
-            provider.load_from_resource ("/com/github/elfenware/badger/Application.css");
+            provider.load_from_resource ("/io/github/ellie_commons/badger/Application.css");
             Gtk.StyleContext.add_provider_for_display (
                 Gdk.Display.get_default (),
                 provider,
