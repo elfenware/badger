@@ -51,6 +51,32 @@ public class Badger.MainWindow : Gtk.Window {
         var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         content.append (main);
 
+
+
+
+            /*************************************************/
+            // Bar at the bottom
+            var actionbar = new Gtk.ActionBar () {
+                margin_end = 12
+            };
+            actionbar.set_hexpand (true);
+            actionbar.set_vexpand (false);
+            actionbar.add_css_class (Granite.STYLE_CLASS_FLAT);
+        
+
+            // Reset
+            var reset_button = new Gtk.Button();
+            reset_button.set_label( _("Reset to Default"));
+            reset_button.tooltip_markup = (_("Reset all settings to defaults"));
+            actionbar.pack_end (reset_button);
+
+            reset_button.activate.connect (() => {
+                print("");
+            });
+
+        // content.append(actionbar);
+
+
         var handle = new Gtk.WindowHandle () {
             child = content
         };

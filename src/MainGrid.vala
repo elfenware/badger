@@ -24,14 +24,15 @@ public class Badger.MainGrid : Gtk.Box {
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("io.github.ellie_commons.badger.timers");
 
-        margin_top = 24;
-        margin_bottom = 36;
+        set_vexpand (true);
+
+        margin_top = 18;
+        margin_bottom = 24;
         margin_start = 24;
         margin_end = 24;
         orientation = Gtk.Orientation.VERTICAL;
 
-        /* OLD GLOBAL TOGGLE
-
+        /* OLD GLOBAL TOGGLE*/
         var global_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         var global_switch = new Gtk.Switch () {
                     halign = Gtk.Align.END,
@@ -44,17 +45,16 @@ public class Badger.MainGrid : Gtk.Box {
             secondary_text = _("If on, Badger will remind you to take care of yourself")
         };
         global_box.append(heading);
+        global_box.append(global_switch);
+        append (global_box);
 
-        //append (global_box);
-*/
-        // legacy configs may have the disable everything toggle
-        settings.set_boolean ("all", true);
 
 
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
-            margin_bottom = 6
+            margin_top = 18,
+            margin_bottom = 12
         };
         subheading.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
@@ -75,7 +75,7 @@ public class Badger.MainGrid : Gtk.Box {
         });
 
         // Change all the scales when the global switch is pressed
-        /* global_switch.state_set.connect ((value) => {
+        global_switch.state_set.connect ((value) => {
             global_switch.set_active (value);
             scales.foreach ((key, scale) => {
                 scale.sensitive = value ? settings.get_boolean (key) : false;
@@ -84,19 +84,19 @@ public class Badger.MainGrid : Gtk.Box {
             // We don't care about handling the switch animation ourselves, so return false
             return false;
         });
-        */
+
 
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
 
-            Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
+            Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
                 margin_top = 12,
                 margin_bottom = 12
             };
 
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
-                halign = Gtk.Align.CENTER,
-                valign = Gtk.Align.START,
+                halign = Gtk.Align.START,
+                valign = Gtk.Align.CENTER,
             };
 
             Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
@@ -107,13 +107,13 @@ public class Badger.MainGrid : Gtk.Box {
             };
 
             Gtk.Label label = new Gtk.Label (null) {
-                halign = Gtk.Align.CENTER,
-                valign = Gtk.Align.END
+                halign = Gtk.Align.END,
+                valign = Gtk.Align.CENTER
             };
 
             // Get the scale default value
-            //scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
-            scale.sensitive = settings.get_boolean (reminder.name + "-active");
+            scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
+            
 
 
             scales.insert (reminder.name + "-active", scale);
@@ -146,7 +146,7 @@ public class Badger.MainGrid : Gtk.Box {
             });
 
             // If the "all" flag is false, disable all checkboxes
-            //settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
+            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
 
             // When the checkbox is pressed, set the option.
             settings.bind (
@@ -157,12 +157,12 @@ public class Badger.MainGrid : Gtk.Box {
             );
 
             // When the checkbox is pressed, set the option.
-            settings.bind (
+            /*settings.bind (
                 reminder.name + "-active",
                 label,
                 "visible",
                 SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
-            );
+            );*/
 
             box.append (check_box);
             box.append (scale);
@@ -174,5 +174,9 @@ public class Badger.MainGrid : Gtk.Box {
             append (box);
 
         }
+
+
+
+
     }
 }
