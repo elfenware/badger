@@ -25,7 +25,7 @@ public class Badger.Application : Gtk.Application {
 
     public Application () {
         Object (
-            application_id: "com.github.elfenware.badger",
+            application_id: "io.github.ellie_commons.badger",
             flags: ApplicationFlags.HANDLES_COMMAND_LINE
         );
     }
@@ -40,7 +40,7 @@ public class Badger.Application : Gtk.Application {
     protected override void activate () {
         stdout.printf ("\n✔️ Activated");
 
-        var settings = new GLib.Settings ("com.github.elfenware.badger.state");
+        var settings = new GLib.Settings ("io.github.ellie_commons.badger.state");
         var gtk_settings = Gtk.Settings.get_default ();
         var granite_settings = Granite.Settings.get_default ();
         stdout.printf ("\n⚙️ State settings loaded");

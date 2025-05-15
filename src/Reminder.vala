@@ -47,7 +47,7 @@ public class Badger.Reminder : GLib.Object {
         notification = new Notification (title);
         notification.set_body (message);
 
-        var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+        var settings = new GLib.Settings ("io.github.ellie_commons.badger.timers");
         settings.bind ("all", this, "global_active", SettingsBindFlags.GET);
         settings.bind (name + "-active", this, "checkbox_active", SettingsBindFlags.GET);
     }

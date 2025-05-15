@@ -61,7 +61,7 @@ public class Badger.Headerbox : Gtk.Box {
 
         append(heading);
 
-        var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+        var settings = new GLib.Settings ("io.github.ellie_commons.badger.timers");
         settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
         
     }

@@ -33,7 +33,7 @@ public class Badger.MainWindow : Gtk.Window {
 
     construct {
 
-        settings = new GLib.Settings ("com.github.elfenware.badger.state");
+        settings = new GLib.Settings ("io.github.ellie_commons.badger.state");
 
         set_default_size (
             settings.get_int ("window-width"), 

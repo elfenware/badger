@@ -22,7 +22,7 @@ public class Badger.MainGrid : Gtk.Box {
     delegate void SetInterval (uint interval);
 
     public MainGrid (Reminder[] reminders) {
-        var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+        var settings = new GLib.Settings ("io.github.ellie_commons.badger.timers");
 
         margin_top = 24;
         margin_bottom = 36;
@@ -57,7 +57,7 @@ public class Badger.MainGrid : Gtk.Box {
             margin_bottom = 3
         };
         subheading.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
-        
+
         append (subheading);
 
         //var marks = new Marks ();
