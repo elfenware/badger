@@ -18,47 +18,50 @@
  *
  */
 
-public class Badger.MainGrid : Gtk.Grid {
+public class Badger.MainGrid : Gtk.Box {
     delegate void SetInterval (uint interval);
 
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
 
-        row_spacing = 4;
-        column_spacing = 12;
         margin_top = 24;
         margin_bottom = 36;
         margin_start = 24;
         margin_end = 24;
         orientation = Gtk.Orientation.VERTICAL;
 
-        var top = new Gtk.Grid ();
+        /* OLD GLOBAL TOGGLE
 
-        var heading = new Gtk.Label (_ ("Reminders")) {
-            halign = Gtk.Align.START,
-            hexpand = true
-        };
-        heading.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
-        top.attach (heading, 0, 0, 1, 1);
-
+        var global_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         var global_switch = new Gtk.Switch () {
-            halign = Gtk.Align.END,
-            valign = Gtk.Align.CENTER
+                    halign = Gtk.Align.END,
+                    hexpand = true,
+                    valign = Gtk.Align.CENTER,
         };
-        top.attach (global_switch, 1, 0, 1, 1);
-
-        attach (top, 0, 0, 2, 1);
-
         settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
+        var heading = new Granite.HeaderLabel (_ ("Reminders")) {
+            mnemonic_widget = global_switch,
+            secondary_text = _("If on, Badger will remind you to take care of yourself")
+        };
+        global_box.append(heading);
+
+        //append (global_box);
+*/
+        // legacy configs may have the disable everything toggle
+        settings.set_boolean ("all", true);
+
+
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
-            margin_bottom = 12
+            margin_bottom = 3
         };
-        attach (subheading, 0, 1, 2, 1);
+        subheading.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
+        
+        append (subheading);
 
-        var marks = new Marks ();
-        attach (marks, 1, 2, 1, 1);
+        //var marks = new Marks ();
+        //attach (marks, 1, 2, 1, 1);
 
         HashTable<string, Gtk.Scale> scales = new HashTable<string, Gtk.Scale> (str_hash, str_equal);
 
@@ -72,7 +75,7 @@ public class Badger.MainGrid : Gtk.Grid {
         });
 
         // Change all the scales when the global switch is pressed
-        global_switch.state_set.connect ((value) => {
+        /* global_switch.state_set.connect ((value) => {
             global_switch.set_active (value);
             scales.foreach ((key, scale) => {
                 scale.sensitive = value ? settings.get_boolean (key) : false;
@@ -81,9 +84,12 @@ public class Badger.MainGrid : Gtk.Grid {
             // We don't care about handling the switch animation ourselves, so return false
             return false;
         });
+        */
 
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
+
+            Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
 
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
                 halign = Gtk.Align.BASELINE,
@@ -97,8 +103,12 @@ public class Badger.MainGrid : Gtk.Grid {
                 margin_top = 10
             };
 
+            Gtk.Label label = new Gtk.Label (null);
+
             // Get the scale default value
-            scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
+            //scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
+            scale.sensitive = settings.get_boolean (reminder.name + "-active");
+
 
             scales.insert (reminder.name + "-active", scale);
 
@@ -115,22 +125,22 @@ public class Badger.MainGrid : Gtk.Grid {
                 settings.set_boolean (reminder.name + "-active", false);
             }
             scale.set_value (interval);
+            label.set_text (_ ("%.0f min").printf (interval));
 
             SetInterval set_interval = reminder.set_reminder_interval;
             set_interval (interval);
 
-            scale.value_changed.connect (() => {
+            scale.change_value.connect ((scroll, duration) => {
                 uint new_value = (uint) scale.get_value ();
                 settings.set_uint (reminder.name, new_value);
                 set_interval (new_value);
-            });
 
-            scale.format_value.connect (duration => {
-                return _ ("%.0f min").printf (duration);
+                label.set_text (_ ("%.0f min").printf (duration)) ;
+                return false;
             });
 
             // If the "all" flag is false, disable all checkboxes
-            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
+            //settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
 
             // When the checkbox is pressed, set the option.
             settings.bind (
@@ -140,8 +150,23 @@ public class Badger.MainGrid : Gtk.Grid {
                 SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
             );
 
-            attach (check_box, 0, index + 3, 1, 1);
-            attach (scale, 1, index + 3, 1, 1);
+            // When the checkbox is pressed, set the option.
+            settings.bind (
+                reminder.name + "-active",
+                label,
+                "visible",
+                SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
+            );
+
+            box.append (check_box);
+            box.append (scale);
+            box.append (label);
+
+            //attach (check_box, 0, index + 3, 1, 1);
+            //attach (scale, 1, index + 3, 1, 1);
+            //attach (label, 2, index + 3, 1, 1);
+            append (box);
+
         }
     }
 }

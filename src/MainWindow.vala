@@ -18,8 +18,10 @@
  *
  */
 
-public class Badger.MainWindow : Hdy.ApplicationWindow {
+public class Badger.MainWindow : Gtk.Window {
     private GLib.Settings settings;
+    private Gtk.HeaderBar headerbar;
+
     public MainGrid main { get; construct; }
 
     public MainWindow (Gtk.Application app, MainGrid main) {
@@ -30,33 +32,41 @@ public class Badger.MainWindow : Hdy.ApplicationWindow {
     }
 
     construct {
-        var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        content.add (get_header ());
-        content.add (main);
-        set_child (content);
 
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
-        set_default_size (settings.get_int ("window-width"), settings.get_int ("window-height"));
+        set_default_size (
+            settings.get_int ("window-width"), 
+            settings.get_int ("window-height")
+        );
+
+        set_title("Badger");
+
+        this.headerbar = new Gtk.HeaderBar ();
+        headerbar.set_title_widget (new Gtk.Label("Badger"));
+        headerbar.add_css_class (Granite.STYLE_CLASS_FLAT);
+        set_titlebar (headerbar);
+
+
+        var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        content.append (main);
+
+        var handle = new Gtk.WindowHandle () {
+            child = content
+        };
+
+        set_child (handle);
+
+
 
         close_request.connect (e => {
             return before_destroy ();
         });
     }
 
-    private Hdy.HeaderBar get_header () {
-        var header = new Hdy.HeaderBar () {
-            title = "Badger",
-            has_subtitle = false,
-            show_close_button = true
-        };
-        header.add_css_class (Gtk.STYLE_CLASS_FLAT);
-
-        return header;
-    }
 
     private bool before_destroy () {
-        int x, y, width, height;
+        int width, height;
 
         get_default_size (out width, out height);
 

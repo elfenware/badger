@@ -38,3 +38,31 @@ public class Badger.Marks : Gtk.Box {
         });
     }
 }
+
+public class Badger.Headerbox : Gtk.Box {
+    construct {
+        orientation = Gtk.Orientation.HORIZONTAL;
+        hexpand = true;
+        margin_top = 12;
+        margin_bottom = 6;
+
+        var global_switch = new Gtk.Switch () {
+                    halign = Gtk.Align.END,
+                    hexpand = true,
+                    valign = Gtk.Align.CENTER,
+        };
+
+
+        var heading = new Granite.HeaderLabel (_ ("Reminders")) {
+            mnemonic_widget = global_switch,
+            secondary_text = _("Badger will remind you to take care of yourself")
+        };
+        heading.add_css_class (Granite.STYLE_CLASS_H2_LABEL);
+
+        append(heading);
+
+        var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+        settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
+        
+    }
+}
