@@ -1,20 +1,15 @@
-# French translations for the io.github.ellie_commons.badger package.
-# Copyright (C) 2021 THE io.github.ellie_commons.badger'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.github.ellie_commons.badger package.
-# Nathan Bonnemains (@NathanBnm), 2021.
-#
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr\n"
+"Language-Team: Français\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2021-08-28 19:53+0530\n"
+"POT-Creation-Date: 2025-05-16 20:47+0200\n"
 "Project-Id-Version: io.github.ellie_commons.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 20:47+0200\n"
-"PO-Revision-Date: 2021-08-28 19:53+0530\n"
-"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
-"Language-Team: Français\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
 
 #: src/Application.vala:133
@@ -23,9 +18,7 @@ msgstr "Clignez des yeux"
 
 #: src/Application.vala:134
 msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
-msgstr ""
-"Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 "
-"secondes."
+msgstr "Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 secondes."
 
 #: src/Application.vala:135
 msgid "Eyes:"
@@ -37,9 +30,7 @@ msgstr "Étirez vos doigts"
 
 #: src/Application.vala:141
 msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
-msgstr ""
-"Étendez la paume de votre main, puis fermez-la en un poing. Effectuez 5 "
-"répétitions."
+msgstr "Étendez la paume de votre main, puis fermez-la en un poing. Effectuez 5 répétitions."
 
 #: src/Application.vala:142
 msgid "Fingers:"
@@ -75,8 +66,7 @@ msgstr "Tournez votre cou"
 
 #: src/Application.vala:162
 msgid "Turn your head in all directions. Repeat 3 times."
-msgstr ""
-"Tournez votre tête dans toutes les directions. Effectuez 3 répétitions."
+msgstr "Tournez votre tête dans toutes les directions. Effectuez 3 répétitions."
 
 #: src/Application.vala:163
 msgid "Neck:"
@@ -124,15 +114,14 @@ msgstr "Rappels"
 
 #: src/MainGrid.vala:45
 msgid "If on, Badger will remind you to take care of yourself"
-msgstr ""
+msgstr "S'il est activé, Badger vous rappellera de prendre soin de vous."
 
 #: src/MainGrid.vala:55
 msgid "Decide how often Badger should remind you to relax these:"
-msgstr ""
-"Décidez de la fréquence à laquelle Badger doit vous rappeler de vous "
-"reposer :"
+msgstr "Décidez de la fréquence à laquelle Badger doit vous rappeler de vous reposer :"
 
-#: src/MainGrid.vala:130 src/MainGrid.vala:145
+#: src/MainGrid.vala:130
+#: src/MainGrid.vala:145
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f min"
@@ -162,24 +151,13 @@ msgstr "1 heure"
 #~ msgstr "Ergonomie;Santé;Yeux;Muscles;"
 
 #~ msgid "Remind yourself to not sit and stare at the screen for too long"
-#~ msgstr ""
-#~ "Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop "
-#~ "longtemps"
+#~ msgstr "Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop longtemps"
 
-#~ msgid ""
-#~ "When you are using your computer for extended periods of time, you need "
-#~ "to relax your body every once in a while."
-#~ msgstr ""
-#~ "Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous "
-#~ "devez détendre votre corps de temps en temps."
+#~ msgid "When you are using your computer for extended periods of time, you need to relax your body every once in a while."
+#~ msgstr "Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous devez détendre votre corps de temps en temps."
 
-#~ msgid ""
-#~ "Badger helps you do exactly that. It reminds you—or should I say, badgers "
-#~ "you—to destress yourself and rest your eyes and muscles."
-#~ msgstr ""
-#~ "C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou "
-#~ "devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les "
-#~ "yeux et les muscles."
+#~ msgid "Badger helps you do exactly that. It reminds you—or should I say, badgers you—to destress yourself and rest your eyes and muscles."
+#~ msgstr "C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les yeux et les muscles."
 
 #~ msgid "Currently, it has these eight reminders:"
 #~ msgstr "Pour l'instant, il y a ces huit rappels :"
@@ -245,22 +223,16 @@ msgstr "1 heure"
 #~ msgstr "Ajout : Nouveau rappel pour corriger votre posture"
 
 #~ msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-#~ msgstr ""
-#~ "Ajout : Cases à cocher pour activer/désactiver chaque minuteur "
-#~ "(@andreasomaini)"
+#~ msgstr "Ajout : Cases à cocher pour activer/désactiver chaque minuteur (@andreasomaini)"
 
 #~ msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-#~ msgstr ""
-#~ "Correction : Meilleur intégration avec le centre de notifications "
-#~ "(@nathanaelhoun)"
+#~ msgstr "Correction : Meilleur intégration avec le centre de notifications (@nathanaelhoun)"
 
 #~ msgid "Update: Improved icon"
 #~ msgstr "Mise à jour : Amélioration de l'icône"
 
 #~ msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-#~ msgstr ""
-#~ "Ajout : 🎉️ Paramètres global d'activation/désactivation de tous les "
-#~ "rappels 🎉️"
+#~ msgstr "Ajout : 🎉️ Paramètres global d'activation/désactivation de tous les rappels 🎉️"
 
 #~ msgid "Add: Turkish translations (@libreajans)"
 #~ msgstr "Ajout : Traductions en turc (@libreajans)"
@@ -272,9 +244,7 @@ msgstr "1 heure"
 #~ msgstr "Correction : L'option « Jamais » ne désactivait pas le minuteur"
 
 #~ msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-#~ msgstr ""
-#~ "Ajout : 🎉️ La fonctionnalité la plus attendue, des minuteurs "
-#~ "personnalisés ! 🎉️"
+#~ msgstr "Ajout : 🎉️ La fonctionnalité la plus attendue, des minuteurs personnalisés ! 🎉️"
 
 #~ msgid "Update: French translations (@NathanBnm)"
 #~ msgstr "Mise à jour : Traductions en français (@NathanBnm)"
@@ -301,13 +271,10 @@ msgstr "1 heure"
 #~ msgstr "Ajout : Traductions en français (@NathanBnm)"
 
 #~ msgid "Fix: Multiple notifications when window is opened &gt;1 times"
-#~ msgstr ""
-#~ "Correction : Il y avait des notifications en double si l'application "
-#~ "était ouverte plus d'une fois"
+#~ msgstr "Correction : Il y avait des notifications en double si l'application était ouverte plus d'une fois"
 
 #~ msgid "Fix: Remove manual line breaks from metainfo"
-#~ msgstr ""
-#~ "Correction : Retrait des retours à la ligne manuels dans les métadonnées"
+#~ msgstr "Correction : Retrait des retours à la ligne manuels dans les métadonnées"
 
 #~ msgid "Fix: Use smaller window size by default"
 #~ msgstr "Correction : Fenêtre plus petite par défaut"

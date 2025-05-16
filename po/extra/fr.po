@@ -1,20 +1,15 @@
-# French translations for the io.github.ellie_commons.badger package.
-# Copyright (C) 2021 THE io.github.ellie_commons.badger'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.github.ellie_commons.badger package.
-# Nathan Bonnemains (@NathanBnm), 2021.
-#
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr\n"
+"Language-Team: Français\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2021-08-28 19:53+0530\n"
+"POT-Creation-Date: 2025-05-16 20:47+0200\n"
 "Project-Id-Version: io.github.ellie_commons.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 20:47+0200\n"
-"PO-Revision-Date: 2021-08-28 19:53+0530\n"
-"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
-"Language-Team: Français\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
 
 #: data/io.github.ellie_commons.badger.desktop.in:4
@@ -36,26 +31,15 @@ msgstr "Ergonomie;Santé;Yeux;Muscles;"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:8
 msgid "Remind yourself to not sit and stare at the screen for too long"
-msgstr ""
-"Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop "
-"longtemps"
+msgstr "Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop longtemps"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:10
-msgid ""
-"When you are using your computer for extended periods of time, you need to "
-"relax your body every once in a while."
-msgstr ""
-"Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous "
-"devez détendre votre corps de temps en temps."
+msgid "When you are using your computer for extended periods of time, you need to relax your body every once in a while."
+msgstr "Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous devez détendre votre corps de temps en temps."
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:12
-msgid ""
-"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
-"—to destress yourself and rest your eyes and muscles."
-msgstr ""
-"C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou "
-"devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les "
-"yeux et les muscles."
+msgid "Badger helps you do exactly that. It reminds you—or should I say, badgers you—to destress yourself and rest your eyes and muscles."
+msgstr "C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les yeux et les muscles."
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:14
 msgid "Currently, it has these eight reminders:"
@@ -99,11 +83,11 @@ msgstr "Restez en bonne santé."
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:33
 msgid "Update: Modern tech under the hood! (GTK4)"
-msgstr ""
+msgstr "Mise à jour : technologie moderne sous le capot ! (GTK4)"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:40
 msgid "Update: Use elementary Platform 7"
-msgstr ""
+msgstr "Mise à jour : utiliser elementary Platform 7"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:47
 msgid "Add: Two new reminders (@disegnovitruviano)"
@@ -111,7 +95,7 @@ msgstr "Ajout : Deux nouveaux rappels (@disegnovitruviano)"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:48
 msgid "Update: Make window compact"
-msgstr ""
+msgstr "Mise à jour : rendre la fenêtre compacte"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:55
 msgid "Update: Italian translations (@albanobattistella)"
@@ -158,15 +142,11 @@ msgstr "Ajout : Nouveau rappel pour corriger votre posture"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:115
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-msgstr ""
-"Ajout : Cases à cocher pour activer/désactiver chaque minuteur "
-"(@andreasomaini)"
+msgstr "Ajout : Cases à cocher pour activer/désactiver chaque minuteur (@andreasomaini)"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:116
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-msgstr ""
-"Correction : Meilleur intégration avec le centre de notifications "
-"(@nathanaelhoun)"
+msgstr "Correction : Meilleur intégration avec le centre de notifications (@nathanaelhoun)"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:117
 msgid "Update: Improved icon"
@@ -174,9 +154,7 @@ msgstr "Mise à jour : Amélioration de l'icône"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:131
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr ""
-"Ajout : 🎉️ Paramètres global d'activation/désactivation de tous les rappels "
-"🎉️"
+msgstr "Ajout : 🎉️ Paramètres global d'activation/désactivation de tous les rappels 🎉️"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:138
 msgid "Add: Turkish translations (@libreajans)"
@@ -192,9 +170,7 @@ msgstr "Correction : L'option « Jamais » ne désactivait pas le minuteur"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:159
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-msgstr ""
-"Ajout : 🎉️ La fonctionnalité la plus attendue, des minuteurs personnalisés ! "
-"🎉️"
+msgstr "Ajout : 🎉️ La fonctionnalité la plus attendue, des minuteurs personnalisés ! 🎉️"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:160
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:170
@@ -231,14 +207,11 @@ msgstr "Ajout : Traductions en français (@NathanBnm)"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:192
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
-msgstr ""
-"Correction : Il y avait des notifications en double si l'application était "
-"ouverte plus d'une fois"
+msgstr "Correction : Il y avait des notifications en double si l'application était ouverte plus d'une fois"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:197
 msgid "Fix: Remove manual line breaks from metainfo"
-msgstr ""
-"Correction : Retrait des retours à la ligne manuels dans les métadonnées"
+msgstr "Correction : Retrait des retours à la ligne manuels dans les métadonnées"
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:202
 msgid "Fix: Use smaller window size by default"
@@ -256,9 +229,7 @@ msgstr "Elfenware"
 #~ msgstr "Clignez des yeux"
 
 #~ msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
-#~ msgstr ""
-#~ "Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 "
-#~ "secondes."
+#~ msgstr "Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 secondes."
 
 #~ msgid "Eyes:"
 #~ msgstr "Yeux :"
@@ -266,11 +237,8 @@ msgstr "Elfenware"
 #~ msgid "Stretch your fingers"
 #~ msgstr "Étirez vos doigts"
 
-#~ msgid ""
-#~ "Spread out your palm wide, then close it into a fist. Repeat 5 times."
-#~ msgstr ""
-#~ "Étendez la paume de votre main, puis fermez-la en un poing. Effectuez 5 "
-#~ "répétitions."
+#~ msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+#~ msgstr "Étendez la paume de votre main, puis fermez-la en un poing. Effectuez 5 répétitions."
 
 #~ msgid "Fingers:"
 #~ msgstr "Doigts :"
@@ -297,8 +265,7 @@ msgstr "Elfenware"
 #~ msgstr "Tournez votre cou"
 
 #~ msgid "Turn your head in all directions. Repeat 3 times."
-#~ msgstr ""
-#~ "Tournez votre tête dans toutes les directions. Effectuez 3 répétitions."
+#~ msgstr "Tournez votre tête dans toutes les directions. Effectuez 3 répétitions."
 
 #~ msgid "Neck:"
 #~ msgstr "Cou :"
@@ -334,9 +301,7 @@ msgstr "Elfenware"
 #~ msgstr "Rappels"
 
 #~ msgid "Decide how often Badger should remind you to relax these:"
-#~ msgstr ""
-#~ "Décidez de la fréquence à laquelle Badger doit vous rappeler de vous "
-#~ "reposer :"
+#~ msgstr "Décidez de la fréquence à laquelle Badger doit vous rappeler de vous reposer :"
 
 #, c-format
 #~ msgid "%.0f min"

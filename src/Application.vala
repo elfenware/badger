@@ -40,7 +40,6 @@ public class Badger.Application : Gtk.Application {
     protected override void activate () {
         stdout.printf ("\n✔️ Activated");
 
-        var settings = new GLib.Settings ("io.github.ellie_commons.badger.state");
         var gtk_settings = Gtk.Settings.get_default ();
         var granite_settings = Granite.Settings.get_default ();
         stdout.printf ("\n⚙️ State settings loaded");

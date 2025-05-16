@@ -4,3 +4,4 @@ builddir
 *.mo
 *~
 .vscode
+.potrans
