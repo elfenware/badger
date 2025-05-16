@@ -23,16 +23,21 @@ public class Badger.MainGrid : Gtk.Box {
 
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("io.github.ellie_commons.badger.timers");
-
         set_vexpand (true);
 
         margin_top = 18;
-        margin_bottom = 24;
+        margin_bottom = 18;
         margin_start = 24;
         margin_end = 24;
         orientation = Gtk.Orientation.VERTICAL;
 
-        /* OLD GLOBAL TOGGLE*/
+
+        
+
+        /************************************************/
+        /*               Switch at top                  */
+        /************************************************/
+
         var global_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         var global_switch = new Gtk.Switch () {
                     halign = Gtk.Align.END,
@@ -50,6 +55,9 @@ public class Badger.MainGrid : Gtk.Box {
         append (global_box);
 
 
+        /************************************************/
+        /*               Label to explain               */
+        /************************************************/
 
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
@@ -87,6 +95,16 @@ public class Badger.MainGrid : Gtk.Box {
             return false;
         });
 
+
+
+        /************************************************/
+        /*               All the scales                 */
+        /************************************************/
+
+
+
+        var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        scale_box.vexpand = true;
 
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
@@ -160,9 +178,28 @@ public class Badger.MainGrid : Gtk.Box {
 
             box.append (check_box);
             box.append (scale);
-            append (box);
+            scale_box.append (box);
 
         } // Forloop end
+
+        append(scale_box);
+
+
+
+        /********************************************/
+        /*               DnD Label                  */
+        /********************************************/
+
+
+        // User may wonder why they get no notification
+        // Ok also this looks better
+        var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is not on")) {
+            halign = Gtk.Align.START,
+            margin_top = 6
+        };
+        //append (hey);
+
+
 
     }
 }

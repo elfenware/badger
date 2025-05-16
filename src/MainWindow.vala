@@ -54,6 +54,9 @@ public class Badger.MainWindow : Gtk.Window {
         content.append (main);
 
 
+
+
+
         // Allow grabbing on whole window
         var handle = new Gtk.WindowHandle () {
             child = content
