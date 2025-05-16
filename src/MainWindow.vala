@@ -33,15 +33,15 @@ public class Badger.MainWindow : Gtk.Window {
 
     construct {
             Intl.setlocale ();
-        settings = new GLib.Settings ("io.github.ellie_commons.badger.state");
+        settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
         set_default_size (
             settings.get_int ("window-width"), 
             settings.get_int ("window-height")
         );
 
-        set_title("Badger");
-        Gtk.Label title_widget = new Gtk.Label("Badger");
+        set_title(_("Badger"));
+        Gtk.Label title_widget = new Gtk.Label(_("Badger"));
         title_widget.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
         
         this.headerbar = new Gtk.HeaderBar ();

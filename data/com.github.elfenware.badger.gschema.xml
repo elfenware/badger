@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
   <schema
-    path="/io/github/ellie_commons/badger/timers/"
-    id="io.github.ellie_commons.badger.timers"
-    gettext-domain="io.github.ellie_commons.badger">
+    path="/com/github/elfenware/badger/timers/"
+    id="com.github.elfenware.badger.timers"
+    gettext-domain="com.github.elfenware.badger">
     <key name="all" type="b">
       <default>true</default>
       <summary>Global switch to control all reminders</summary>
@@ -74,9 +74,9 @@
     </key>
   </schema>
   <schema
-    path="/io/github/ellie_commons/badger/state/"
-    id="io.github.ellie_commons.badger.state"
-    gettext-domain="io.github.ellie_commons.badger">
+    path="/com/github/elfenware/badger/state/"
+    id="com.github.elfenware.badger.state"
+    gettext-domain="com.github.elfenware.badger">
     <key name="window-width" type="i">
       <default>180</default>
       <summary>The saved width of the window.</summary>

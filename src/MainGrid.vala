@@ -22,7 +22,7 @@ public class Badger.MainGrid : Gtk.Box {
     delegate void SetInterval (uint interval);
 
     public MainGrid (Reminder[] reminders) {
-        var settings = new GLib.Settings ("io.github.ellie_commons.badger.timers");
+        var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
         set_vexpand (true);
 
         margin_top = 18;

@@ -1,227 +1,249 @@
 msgid ""
 msgstr ""
-"Content-Transfer-Encoding: 8bit\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: fr\n"
-"Language-Team: Français\n"
-"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
-"MIME-Version: 1.0\n"
-"PO-Revision-Date: 2021-08-28 19:53+0530\n"
-"POT-Creation-Date: 2025-05-16 20:47+0200\n"
-"Project-Id-Version: io.github.ellie_commons.badger\n"
+"Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-16 21:41+0200\n"
+"PO-Revision-Date: 2021-08-28 19:53+0530\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
 
-#: data/io.github.ellie_commons.badger.desktop.in:4
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:7
+#: data/com.github.elfenware.badger.desktop.in:4
+#: data/com.github.elfenware.badger.metainfo.xml.in:7
 msgid "Badger"
 msgstr "Badger"
 
-#: data/io.github.ellie_commons.badger.desktop.in:5
+#: data/com.github.elfenware.badger.desktop.in:5
 msgid "Ergonomic Reminder"
 msgstr "Rappels pour une meilleure ergonomie"
 
-#: data/io.github.ellie_commons.badger.desktop.in:6
+#: data/com.github.elfenware.badger.desktop.in:6
 msgid "Remind yourself to relax your eyes and limbs"
 msgstr "Rappelez-vous de reposer vos yeux et vos membres."
 
-#: data/io.github.ellie_commons.badger.desktop.in:11
+#: data/com.github.elfenware.badger.desktop.in:11
 msgid "Ergonomics;Health;Eyes;Muscles;"
 msgstr "Ergonomie;Santé;Yeux;Muscles;"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:8
+#: data/com.github.elfenware.badger.metainfo.xml.in:8
 msgid "Remind yourself to not sit and stare at the screen for too long"
-msgstr "Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop longtemps"
+msgstr ""
+"Rappelez-vous de ne pas vous asseoir et regarder l'écran pendant trop "
+"longtemps"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:10
-msgid "When you are using your computer for extended periods of time, you need to relax your body every once in a while."
-msgstr "Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous devez détendre votre corps de temps en temps."
+#: data/com.github.elfenware.badger.metainfo.xml.in:10
+msgid ""
+"When you are using your computer for extended periods of time, you need to "
+"relax your body every once in a while."
+msgstr ""
+"Lorsque vous utilisez votre ordinateur pendant de longues périodes, vous "
+"devez détendre votre corps de temps en temps."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:12
-msgid "Badger helps you do exactly that. It reminds you—or should I say, badgers you—to destress yourself and rest your eyes and muscles."
-msgstr "C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les yeux et les muscles."
+#: data/com.github.elfenware.badger.metainfo.xml.in:12
+msgid ""
+"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
+"—to destress yourself and rest your eyes and muscles."
+msgstr ""
+"C'est exactement ce que Badger vous aide à faire. Il vous rappelle - ou "
+"devrais-je dire, vous harcèle - de vous déstresser et de vous reposer les "
+"yeux et les muscles."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:14
+#: data/com.github.elfenware.badger.metainfo.xml.in:14
 msgid "Currently, it has these eight reminders:"
 msgstr "Pour l'instant, il y a ces huit rappels :"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:17
+#: data/com.github.elfenware.badger.metainfo.xml.in:17
 msgid "Blink eyes"
 msgstr "Clignez des yeux"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:18
+#: data/com.github.elfenware.badger.metainfo.xml.in:18
 msgid "Stretch fingers"
 msgstr "Étirez vos doigts"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:19
+#: data/com.github.elfenware.badger.metainfo.xml.in:19
 msgid "Stretch arms"
 msgstr "Étirez vos bras"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:20
+#: data/com.github.elfenware.badger.metainfo.xml.in:20
 msgid "Stretch legs"
 msgstr "Étirez vos jambes"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:21
+#: data/com.github.elfenware.badger.metainfo.xml.in:21
 msgid "Turn neck"
 msgstr "Tournez votre cou"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:22
+#: data/com.github.elfenware.badger.metainfo.xml.in:22
 msgid "Maintain posture"
 msgstr "Maintenez votre posture"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:23
+#: data/com.github.elfenware.badger.metainfo.xml.in:23
 msgid "Drink water"
 msgstr "Buvez de l'eau"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:24
+#: data/com.github.elfenware.badger.metainfo.xml.in:24
 msgid "Breathe consciously"
 msgstr "Concentrez-vous sur votre respiration"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:27
+#: data/com.github.elfenware.badger.metainfo.xml.in:27
 msgid "Stay healthy."
 msgstr "Restez en bonne santé."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:33
+#: data/com.github.elfenware.badger.metainfo.xml.in:33
 msgid "Update: Modern tech under the hood! (GTK4)"
 msgstr "Mise à jour : technologie moderne sous le capot ! (GTK4)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:40
+#: data/com.github.elfenware.badger.metainfo.xml.in:40
 msgid "Update: Use elementary Platform 7"
 msgstr "Mise à jour : utiliser elementary Platform 7"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:47
+#: data/com.github.elfenware.badger.metainfo.xml.in:47
 msgid "Add: Two new reminders (@disegnovitruviano)"
 msgstr "Ajout : Deux nouveaux rappels (@disegnovitruviano)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:48
+#: data/com.github.elfenware.badger.metainfo.xml.in:48
 msgid "Update: Make window compact"
 msgstr "Mise à jour : rendre la fenêtre compacte"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:55
+#: data/com.github.elfenware.badger.metainfo.xml.in:55
 msgid "Update: Italian translations (@albanobattistella)"
 msgstr "Mise à jour : Traductions en italien (@albanobattistella)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:62
+#: data/com.github.elfenware.badger.metainfo.xml.in:62
 msgid "Add: Czech translations (@pervoj)"
 msgstr "Ajout : Traductions en tchèque (@pervoj)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:63
+#: data/com.github.elfenware.badger.metainfo.xml.in:63
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Ajout : Traductions en italien (@albanobattistella)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:69
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:77
+#: data/com.github.elfenware.badger.metainfo.xml.in:69
+#: data/com.github.elfenware.badger.metainfo.xml.in:77
 msgid "Odin update 🎉️"
 msgstr "Mise à jour pour Odin 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:71
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:79
+#: data/com.github.elfenware.badger.metainfo.xml.in:71
+#: data/com.github.elfenware.badger.metainfo.xml.in:79
 msgid "Add: Dark style support"
 msgstr "Ajout : Prise en charge du thème sombre"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:86
+#: data/com.github.elfenware.badger.metainfo.xml.in:86
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr "Ajout : Traductions en portugais du Portugal (@rottenpants466)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:93
+#: data/com.github.elfenware.badger.metainfo.xml.in:93
 msgid "Add: Spanish translations (@fitojb)"
 msgstr "Ajout : Traductions en espagnol (@fitojb)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:94
+#: data/com.github.elfenware.badger.metainfo.xml.in:94
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Ajout : Traductions en ukrainien (@IhorHordiichuk)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:101
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:124
+#: data/com.github.elfenware.badger.metainfo.xml.in:101
+#: data/com.github.elfenware.badger.metainfo.xml.in:124
 msgid "Update: Screenshot"
 msgstr "Mise à jour : Capture d'écran"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:108
+#: data/com.github.elfenware.badger.metainfo.xml.in:108
 msgid "Add: New reminder for correcting your posture"
 msgstr "Ajout : Nouveau rappel pour corriger votre posture"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:115
+#: data/com.github.elfenware.badger.metainfo.xml.in:115
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-msgstr "Ajout : Cases à cocher pour activer/désactiver chaque minuteur (@andreasomaini)"
+msgstr ""
+"Ajout : Cases à cocher pour activer/désactiver chaque minuteur "
+"(@andreasomaini)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:116
+#: data/com.github.elfenware.badger.metainfo.xml.in:116
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-msgstr "Correction : Meilleur intégration avec le centre de notifications (@nathanaelhoun)"
+msgstr ""
+"Correction : Meilleur intégration avec le centre de notifications "
+"(@nathanaelhoun)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:117
+#: data/com.github.elfenware.badger.metainfo.xml.in:117
 msgid "Update: Improved icon"
 msgstr "Mise à jour : Amélioration de l'icône"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:131
+#: data/com.github.elfenware.badger.metainfo.xml.in:131
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr "Ajout : 🎉️ Paramètres global d'activation/désactivation de tous les rappels 🎉️"
+msgstr ""
+"Ajout : 🎉️ Paramètres global d'activation/désactivation de tous les rappels "
+"🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:138
+#: data/com.github.elfenware.badger.metainfo.xml.in:138
 msgid "Add: Turkish translations (@libreajans)"
 msgstr "Ajout : Traductions en turc (@libreajans)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:145
+#: data/com.github.elfenware.badger.metainfo.xml.in:145
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Ajout : Traductions en néerlandais (@Vistaus)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:152
+#: data/com.github.elfenware.badger.metainfo.xml.in:152
 msgid "Fix: \"Never\" option not disabling the timer"
 msgstr "Correction : L'option « Jamais » ne désactivait pas le minuteur"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:159
+#: data/com.github.elfenware.badger.metainfo.xml.in:159
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-msgstr "Ajout : 🎉️ La fonctionnalité la plus attendue, des minuteurs personnalisés ! 🎉️"
+msgstr ""
+"Ajout : 🎉️ La fonctionnalité la plus attendue, des minuteurs personnalisés ! "
+"🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:160
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:170
+#: data/com.github.elfenware.badger.metainfo.xml.in:160
+#: data/com.github.elfenware.badger.metainfo.xml.in:170
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Mise à jour : Traductions en français (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:161
+#: data/com.github.elfenware.badger.metainfo.xml.in:161
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr "Mise à jour : Traductions en lituanien (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:162
+#: data/com.github.elfenware.badger.metainfo.xml.in:162
 msgid "Update: Danish translations (@siigdev)"
 msgstr "Mise à jour : Traductions en danois (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:169
+#: data/com.github.elfenware.badger.metainfo.xml.in:169
 msgid "Add: Danish translations (@siigdev)"
 msgstr "Ajout : Traductions en danois (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:176
+#: data/com.github.elfenware.badger.metainfo.xml.in:176
 msgid "Fix: Empty window on launch"
 msgstr "Correction : Fenêtre vide au démarrage"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:181
+#: data/com.github.elfenware.badger.metainfo.xml.in:181
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr "Ajout : Traductions en lituanien (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:182
+#: data/com.github.elfenware.badger.metainfo.xml.in:182
 msgid "Fix: Illegible heading in dark mode"
 msgstr "Correction : Titre illisible avec le thème sombre"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:187
+#: data/com.github.elfenware.badger.metainfo.xml.in:187
 msgid "Add: French translations (@NathanBnm)"
 msgstr "Ajout : Traductions en français (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:192
+#: data/com.github.elfenware.badger.metainfo.xml.in:192
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
-msgstr "Correction : Il y avait des notifications en double si l'application était ouverte plus d'une fois"
+msgstr ""
+"Correction : Il y avait des notifications en double si l'application était "
+"ouverte plus d'une fois"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:197
+#: data/com.github.elfenware.badger.metainfo.xml.in:197
 msgid "Fix: Remove manual line breaks from metainfo"
-msgstr "Correction : Retrait des retours à la ligne manuels dans les métadonnées"
+msgstr ""
+"Correction : Retrait des retours à la ligne manuels dans les métadonnées"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:202
+#: data/com.github.elfenware.badger.metainfo.xml.in:202
 msgid "Fix: Use smaller window size by default"
 msgstr "Correction : Fenêtre plus petite par défaut"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:207
+#: data/com.github.elfenware.badger.metainfo.xml.in:207
 msgid "Initial Release 🎉️"
 msgstr "Version initiale 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:217
+#: data/com.github.elfenware.badger.metainfo.xml.in:217
 msgid "Elfenware"
 msgstr "Elfenware"
 
@@ -229,7 +251,9 @@ msgstr "Elfenware"
 #~ msgstr "Clignez des yeux"
 
 #~ msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
-#~ msgstr "Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 secondes."
+#~ msgstr ""
+#~ "Regardez en dehors de l'écran et clignez lentement des yeux pendant 10 "
+#~ "secondes."
 
 #~ msgid "Eyes:"
 #~ msgstr "Yeux :"
@@ -237,8 +261,11 @@ msgstr "Elfenware"
 #~ msgid "Stretch your fingers"
 #~ msgstr "Étirez vos doigts"
 
-#~ msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
-#~ msgstr "Étendez la paume de votre main, puis fermez-la en un poing. Effectuez 5 répétitions."
+#~ msgid ""
+#~ "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+#~ msgstr ""
+#~ "Étendez la paume de votre main, puis fermez-la en un poing. Effectuez 5 "
+#~ "répétitions."
 
 #~ msgid "Fingers:"
 #~ msgstr "Doigts :"
@@ -265,7 +292,8 @@ msgstr "Elfenware"
 #~ msgstr "Tournez votre cou"
 
 #~ msgid "Turn your head in all directions. Repeat 3 times."
-#~ msgstr "Tournez votre tête dans toutes les directions. Effectuez 3 répétitions."
+#~ msgstr ""
+#~ "Tournez votre tête dans toutes les directions. Effectuez 3 répétitions."
 
 #~ msgid "Neck:"
 #~ msgstr "Cou :"
@@ -301,7 +329,9 @@ msgstr "Elfenware"
 #~ msgstr "Rappels"
 
 #~ msgid "Decide how often Badger should remind you to relax these:"
-#~ msgstr "Décidez de la fréquence à laquelle Badger doit vous rappeler de vous reposer :"
+#~ msgstr ""
+#~ "Décidez de la fréquence à laquelle Badger doit vous rappeler de vous "
+#~ "reposer :"
 
 #, c-format
 #~ msgid "%.0f min"
@@ -316,5 +346,5 @@ msgstr "Elfenware"
 #~ msgid "1 hour"
 #~ msgstr "1 heure"
 
-#~ msgid "io.github.ellie_commons.badger"
-#~ msgstr "io.github.ellie_commons.badger"
+#~ msgid "com.github.elfenware.badger"
+#~ msgstr "com.github.elfenware.badger"

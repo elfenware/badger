@@ -25,7 +25,7 @@ public class Badger.Application : Gtk.Application {
 
     public Application () {
         Object (
-            application_id: "io.github.ellie_commons.badger",
+            application_id: "com.github.elfenware.badger",
             flags: ApplicationFlags.HANDLES_COMMAND_LINE
         );
     }
@@ -60,7 +60,7 @@ public class Badger.Application : Gtk.Application {
             window = new MainWindow (this, main);
 
             var provider = new Gtk.CssProvider ();
-            provider.load_from_resource ("/io/github/ellie_commons/badger/Application.css");
+            provider.load_from_resource ("/com/github/elfenware/badger/Application.css");
             Gtk.StyleContext.add_provider_for_display (
                 Gdk.Display.get_default (),
                 provider,

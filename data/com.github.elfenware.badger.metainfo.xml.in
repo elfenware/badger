@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2018 Darshak Parikh <darshak%protonmaildotkom> -->
 <component type="desktop-application">
-  <id>io.github.ellie_commons.badger</id>
+  <id>com.github.elfenware.badger</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Badger</name>
@@ -208,9 +208,9 @@
       </description>
     </release>
   </releases>
-  <launchable type="desktop-id">io.github.ellie_commons.badger.desktop</launchable>
+  <launchable type="desktop-id">com.github.elfenware.badger.desktop</launchable>
   <provides>
-    <binary>io.github.ellie_commons.badger</binary>
+    <binary>com.github.elfenware.badger</binary>
   </provides>
   <content_rating type="oars-1.1"/>
 

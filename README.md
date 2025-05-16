@@ -1,12 +1,12 @@
 <p align="center">
-    <img src="data/icons/128/io.github.ellie_commons.badger.svg" alt="Icon" />
+    <img src="data/icons/128/com.github.elfenware.badger.svg" alt="Icon" />
 </p>
 
 <h1 align="center">Badger</h1>
 <p align="center">Remind yourself to not sit and stare at the screen for too long</p>
 
 <p align="center">
-  <a href="https://appcenter.elementary.io/io.github.ellie_commons.badger"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>
+  <a href="https://appcenter.elementary.io/com.github.elfenware.badger"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>
 </p>
 
 <p align="center">
@@ -58,8 +58,8 @@ sudo ninja install
 Then run it with:
 
 ```shell
-io.github.ellie_commons.badger
+com.github.elfenware.badger
 ```
 
 [elementary OS]: https://elementary.io
-[AppCenter]: https://appcenter.elementary.io/io.github.ellie_commons.badger
+[AppCenter]: https://appcenter.elementary.io/com.github.elfenware.badger
