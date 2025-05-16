@@ -112,8 +112,6 @@ public class Badger.MainGrid : Gtk.Box {
             // Get the scale default value
             scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
             
-
-
             scales.insert (reminder.name + "-active", scale);
 
             uint interval = settings.get_uint (reminder.name);
@@ -130,6 +128,11 @@ public class Badger.MainGrid : Gtk.Box {
             }
             scale.set_value (interval);
             scale.set_tooltip_text(_ ("%.0f min").printf (interval));
+
+            // The marks take a lotta space
+            //scale.add_mark (0.0, Gtk.PositionType.TOP , null);
+            //scale.add_mark (30.0, Gtk.PositionType.TOP , null);
+            //scale.add_mark (60.0, Gtk.PositionType.TOP , null);
 
             SetInterval set_interval = reminder.set_reminder_interval;
             set_interval (interval);
@@ -155,27 +158,11 @@ public class Badger.MainGrid : Gtk.Box {
                 SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
             );
 
-            // When the checkbox is pressed, set the option.
-            /*settings.bind (
-                reminder.name + "-active",
-                label,
-                "visible",
-                SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
-            );*/
-
             box.append (check_box);
             box.append (scale);
-            //box.append (label);
-
-            //attach (check_box, 0, index + 3, 1, 1);
-            //attach (scale, 1, index + 3, 1, 1);
-            //attach (label, 2, index + 3, 1, 1);
             append (box);
 
-        }
-
-
-
+        } // Forloop end
 
     }
 }

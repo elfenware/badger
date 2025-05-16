@@ -1,5 +1,5 @@
 src/Application.vala
+src/MainWindow.vala
+src/Reminder.vala
 src/MainGrid.vala
 src/Marks.vala
-data/io.github.ellie_commons.badger.desktop.in
-data/io.github.ellie_commons.badger.metainfo.xml.in

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-15 15:37+0200\n"
+"POT-Creation-Date: 2025-05-16 20:47+0200\n"
 "PO-Revision-Date: 2021-08-28 19:59+0530\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: \n"
@@ -17,129 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: src/Application.vala:170
-msgid "Blink your eyes"
-msgstr "Parpadee"
-
-#: src/Application.vala:171
-msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
-msgstr "Aleje la vista de la pantalla y parpadee lentamente por 10 segundos."
-
-#: src/Application.vala:172
-msgid "Eyes:"
-msgstr "Ojos:"
-
-#: src/Application.vala:177
-msgid "Stretch your fingers"
-msgstr "Estire los dedos"
-
-#: src/Application.vala:178
-msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
-msgstr ""
-"Extienda la palma y ciérrela para hacer un puño. Repita el proceso cinco "
-"veces."
-
-#: src/Application.vala:179
-msgid "Fingers:"
-msgstr "Dedos:"
-
-#: src/Application.vala:184
-msgid "Stretch your arms"
-msgstr "Estire los brazos"
-
-#: src/Application.vala:185
-msgid "Stretch your arms, and twist your wrists for 10 seconds."
-msgstr "Estire los brazos y gire las muñecas durante 10 segundos."
-
-#: src/Application.vala:186
-msgid "Arms:"
-msgstr "Brazos:"
-
-#: src/Application.vala:191
-msgid "Stretch your legs"
-msgstr "Estire las piernas"
-
-#: src/Application.vala:192
-msgid "Stand up, twist each ankle, and bend each knee."
-msgstr "Párese, gire los tobillos y flexione las rodillas."
-
-#: src/Application.vala:193
-msgid "Legs:"
-msgstr "Piernas:"
-
-#: src/Application.vala:198
-msgid "Turn your neck"
-msgstr "Gire el cuello"
-
-#: src/Application.vala:199
-msgid "Turn your head in all directions. Repeat 3 times."
-msgstr "Gire la cabeza en todas las direcciones. Repita el proceso tres veces."
-
-#: src/Application.vala:200
-msgid "Neck:"
-msgstr "Cuello:"
-
-#: src/Application.vala:205
-msgid "Hydrate yourself"
-msgstr ""
-
-#: src/Application.vala:206
-msgid "Drink a glass of water."
-msgstr ""
-
-#: src/Application.vala:207
-msgid "Water:"
-msgstr ""
-
-#: src/Application.vala:212
-msgid "Watch your posture"
-msgstr "Vigile su postura"
-
-#: src/Application.vala:213
-msgid "Make sure your back is straight."
-msgstr "Cerciórese de que su espalda esté recta."
-
-#: src/Application.vala:214
-msgid "Posture:"
-msgstr "Postura:"
-
-#: src/Application.vala:219
-msgid "Focus on your breath"
-msgstr ""
-
-#: src/Application.vala:220
-msgid "Inhale and exhale deeply, thrice."
-msgstr ""
-
-#: src/Application.vala:221
-msgid "Breath:"
-msgstr ""
-
-#: src/MainGrid.vala:37
-msgid "Reminders"
-msgstr "Recordatorios"
-
-#: src/MainGrid.vala:54
-msgid "Decide how often Badger should remind you to relax these:"
-msgstr "Decida cuán seguido Badger debe recordarle relajarse:"
-
-#: src/MainGrid.vala:129
-#, c-format
-msgid "%.0f min"
-msgstr "%.0f min"
-
-#: src/Marks.vala:28
-msgid "1 min"
-msgstr "1 min"
-
-#: src/Marks.vala:32
-msgid "30 min"
-msgstr "30 min"
-
-#: src/Marks.vala:36
-msgid "1 hour"
-msgstr "1 h"
 
 #: data/io.github.ellie_commons.badger.desktop.in:4
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:7
@@ -220,147 +97,229 @@ msgid "Stay healthy."
 msgstr "Permanezca saludable."
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:33
-msgid "Update: Use elementary Platform 7"
+msgid "Update: Modern tech under the hood! (GTK4)"
 msgstr ""
 
 #: data/io.github.ellie_commons.badger.metainfo.xml.in:40
+msgid "Update: Use elementary Platform 7"
+msgstr ""
+
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:47
 msgid "Add: Two new reminders (@disegnovitruviano)"
 msgstr ""
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:41
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:48
 msgid "Update: Make window compact"
 msgstr ""
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:48
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:55
 msgid "Update: Italian translations (@albanobattistella)"
 msgstr "Actualización: traducción en italiano (@albanobattistella)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:55
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:62
 msgid "Add: Czech translations (@pervoj)"
 msgstr "Adición: traducción en checo (@pervoj)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:56
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:63
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Adición: traducción en italiano (@albanobattistella)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:62
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:70
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:69
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:77
 msgid "Odin update 🎉️"
 msgstr "Actualización para Odin 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:64
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:72
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:71
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:79
 msgid "Add: Dark style support"
 msgstr "Adición: soporte de estilo oscuro"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:79
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:86
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr "Adición: traducción en portugués (@rottenpants466)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:86
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:93
 msgid "Add: Spanish translations (@fitojb)"
 msgstr "Adición: traducción en español (@fitojb)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:87
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:94
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Adición: traducción en ucraniano (@IhorHordiichuk)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:94
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:117
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:101
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:124
 msgid "Update: Screenshot"
 msgstr "Actualización: captura de pantalla"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:101
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:108
 msgid "Add: New reminder for correcting your posture"
 msgstr "Adición: Nuevo recordatorio para corregir su postura"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:108
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:115
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
 msgstr ""
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:109
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:116
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
 msgstr ""
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:110
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:117
 msgid "Update: Improved icon"
 msgstr "Actualización: icono mejorado"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:124
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:131
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr ""
 "Adición: 🎉️ interruptor global para desactivar todos los recordatorios 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:131
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:138
 msgid "Add: Turkish translations (@libreajans)"
 msgstr "Adición: traducción en turco (@libreajans)."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:138
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:145
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Adición: traducción en neerlandés (@Vistaus)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:145
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:152
 msgid "Fix: \"Never\" option not disabling the timer"
 msgstr "Corrección: la opción «Nunca» no desactivaba el temporizador"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:152
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:159
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr ""
 "Adición: 🎉️ la función más anticipada, temporizadores personalizados 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:153
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:163
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:160
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:170
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Actualización: traducción en francés (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:154
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:161
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr "Actualización: traducción en lituano (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:155
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:162
 msgid "Update: Danish translations (@siigdev)"
 msgstr "Actualización: traducción en danés (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:162
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:169
 msgid "Add: Danish translations (@siigdev)"
 msgstr "Adición: traducción en danés (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:169
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:176
 msgid "Fix: Empty window on launch"
 msgstr "Corrección: ventana vacía al iniciar"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:174
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:181
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr "Adición: traducción en lituano (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:175
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:182
 msgid "Fix: Illegible heading in dark mode"
 msgstr "Corrección: título invisible en el modo oscuro"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:180
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:187
 msgid "Add: French translations (@NathanBnm)"
 msgstr "Adición: traducción en francés (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:185
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:192
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr ""
 "Corrección: múltiples notificaciones cuando la ventana se abre más de una vez"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:190
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:197
 msgid "Fix: Remove manual line breaks from metainfo"
 msgstr "Corrección: eliminación de saltos de renglón manuales en metainfo"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:195
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:202
 msgid "Fix: Use smaller window size by default"
 msgstr "Corrección: la ventana es más pequeña de manera predeterminada"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:200
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:207
 msgid "Initial Release 🎉️"
 msgstr "Publicación inicial 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:237
+#: data/io.github.ellie_commons.badger.metainfo.xml.in:217
 msgid "Elfenware"
 msgstr "Elfenware"
+
+#~ msgid "Blink your eyes"
+#~ msgstr "Parpadee"
+
+#~ msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
+#~ msgstr ""
+#~ "Aleje la vista de la pantalla y parpadee lentamente por 10 segundos."
+
+#~ msgid "Eyes:"
+#~ msgstr "Ojos:"
+
+#~ msgid "Stretch your fingers"
+#~ msgstr "Estire los dedos"
+
+#~ msgid ""
+#~ "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+#~ msgstr ""
+#~ "Extienda la palma y ciérrela para hacer un puño. Repita el proceso cinco "
+#~ "veces."
+
+#~ msgid "Fingers:"
+#~ msgstr "Dedos:"
+
+#~ msgid "Stretch your arms"
+#~ msgstr "Estire los brazos"
+
+#~ msgid "Stretch your arms, and twist your wrists for 10 seconds."
+#~ msgstr "Estire los brazos y gire las muñecas durante 10 segundos."
+
+#~ msgid "Arms:"
+#~ msgstr "Brazos:"
+
+#~ msgid "Stretch your legs"
+#~ msgstr "Estire las piernas"
+
+#~ msgid "Stand up, twist each ankle, and bend each knee."
+#~ msgstr "Párese, gire los tobillos y flexione las rodillas."
+
+#~ msgid "Legs:"
+#~ msgstr "Piernas:"
+
+#~ msgid "Turn your neck"
+#~ msgstr "Gire el cuello"
+
+#~ msgid "Turn your head in all directions. Repeat 3 times."
+#~ msgstr ""
+#~ "Gire la cabeza en todas las direcciones. Repita el proceso tres veces."
+
+#~ msgid "Neck:"
+#~ msgstr "Cuello:"
+
+#~ msgid "Watch your posture"
+#~ msgstr "Vigile su postura"
+
+#~ msgid "Make sure your back is straight."
+#~ msgstr "Cerciórese de que su espalda esté recta."
+
+#~ msgid "Posture:"
+#~ msgstr "Postura:"
+
+#~ msgid "Reminders"
+#~ msgstr "Recordatorios"
+
+#~ msgid "Decide how often Badger should remind you to relax these:"
+#~ msgstr "Decida cuán seguido Badger debe recordarle relajarse:"
+
+#, c-format
+#~ msgid "%.0f min"
+#~ msgstr "%.0f min"
+
+#~ msgid "1 min"
+#~ msgstr "1 min"
+
+#~ msgid "30 min"
+#~ msgstr "30 min"
+
+#~ msgid "1 hour"
+#~ msgstr "1 h"
 
 #~ msgid "io.github.ellie_commons.badger"
 #~ msgstr "io.github.ellie_commons.badger"

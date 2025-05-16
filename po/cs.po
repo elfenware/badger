@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-15 15:37+0200\n"
+"POT-Creation-Date: 2025-05-16 20:47+0200\n"
 "PO-Revision-Date: 2021-10-29 10:15+0200\n"
 "Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -18,344 +18,287 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "X-Generator: Gtranslator 41.0\n"
 
-#: src/Application.vala:170
+#: src/Application.vala:133
 msgid "Blink your eyes"
 msgstr "Mrkněte očima"
 
-#: src/Application.vala:171
+#: src/Application.vala:134
 msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr ""
 "Odvraťte pohled od obrazovky a pomalu mrkejte očima po dobu deseti sekund."
 
-#: src/Application.vala:172
+#: src/Application.vala:135
 msgid "Eyes:"
 msgstr "Oči:"
 
-#: src/Application.vala:177
+#: src/Application.vala:140
 msgid "Stretch your fingers"
 msgstr "Protáhněte prsty"
 
-#: src/Application.vala:178
+#: src/Application.vala:141
 msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
 msgstr "Roztáhněte dlaň doširoka a pak ji sevřete v pěst. Opakujte pětkrát."
 
-#: src/Application.vala:179
+#: src/Application.vala:142
 msgid "Fingers:"
 msgstr "Prsty:"
 
-#: src/Application.vala:184
+#: src/Application.vala:147
 msgid "Stretch your arms"
 msgstr "Protáhněte ruce"
 
-#: src/Application.vala:185
+#: src/Application.vala:148
 msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr "Napněte paže a 10 sekund kruťte zápěstím."
 
-#: src/Application.vala:186
+#: src/Application.vala:149
 msgid "Arms:"
 msgstr "Ruce:"
 
-#: src/Application.vala:191
+#: src/Application.vala:154
 msgid "Stretch your legs"
 msgstr "Protáhněte nohy"
 
-#: src/Application.vala:192
+#: src/Application.vala:155
 msgid "Stand up, twist each ankle, and bend each knee."
 msgstr "Postavte se, zakruťte každým kotníkem a pokrčte každé koleno."
 
-#: src/Application.vala:193
+#: src/Application.vala:156
 msgid "Legs:"
 msgstr "Nohy:"
 
-#: src/Application.vala:198
+#: src/Application.vala:161
 msgid "Turn your neck"
 msgstr "Otočte krkem"
 
-#: src/Application.vala:199
+#: src/Application.vala:162
 msgid "Turn your head in all directions. Repeat 3 times."
 msgstr "Otáčejte hlavou všemi směry. Opakujte třikrát."
 
-#: src/Application.vala:200
+#: src/Application.vala:163
 msgid "Neck:"
 msgstr "Krk:"
 
-#: src/Application.vala:205
+#: src/Application.vala:168
 msgid "Hydrate yourself"
 msgstr "Hydratujte se"
 
-#: src/Application.vala:206
+#: src/Application.vala:169
 msgid "Drink a glass of water."
 msgstr "Napijte se vody."
 
-#: src/Application.vala:207
+#: src/Application.vala:170
 msgid "Water:"
 msgstr "Voda:"
 
-#: src/Application.vala:212
+#: src/Application.vala:175
 msgid "Watch your posture"
 msgstr "Sledujte své držení těla"
 
-#: src/Application.vala:213
+#: src/Application.vala:176
 msgid "Make sure your back is straight."
 msgstr "Ujistěte se, že máte rovná záda."
 
-#: src/Application.vala:214
+#: src/Application.vala:177
 msgid "Posture:"
 msgstr "Držení těla:"
 
-#: src/Application.vala:219
+#: src/Application.vala:182
 msgid "Focus on your breath"
 msgstr "Soustřeďte se na svůj dech"
 
-#: src/Application.vala:220
+#: src/Application.vala:183
 msgid "Inhale and exhale deeply, thrice."
 msgstr "Třikrát se zhluboka nadechněte a vydechněte."
 
-#: src/Application.vala:221
+#: src/Application.vala:184
 msgid "Breath:"
 msgstr "Dýchání:"
 
-#: src/MainGrid.vala:37
+#: src/MainGrid.vala:43
 msgid "Reminders"
 msgstr "Připomínky"
 
-#: src/MainGrid.vala:54
+#: src/MainGrid.vala:45
+msgid "If on, Badger will remind you to take care of yourself"
+msgstr ""
+
+#: src/MainGrid.vala:55
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr "Rozhodněte, jak často by vám měl Badger připomínat, abyste uvolnili:"
 
-#: src/MainGrid.vala:129
+#: src/MainGrid.vala:130 src/MainGrid.vala:145
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f min"
 
-#: src/Marks.vala:28
+#: src/Marks.vala:30
 msgid "1 min"
 msgstr "1 min"
 
-#: src/Marks.vala:32
+#: src/Marks.vala:35
 msgid "30 min"
 msgstr "30 min"
 
-#: src/Marks.vala:36
+#: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 hod"
 
-#: data/io.github.ellie_commons.badger.desktop.in:4
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:7
-msgid "Badger"
-msgstr "Badger"
+#~ msgid "Badger"
+#~ msgstr "Badger"
 
-#: data/io.github.ellie_commons.badger.desktop.in:5
-msgid "Ergonomic Reminder"
-msgstr "Ergonomický upomínač"
+#~ msgid "Ergonomic Reminder"
+#~ msgstr "Ergonomický upomínač"
 
-#: data/io.github.ellie_commons.badger.desktop.in:6
-msgid "Remind yourself to relax your eyes and limbs"
-msgstr "Připomeňte si, že máte uvolnit oči a končetiny"
+#~ msgid "Remind yourself to relax your eyes and limbs"
+#~ msgstr "Připomeňte si, že máte uvolnit oči a končetiny"
 
-#: data/io.github.ellie_commons.badger.desktop.in:11
-msgid "Ergonomics;Health;Eyes;Muscles;"
-msgstr "Ergonomie;Zdraví;Oči;Svaly;"
+#~ msgid "Ergonomics;Health;Eyes;Muscles;"
+#~ msgstr "Ergonomie;Zdraví;Oči;Svaly;"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:8
-msgid "Remind yourself to not sit and stare at the screen for too long"
-msgstr "Připomeňte si, že nesmíte sedět a zírat na obrazovku příliš dlouho"
+#~ msgid "Remind yourself to not sit and stare at the screen for too long"
+#~ msgstr "Připomeňte si, že nesmíte sedět a zírat na obrazovku příliš dlouho"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:10
-msgid ""
-"When you are using your computer for extended periods of time, you need to "
-"relax your body every once in a while."
-msgstr "Při dlouhodobé práci s počítačem je třeba jednou za čas uvolnit tělo."
+#~ msgid ""
+#~ "When you are using your computer for extended periods of time, you need "
+#~ "to relax your body every once in a while."
+#~ msgstr ""
+#~ "Při dlouhodobé práci s počítačem je třeba jednou za čas uvolnit tělo."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:12
-msgid ""
-"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
-"—to destress yourself and rest your eyes and muscles."
-msgstr ""
-"Badger vám přesně s tím pomůže. Připomíná vám, abyste se zbavili stresu a "
-"nechali odpočinout své oči a svaly."
+#~ msgid ""
+#~ "Badger helps you do exactly that. It reminds you—or should I say, badgers "
+#~ "you—to destress yourself and rest your eyes and muscles."
+#~ msgstr ""
+#~ "Badger vám přesně s tím pomůže. Připomíná vám, abyste se zbavili stresu a "
+#~ "nechali odpočinout své oči a svaly."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:14
-msgid "Currently, it has these eight reminders:"
-msgstr "V současné době obsahuje těchto osm připomínek:"
+#~ msgid "Currently, it has these eight reminders:"
+#~ msgstr "V současné době obsahuje těchto osm připomínek:"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:17
-msgid "Blink eyes"
-msgstr "Mrkněte očima"
+#~ msgid "Blink eyes"
+#~ msgstr "Mrkněte očima"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:18
-msgid "Stretch fingers"
-msgstr "Protáhněte prsty"
+#~ msgid "Stretch fingers"
+#~ msgstr "Protáhněte prsty"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:19
-msgid "Stretch arms"
-msgstr "Protáhněte ruce"
+#~ msgid "Stretch arms"
+#~ msgstr "Protáhněte ruce"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:20
-msgid "Stretch legs"
-msgstr "Protáhněte nohy"
+#~ msgid "Stretch legs"
+#~ msgstr "Protáhněte nohy"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:21
-msgid "Turn neck"
-msgstr "Otočte krkem"
+#~ msgid "Turn neck"
+#~ msgstr "Otočte krkem"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:22
-msgid "Maintain posture"
-msgstr "Udržujte správné držení těla"
+#~ msgid "Maintain posture"
+#~ msgstr "Udržujte správné držení těla"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:23
-msgid "Drink water"
-msgstr "Napijte se vody"
+#~ msgid "Drink water"
+#~ msgstr "Napijte se vody"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:24
-msgid "Breathe consciously"
-msgstr "Dýchejte uvědoměle"
+#~ msgid "Breathe consciously"
+#~ msgstr "Dýchejte uvědoměle"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:27
-msgid "Stay healthy."
-msgstr "Zůstaňte zdraví."
+#~ msgid "Stay healthy."
+#~ msgstr "Zůstaňte zdraví."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:33
-msgid "Update: Use elementary Platform 7"
-msgstr ""
+#~ msgid "Add: Two new reminders (@disegnovitruviano)"
+#~ msgstr "Přidáno: Dvě nové připomínky (@disegnovitruviano)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:40
-msgid "Add: Two new reminders (@disegnovitruviano)"
-msgstr "Přidáno: Dvě nové připomínky (@disegnovitruviano)"
+#~ msgid "Update: Italian translations (@albanobattistella)"
+#~ msgstr "Aktualizováno: Italský překlad (@albanobattistella)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:41
-msgid "Update: Make window compact"
-msgstr ""
+#~ msgid "Add: Czech translations (@pervoj)"
+#~ msgstr "Přidáno: Český překlad (@pervoj)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:48
-msgid "Update: Italian translations (@albanobattistella)"
-msgstr "Aktualizováno: Italský překlad (@albanobattistella)"
+#~ msgid "Add: Italian translations (@albanobattistella)"
+#~ msgstr "Přidáno: Italský překlad (@albanobattistella)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:55
-msgid "Add: Czech translations (@pervoj)"
-msgstr "Přidáno: Český překlad (@pervoj)"
+#~ msgid "Odin update 🎉️"
+#~ msgstr "Aktualizace pro Odin 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:56
-msgid "Add: Italian translations (@albanobattistella)"
-msgstr "Přidáno: Italský překlad (@albanobattistella)"
+#~ msgid "Add: Dark style support"
+#~ msgstr "Přidáno: Podpora tmavého režimu"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:62
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:70
-msgid "Odin update 🎉️"
-msgstr "Aktualizace pro Odin 🎉️"
+#~ msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
+#~ msgstr "Přidáno: Portugalský překlad (@rottenpants466)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:64
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:72
-msgid "Add: Dark style support"
-msgstr "Přidáno: Podpora tmavého režimu"
+#~ msgid "Add: Spanish translations (@fitojb)"
+#~ msgstr "Přidáno: Španělský překlad (@fitojb)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:79
-msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
-msgstr "Přidáno: Portugalský překlad (@rottenpants466)"
+#~ msgid "Add: Ukrainian translations (@IhorHordiichuk)"
+#~ msgstr "Přidáno: Ukrajinský překlad (@IhorHordiichuk)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:86
-msgid "Add: Spanish translations (@fitojb)"
-msgstr "Přidáno: Španělský překlad (@fitojb)"
+#~ msgid "Update: Screenshot"
+#~ msgstr "Aktualizováno: Screenshot"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:87
-msgid "Add: Ukrainian translations (@IhorHordiichuk)"
-msgstr "Přidáno: Ukrajinský překlad (@IhorHordiichuk)"
+#~ msgid "Add: New reminder for correcting your posture"
+#~ msgstr "Přidáno: Nová připomínka pro správné držení těla"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:94
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:117
-msgid "Update: Screenshot"
-msgstr "Aktualizováno: Screenshot"
+#~ msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
+#~ msgstr ""
+#~ "Přidáno: Zaškrtávací políčka pro vypínání/zapínání jednotlivých "
+#~ "připomínek (@andreasomaini)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:101
-msgid "Add: New reminder for correcting your posture"
-msgstr "Přidáno: Nová připomínka pro správné držení těla"
+#~ msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
+#~ msgstr "Opraveno: Správná práce s Centrem oznámení (@nathanaelhoun)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:108
-msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-msgstr ""
-"Přidáno: Zaškrtávací políčka pro vypínání/zapínání jednotlivých připomínek "
-"(@andreasomaini)"
+#~ msgid "Update: Improved icon"
+#~ msgstr "Aktualizováno: Vylepšena ikona"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:109
-msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-msgstr "Opraveno: Správná práce s Centrem oznámení (@nathanaelhoun)"
+#~ msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
+#~ msgstr "Přidáno: 🎉️ Globální přepínač pro vypnutí všech připomínek 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:110
-msgid "Update: Improved icon"
-msgstr "Aktualizováno: Vylepšena ikona"
+#~ msgid "Add: Turkish translations (@libreajans)"
+#~ msgstr "Přidáno: Turecký překlad (@libreajans)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:124
-msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr "Přidáno: 🎉️ Globální přepínač pro vypnutí všech připomínek 🎉️"
+#~ msgid "Add: Dutch translations (@Vistaus)"
+#~ msgstr "Přidáno: Holandský překlad (@Vistaus)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:131
-msgid "Add: Turkish translations (@libreajans)"
-msgstr "Přidáno: Turecký překlad (@libreajans)"
+#~ msgid "Fix: \"Never\" option not disabling the timer"
+#~ msgstr "Opraveno: Možnost \"Nikdy\" nevypíná časovač"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:138
-msgid "Add: Dutch translations (@Vistaus)"
-msgstr "Přidáno: Holandský překlad (@Vistaus)"
+#~ msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
+#~ msgstr "Přidáno: 🎉️ Nejočekávanější funkce, vlastní časovače! 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:145
-msgid "Fix: \"Never\" option not disabling the timer"
-msgstr "Opraveno: Možnost \"Nikdy\" nevypíná časovač"
+#~ msgid "Update: French translations (@NathanBnm)"
+#~ msgstr "Aktualizováno: Francouzský překlad (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:152
-msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-msgstr "Přidáno: 🎉️ Nejočekávanější funkce, vlastní časovače! 🎉️"
+#~ msgid "Update: Lithuanian translations (@welaq)"
+#~ msgstr "Aktualizováno: Litevský překlad (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:153
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:163
-msgid "Update: French translations (@NathanBnm)"
-msgstr "Aktualizováno: Francouzský překlad (@NathanBnm)"
+#~ msgid "Update: Danish translations (@siigdev)"
+#~ msgstr "Aktualizováno: Dánský překlad (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:154
-msgid "Update: Lithuanian translations (@welaq)"
-msgstr "Aktualizováno: Litevský překlad (@welaq)"
+#~ msgid "Add: Danish translations (@siigdev)"
+#~ msgstr "Přidáno: Dánský překlad (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:155
-msgid "Update: Danish translations (@siigdev)"
-msgstr "Aktualizováno: Dánský překlad (@siigdev)"
+#~ msgid "Fix: Empty window on launch"
+#~ msgstr "Opraveno: Prázdné okno po spuštění"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:162
-msgid "Add: Danish translations (@siigdev)"
-msgstr "Přidáno: Dánský překlad (@siigdev)"
+#~ msgid "Add: Lithuanian translations (@welaq)"
+#~ msgstr "Přidáno: Litevský překlad (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:169
-msgid "Fix: Empty window on launch"
-msgstr "Opraveno: Prázdné okno po spuštění"
+#~ msgid "Fix: Illegible heading in dark mode"
+#~ msgstr "Opraveno: Nečitelný nadpis v tmavém režimu"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:174
-msgid "Add: Lithuanian translations (@welaq)"
-msgstr "Přidáno: Litevský překlad (@welaq)"
+#~ msgid "Add: French translations (@NathanBnm)"
+#~ msgstr "Přidáno: Francouzský překlad (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:175
-msgid "Fix: Illegible heading in dark mode"
-msgstr "Opraveno: Nečitelný nadpis v tmavém režimu"
+#~ msgid "Fix: Multiple notifications when window is opened &gt;1 times"
+#~ msgstr "Opraveno: Vícenásobná oznámení při otevření okna &gt;1 krát"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:180
-msgid "Add: French translations (@NathanBnm)"
-msgstr "Přidáno: Francouzský překlad (@NathanBnm)"
+#~ msgid "Fix: Remove manual line breaks from metainfo"
+#~ msgstr "Opraveno: Odstranění ručního zalamování řádků z metainfo"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:185
-msgid "Fix: Multiple notifications when window is opened &gt;1 times"
-msgstr "Opraveno: Vícenásobná oznámení při otevření okna &gt;1 krát"
+#~ msgid "Fix: Use smaller window size by default"
+#~ msgstr "Opraveno: Použití menší velikosti okna ve výchozím nastavení"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:190
-msgid "Fix: Remove manual line breaks from metainfo"
-msgstr "Opraveno: Odstranění ručního zalamování řádků z metainfo"
+#~ msgid "Initial Release 🎉️"
+#~ msgstr "První verze 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:195
-msgid "Fix: Use smaller window size by default"
-msgstr "Opraveno: Použití menší velikosti okna ve výchozím nastavení"
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:200
-msgid "Initial Release 🎉️"
-msgstr "První verze 🎉️"
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:237
-msgid "Elfenware"
-msgstr "Elfenware"
+#~ msgid "Elfenware"
+#~ msgstr "Elfenware"
 
 #~ msgid "io.github.ellie_commons.badger"
 #~ msgstr "io.github.ellie_commons.badger"

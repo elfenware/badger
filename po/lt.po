@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-15 15:37+0200\n"
+"POT-Creation-Date: 2025-05-16 20:47+0200\n"
 "PO-Revision-Date: 2019-03-20 20:09+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: \n"
@@ -21,361 +21,258 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: src/Application.vala:170
+#: src/Application.vala:133
 msgid "Blink your eyes"
 msgstr "Pamirksėkite"
 
-#: src/Application.vala:171
+#: src/Application.vala:134
 msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr "Atsisukite nuo ekrano ir lėtai 10 sekundžių pamirksėkite."
 
-#: src/Application.vala:172
+#: src/Application.vala:135
 msgid "Eyes:"
 msgstr "Akys:"
 
-#: src/Application.vala:177
+#: src/Application.vala:140
 msgid "Stretch your fingers"
 msgstr "Ištieskite pirštus"
 
-#: src/Application.vala:178
+#: src/Application.vala:141
 msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
 msgstr ""
 "Išskleiskite delnus, o tuomet suspauskite kumščius. Pakartokite 5 kartus."
 
-#: src/Application.vala:179
+#: src/Application.vala:142
 msgid "Fingers:"
 msgstr "Pirštai:"
 
-#: src/Application.vala:184
+#: src/Application.vala:147
 msgid "Stretch your arms"
 msgstr "Ištieskite rankas"
 
-#: src/Application.vala:185
+#: src/Application.vala:148
 msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr "Ištieskite rankas ir 10 sekundžių pasukite riešus."
 
-#: src/Application.vala:186
+#: src/Application.vala:149
 msgid "Arms:"
 msgstr "Rankos:"
 
-#: src/Application.vala:191
+#: src/Application.vala:154
 msgid "Stretch your legs"
 msgstr "Ištieskite kojas"
 
-#: src/Application.vala:192
+#: src/Application.vala:155
 msgid "Stand up, twist each ankle, and bend each knee."
 msgstr "Atsistokite, pasukite kiekvieną kulkšnį ir sulenkite kiekvieną kelį."
 
-#: src/Application.vala:193
+#: src/Application.vala:156
 msgid "Legs:"
 msgstr "Kojos:"
 
-#: src/Application.vala:198
+#: src/Application.vala:161
 msgid "Turn your neck"
 msgstr "Pasukite kaklą"
 
-#: src/Application.vala:199
+#: src/Application.vala:162
 msgid "Turn your head in all directions. Repeat 3 times."
 msgstr "Pasukite galvą į kiekvieną pusę. Pakartokite 3 kartus."
 
-#: src/Application.vala:200
+#: src/Application.vala:163
 msgid "Neck:"
 msgstr "Kaklas:"
 
-#: src/Application.vala:205
+#: src/Application.vala:168
 msgid "Hydrate yourself"
 msgstr ""
 
-#: src/Application.vala:206
+#: src/Application.vala:169
 msgid "Drink a glass of water."
 msgstr ""
 
-#: src/Application.vala:207
+#: src/Application.vala:170
 msgid "Water:"
 msgstr ""
 
-#: src/Application.vala:212
+#: src/Application.vala:175
 msgid "Watch your posture"
 msgstr ""
 
-#: src/Application.vala:213
+#: src/Application.vala:176
 msgid "Make sure your back is straight."
 msgstr ""
 
-#: src/Application.vala:214
+#: src/Application.vala:177
 msgid "Posture:"
 msgstr ""
 
-#: src/Application.vala:219
+#: src/Application.vala:182
 msgid "Focus on your breath"
 msgstr ""
 
-#: src/Application.vala:220
+#: src/Application.vala:183
 msgid "Inhale and exhale deeply, thrice."
 msgstr ""
 
-#: src/Application.vala:221
+#: src/Application.vala:184
 msgid "Breath:"
 msgstr ""
 
-#: src/MainGrid.vala:37
+#: src/MainGrid.vala:43
 msgid "Reminders"
 msgstr "Priminimai"
 
-#: src/MainGrid.vala:54
+#: src/MainGrid.vala:45
+msgid "If on, Badger will remind you to take care of yourself"
+msgstr ""
+
+#: src/MainGrid.vala:55
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
 "Nuspręskite kaip dažnai Badger turėtų jums priminti atpalaiduoti šias "
 "galūnes:"
 
-#: src/MainGrid.vala:129
+#: src/MainGrid.vala:130 src/MainGrid.vala:145
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f min"
 
-#: src/Marks.vala:28
+#: src/Marks.vala:30
 #, fuzzy
 msgid "1 min"
 msgstr "15 min."
 
-#: src/Marks.vala:32
+#: src/Marks.vala:35
 msgid "30 min"
 msgstr "30 min."
 
-#: src/Marks.vala:36
+#: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 val."
 
-#: data/io.github.ellie_commons.badger.desktop.in:4
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:7
-msgid "Badger"
-msgstr "Badger"
+#~ msgid "Badger"
+#~ msgstr "Badger"
 
-#: data/io.github.ellie_commons.badger.desktop.in:5
-msgid "Ergonomic Reminder"
-msgstr "Priminimų apie ergonomiką įrankis"
+#~ msgid "Ergonomic Reminder"
+#~ msgstr "Priminimų apie ergonomiką įrankis"
 
-#: data/io.github.ellie_commons.badger.desktop.in:6
-msgid "Remind yourself to relax your eyes and limbs"
-msgstr "Priminkite sau atpalaiduoti akis ir galūnes"
+#~ msgid "Remind yourself to relax your eyes and limbs"
+#~ msgstr "Priminkite sau atpalaiduoti akis ir galūnes"
 
-#: data/io.github.ellie_commons.badger.desktop.in:11
-msgid "Ergonomics;Health;Eyes;Muscles;"
-msgstr "Ergonomika;Sveikata;Akys;Raumenys;"
+#~ msgid "Ergonomics;Health;Eyes;Muscles;"
+#~ msgstr "Ergonomika;Sveikata;Akys;Raumenys;"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:8
-msgid "Remind yourself to not sit and stare at the screen for too long"
-msgstr "Priminkite sau nesedėti ilgai ir nespoksoti į ekraną"
+#~ msgid "Remind yourself to not sit and stare at the screen for too long"
+#~ msgstr "Priminkite sau nesedėti ilgai ir nespoksoti į ekraną"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:10
 #, fuzzy
-msgid ""
-"When you are using your computer for extended periods of time, you need to "
-"relax your body every once in a while."
-msgstr ""
-"Nesvarbu, ar žaidžiate žaidimą naudodami MupenGUI, ar žiūrkite mėgstamą "
-"filmą naudodami Cinema, ar rašote novelę naudodami Quilter, kartas nuo karto "
-"jūsų kūnui reikia atsipalaiduoti."
+#~ msgid ""
+#~ "When you are using your computer for extended periods of time, you need "
+#~ "to relax your body every once in a while."
+#~ msgstr ""
+#~ "Nesvarbu, ar žaidžiate žaidimą naudodami MupenGUI, ar žiūrkite mėgstamą "
+#~ "filmą naudodami Cinema, ar rašote novelę naudodami Quilter, kartas nuo "
+#~ "karto jūsų kūnui reikia atsipalaiduoti."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:12
-msgid ""
-"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
-"—to destress yourself and rest your eyes and muscles."
-msgstr ""
-"Badger padeda daryti būtent tai. Ši programa primena jums atsipalaiduoti ir "
-"leisti pailsėti savo akims ir raumenims."
+#~ msgid ""
+#~ "Badger helps you do exactly that. It reminds you—or should I say, badgers "
+#~ "you—to destress yourself and rest your eyes and muscles."
+#~ msgstr ""
+#~ "Badger padeda daryti būtent tai. Ši programa primena jums atsipalaiduoti "
+#~ "ir leisti pailsėti savo akims ir raumenims."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:14
 #, fuzzy
-msgid "Currently, it has these eight reminders:"
-msgstr "Šiuo metu, programoje yra šie penki priminimai:"
+#~ msgid "Currently, it has these eight reminders:"
+#~ msgstr "Šiuo metu, programoje yra šie penki priminimai:"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:17
-msgid "Blink eyes"
-msgstr "Pamirksėti akimis"
+#~ msgid "Blink eyes"
+#~ msgstr "Pamirksėti akimis"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:18
-msgid "Stretch fingers"
-msgstr "Ištiesti pirštus"
+#~ msgid "Stretch fingers"
+#~ msgstr "Ištiesti pirštus"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:19
-msgid "Stretch arms"
-msgstr "Ištiesti rankas"
+#~ msgid "Stretch arms"
+#~ msgstr "Ištiesti rankas"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:20
-msgid "Stretch legs"
-msgstr "Ištiesti kojas"
+#~ msgid "Stretch legs"
+#~ msgstr "Ištiesti kojas"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:21
-msgid "Turn neck"
-msgstr "Pasukti kaklą"
+#~ msgid "Turn neck"
+#~ msgstr "Pasukti kaklą"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:22
-msgid "Maintain posture"
-msgstr ""
+#~ msgid "Stay healthy."
+#~ msgstr "Išlikite sveiki."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:23
-msgid "Drink water"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:24
-msgid "Breathe consciously"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:27
-msgid "Stay healthy."
-msgstr "Išlikite sveiki."
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:33
-msgid "Update: Use elementary Platform 7"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:40
-msgid "Add: Two new reminders (@disegnovitruviano)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:41
-msgid "Update: Make window compact"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:48
 #, fuzzy
-msgid "Update: Italian translations (@albanobattistella)"
-msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
+#~ msgid "Update: Italian translations (@albanobattistella)"
+#~ msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:55
 #, fuzzy
-msgid "Add: Czech translations (@pervoj)"
-msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
+#~ msgid "Add: Czech translations (@pervoj)"
+#~ msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:56
 #, fuzzy
-msgid "Add: Italian translations (@albanobattistella)"
-msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
+#~ msgid "Add: Italian translations (@albanobattistella)"
+#~ msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:62
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:70
-msgid "Odin update 🎉️"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:64
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:72
-msgid "Add: Dark style support"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:79
-msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:86
 #, fuzzy
-msgid "Add: Spanish translations (@fitojb)"
-msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
+#~ msgid "Add: Spanish translations (@fitojb)"
+#~ msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:87
 #, fuzzy
-msgid "Add: Ukrainian translations (@IhorHordiichuk)"
-msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
+#~ msgid "Add: Ukrainian translations (@IhorHordiichuk)"
+#~ msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:94
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:117
-msgid "Update: Screenshot"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:101
-msgid "Add: New reminder for correcting your posture"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:108
-msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:109
-msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:110
-msgid "Update: Improved icon"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:124
-msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:131
 #, fuzzy
-msgid "Add: Turkish translations (@libreajans)"
-msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
+#~ msgid "Add: Turkish translations (@libreajans)"
+#~ msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:138
 #, fuzzy
-msgid "Add: Dutch translations (@Vistaus)"
-msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
+#~ msgid "Add: Dutch translations (@Vistaus)"
+#~ msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:145
-msgid "Fix: \"Never\" option not disabling the timer"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:152
-msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:153
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:163
 #, fuzzy
-msgid "Update: French translations (@NathanBnm)"
-msgstr "Pridėta: Prancūzų kalbos vertimas (@NathanBnm)"
+#~ msgid "Update: French translations (@NathanBnm)"
+#~ msgstr "Pridėta: Prancūzų kalbos vertimas (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:154
 #, fuzzy
-msgid "Update: Lithuanian translations (@welaq)"
-msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
+#~ msgid "Update: Lithuanian translations (@welaq)"
+#~ msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:155
 #, fuzzy
-msgid "Update: Danish translations (@siigdev)"
-msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
+#~ msgid "Update: Danish translations (@siigdev)"
+#~ msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:162
 #, fuzzy
-msgid "Add: Danish translations (@siigdev)"
-msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
+#~ msgid "Add: Danish translations (@siigdev)"
+#~ msgstr "Pridėta: Danų kalbos vertimas (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:169
-msgid "Fix: Empty window on launch"
-msgstr "Pataisa: Tuščias langas paleidimo metu"
+#~ msgid "Fix: Empty window on launch"
+#~ msgstr "Pataisa: Tuščias langas paleidimo metu"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:174
-msgid "Add: Lithuanian translations (@welaq)"
-msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
+#~ msgid "Add: Lithuanian translations (@welaq)"
+#~ msgstr "Pridėta: Lietuvių kalbos vertimas (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:175
-msgid "Fix: Illegible heading in dark mode"
-msgstr "Pataisa: Neįskaitoma antraštė tamsioje veiksenoje"
+#~ msgid "Fix: Illegible heading in dark mode"
+#~ msgstr "Pataisa: Neįskaitoma antraštė tamsioje veiksenoje"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:180
-msgid "Add: French translations (@NathanBnm)"
-msgstr "Pridėta: Prancūzų kalbos vertimai (@NathanBnm)"
+#~ msgid "Add: French translations (@NathanBnm)"
+#~ msgstr "Pridėta: Prancūzų kalbos vertimai (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:185
-msgid "Fix: Multiple notifications when window is opened &gt;1 times"
-msgstr "Pataisa: Keli pranešimai, kai langas yra atveriamas &gt;1 kartų"
+#~ msgid "Fix: Multiple notifications when window is opened &gt;1 times"
+#~ msgstr "Pataisa: Keli pranešimai, kai langas yra atveriamas &gt;1 kartų"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:190
-msgid "Fix: Remove manual line breaks from metainfo"
-msgstr "Pataisa: Pašalinta rankinė nauja eilutė iš programos duomenų"
+#~ msgid "Fix: Remove manual line breaks from metainfo"
+#~ msgstr "Pataisa: Pašalinta rankinė nauja eilutė iš programos duomenų"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:195
-msgid "Fix: Use smaller window size by default"
-msgstr "Pataisa: Pagal numatymą naudoti mažesnį lango dydį"
+#~ msgid "Fix: Use smaller window size by default"
+#~ msgstr "Pataisa: Pagal numatymą naudoti mažesnį lango dydį"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:200
-msgid "Initial Release 🎉️"
-msgstr "Pradinė laida 🎉️"
+#~ msgid "Initial Release 🎉️"
+#~ msgstr "Pradinė laida 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:237
-msgid "Elfenware"
-msgstr "Elfenware"
+#~ msgid "Elfenware"
+#~ msgstr "Elfenware"
 
 #~ msgid "io.github.ellie_commons.badger"
 #~ msgstr "io.github.ellie_commons.badger"

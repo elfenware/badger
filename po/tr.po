@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-15 15:37+0200\n"
+"POT-Creation-Date: 2025-05-16 20:47+0200\n"
 "PO-Revision-Date: 2019-10-23 22:39+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: \n"
@@ -27,364 +27,273 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: src/Application.vala:170
+#: src/Application.vala:133
 msgid "Blink your eyes"
 msgstr "Gözlerini kırp"
 
-#: src/Application.vala:171
+#: src/Application.vala:134
 msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr "Ekrandan uzağa bak ve 10 saniye boyunca yavaşça gözlerini kırp."
 
-#: src/Application.vala:172
+#: src/Application.vala:135
 msgid "Eyes:"
 msgstr "Gözler:"
 
-#: src/Application.vala:177
+#: src/Application.vala:140
 msgid "Stretch your fingers"
 msgstr "Parmaklarını esnet"
 
-#: src/Application.vala:178
+#: src/Application.vala:141
 msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
 msgstr "Avucunu genişçe aç, sonrasında yumruk yapıp kapat. 5 kez tekrarla."
 
-#: src/Application.vala:179
+#: src/Application.vala:142
 msgid "Fingers:"
 msgstr "Parmaklar:"
 
-#: src/Application.vala:184
+#: src/Application.vala:147
 msgid "Stretch your arms"
 msgstr "Kollarını esnet"
 
-#: src/Application.vala:185
+#: src/Application.vala:148
 msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr "Kollarını esnet ve bileklerini 10 saniye boyunca döndür."
 
-#: src/Application.vala:186
+#: src/Application.vala:149
 msgid "Arms:"
 msgstr "Kollar:"
 
-#: src/Application.vala:191
+#: src/Application.vala:154
 msgid "Stretch your legs"
 msgstr "Bacaklarını esnet"
 
-#: src/Application.vala:192
+#: src/Application.vala:155
 msgid "Stand up, twist each ankle, and bend each knee."
 msgstr "Ayağa kalk, her bir bileğini ve her bir dizini bük."
 
-#: src/Application.vala:193
+#: src/Application.vala:156
 msgid "Legs:"
 msgstr "Bacaklar:"
 
-#: src/Application.vala:198
+#: src/Application.vala:161
 msgid "Turn your neck"
 msgstr "Boynunu çevir"
 
-#: src/Application.vala:199
+#: src/Application.vala:162
 msgid "Turn your head in all directions. Repeat 3 times."
 msgstr "Başını her yöne çevir. 3 kez tekrarla."
 
-#: src/Application.vala:200
+#: src/Application.vala:163
 msgid "Neck:"
 msgstr "Boyun:"
 
-#: src/Application.vala:205
+#: src/Application.vala:168
 msgid "Hydrate yourself"
 msgstr ""
 
-#: src/Application.vala:206
+#: src/Application.vala:169
 msgid "Drink a glass of water."
 msgstr ""
 
-#: src/Application.vala:207
+#: src/Application.vala:170
 msgid "Water:"
 msgstr ""
 
-#: src/Application.vala:212
+#: src/Application.vala:175
 msgid "Watch your posture"
 msgstr "Duruşunu izle"
 
-#: src/Application.vala:213
+#: src/Application.vala:176
 msgid "Make sure your back is straight."
 msgstr "Sırtının düz olduğundan emin ol."
 
-#: src/Application.vala:214
+#: src/Application.vala:177
 msgid "Posture:"
 msgstr "Duruş:"
 
-#: src/Application.vala:219
+#: src/Application.vala:182
 msgid "Focus on your breath"
 msgstr ""
 
-#: src/Application.vala:220
+#: src/Application.vala:183
 msgid "Inhale and exhale deeply, thrice."
 msgstr ""
 
-#: src/Application.vala:221
+#: src/Application.vala:184
 msgid "Breath:"
 msgstr ""
 
-#: src/MainGrid.vala:37
+#: src/MainGrid.vala:43
 msgid "Reminders"
 msgstr "Hatırlatıcı"
 
-#: src/MainGrid.vala:54
+#: src/MainGrid.vala:45
+msgid "If on, Badger will remind you to take care of yourself"
+msgstr ""
+
+#: src/MainGrid.vala:55
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
 "Badger'ın size ne sıklıkta rahatlamanız gerektiğini hatırlatması gerektiğine "
 "karar verin:"
 
-#: src/MainGrid.vala:129
+#: src/MainGrid.vala:130 src/MainGrid.vala:145
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f dak"
 
-#: src/Marks.vala:28
+#: src/Marks.vala:30
 msgid "1 min"
 msgstr "1 dak"
 
-#: src/Marks.vala:32
+#: src/Marks.vala:35
 msgid "30 min"
 msgstr "30 dak"
 
-#: src/Marks.vala:36
+#: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 saat"
 
 # Uygulama adı olduğu için çevirmeyin.
-#: data/io.github.ellie_commons.badger.desktop.in:4
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:7
-msgid "Badger"
-msgstr "Badger"
+#~ msgid "Badger"
+#~ msgstr "Badger"
 
-#: data/io.github.ellie_commons.badger.desktop.in:5
-msgid "Ergonomic Reminder"
-msgstr "Ergonomi Hatırlatıcısı"
+#~ msgid "Ergonomic Reminder"
+#~ msgstr "Ergonomi Hatırlatıcısı"
 
-#: data/io.github.ellie_commons.badger.desktop.in:6
-msgid "Remind yourself to relax your eyes and limbs"
-msgstr "Gözlerini ve uzuvlarını gevşetmeyi kendine hatırlat"
+#~ msgid "Remind yourself to relax your eyes and limbs"
+#~ msgstr "Gözlerini ve uzuvlarını gevşetmeyi kendine hatırlat"
 
-#: data/io.github.ellie_commons.badger.desktop.in:11
-msgid "Ergonomics;Health;Eyes;Muscles;"
-msgstr "Ergonomi;Sağlık;Göz;Gözler;Kas;Kaslar;"
+#~ msgid "Ergonomics;Health;Eyes;Muscles;"
+#~ msgstr "Ergonomi;Sağlık;Göz;Gözler;Kas;Kaslar;"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:8
-msgid "Remind yourself to not sit and stare at the screen for too long"
-msgstr ""
-"Uzun süre ekran başında oturmamayı ve uzun süre ekrana bakmamayı kendine "
-"hatırlat"
+#~ msgid "Remind yourself to not sit and stare at the screen for too long"
+#~ msgstr ""
+#~ "Uzun süre ekran başında oturmamayı ve uzun süre ekrana bakmamayı kendine "
+#~ "hatırlat"
 
 # Türkiyeyle uyumlu serbest çeviri yapılmıştır. Özgünü taklide çalışmayın.
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:10
 #, fuzzy
-msgid ""
-"When you are using your computer for extended periods of time, you need to "
-"relax your body every once in a while."
-msgstr ""
-"İster bilgisayar başında oyun oynuyor olun, ister film izliyor veya gelecek "
-"romanınızı yazıyor olun, arada vücudunuzu dinlendirmeniz gerekir."
+#~ msgid ""
+#~ "When you are using your computer for extended periods of time, you need "
+#~ "to relax your body every once in a while."
+#~ msgstr ""
+#~ "İster bilgisayar başında oyun oynuyor olun, ister film izliyor veya "
+#~ "gelecek romanınızı yazıyor olun, arada vücudunuzu dinlendirmeniz gerekir."
 
 # Burada küçük bir Pan/Kelime oyunu var ama çevirmiyorum.
 # O sebeple son cümle serbest çeviridir.
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:12
-msgid ""
-"Badger helps you do exactly that. It reminds you—or should I say, badgers you"
-"—to destress yourself and rest your eyes and muscles."
-msgstr ""
-"Badger tam olarak bunu yapmanıza yardımcı olur. Size sitresi azaltmanızı, "
-"kaslarınızı ve gözlerinizi dinlendirmenizi hatırlatır."
+#~ msgid ""
+#~ "Badger helps you do exactly that. It reminds you—or should I say, badgers "
+#~ "you—to destress yourself and rest your eyes and muscles."
+#~ msgstr ""
+#~ "Badger tam olarak bunu yapmanıza yardımcı olur. Size sitresi azaltmanızı, "
+#~ "kaslarınızı ve gözlerinizi dinlendirmenizi hatırlatır."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:14
 #, fuzzy
-msgid "Currently, it has these eight reminders:"
-msgstr "Şu anda, şu beş hatırlatıcı var:"
+#~ msgid "Currently, it has these eight reminders:"
+#~ msgstr "Şu anda, şu beş hatırlatıcı var:"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:17
-msgid "Blink eyes"
-msgstr "Gözlerini kırp"
+#~ msgid "Blink eyes"
+#~ msgstr "Gözlerini kırp"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:18
-msgid "Stretch fingers"
-msgstr "Parmaklarını esnet"
+#~ msgid "Stretch fingers"
+#~ msgstr "Parmaklarını esnet"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:19
-msgid "Stretch arms"
-msgstr "Kollarını esnet"
+#~ msgid "Stretch arms"
+#~ msgstr "Kollarını esnet"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:20
-msgid "Stretch legs"
-msgstr "Bacaklarını esnet"
+#~ msgid "Stretch legs"
+#~ msgstr "Bacaklarını esnet"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:21
-msgid "Turn neck"
-msgstr "Boynunu çevir"
+#~ msgid "Turn neck"
+#~ msgstr "Boynunu çevir"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:22
-msgid "Maintain posture"
-msgstr ""
+#~ msgid "Stay healthy."
+#~ msgstr "Sağlıklı kal."
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:23
-msgid "Drink water"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:24
-msgid "Breathe consciously"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:27
-msgid "Stay healthy."
-msgstr "Sağlıklı kal."
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:33
-msgid "Update: Use elementary Platform 7"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:40
-msgid "Add: Two new reminders (@disegnovitruviano)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:41
-msgid "Update: Make window compact"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:48
 #, fuzzy
-msgid "Update: Italian translations (@albanobattistella)"
-msgstr "Eklendi: Litvanca çeviri (@welaq)"
+#~ msgid "Update: Italian translations (@albanobattistella)"
+#~ msgstr "Eklendi: Litvanca çeviri (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:55
 #, fuzzy
-msgid "Add: Czech translations (@pervoj)"
-msgstr "Eklendi: Danca çeviri (@siigdev)"
+#~ msgid "Add: Czech translations (@pervoj)"
+#~ msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:56
 #, fuzzy
-msgid "Add: Italian translations (@albanobattistella)"
-msgstr "Eklendi: Litvanca çeviri (@welaq)"
+#~ msgid "Add: Italian translations (@albanobattistella)"
+#~ msgstr "Eklendi: Litvanca çeviri (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:62
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:70
-msgid "Odin update 🎉️"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:64
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:72
-msgid "Add: Dark style support"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:79
-msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:86
 #, fuzzy
-msgid "Add: Spanish translations (@fitojb)"
-msgstr "Eklendi: Danca çeviri (@siigdev)"
+#~ msgid "Add: Spanish translations (@fitojb)"
+#~ msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:87
 #, fuzzy
-msgid "Add: Ukrainian translations (@IhorHordiichuk)"
-msgstr "Eklendi: Danca çeviri (@siigdev)"
+#~ msgid "Add: Ukrainian translations (@IhorHordiichuk)"
+#~ msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:94
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:117
-msgid "Update: Screenshot"
-msgstr "Güncellendi: Ekran görüntüsü"
+#~ msgid "Update: Screenshot"
+#~ msgstr "Güncellendi: Ekran görüntüsü"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:101
-msgid "Add: New reminder for correcting your posture"
-msgstr ""
+#~ msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
+#~ msgstr "Eklendi: 🎉️ Tüm hatırlatıcıları kapatmak için genel anahtar 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:108
-msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:109
-msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:110
-msgid "Update: Improved icon"
-msgstr ""
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:124
-msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
-msgstr "Eklendi: 🎉️ Tüm hatırlatıcıları kapatmak için genel anahtar 🎉️"
-
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:131
 #, fuzzy
-msgid "Add: Turkish translations (@libreajans)"
-msgstr "Eklendi: Türkçe çeviri (@libreajans)"
+#~ msgid "Add: Turkish translations (@libreajans)"
+#~ msgstr "Eklendi: Türkçe çeviri (@libreajans)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:138
 #, fuzzy
-msgid "Add: Dutch translations (@Vistaus)"
-msgstr "Eklendi: Flemenkçe çeviri (@Vistaus)"
+#~ msgid "Add: Dutch translations (@Vistaus)"
+#~ msgstr "Eklendi: Flemenkçe çeviri (@Vistaus)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:145
-msgid "Fix: \"Never\" option not disabling the timer"
-msgstr "Düzeltildi: \"Asla\" seçeneği zamanlayıcıyı devre dışı bırakmıyor"
+#~ msgid "Fix: \"Never\" option not disabling the timer"
+#~ msgstr "Düzeltildi: \"Asla\" seçeneği zamanlayıcıyı devre dışı bırakmıyor"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:152
-msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
-msgstr "Eklendi: 🎉️ En çok beklenen özellik, özel zamanlayıcı! 🎉️"
+#~ msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
+#~ msgstr "Eklendi: 🎉️ En çok beklenen özellik, özel zamanlayıcı! 🎉️"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:153
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:163
-msgid "Update: French translations (@NathanBnm)"
-msgstr "Güncellendi: Fransızca çeviri (@NathanBnm)"
+#~ msgid "Update: French translations (@NathanBnm)"
+#~ msgstr "Güncellendi: Fransızca çeviri (@NathanBnm)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:154
-msgid "Update: Lithuanian translations (@welaq)"
-msgstr "Güncellendi: Litvanca çeviri (@welaq)"
+#~ msgid "Update: Lithuanian translations (@welaq)"
+#~ msgstr "Güncellendi: Litvanca çeviri (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:155
-msgid "Update: Danish translations (@siigdev)"
-msgstr "Güncellendi: Danca çeviri (@siigdev)"
+#~ msgid "Update: Danish translations (@siigdev)"
+#~ msgstr "Güncellendi: Danca çeviri (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:162
 #, fuzzy
-msgid "Add: Danish translations (@siigdev)"
-msgstr "Eklendi: Danca çeviri (@siigdev)"
+#~ msgid "Add: Danish translations (@siigdev)"
+#~ msgstr "Eklendi: Danca çeviri (@siigdev)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:169
-msgid "Fix: Empty window on launch"
-msgstr "Düzeltme: Başlangıçta boş pencere"
+#~ msgid "Fix: Empty window on launch"
+#~ msgstr "Düzeltme: Başlangıçta boş pencere"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:174
-msgid "Add: Lithuanian translations (@welaq)"
-msgstr "Eklendi: Litvanca çeviri (@welaq)"
+#~ msgid "Add: Lithuanian translations (@welaq)"
+#~ msgstr "Eklendi: Litvanca çeviri (@welaq)"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:175
-msgid "Fix: Illegible heading in dark mode"
-msgstr "Düzeltme: Koyu kipde geçersiz başlık"
+#~ msgid "Fix: Illegible heading in dark mode"
+#~ msgstr "Düzeltme: Koyu kipde geçersiz başlık"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:180
-msgid "Add: French translations (@NathanBnm)"
-msgstr "Eklendi: Fransızca çeviri (@NathanBnm)"
+#~ msgid "Add: French translations (@NathanBnm)"
+#~ msgstr "Eklendi: Fransızca çeviri (@NathanBnm)"
 
 # &gt;1 kısmı birden çok defa olarak çevrildi
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:185
-msgid "Fix: Multiple notifications when window is opened &gt;1 times"
-msgstr "Düzeltme: Pencere birden çok defa açıldığında çoklu uyarı"
+#~ msgid "Fix: Multiple notifications when window is opened &gt;1 times"
+#~ msgstr "Düzeltme: Pencere birden çok defa açıldığında çoklu uyarı"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:190
-msgid "Fix: Remove manual line breaks from metainfo"
-msgstr ""
-"Düzeltme: El ile girilmiş satır sonlarını metainfo dosyasından kaldırıldı"
+#~ msgid "Fix: Remove manual line breaks from metainfo"
+#~ msgstr ""
+#~ "Düzeltme: El ile girilmiş satır sonlarını metainfo dosyasından kaldırıldı"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:195
-msgid "Fix: Use smaller window size by default"
-msgstr "Düzeltme: Öntanımlı olarak daha küçük pencere boyutu kullan"
+#~ msgid "Fix: Use smaller window size by default"
+#~ msgstr "Düzeltme: Öntanımlı olarak daha küçük pencere boyutu kullan"
 
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:200
-msgid "Initial Release 🎉️"
-msgstr "İlk Sürüm 🎉️"
+#~ msgid "Initial Release 🎉️"
+#~ msgstr "İlk Sürüm 🎉️"
 
 # Yazılım geliştiren oluşumun adı, çevirmeyin.
-#: data/io.github.ellie_commons.badger.metainfo.xml.in:237
-msgid "Elfenware"
-msgstr "Elfenware"
+#~ msgid "Elfenware"
+#~ msgstr "Elfenware"
 
 # uygulama kimliği, çevirmeyin
 #~ msgid "io.github.ellie_commons.badger"
