@@ -44,6 +44,7 @@ public class Badger.MainGrid : Gtk.Box {
             mnemonic_widget = global_switch,
             secondary_text = _("If on, Badger will remind you to take care of yourself")
         };
+
         global_box.append(heading);
         global_box.append(global_switch);
         append (global_box);
@@ -54,14 +55,15 @@ public class Badger.MainGrid : Gtk.Box {
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
             margin_top = 18,
-            margin_bottom = 12
+            margin_bottom = 6
         };
-        subheading.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
+        subheading.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        subheading.add_css_class ("title-4");
 
         append (subheading);
 
-        //var marks = new Marks ();
-        //attach (marks, 1, 2, 1, 1);
+        var marks = new Marks ();
+        append (marks);
 
         HashTable<string, Gtk.Scale> scales = new HashTable<string, Gtk.Scale> (str_hash, str_equal);
 
@@ -97,6 +99,7 @@ public class Badger.MainGrid : Gtk.Box {
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
                 halign = Gtk.Align.START,
                 valign = Gtk.Align.CENTER,
+                width_request = 64,
             };
 
             Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
@@ -104,11 +107,6 @@ public class Badger.MainGrid : Gtk.Box {
                 halign = Gtk.Align.FILL,
                 valign = Gtk.Align.CENTER,
                 width_request = 300
-            };
-
-            Gtk.Label label = new Gtk.Label (null) {
-                halign = Gtk.Align.END,
-                valign = Gtk.Align.CENTER
             };
 
             // Get the scale default value
@@ -131,7 +129,7 @@ public class Badger.MainGrid : Gtk.Box {
                 settings.set_boolean (reminder.name + "-active", false);
             }
             scale.set_value (interval);
-            label.set_text (_ ("%.0f min").printf (interval));
+            scale.set_tooltip_text(_ ("%.0f min").printf (interval));
 
             SetInterval set_interval = reminder.set_reminder_interval;
             set_interval (interval);
@@ -141,7 +139,8 @@ public class Badger.MainGrid : Gtk.Box {
                 settings.set_uint (reminder.name, new_value);
                 set_interval (new_value);
 
-                label.set_text (_ ("%.0f min").printf (duration)) ;
+                scale.set_tooltip_text(_ ("%.0f min").printf (duration)) ;
+
                 return false;
             });
 
@@ -166,7 +165,7 @@ public class Badger.MainGrid : Gtk.Box {
 
             box.append (check_box);
             box.append (scale);
-            box.append (label);
+            //box.append (label);
 
             //attach (check_box, 0, index + 3, 1, 1);
             //attach (scale, 1, index + 3, 1, 1);

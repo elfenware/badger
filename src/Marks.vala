@@ -22,47 +22,24 @@ public class Badger.Marks : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.HORIZONTAL;
         hexpand = true;
+        margin_start = 76; // 64 + 12
         margin_top = 12;
-        margin_bottom = 6;
+        margin_bottom = 0;
+
 
         append (new Gtk.Label (_("1 min")) {
-            halign = Gtk.Align.START
+            halign = Gtk.Align.START,
+            hexpand = false
         });
 
         append (new Gtk.Label (_("30 min")) {
-            halign = Gtk.Align.CENTER
+            halign = Gtk.Align.CENTER,
+            hexpand = true
         });
 
         append (new Gtk.Label (_("1 hour")) {
-            halign = Gtk.Align.END
+            halign = Gtk.Align.END,
+            hexpand = false
         });
-    }
-}
-
-public class Badger.Headerbox : Gtk.Box {
-    construct {
-        orientation = Gtk.Orientation.HORIZONTAL;
-        hexpand = true;
-        margin_top = 12;
-        margin_bottom = 6;
-
-        var global_switch = new Gtk.Switch () {
-                    halign = Gtk.Align.END,
-                    hexpand = true,
-                    valign = Gtk.Align.CENTER,
-        };
-
-
-        var heading = new Granite.HeaderLabel (_ ("Reminders")) {
-            mnemonic_widget = global_switch,
-            secondary_text = _("Badger will remind you to take care of yourself")
-        };
-        heading.add_css_class (Granite.STYLE_CLASS_H2_LABEL);
-
-        append(heading);
-
-        var settings = new GLib.Settings ("io.github.ellie_commons.badger.timers");
-        settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
-        
     }
 }

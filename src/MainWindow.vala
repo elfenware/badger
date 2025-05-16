@@ -32,7 +32,7 @@ public class Badger.MainWindow : Gtk.Window {
     }
 
     construct {
-
+            Intl.setlocale ();
         settings = new GLib.Settings ("io.github.ellie_commons.badger.state");
 
         set_default_size (
@@ -41,9 +41,11 @@ public class Badger.MainWindow : Gtk.Window {
         );
 
         set_title("Badger");
-
+        Gtk.Label title_widget = new Gtk.Label("Badger");
+        title_widget.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
+        
         this.headerbar = new Gtk.HeaderBar ();
-        headerbar.set_title_widget (new Gtk.Label("Badger"));
+        headerbar.set_title_widget (title_widget);
         headerbar.add_css_class (Granite.STYLE_CLASS_FLAT);
         set_titlebar (headerbar);
 
@@ -52,45 +54,21 @@ public class Badger.MainWindow : Gtk.Window {
         content.append (main);
 
 
-
-
-            /*************************************************/
-            // Bar at the bottom
-            var actionbar = new Gtk.ActionBar () {
-                margin_end = 12
-            };
-            actionbar.set_hexpand (true);
-            actionbar.set_vexpand (false);
-            actionbar.add_css_class (Granite.STYLE_CLASS_FLAT);
-        
-
-            // Reset
-            var reset_button = new Gtk.Button();
-            reset_button.set_label( _("Reset to Default"));
-            reset_button.tooltip_markup = (_("Reset all settings to defaults"));
-            actionbar.pack_end (reset_button);
-
-            reset_button.activate.connect (() => {
-                print("");
-            });
-
-        // content.append(actionbar);
-
-
+        // Allow grabbing on whole window
         var handle = new Gtk.WindowHandle () {
             child = content
         };
 
         set_child (handle);
 
-
-
+        // save state
         close_request.connect (e => {
             return before_destroy ();
         });
     }
 
 
+    // save state
     private bool before_destroy () {
         int width, height;
 

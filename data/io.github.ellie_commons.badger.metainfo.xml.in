@@ -27,6 +27,13 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
+    <release version="5.0.0" date="2025-06-05">
+      <description>
+        <ul>
+          <li>Update: Modern tech under the hood! (GTK4)</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.4.0" date="2022-06-05">
       <description>
         <ul>

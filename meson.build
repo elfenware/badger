@@ -35,6 +35,7 @@ executable(
     'src/MainWindow.vala',
     'src/Reminder.vala',
     'src/MainGrid.vala',
+    'src/Marks.vala',
     dependencies: [
         dependency ('glib-2.0'),
         dependency('granite-7'),

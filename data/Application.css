@@ -23,3 +23,18 @@
 scale value {
     min-width: 40px;
 }
+
+.heading {
+    font-size: 11pt;
+}
+
+.small-label {
+    font-size: 0.85rem;
+}
+
+.title-4 {
+    font-weight: 700;
+    opacity: 0.8;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
