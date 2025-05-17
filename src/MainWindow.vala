@@ -36,26 +36,21 @@ public class Badger.MainWindow : Gtk.Window {
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
         set_default_size (
-            settings.get_int ("window-width"), 
+            settings.get_int ("window-width"),
             settings.get_int ("window-height")
         );
 
-        set_title(_("Badger"));
-        Gtk.Label title_widget = new Gtk.Label(_("Badger"));
+        set_title (_("Badger"));
+        Gtk.Label title_widget = new Gtk.Label (_("Badger"));
         title_widget.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
-        
+
         this.headerbar = new Gtk.HeaderBar ();
         headerbar.set_title_widget (title_widget);
         headerbar.add_css_class (Granite.STYLE_CLASS_FLAT);
         set_titlebar (headerbar);
 
-
         var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         content.append (main);
-
-
-
-
 
         // Allow grabbing on whole window
         var handle = new Gtk.WindowHandle () {

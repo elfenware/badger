@@ -32,8 +32,6 @@ public class Badger.MainGrid : Gtk.Box {
         orientation = Gtk.Orientation.VERTICAL;
 
 
-        
-
         /************************************************/
         /*               Switch at top                  */
         /************************************************/
@@ -50,15 +48,14 @@ public class Badger.MainGrid : Gtk.Box {
             secondary_text = _("If on, Badger will remind you to take care of yourself")
         };
 
-        global_box.append(heading);
-        global_box.append(global_switch);
+        global_box.append (heading);
+        global_box.append (global_switch);
         append (global_box);
 
 
         /************************************************/
         /*               Label to explain               */
         /************************************************/
-
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
@@ -96,12 +93,9 @@ public class Badger.MainGrid : Gtk.Box {
         });
 
 
-
         /************************************************/
         /*               All the scales                 */
         /************************************************/
-
-
 
         var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         scale_box.vexpand = true;
@@ -129,32 +123,13 @@ public class Badger.MainGrid : Gtk.Box {
 
             // Get the scale default value
             scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
-            
+
             scales.insert (reminder.name + "-active", scale);
 
             uint interval = settings.get_uint (reminder.name);
 
-
-            // Old settings migration: interval == 0 meant "never" till 2.3.1
-            //  if ( interval == 0 ) {
-            //      // Reset to default value
-            //      settings.reset (reminder.name);
-
-            //      // Read interval again (interval = default_value)
-            //      interval = settings.get_uint (reminder.name);
-
-            //      // Uncheck the corresponding checkbox
-            //      settings.set_boolean (reminder.name + "-active", false);
-            //  }
-
-
             scale.set_value (interval);
-            scale.set_tooltip_text(_ ("%.0f min").printf (interval));
-
-            // The marks take a lotta space
-            //scale.add_mark (0.0, Gtk.PositionType.TOP , null);
-            //scale.add_mark (30.0, Gtk.PositionType.TOP , null);
-            //scale.add_mark (60.0, Gtk.PositionType.TOP , null);
+            scale.set_tooltip_text (_ ("%.0f min").printf (interval));
 
             SetInterval set_interval = reminder.set_reminder_interval;
             set_interval (interval);
@@ -164,7 +139,7 @@ public class Badger.MainGrid : Gtk.Box {
                 settings.set_uint (reminder.name, new_value);
                 set_interval (new_value);
 
-                scale.set_tooltip_text(_ ("%.0f min").printf (duration)) ;
+                scale.set_tooltip_text (_ ("%.0f min").printf (duration)) ;
 
                 return false;
             });
@@ -184,19 +159,15 @@ public class Badger.MainGrid : Gtk.Box {
             box.append (scale);
             scale_box.append (box);
 
-        } // Forloop end
+        }
 
-        append(scale_box);
-
+        append (scale_box);
 
 
         /********************************************/
         /*               DnD Label                  */
         /********************************************/
 
-
-        // User may wonder why they get no notification
-        // Ok also this looks better
         var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is not on!")) {
             halign = Gtk.Align.START,
             margin_top = 12,
@@ -204,8 +175,5 @@ public class Badger.MainGrid : Gtk.Box {
         };
         hey.add_css_class ("accent");
         append (hey);
-
-
-
     }
 }

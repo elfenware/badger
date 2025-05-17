@@ -26,7 +26,6 @@ public class Badger.Marks : Gtk.Box {
         margin_top = 12;
         margin_bottom = 0;
 
-
         append (new Gtk.Label (_("1 min")) {
             halign = Gtk.Align.START,
             hexpand = false
