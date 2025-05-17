@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 21:41+0200\n"
+"POT-Creation-Date: 2025-05-17 11:58+0200\n"
 "PO-Revision-Date: 2019-10-23 22:39+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: \n"
@@ -145,7 +145,7 @@ msgstr ""
 "Badger'ın size ne sıklıkta rahatlamanız gerektiğini hatırlatması gerektiğine "
 "karar verin:"
 
-#: src/MainGrid.vala:148 src/MainGrid.vala:163
+#: src/MainGrid.vala:152 src/MainGrid.vala:167
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f dak"
@@ -155,8 +155,8 @@ msgstr "%.0f dak"
 #. ******************************************
 #. User may wonder why they get no notification
 #. Ok also this looks better
-#: src/MainGrid.vala:196
-msgid "Make sure Do Not Disturb is not on"
+#: src/MainGrid.vala:200
+msgid "Make sure Do Not Disturb is not on!"
 msgstr ""
 
 #: src/Marks.vala:30

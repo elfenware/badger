@@ -197,11 +197,13 @@ public class Badger.MainGrid : Gtk.Box {
 
         // User may wonder why they get no notification
         // Ok also this looks better
-        //var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is not on")) {
-        //    halign = Gtk.Align.START,
-        //    margin_top = 6
-        //};
-        //append (hey);
+        var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is not on!")) {
+            halign = Gtk.Align.START,
+            margin_top = 12,
+            margin_bottom = 6
+        };
+        hey.add_css_class ("accent");
+        append (hey);
 
 
 

@@ -8,7 +8,7 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"POT-Creation-Date: 2025-05-16 21:41+0200\n"
+"POT-Creation-Date: 2025-05-17 11:58+0200\n"
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 
@@ -127,8 +127,8 @@ msgstr "Wenn eingeschaltet, wird Badger Sie daran erinnern, auf sich selbst aufz
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr "Entscheiden Sie, wie oft Badger Sie daran erinnern soll, diese zu entspannen:"
 
-#: src/MainGrid.vala:148
-#: src/MainGrid.vala:163
+#: src/MainGrid.vala:152
+#: src/MainGrid.vala:167
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f min"
@@ -137,9 +137,9 @@ msgstr "%.0f min"
 #. DnD Label
 #. User may wonder why they get no notification
 #. Ok also this looks better
-#: src/MainGrid.vala:196
-msgid "Make sure Do Not Disturb is not on"
-msgstr "Vergewissern Sie sich, dass \"Nicht stören\" nicht aktiviert ist."
+#: src/MainGrid.vala:200
+msgid "Make sure Do Not Disturb is not on!"
+msgstr "Sicherstellen, dass \"Nicht stören\" nicht aktiviert ist."
 
 #: src/Marks.vala:30
 msgid "1 min"
