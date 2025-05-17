@@ -5,3 +5,4 @@ builddir
 *~
 .vscode
 .potrans
+.flatpak
