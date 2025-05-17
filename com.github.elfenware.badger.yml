@@ -1,15 +1,17 @@
 app-id: com.github.elfenware.badger
 
 runtime: io.elementary.Platform
-runtime-version: '7'
+runtime-version: '8.2'
 sdk: io.elementary.Sdk
 
 command: com.github.elfenware.badger
 
 finish-args:
   - '--share=ipc'
+  - '--device=dri'
   - '--socket=fallback-x11'
   - '--socket=wayland'
+  - '--socket=session-bus'
 
 modules:
   - name: badger

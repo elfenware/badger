@@ -18,8 +18,10 @@
  *
  */
 
-public class Badger.MainWindow : Hdy.ApplicationWindow {
+public class Badger.MainWindow : Gtk.Window {
     private GLib.Settings settings;
+    private Gtk.HeaderBar headerbar;
+
     public MainGrid main { get; construct; }
 
     public MainWindow (Gtk.Application app, MainGrid main) {
@@ -30,40 +32,51 @@ public class Badger.MainWindow : Hdy.ApplicationWindow {
     }
 
     construct {
-        var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        content.add (get_header ());
-        content.add (main);
-        add (content);
-
+            Intl.setlocale ();
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
-        move (settings.get_int ("window-x"), settings.get_int ("window-y"));
-        resize (settings.get_int ("window-width"), settings.get_int ("window-height"));
+        set_default_size (
+            settings.get_int ("window-width"), 
+            settings.get_int ("window-height")
+        );
 
-        delete_event.connect (e => {
+        set_title(_("Badger"));
+        Gtk.Label title_widget = new Gtk.Label(_("Badger"));
+        title_widget.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
+        
+        this.headerbar = new Gtk.HeaderBar ();
+        headerbar.set_title_widget (title_widget);
+        headerbar.add_css_class (Granite.STYLE_CLASS_FLAT);
+        set_titlebar (headerbar);
+
+
+        var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        content.append (main);
+
+
+
+
+
+        // Allow grabbing on whole window
+        var handle = new Gtk.WindowHandle () {
+            child = content
+        };
+
+        set_child (handle);
+
+        // save state
+        close_request.connect (e => {
             return before_destroy ();
         });
     }
 
-    private Hdy.HeaderBar get_header () {
-        var header = new Hdy.HeaderBar () {
-            title = "Badger",
-            has_subtitle = false,
-            show_close_button = true
-        };
-        header.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
 
-        return header;
-    }
-
+    // save state
     private bool before_destroy () {
-        int x, y, width, height;
+        int width, height;
 
-        get_position (out x, out y);
-        get_size (out width, out height);
+        get_default_size (out width, out height);
 
-        settings.set_int ("window-x", x);
-        settings.set_int ("window-y", y);
         settings.set_int ("window-width", width);
         settings.set_int ("window-height", height);
 

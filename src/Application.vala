@@ -32,15 +32,14 @@ public class Badger.Application : Gtk.Application {
 
     construct {
         Intl.setlocale (LocaleCategory.ALL, "");
-        Intl.bindtextdomain (Constants.GETTEXT_PACKAGE, Constants.LOCALEDIR);
-        Intl.bind_textdomain_codeset (Constants.GETTEXT_PACKAGE, "UTF-8");
-        Intl.textdomain (Constants.GETTEXT_PACKAGE);
+        Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+        Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+        Intl.textdomain (GETTEXT_PACKAGE);
     }
 
     protected override void activate () {
         stdout.printf ("\n✔️ Activated");
 
-        var settings = new GLib.Settings ("com.github.elfenware.badger.state");
         var gtk_settings = Gtk.Settings.get_default ();
         var granite_settings = Granite.Settings.get_default ();
         stdout.printf ("\n⚙️ State settings loaded");
@@ -55,14 +54,6 @@ public class Badger.Application : Gtk.Application {
             );
         });
 
-        var first_run = settings.get_boolean ("first-run");
-
-        if (first_run) {
-            stdout.printf ("\n🎉️ First run");
-            install_autostart ();
-            settings.set_boolean ("first-run", false);
-        }
-
         if (window == null) {
             var reminders = set_up_reminders ();
             var main = new MainGrid (reminders);
@@ -70,20 +61,20 @@ public class Badger.Application : Gtk.Application {
 
             var provider = new Gtk.CssProvider ();
             provider.load_from_resource ("/com/github/elfenware/badger/Application.css");
-            Gtk.StyleContext.add_provider_for_screen (
-                Gdk.Screen.get_default (),
+            Gtk.StyleContext.add_provider_for_display (
+                Gdk.Display.get_default (),
                 provider,
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );
 
             if (!headless) {
-                window.show_all ();
+                window.show ();
             }
         }
 
         if (window != null && !headless) {
             stdout.printf ("\n▶️ Process already running. Presenting window…");
-            window.show_all ();
+            window.show ();
             window.present ();
         }
     }
@@ -132,35 +123,6 @@ public class Badger.Application : Gtk.Application {
         }
 
         return app.run (args);
-    }
-
-    private void install_autostart () {
-        var desktop_file_name = application_id + ".desktop";
-        var desktop_file_path = new DesktopAppInfo (desktop_file_name).filename;
-        var desktop_file = File.new_for_path (desktop_file_path);
-        var dest_path = Path.build_path (
-            Path.DIR_SEPARATOR_S,
-            Environment.get_user_config_dir (),
-            "autostart",
-            desktop_file_name
-        );
-        var dest_file = File.new_for_path (dest_path);
-        try {
-            desktop_file.copy (dest_file, FileCopyFlags.OVERWRITE);
-            stdout.printf ("\n📃️ Copied desktop file at: %s", dest_path);
-        } catch (Error e) {
-            warning ("Error making copy of desktop file for autostart: %s", e.message);
-        }
-
-        var keyfile = new KeyFile ();
-        try {
-            keyfile.load_from_file (dest_path, KeyFileFlags.NONE);
-            keyfile.set_boolean ("Desktop Entry", "X-GNOME-Autostart-enabled", true);
-            keyfile.set_string ("Desktop Entry", "Exec", application_id + " --headless");
-            keyfile.save_to_file (dest_path);
-        } catch (Error e) {
-            warning ("Error enabling autostart: %s", e.message);
-        }
     }
 
     private Reminder[] set_up_reminders () {

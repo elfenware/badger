@@ -1,0 +1,317 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2025-05-16 21:41+0200\n"
+"Project-Id-Version: com.github.elfenware.badger\n"
+"Report-Msgid-Bugs-To: \n"
+
+#: data/com.github.elfenware.badger.desktop.in:4
+#: data/com.github.elfenware.badger.metainfo.xml.in:7
+msgid "Badger"
+msgstr "Dachs"
+
+#: data/com.github.elfenware.badger.desktop.in:5
+msgid "Ergonomic Reminder"
+msgstr "Ergonomische Erinnerungshilfe"
+
+#: data/com.github.elfenware.badger.desktop.in:6
+msgid "Remind yourself to relax your eyes and limbs"
+msgstr "Erinnern Sie sich daran, Ihre Augen und Gliedmaßen zu entspannen"
+
+#: data/com.github.elfenware.badger.desktop.in:11
+msgid "Ergonomics;Health;Eyes;Muscles;"
+msgstr "Ergonomie;Gesundheit;Augen;Muskeln;"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:8
+msgid "Remind yourself to not sit and stare at the screen for too long"
+msgstr "Erinnern Sie sich selbst daran, nicht zu lange auf den Bildschirm zu starren"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:10
+msgid "When you are using your computer for extended periods of time, you need to relax your body every once in a while."
+msgstr "Wenn Sie längere Zeit am Computer arbeiten, müssen Sie Ihren Körper von Zeit zu Zeit entspannen."
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:12
+msgid "Badger helps you do exactly that. It reminds you—or should I say, badgers you—to destress yourself and rest your eyes and muscles."
+msgstr "Badger hilft Ihnen, genau das zu tun. Er erinnert Sie daran - oder sollte ich sagen, er ermahnt Sie - sich zu entspannen und Ihre Augen und Muskeln auszuruhen."
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:14
+msgid "Currently, it has these eight reminders:"
+msgstr "Gegenwärtig gibt es diese acht Mahnungen:"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:17
+msgid "Blink eyes"
+msgstr "Augen blinzeln"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:18
+msgid "Stretch fingers"
+msgstr "Finger strecken"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:19
+msgid "Stretch arms"
+msgstr "Arme strecken"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:20
+msgid "Stretch legs"
+msgstr "Beine strecken"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:21
+msgid "Turn neck"
+msgstr "Hals drehen"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:22
+msgid "Maintain posture"
+msgstr "Körperhaltung beibehalten"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:23
+msgid "Drink water"
+msgstr "Wasser trinken"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:24
+msgid "Breathe consciously"
+msgstr "Bewusst atmen"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:27
+msgid "Stay healthy."
+msgstr "Bleiben Sie gesund."
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:33
+msgid "Update: Modern tech under the hood! (GTK4)"
+msgstr "Update: Moderne Technik unter der Haube! (GTK4)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:40
+msgid "Update: Use elementary Platform 7"
+msgstr "Aktualisierung: Verwendung der elementaren Plattform 7"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:47
+msgid "Add: Two new reminders (@disegnovitruviano)"
+msgstr "Hinzufügen: Zwei neue Mahnungen (@disegnovitruviano)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:48
+msgid "Update: Make window compact"
+msgstr "Update: Fenster kompakt machen"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:55
+msgid "Update: Italian translations (@albanobattistella)"
+msgstr "Update: Italienische Übersetzungen (@albanobattistella)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:62
+msgid "Add: Czech translations (@pervoj)"
+msgstr "Hinzufügen: Tschechische Übersetzungen (@pervoj)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:63
+msgid "Add: Italian translations (@albanobattistella)"
+msgstr "Hinzufügen: Italienische Übersetzungen (@albanobattistella)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:69
+#: data/com.github.elfenware.badger.metainfo.xml.in:77
+msgid "Odin update 🎉️"
+msgstr "Odin-Update 🎉️"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:71
+#: data/com.github.elfenware.badger.metainfo.xml.in:79
+msgid "Add: Dark style support"
+msgstr "Hinzufügen: Unterstützung des dunklen Stils"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:86
+msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
+msgstr "Hinzufügen: Portugiesisch (Portugal) Übersetzungen (@rottenpants466)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:93
+msgid "Add: Spanish translations (@fitojb)"
+msgstr "Hinzufügen: Spanische Übersetzungen (@fitojb)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:94
+msgid "Add: Ukrainian translations (@IhorHordiichuk)"
+msgstr "Hinzufügen: Ukrainische Übersetzungen (@IhorHordiichuk)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:101
+#: data/com.github.elfenware.badger.metainfo.xml.in:124
+msgid "Update: Screenshot"
+msgstr "Update: Screenshot"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:108
+msgid "Add: New reminder for correcting your posture"
+msgstr "Hinzufügen: Neue Erinnerung zur Korrektur der Körperhaltung"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:115
+msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
+msgstr "Hinzufügen: Kontrollkästchen zum Umschalten der einzelnen Timer (@andreasomaini)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:116
+msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
+msgstr "Fix: Korrekte Zusammenarbeit mit dem Notification Center (@nathanaelhoun)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:117
+msgid "Update: Improved icon"
+msgstr "Update: Verbessertes Symbol"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:131
+msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
+msgstr "Hinzufügen: 🎉️ Globaler Schalter zum Ausschalten aller Erinnerungen 🎉️"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:138
+msgid "Add: Turkish translations (@libreajans)"
+msgstr "Hinzufügen: Türkische Übersetzungen (@libreajans)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:145
+msgid "Add: Dutch translations (@Vistaus)"
+msgstr "Hinzufügen: Niederländische Übersetzungen (@Vistaus)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:152
+msgid "Fix: \"Never\" option not disabling the timer"
+msgstr "Fix: Option \"Nie\" deaktiviert den Timer nicht"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:159
+msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
+msgstr "Hinzufügen: 🎉️ Meist erwartete Funktion, benutzerdefinierte Timer! 🎉️"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:160
+#: data/com.github.elfenware.badger.metainfo.xml.in:170
+msgid "Update: French translations (@NathanBnm)"
+msgstr "Update: Französische Übersetzungen (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:161
+msgid "Update: Lithuanian translations (@welaq)"
+msgstr "Update: Litauische Übersetzungen (@welaq)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:162
+msgid "Update: Danish translations (@siigdev)"
+msgstr "Update: Dänische Übersetzungen (@siigdev)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:169
+msgid "Add: Danish translations (@siigdev)"
+msgstr "Hinzufügen: Dänische Übersetzungen (@siigdev)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:176
+msgid "Fix: Empty window on launch"
+msgstr "Fix: Leeres Fenster beim Start"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:181
+msgid "Add: Lithuanian translations (@welaq)"
+msgstr "Hinzufügen: Litauische Übersetzungen (@welaq)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:182
+msgid "Fix: Illegible heading in dark mode"
+msgstr "Fix: Unleserliche Überschrift im dunklen Modus"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:187
+msgid "Add: French translations (@NathanBnm)"
+msgstr "Hinzufügen: Französische Übersetzungen (@NathanBnm)"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:192
+msgid "Fix: Multiple notifications when window is opened &gt;1 times"
+msgstr "Fix: Mehrfache Benachrichtigungen, wenn das Fenster &gt;1 Mal geöffnet wird"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:197
+msgid "Fix: Remove manual line breaks from metainfo"
+msgstr "Beheben: Manuelle Zeilenumbrüche aus metainfo entfernen"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:202
+msgid "Fix: Use smaller window size by default"
+msgstr "Fix: Standardmäßig kleinere Fenstergröße verwenden"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:207
+msgid "Initial Release 🎉️"
+msgstr "Erste Veröffentlichung 🎉️"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:217
+msgid "Elfenware"
+msgstr "Elfenware"
+
+#~ msgid "Blink your eyes"
+#~ msgstr "Blinzeln Sie mit den Augen"
+
+#~ msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
+#~ msgstr "Schauen Sie vom Bildschirm weg und blinzeln Sie langsam 10 Sekunden lang mit den Augen."
+
+#~ msgid "Eyes:"
+#~ msgstr "Die Augen:"
+
+#~ msgid "Stretch your fingers"
+#~ msgstr "Strecken Sie Ihre Finger"
+
+#~ msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
+#~ msgstr "Breiten Sie Ihre Handfläche weit aus und schließen Sie sie dann zu einer Faust. Wiederholen Sie dies 5 Mal."
+
+#~ msgid "Fingers:"
+#~ msgstr "Die Finger:"
+
+#~ msgid "Stretch your arms"
+#~ msgstr "Strecken Sie Ihre Arme"
+
+#~ msgid "Stretch your arms, and twist your wrists for 10 seconds."
+#~ msgstr "Strecken Sie die Arme und verdrehen Sie die Handgelenke für 10 Sekunden."
+
+#~ msgid "Arms:"
+#~ msgstr "Die Arme:"
+
+#~ msgid "Stretch your legs"
+#~ msgstr "Die Beine vertreten"
+
+#~ msgid "Stand up, twist each ankle, and bend each knee."
+#~ msgstr "Stehen Sie auf, drehen Sie jedes Fußgelenk und beugen Sie jedes Knie."
+
+#~ msgid "Legs:"
+#~ msgstr "Die Beine:"
+
+#~ msgid "Turn your neck"
+#~ msgstr "Den Hals umdrehen"
+
+#~ msgid "Turn your head in all directions. Repeat 3 times."
+#~ msgstr "Drehen Sie den Kopf in alle Richtungen. Wiederholen Sie dies 3 Mal."
+
+#~ msgid "Neck:"
+#~ msgstr "Hals:"
+
+#~ msgid "Hydrate yourself"
+#~ msgstr "Hydratisieren Sie sich"
+
+#~ msgid "Drink a glass of water."
+#~ msgstr "Trinken Sie ein Glas Wasser."
+
+#~ msgid "Water:"
+#~ msgstr "Wasser:"
+
+#~ msgid "Watch your posture"
+#~ msgstr "Achten Sie auf Ihre Körperhaltung"
+
+#~ msgid "Make sure your back is straight."
+#~ msgstr "Achten Sie darauf, dass Ihr Rücken gerade ist."
+
+#~ msgid "Posture:"
+#~ msgstr "Körperhaltung:"
+
+#~ msgid "Focus on your breath"
+#~ msgstr "Konzentrieren Sie sich auf Ihren Atem"
+
+#~ msgid "Inhale and exhale deeply, thrice."
+#~ msgstr "Atme dreimal tief ein und aus."
+
+#~ msgid "Breath:"
+#~ msgstr "Atmen:"
+
+#~ msgid "Reminders"
+#~ msgstr "Mahnungen"
+
+#~ msgid "Decide how often Badger should remind you to relax these:"
+#~ msgstr "Entscheiden Sie, wie oft Badger Sie daran erinnern soll, diese zu entspannen:"
+
+#, c-format
+#~ msgid "%.0f min"
+#~ msgstr "%.0f min"
+
+#~ msgid "1 min"
+#~ msgstr "1 Minute"
+
+#~ msgid "30 min"
+#~ msgstr "30 min"
+
+#~ msgid "1 hour"
+#~ msgstr "1 Stunde"

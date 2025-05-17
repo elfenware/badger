@@ -1,5 +1,5 @@
 src/Application.vala
+src/MainWindow.vala
+src/Reminder.vala
 src/MainGrid.vala
 src/Marks.vala
-data/com.github.elfenware.badger.desktop.in
-data/com.github.elfenware.badger.appdata.xml.in

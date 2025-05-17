@@ -1,0 +1,30 @@
+app-id: com.github.elfenware.badger
+
+# elementary SDK is not available on Flathub, so use the elementary BaseApp instead
+base: io.elementary.BaseApp
+base-version: 'circe-24.08'
+runtime: org.gnome.Platform
+runtime-version: '48'
+sdk: org.gnome.Sdk
+
+command: com.github.elfenware.badger
+
+finish-args:
+  - '--share=ipc'
+  - '--device=dri'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+  - '--socket=session-bus'
+
+# Once release is done this needs to point to the commit
+modules:
+  - name: badger
+    buildsystem: meson
+    sources:
+      - type: git
+        url: https://github.com/elfenware/badger.git
+        tag: 3.1.3
+        commit: e9faef15317ee4dbb81eba6871ad5f1e4b72fe67
+        x-checker-data:
+          type: git
+          tag-pattern: '^([\d.]+)$'

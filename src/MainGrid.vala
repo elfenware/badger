@@ -18,47 +18,60 @@
  *
  */
 
-public class Badger.MainGrid : Gtk.Grid {
+public class Badger.MainGrid : Gtk.Box {
     delegate void SetInterval (uint interval);
 
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
+        set_vexpand (true);
 
-        row_spacing = 4;
-        column_spacing = 12;
-        margin_top = 24;
-        margin_bottom = 36;
+        margin_top = 18;
+        margin_bottom = 18;
         margin_start = 24;
         margin_end = 24;
         orientation = Gtk.Orientation.VERTICAL;
 
-        var top = new Gtk.Grid ();
 
-        var heading = new Gtk.Label (_ ("Reminders")) {
-            halign = Gtk.Align.START,
-            hexpand = true
-        };
-        heading.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
-        top.attach (heading, 0, 0, 1, 1);
+        
 
+        /************************************************/
+        /*               Switch at top                  */
+        /************************************************/
+
+        var global_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         var global_switch = new Gtk.Switch () {
-            halign = Gtk.Align.END,
-            valign = Gtk.Align.CENTER
+                    halign = Gtk.Align.END,
+                    hexpand = true,
+                    valign = Gtk.Align.CENTER,
         };
-        top.attach (global_switch, 1, 0, 1, 1);
-
-        attach (top, 0, 0, 2, 1);
-
         settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
+        var heading = new Granite.HeaderLabel (_ ("Reminders")) {
+            mnemonic_widget = global_switch,
+            secondary_text = _("If on, Badger will remind you to take care of yourself")
+        };
+
+        global_box.append(heading);
+        global_box.append(global_switch);
+        append (global_box);
+
+
+        /************************************************/
+        /*               Label to explain               */
+        /************************************************/
+
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
-            margin_bottom = 12
+            margin_top = 18,
+            margin_bottom = 6
         };
-        attach (subheading, 0, 1, 2, 1);
+        subheading.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        subheading.add_css_class ("title-4");
+
+        append (subheading);
 
         var marks = new Marks ();
-        attach (marks, 1, 2, 1, 1);
+        append (marks);
 
         HashTable<string, Gtk.Scale> scales = new HashTable<string, Gtk.Scale> (str_hash, str_equal);
 
@@ -82,51 +95,78 @@ public class Badger.MainGrid : Gtk.Grid {
             return false;
         });
 
+
+
+        /************************************************/
+        /*               All the scales                 */
+        /************************************************/
+
+
+
+        var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        scale_box.vexpand = true;
+
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
 
+            Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
+                margin_top = 12,
+                margin_bottom = 12
+            };
+
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
-                halign = Gtk.Align.BASELINE,
-                valign = Gtk.Align.START,
-                margin_top = 24
+                halign = Gtk.Align.START,
+                valign = Gtk.Align.CENTER,
+                width_request = 64,
             };
 
             Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
                 hexpand = true,
-                width_request = 360,
-                margin_top = 10
+                halign = Gtk.Align.FILL,
+                valign = Gtk.Align.CENTER,
+                width_request = 300
             };
 
             // Get the scale default value
             scale.sensitive = settings.get_boolean ("all") ? settings.get_boolean (reminder.name + "-active") : false;
-
+            
             scales.insert (reminder.name + "-active", scale);
 
             uint interval = settings.get_uint (reminder.name);
+
+
             // Old settings migration: interval == 0 meant "never" till 2.3.1
-            if ( interval == 0 ) {
-                // Reset to default value
-                settings.reset (reminder.name);
+            //  if ( interval == 0 ) {
+            //      // Reset to default value
+            //      settings.reset (reminder.name);
 
-                // Read interval again (interval = default_value)
-                interval = settings.get_uint (reminder.name);
+            //      // Read interval again (interval = default_value)
+            //      interval = settings.get_uint (reminder.name);
 
-                // Uncheck the corresponding checkbox
-                settings.set_boolean (reminder.name + "-active", false);
-            }
+            //      // Uncheck the corresponding checkbox
+            //      settings.set_boolean (reminder.name + "-active", false);
+            //  }
+
+
             scale.set_value (interval);
+            scale.set_tooltip_text(_ ("%.0f min").printf (interval));
+
+            // The marks take a lotta space
+            //scale.add_mark (0.0, Gtk.PositionType.TOP , null);
+            //scale.add_mark (30.0, Gtk.PositionType.TOP , null);
+            //scale.add_mark (60.0, Gtk.PositionType.TOP , null);
 
             SetInterval set_interval = reminder.set_reminder_interval;
             set_interval (interval);
 
-            scale.value_changed.connect (() => {
+            scale.change_value.connect ((scroll, duration) => {
                 uint new_value = (uint) scale.get_value ();
                 settings.set_uint (reminder.name, new_value);
                 set_interval (new_value);
-            });
 
-            scale.format_value.connect (duration => {
-                return _ ("%.0f min").printf (duration);
+                scale.set_tooltip_text(_ ("%.0f min").printf (duration)) ;
+
+                return false;
             });
 
             // If the "all" flag is false, disable all checkboxes
@@ -140,8 +180,32 @@ public class Badger.MainGrid : Gtk.Grid {
                 SettingsBindFlags.DEFAULT | SettingsBindFlags.NO_SENSITIVITY
             );
 
-            attach (check_box, 0, index + 3, 1, 1);
-            attach (scale, 1, index + 3, 1, 1);
-        }
+            box.append (check_box);
+            box.append (scale);
+            scale_box.append (box);
+
+        } // Forloop end
+
+        append(scale_box);
+
+
+
+        /********************************************/
+        /*               DnD Label                  */
+        /********************************************/
+
+
+        // User may wonder why they get no notification
+        // Ok also this looks better
+        var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is not on!")) {
+            halign = Gtk.Align.START,
+            margin_top = 12,
+            margin_bottom = 6
+        };
+        hey.add_css_class ("accent");
+        append (hey);
+
+
+
     }
 }

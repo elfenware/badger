@@ -22,17 +22,24 @@ public class Badger.Marks : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.HORIZONTAL;
         hexpand = true;
+        margin_start = 76; // 64 + 12
         margin_top = 12;
-        margin_bottom = 6;
+        margin_bottom = 0;
 
-        pack_start (new Gtk.Label (_("1 min")) {
-            halign = Gtk.Align.START
+
+        append (new Gtk.Label (_("1 min")) {
+            halign = Gtk.Align.START,
+            hexpand = false
         });
 
-        set_center_widget (new Gtk.Label (_("30 min")));
+        append (new Gtk.Label (_("30 min")) {
+            halign = Gtk.Align.CENTER,
+            hexpand = true
+        });
 
-        pack_end (new Gtk.Label (_("1 hour")) {
-            halign = Gtk.Align.END
+        append (new Gtk.Label (_("1 hour")) {
+            halign = Gtk.Align.END,
+            hexpand = false
         });
     }
 }
