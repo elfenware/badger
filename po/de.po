@@ -130,7 +130,7 @@ msgstr "Entscheide, wie oft Badger dich daran erinnern soll, diese zu entspannen
 #: src/MainGrid.vala:152
 #: src/MainGrid.vala:167
 #, c-format
-msgid "%.0f min"
+msgid "%.0f Min."
 msgstr "%.0f min"
 
 #. ******************************************
@@ -143,11 +143,11 @@ msgstr "Stell sicher, dass „Nicht stören“ nicht aktiviert ist!"
 
 #: src/Marks.vala:30
 msgid "1 min"
-msgstr "1 Minute"
+msgstr "1 min"
 
 #: src/Marks.vala:35
 msgid "30 min"
-msgstr "30 Min"
+msgstr "30 min"
 
 #: src/Marks.vala:40
 msgid "1 hour"
