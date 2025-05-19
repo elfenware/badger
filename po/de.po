@@ -130,7 +130,7 @@ msgstr "Entscheide, wie oft Badger dich daran erinnern soll, diese zu entspannen
 #: src/MainGrid.vala:152
 #: src/MainGrid.vala:167
 #, c-format
-msgid "%.0f Min."
+msgid "%.0f min"
 msgstr "%.0f min"
 
 #. ******************************************
