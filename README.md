@@ -6,7 +6,9 @@
 <p align="center">Remind yourself to not sit and stare at the screen for too long</p>
 
 <p align="center">
-  <a href="https://appcenter.elementary.io/com.github.elfenware.badger"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>
+  <a href="https://appcenter.elementary.io/com.github.elfenware.badger">
+    <img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" />
+  </a>
 </p>
 
 <p align="center">
@@ -34,9 +36,8 @@ built for [elementary OS].
 Development is targeted at [elementary OS]. If you want to hack on and
 build Badger yourself, you'll need the following dependencies:
 
-* libgranite-dev
-* libgtk-3-dev
-* libhandy-1-dev
+* libgranite-7-dev
+* libgtk-4-dev
 * meson
 * valac
 
