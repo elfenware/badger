@@ -111,7 +111,7 @@ msgstr "Atmen:"
 #: src/MainWindow.vala:43
 #: src/MainWindow.vala:44
 msgid "Badger"
-msgstr "Dachs"
+msgstr "Badger"
 
 #: src/MainGrid.vala:48
 msgid "Reminders"
