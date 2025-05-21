@@ -58,16 +58,16 @@ public class Badger.Application : Gtk.Application {
         // On first run, request autostart
         if (settings.get_boolean ("first-run")) {
             stdout.printf ("\n🎉️ First run");
-            
-            var portal = new Xdp.Portal();
+
+            var portal = new Xdp.Portal ();
             GenericArray<weak string> cmd = new GenericArray<weak string> ();
             cmd.add ("com.github.elfenware.badger --headless");
 
-            portal.request_background(
-                null, 
-                "Autostart Badger in headless mode to send reminders", 
-                cmd, 
-                Xdp.BackgroundFlags.AUTOSTART, 
+            portal.request_background (
+                null,
+                "Autostart Badger in headless mode to send reminders",
+                cmd,
+                Xdp.BackgroundFlags.AUTOSTART,
                 null);
 
             settings.set_boolean ("first-run", false);
