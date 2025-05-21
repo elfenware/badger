@@ -40,6 +40,7 @@ public class Badger.Application : Gtk.Application {
     protected override void activate () {
         stdout.printf ("\n✔️ Activated");
 
+        var settings = new GLib.Settings ("com.github.elfenware.badger.state");
         var gtk_settings = Gtk.Settings.get_default ();
         var granite_settings = Granite.Settings.get_default ();
         stdout.printf ("\n⚙️ State settings loaded");
@@ -53,6 +54,24 @@ public class Badger.Application : Gtk.Application {
                 granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK
             );
         });
+
+        // On first run, request autostart
+        if (settings.get_boolean ("first-run")) {
+            stdout.printf ("\n🎉️ First run");
+            
+            var portal = new Xdp.Portal();
+            GenericArray<weak string> cmd = new GenericArray<weak string> ();
+            cmd.add ("com.github.elfenware.badger --headless");
+
+            portal.request_background(
+                null, 
+                "Autostart Badger in headless mode to send reminders", 
+                cmd, 
+                Xdp.BackgroundFlags.AUTOSTART, 
+                null);
+
+            settings.set_boolean ("first-run", false);
+        }
 
         if (window == null) {
             var reminders = set_up_reminders ();

@@ -40,7 +40,8 @@ executable(
         dependency ('glib-2.0'),
         dependency('granite-7'),
         dependency('gobject-2.0'),
-        dependency('gtk4')
+        dependency('gtk4'),
+        dependency('libportal')
     ],
     install : true
 )
