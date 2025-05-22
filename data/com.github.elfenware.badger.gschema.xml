@@ -87,5 +87,10 @@
       <summary>The saved height of the window.</summary>
       <description>The saved height of the window.</description>
     </key>
+    <key name="first-run" type="b">
+      <default>true</default>
+      <summary>Whether this is the first time that Badger has opened</summary>
+      <description>Used to determine whether or not to perform initial install steps</description>
+    </key>
   </schema>
 </schemalist>
