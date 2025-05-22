@@ -152,7 +152,7 @@ public class Badger.Application : Gtk.Application {
             app.headless = true;
 
         } else if (args.length > 1 && args[1] == "--request-autostart") {
-            request_autostart = true;
+            app.request_autostart = true;
         }
 
         return app.run (args);
