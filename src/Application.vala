@@ -75,7 +75,7 @@ public class Badger.Application : Gtk.Application {
                 null);
 
             settings.set_boolean ("first-run", false);
-            request_autostart == false;
+            request_autostart = false;
         }
 
         if (window == null) {
