@@ -54,7 +54,6 @@ public class Badger.MainGrid : Gtk.Box {
         global_box.append (global_switch);
         append (global_box);
 
-        
         // This is everything below the switch.
         var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         scale_box.vexpand = true;
@@ -166,9 +165,6 @@ public class Badger.MainGrid : Gtk.Box {
 
         }
 
-        
-
-
         /********************************************/
         /*               DnD Label                  */
         /********************************************/
@@ -181,17 +177,16 @@ public class Badger.MainGrid : Gtk.Box {
         hey.add_css_class ("accent");
         scale_box.append (hey);
 
-
         /**************************************************/
         /*               Scales revealer                  */
         /**************************************************/
-        
+
         // If the "all" flag is false, the switch is off, hide the scales 
-        Gtk.Revealer revealer = new Gtk.Revealer();
+        Gtk.Revealer revealer = new Gtk.Revealer ();
         revealer.set_transition_type (Gtk.RevealerTransitionType.SLIDE_DOWN);
         settings.bind ("all", revealer, "reveal_child", SettingsBindFlags.DEFAULT);
 
-        revealer.set_child(scale_box);
+        revealer.set_child (scale_box);
         append (revealer);
 
     }
