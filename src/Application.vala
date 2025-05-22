@@ -20,6 +20,7 @@
 
 public class Badger.Application : Gtk.Application {
     public bool headless = false;
+    public bool ask_autostart = false;
 
     private Badger.MainWindow window;
 
@@ -40,6 +41,7 @@ public class Badger.Application : Gtk.Application {
     protected override void activate () {
         stdout.printf ("\n✔️ Activated");
 
+        var settings = new GLib.Settings ("com.github.elfenware.badger.state");
         var gtk_settings = Gtk.Settings.get_default ();
         var granite_settings = Granite.Settings.get_default ();
         stdout.printf ("\n⚙️ State settings loaded");
@@ -53,6 +55,22 @@ public class Badger.Application : Gtk.Application {
                 granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK
             );
         });
+
+        // On first run, request autostart
+        if (settings.get_boolean ("first-run") || ask_autostart == true) {
+
+            // Show first run message only if really first run
+            if (settings.get_boolean ("first-run")) {
+                stdout.printf ("\n🎉️ First run");
+                settings.set_boolean ("first-run", false);
+                request_autostart ();
+
+            } else {
+                ask_autostart = false;
+                request_autostart ();
+            }
+
+        }
 
         if (window == null) {
             var reminders = set_up_reminders ();
@@ -77,16 +95,20 @@ public class Badger.Application : Gtk.Application {
             window.show ();
             window.present ();
         }
+        headless = false;
     }
 
     public override int command_line (ApplicationCommandLine command_line) {
         stdout.printf ("\n💲️ Command line mode started");
 
-        bool headless_mode = false;
-        OptionEntry[] options = new OptionEntry[1];
+        OptionEntry[] options = new OptionEntry[2];
         options[0] = {
             "headless", 0, 0, OptionArg.NONE,
-            ref headless_mode, "Run without window", null
+            ref headless, "Run without window", null
+        };
+        options[1] = {
+            "request-autostart", 0, 0, OptionArg.NONE,
+            ref ask_autostart, "Request autostart permission", null
         };
 
         // We have to make an extra copy of the array, since .parse assumes
@@ -108,8 +130,6 @@ public class Badger.Application : Gtk.Application {
             return 0;
         }
 
-        headless = headless_mode;
-
         hold ();
         activate ();
         return 0;
@@ -117,12 +137,23 @@ public class Badger.Application : Gtk.Application {
 
     public static int main (string[] args) {
         var app = new Badger.Application ();
-
-        if (args.length > 1 && args[1] == "--headless") {
-            app.headless = true;
-        }
-
         return app.run (args);
+    }
+
+    private static void request_autostart () {
+        Xdp.Portal portal = new Xdp.Portal ();
+        GenericArray<weak string> cmd = new GenericArray<weak string> ();
+        cmd.add ("com.github.elfenware.badger --headless");
+
+        // TODO: Implicit .begin is deprecated but i have no idea how to fix that
+        portal.request_background (
+            null,
+            "Autostart Badger in headless mode to send reminders",
+            cmd,
+            Xdp.BackgroundFlags.AUTOSTART,
+            null);
+
+        stdout.printf ("\n🚀 Requested autostart for Badger");
     }
 
     private Reminder[] set_up_reminders () {
