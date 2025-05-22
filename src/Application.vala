@@ -57,7 +57,7 @@ public class Badger.Application : Gtk.Application {
         });
 
         // On first run, request autostart
-        if (settings.get_boolean ("first-run") || ask_autostart == true) {
+        if (settings.get_boolean ("first-run") || ask_autostart) {
 
             // Show first run message only if really first run
             if (settings.get_boolean ("first-run")) {
