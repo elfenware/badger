@@ -63,12 +63,10 @@ public class Badger.Application : Gtk.Application {
             if (settings.get_boolean ("first-run")) {
                 stdout.printf ("\n🎉️ First run");
                 settings.set_boolean ("first-run", false);
-                request_autostart ();
-
             } else {
                 ask_autostart = false;
-                request_autostart ();
             }
+            request_autostart ();
 
         }
 
