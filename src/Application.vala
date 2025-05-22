@@ -94,7 +94,7 @@ public class Badger.Application : Gtk.Application {
 
         bool headless_mode = false;
         bool ask = false;
-        
+
         OptionEntry[] options = new OptionEntry[1];
         options[0] = {
             "headless", 0, 0, OptionArg.NONE,
@@ -146,7 +146,7 @@ public class Badger.Application : Gtk.Application {
     }
 
     private void request_autostart () {
-        
+
         Xdp.Portal portal = new Xdp.Portal ();
         // portal.begin()
 
