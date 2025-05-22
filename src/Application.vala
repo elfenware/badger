@@ -59,16 +59,7 @@ public class Badger.Application : Gtk.Application {
         if (settings.get_boolean ("first-run")) {
             stdout.printf ("\n🎉️ First run");
 
-            var portal = new Xdp.Portal ();
-            GenericArray<weak string> cmd = new GenericArray<weak string> ();
-            cmd.add ("com.github.elfenware.badger --headless");
-
-            portal.request_background (
-                null,
-                "Autostart Badger in headless mode to send reminders",
-                cmd,
-                Xdp.BackgroundFlags.AUTOSTART,
-                null);
+            request_autostart ();
 
             settings.set_boolean ("first-run", false);
         }
@@ -102,10 +93,16 @@ public class Badger.Application : Gtk.Application {
         stdout.printf ("\n💲️ Command line mode started");
 
         bool headless_mode = false;
+        bool ask = false;
+        
         OptionEntry[] options = new OptionEntry[1];
         options[0] = {
             "headless", 0, 0, OptionArg.NONE,
             ref headless_mode, "Run without window", null
+        };
+        options[1] = {
+            "request-autostart", 0, 0, OptionArg.NONE,
+            ref ask, "Request autostart permission", null
         };
 
         // We have to make an extra copy of the array, since .parse assumes
@@ -139,9 +136,29 @@ public class Badger.Application : Gtk.Application {
 
         if (args.length > 1 && args[1] == "--headless") {
             app.headless = true;
+
+        } else if (args.length > 1 && args[1] == "--request-autostart") {
+            request_autostart ();
+            return 0;
         }
 
         return app.run (args);
+    }
+
+    private void request_autostart () {
+        
+        Xdp.Portal portal = new Xdp.Portal ();
+        // portal.begin()
+
+        GenericArray<weak string> cmd = new GenericArray<weak string> ();
+        cmd.add ("com.github.elfenware.badger --headless");
+
+        portal.request_background (
+            null,
+            "Autostart Badger in headless mode to send reminders",
+            cmd,
+            Xdp.BackgroundFlags.AUTOSTART,
+            null);
     }
 
     private Reminder[] set_up_reminders () {
