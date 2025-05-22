@@ -145,7 +145,7 @@ public class Badger.Application : Gtk.Application {
         return app.run (args);
     }
 
-    private void request_autostart () {
+    public void request_autostart () {
 
         Xdp.Portal portal = new Xdp.Portal ();
         // portal.begin()
