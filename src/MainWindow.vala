@@ -32,7 +32,7 @@ public class Badger.MainWindow : Gtk.Window {
     }
 
     construct {
-            Intl.setlocale ();
+        Intl.setlocale ();
         settings = new GLib.Settings ("com.github.elfenware.badger.state");
 
         set_default_size (
@@ -58,6 +58,17 @@ public class Badger.MainWindow : Gtk.Window {
         };
 
         set_child (handle);
+
+        var global_switch = new GLib.Settings ("com.github.elfenware.badger.timers");
+
+        // Resize window when content gets hidden
+        global_switch.notify["all"].connect (() => {
+            if (global_switch.get_boolean ("all") == false) {
+                this.height_request = 0;
+                this.default_height = 0;
+                print ("eugh");
+            }
+        });
 
         // save state
         close_request.connect (e => {

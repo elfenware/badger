@@ -20,6 +20,7 @@
 
 public class Badger.MainGrid : Gtk.Box {
     delegate void SetInterval (uint interval);
+    public Gtk.Revealer revealer;
 
     public MainGrid (Reminder[] reminders) {
         var settings = new GLib.Settings ("com.github.elfenware.badger.timers");
@@ -41,6 +42,7 @@ public class Badger.MainGrid : Gtk.Box {
                     halign = Gtk.Align.END,
                     hexpand = true,
                     valign = Gtk.Align.CENTER,
+                    margin_bottom = 18
         };
         settings.bind ("all", global_switch, "active", SettingsBindFlags.DEFAULT);
         var heading = new Granite.HeaderLabel (_ ("Reminders")) {
@@ -52,6 +54,12 @@ public class Badger.MainGrid : Gtk.Box {
         global_box.append (global_switch);
         append (global_box);
 
+        
+        // This is everything below the switch.
+        var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        scale_box.vexpand = true;
+
+
 
         /************************************************/
         /*               Label to explain               */
@@ -59,16 +67,16 @@ public class Badger.MainGrid : Gtk.Box {
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
-            margin_top = 18,
-            margin_bottom = 6
+            margin_top = 12,
+            margin_bottom = 0
         };
         subheading.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
         subheading.add_css_class ("title-4");
 
-        append (subheading);
+        scale_box.append (subheading);
 
         var marks = new Marks ();
-        append (marks);
+        scale_box.append (marks);
 
         HashTable<string, Gtk.Scale> scales = new HashTable<string, Gtk.Scale> (str_hash, str_equal);
 
@@ -96,9 +104,6 @@ public class Badger.MainGrid : Gtk.Box {
         /************************************************/
         /*               All the scales                 */
         /************************************************/
-
-        var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        scale_box.vexpand = true;
 
         for (int index = 0; index < reminders.length; index++) {
             Reminder reminder = reminders[index];
@@ -161,7 +166,7 @@ public class Badger.MainGrid : Gtk.Box {
 
         }
 
-        append (scale_box);
+        
 
 
         /********************************************/
@@ -174,6 +179,20 @@ public class Badger.MainGrid : Gtk.Box {
             margin_bottom = 6
         };
         hey.add_css_class ("accent");
-        append (hey);
+        scale_box.append (hey);
+
+
+        /**************************************************/
+        /*               Scales revealer                  */
+        /**************************************************/
+        
+        // If the "all" flag is false, the switch is off, hide the scales 
+        Gtk.Revealer revealer = new Gtk.Revealer();
+        revealer.set_transition_type (Gtk.RevealerTransitionType.SLIDE_DOWN);
+        settings.bind ("all", revealer, "reveal_child", SettingsBindFlags.DEFAULT);
+
+        revealer.set_child(scale_box);
+        append (revealer);
+
     }
 }
