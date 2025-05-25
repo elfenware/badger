@@ -64,6 +64,11 @@ public class Badger.MainWindow : Gtk.Window {
 
         // Resize window accordingly to state of global switch
         settings.changed["all"].connect ( on_toggle_changed);
+
+        // Avoid a bug whence reopened windows cannot be closed
+        close_request.connect (e => {
+            return before_destroy ();
+        });
     }
 
     private void on_toggle_changed () {
@@ -75,5 +80,11 @@ public class Badger.MainWindow : Gtk.Window {
             set_size_request (12, 12);
             queue_resize ();
         }
+    }
+
+    // Avoid a bug whence reopened windows cannot be closed
+    private bool before_destroy () {
+        hide ();
+        return true;
     }
 }
