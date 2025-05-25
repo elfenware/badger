@@ -182,12 +182,9 @@ public class Badger.MainGrid : Gtk.Box {
         /**************************************************/
 
         // If the "all" flag is false, the switch is off, hide the scales 
-        Gtk.Revealer revealer = new Gtk.Revealer ();
+        this.revealer = new Gtk.Revealer ();
         revealer.set_transition_type (Gtk.RevealerTransitionType.SLIDE_DOWN);
-        settings.bind ("all", revealer, "reveal_child", SettingsBindFlags.DEFAULT);
-
         revealer.set_child (scale_box);
         append (revealer);
-
     }
 }
