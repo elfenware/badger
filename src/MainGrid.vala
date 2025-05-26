@@ -58,16 +58,14 @@ public class Badger.MainGrid : Gtk.Box {
         var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         scale_box.vexpand = true;
 
-
-
         /************************************************/
         /*               Label to explain               */
         /************************************************/
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
-            margin_top = 18,
-            margin_bottom = 6
+            margin_top = 12,
+            margin_bottom = 0
         };
         subheading.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
         subheading.add_css_class ("title-4");
@@ -115,7 +113,7 @@ public class Badger.MainGrid : Gtk.Box {
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
                 halign = Gtk.Align.START,
                 valign = Gtk.Align.CENTER,
-                width_request = 76,
+                width_request = 64,
             };
 
             Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
@@ -149,7 +147,11 @@ public class Badger.MainGrid : Gtk.Box {
             });
 
             // If the "all" flag is false, disable all checkboxes
-            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
+            settings.bind (
+                "all",
+                check_box,
+                "sensitive",
+                SettingsBindFlags.GET);
 
             // When the checkbox is pressed, set the option.
             settings.bind (
@@ -182,9 +184,11 @@ public class Badger.MainGrid : Gtk.Box {
         /**************************************************/
 
         // If the "all" flag is false, the switch is off, hide the scales 
-        this.revealer = new Gtk.Revealer ();
+        this.revealer = new Gtk.Revealer () {
+            child = scale_box
+        };
         revealer.set_transition_type (Gtk.RevealerTransitionType.SLIDE_DOWN);
-        revealer.set_child (scale_box);
+
         append (revealer);
     }
 }

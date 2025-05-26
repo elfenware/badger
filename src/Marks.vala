@@ -22,7 +22,7 @@ public class Badger.Marks : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.HORIZONTAL;
         hexpand = true;
-        margin_start = 88; // 76 + 12
+        margin_start = 76; // 64 + 12
         margin_top = 12;
         margin_bottom = 0;
 
