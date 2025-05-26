@@ -77,16 +77,6 @@
     path="/com/github/elfenware/badger/state/"
     id="com.github.elfenware.badger.state"
     gettext-domain="com.github.elfenware.badger">
-    <key name="window-width" type="i">
-      <default>180</default>
-      <summary>The saved width of the window.</summary>
-      <description>The saved width of the window.</description>
-    </key>
-    <key name="window-height" type="i">
-      <default>200</default>
-      <summary>The saved height of the window.</summary>
-      <description>The saved height of the window.</description>
-    </key>
     <key name="first-run" type="b">
       <default>true</default>
       <summary>Whether this is the first time that Badger has opened</summary>

@@ -32,16 +32,16 @@ public class Badger.MainWindow : Gtk.Window {
     }
 
     construct {
-            Intl.setlocale ();
-        settings = new GLib.Settings ("com.github.elfenware.badger.state");
+        Intl.setlocale ();
+        settings = new GLib.Settings ("com.github.elfenware.badger.timers");
 
-        set_default_size (
-            settings.get_int ("window-width"),
-            settings.get_int ("window-height")
-        );
+        // We cannot resize window if it is allowed to change
+        set_size_request (12, 12);
+        set_resizable (false);
 
-        set_title (_("Badger"));
-        Gtk.Label title_widget = new Gtk.Label (_("Badger"));
+
+        set_title ("Badger");
+        Gtk.Label title_widget = new Gtk.Label (this.get_title ());
         title_widget.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
 
         this.headerbar = new Gtk.HeaderBar ();
@@ -59,22 +59,31 @@ public class Badger.MainWindow : Gtk.Window {
 
         set_child (handle);
 
-        // save state
+        // Avoid showing the window without content despite toggle off.
+        main.revealer.reveal_child = settings.get_boolean ("all");
+
+        // Resize window accordingly to state of global switch
+        settings.changed["all"].connect ( on_toggle_changed);
+
+        // Avoid a bug whence reopened windows cannot be closed
         close_request.connect (e => {
             return before_destroy ();
         });
     }
 
+    private void on_toggle_changed () {
+        debug ("\nToggle changed!");
+        main.revealer.reveal_child = settings.get_boolean ("all");
 
-    // save state
+        if (!settings.get_boolean ("all")) {
+            debug ("\nToggle is off! Resizing window");
+            set_size_request (12, 12);
+            queue_resize ();
+        }
+    }
+
+    // Avoid a bug whence reopened windows cannot be closed
     private bool before_destroy () {
-        int width, height;
-
-        get_default_size (out width, out height);
-
-        settings.set_int ("window-width", width);
-        settings.set_int ("window-height", height);
-
         hide ();
         return true;
     }
