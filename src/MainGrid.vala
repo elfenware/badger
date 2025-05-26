@@ -66,8 +66,8 @@ public class Badger.MainGrid : Gtk.Box {
 
         var subheading = new Gtk.Label (_ ("Decide how often Badger should remind you to relax these:")) {
             halign = Gtk.Align.START,
-            margin_top = 12,
-            margin_bottom = 0
+            margin_top = 18,
+            margin_bottom = 6
         };
         subheading.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
         subheading.add_css_class ("title-4");
