@@ -4,7 +4,7 @@
   <id>com.github.elfenware.badger</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <name>Badger</name>
+  <name translate="no">Badger</name>
   <summary>Remind yourself to not sit and stare at the screen for too long</summary>
   <description>
     <p>When you are using your computer for extended periods of time, you need to relax your body every once in a while.</p>
@@ -208,23 +208,56 @@
       </description>
     </release>
   </releases>
+
   <launchable type="desktop-id">com.github.elfenware.badger.desktop</launchable>
+  <translation type="gettext" source_locale="en_GB">com.github.elfenware.badger</translation>
   <provides>
     <binary>com.github.elfenware.badger</binary>
   </provides>
   <content_rating type="oars-1.1"/>
+  <recommends>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+  <suggests>
+      <id>com.github.elfenware.obliviate</id>
+      <id>io.github.ellie_commons.jorts</id>
+  </suggests>
 
-  <developer_name>Elfenware</developer_name>
+  <developer id="com.github.elfenware">
+    <name>Darshak Parikh</name>
+  </developer>
+  <project_group>Elfenware</project_group>
   <url type="homepage">https://github.com/elfenware/badger</url>
   <url type="bugtracker">https://github.com/elfenware/badger/issues</url>
   <url type="help">https://github.com/elfenware/badger/issues</url>
 
   <update_contact>darshak_AT_protonmail.com</update_contact>
+
+  <categories>
+    <category>Office</category>
+    <category>Utility</category>
+    <category>GTK</category>
+  </categories>
+  <keywords>
+    <keyword>Reminders</keyword>
+    <keyword>Reminder</keyword>
+    <keyword>Selfcare</keyword>
+    <keyword>Health</keyword>
+    <keyword>Cute</keyword>
+    <keyword>Simple</keyword>
+  </keywords>
+
   <screenshots>
     <screenshot type="default">
+      <caption>The Badger automatically adapts to your set periodical reminders</caption>
       <image>https://raw.githubusercontent.com/elfenware/badger/master/data/window-screenshot.png</image>
     </screenshot>
   </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#fff</color>
+    <color type="primary" scheme_preference="dark">#333</color>
+  </branding>
   <custom>
     <value key="x-appcenter-color-primary">#fff</value>
     <value key="x-appcenter-color-primary-text">#333</value>
