@@ -115,14 +115,14 @@ public class Badger.MainGrid : Gtk.Box {
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
                 halign = Gtk.Align.START,
                 valign = Gtk.Align.CENTER,
-                width_request = 64,
+                width_request = 76,
             };
 
             Gtk.Scale scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 60, 5) {
                 hexpand = true,
                 halign = Gtk.Align.FILL,
                 valign = Gtk.Align.CENTER,
-                width_request = 300
+                width_request = 330
             };
 
             // Get the scale default value
