@@ -58,8 +58,6 @@ public class Badger.MainGrid : Gtk.Box {
         var scale_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         scale_box.vexpand = true;
 
-
-
         /************************************************/
         /*               Label to explain               */
         /************************************************/
@@ -122,7 +120,7 @@ public class Badger.MainGrid : Gtk.Box {
                 hexpand = true,
                 halign = Gtk.Align.FILL,
                 valign = Gtk.Align.CENTER,
-                width_request = 300
+                width_request = 330
             };
 
             // Get the scale default value
@@ -149,7 +147,11 @@ public class Badger.MainGrid : Gtk.Box {
             });
 
             // If the "all" flag is false, disable all checkboxes
-            settings.bind ("all", check_box, "sensitive", SettingsBindFlags.GET);
+            settings.bind (
+                "all",
+                check_box,
+                "sensitive",
+                SettingsBindFlags.GET);
 
             // When the checkbox is pressed, set the option.
             settings.bind (
@@ -182,9 +184,11 @@ public class Badger.MainGrid : Gtk.Box {
         /**************************************************/
 
         // If the "all" flag is false, the switch is off, hide the scales 
-        this.revealer = new Gtk.Revealer ();
+        this.revealer = new Gtk.Revealer () {
+            child = scale_box
+        };
         revealer.set_transition_type (Gtk.RevealerTransitionType.SLIDE_DOWN);
-        revealer.set_child (scale_box);
+
         append (revealer);
     }
 }

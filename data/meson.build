@@ -26,7 +26,6 @@ i18n.merge_file(
     install_dir: get_option('datadir') / 'metainfo'
 )
 
-
 #======== ICONS ========
 
 # Install our icons in all the required sizes

@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="data/icons/128/com.github.elfenware.badger.svg" alt="Icon" />
+    <img src="data/icons/hicolor/128.png" alt="Icon" />
 </p>
 
 <h1 align="center">Badger</h1>
@@ -60,6 +60,15 @@ Then run it with:
 
 ```shell
 com.github.elfenware.badger
+```
+
+Alternatively, with flatpak-builder, installation is as simple as downloading and extracting the zip archive, changing to the new repo's directory,
+and run the following command:
+
+On elementary OS or with its appcenter remote installed
+
+```bash
+flatpak-builder --force-clean --user --install-deps-from=appcenter --install builddir ./com.github.elfenware.badger.yml
 ```
 
 [elementary OS]: https://elementary.io
