@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-17 11:58+0200\n"
-"PO-Revision-Date: 2021-10-26 17:58+0100\n"
+"PO-Revision-Date: 2025-06-22 18:58+0100\n"
 "Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
 "Language: it\n"
@@ -125,7 +125,7 @@ msgstr "Promemoria"
 
 #: src/MainGrid.vala:50
 msgid "If on, Badger will remind you to take care of yourself"
-msgstr ""
+msgstr "Se attivo, Badger ti ricorderà di prenderti cura di te stesso"
 
 #. **********************************************
 #. Label to explain
@@ -146,7 +146,7 @@ msgstr "%.di minunti"
 #. Ok also this looks better
 #: src/MainGrid.vala:200
 msgid "Make sure Do Not Disturb is not on!"
-msgstr ""
+msgstr "Assicurati che la modalità Non disturbare non sia attiva!"
 
 #: src/Marks.vala:30
 msgid "1 min"
