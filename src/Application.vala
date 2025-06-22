@@ -141,7 +141,8 @@ public class Badger.Application : Gtk.Application {
     private static void request_autostart () {
         Xdp.Portal portal = new Xdp.Portal ();
         GenericArray<weak string> cmd = new GenericArray<weak string> ();
-        cmd.add ("com.github.elfenware.badger --headless");
+        cmd.add ("com.github.elfenware.badger");
+        cmd.add ("--headless");
 
         // TODO: Implicit .begin is deprecated but i have no idea how to fix that
         portal.request_background (
