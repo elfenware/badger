@@ -77,5 +77,10 @@
     path="/com/github/elfenware/badger/state/"
     id="com.github.elfenware.badger.state"
     gettext-domain="com.github.elfenware.badger">
+    <key name="first-run" type="b">
+      <default>true</default>
+      <summary>Whether this is the first time that Badger has opened</summary>
+      <description>Used to determine whether or not to perform initial install steps</description>
+    </key>
   </schema>
 </schemalist>
