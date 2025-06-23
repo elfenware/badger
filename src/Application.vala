@@ -147,7 +147,7 @@ public class Badger.Application : Gtk.Application {
         // TODO: Implicit .begin is deprecated but i have no idea how to fix that
         portal.request_background (
             null,
-            "Autostart Badger in headless mode to send reminders",
+            _("Autostart Badger in background to send reminders"),
             cmd,
             Xdp.BackgroundFlags.AUTOSTART,
             null);
