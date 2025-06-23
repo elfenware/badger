@@ -97,11 +97,11 @@ msgstr "Mise à jour : technologie moderne sous le capot ! (GTK4)"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:34
 msgid "Bugfix: Give Badger permission to send reminders"
-msgstr "Correction : Ajout de la permission pour Badger d'envoyer des rappels"
+msgstr "Correction de bug : Ajout de la permission pour Badger d'envoyer des rappels"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:35
 msgid "Bugfix: Repaired Badger's autostart feature"
-msgstr "Correction : Réparation de la fonctionnalité d'autodémarrage de Badger"
+msgstr "Correction de bug : Réparation de la fonctionnalité d'autodémarrage de Badger"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:36
 msgid "Enhancement: Pretty window animation"
@@ -260,35 +260,33 @@ msgstr "Version initiale 🎉️"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:232
 msgid "Darshak Parikh"
-msgstr ""
+msgstr "Darshak Parikh"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:247
 msgid "Reminders"
-msgstr ""
+msgstr "Rappels"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:248
 msgid "Reminder"
-msgstr "Rappels"
+msgstr "Rappel"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:249
 msgid "Selfcare"
-msgstr ""
+msgstr "Selfcare"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:250
 msgid "Health"
-msgstr ""
+msgstr "Santé"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:251
 msgid "Cute"
-msgstr ""
+msgstr "Mignon"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:252
 msgid "Simple"
-msgstr ""
+msgstr "Simple"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:257
 msgid "The Badger automatically adapts to your set periodical reminders"
-msgstr ""
+msgstr "Badger s'adapte automatiquement aux rappels périodiques définis"
 
-#~ msgid "Elfenware"
-#~ msgstr "Elfenware"

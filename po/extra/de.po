@@ -22,7 +22,7 @@ msgstr "Ergonomische Erinnerungshilfe"
 
 #: data/com.github.elfenware.badger.desktop.in:6
 msgid "Remind yourself to relax your eyes and limbs"
-msgstr "Erinnern Sie sich daran, Ihre Augen und Gliedmaßen zu entspannen"
+msgstr "Erinnert Dich daran, Deine Augen und Gliedmaßen zu entspannen"
 
 #: data/com.github.elfenware.badger.desktop.in:11
 msgid "Ergonomics;Health;Eyes;Muscles;"
@@ -31,14 +31,14 @@ msgstr "Ergonomie;Gesundheit;Augen;Muskeln;"
 #: data/com.github.elfenware.badger.metainfo.xml.in:8
 msgid "Remind yourself to not sit and stare at the screen for too long"
 msgstr ""
-"Erinnern Sie sich selbst daran, nicht zu lange auf den Bildschirm zu starren"
+"Erinnert Dir daran, nicht zu lange auf den Bildschirm zu starren"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:10
 msgid ""
 "When you are using your computer for extended periods of time, you need to "
 "relax your body every once in a while."
 msgstr ""
-"Wenn Sie längere Zeit am Computer arbeiten, müssen Sie Ihren Körper von Zeit "
+"Wenn Du längere Zeit am Computer arbeitest, müsst-Du Deinen Körper von Zeit "
 "zu Zeit entspannen."
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:12
@@ -46,9 +46,8 @@ msgid ""
 "Badger helps you do exactly that. It reminds you—or should I say, badgers you"
 "—to destress yourself and rest your eyes and muscles."
 msgstr ""
-"Badger hilft Ihnen, genau das zu tun. Er erinnert Sie daran - oder sollte "
-"ich sagen, er ermahnt Sie - sich zu entspannen und Ihre Augen und Muskeln "
-"auszuruhen."
+"Badger hilft Dir genau dabei. Er erinnert Dir daran - oder sollte ich"
+" sagen, er fordert dich auf-, dich zu entspannen und deine Augen und Muskeln auszuruhen."
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:14
 msgid "Currently, it has these eight reminders:"
@@ -252,35 +251,33 @@ msgstr "Erste Veröffentlichung 🎉️"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:232
 msgid "Darshak Parikh"
-msgstr ""
+msgstr "Darshak Parikh"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:247
 msgid "Reminders"
-msgstr ""
+msgstr "Erinnerungen"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:248
 msgid "Reminder"
-msgstr "Erinnerungshilfe"
+msgstr "Erinnerung"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:249
 msgid "Selfcare"
-msgstr ""
+msgstr "Selbstpflege"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:250
 msgid "Health"
-msgstr ""
+msgstr "Gesundheit"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:251
 msgid "Cute"
-msgstr ""
+msgstr "Niedlich"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:252
 msgid "Simple"
-msgstr ""
+msgstr "Einfach"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:257
 msgid "The Badger automatically adapts to your set periodical reminders"
-msgstr ""
+msgstr "Der Badger passt sich automatisch an die von dir eingestellten Erinnerungszeiträume an"
 
-#~ msgid "Elfenware"
-#~ msgstr "Elfenware"
