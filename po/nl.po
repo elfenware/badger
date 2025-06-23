@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 19:46+0530\n"
-"PO-Revision-Date: 2021-10-26 14:02+0200\n"
+"PO-Revision-Date: 2025-06-23 21:55+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <vistausss@outlook.com>\n"
 "Language: nl_NL\n"
@@ -16,11 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.6\n"
 
 #: src/Application.vala:149
 msgid "Autostart Badger in background to send reminders"
 msgstr ""
+"Start Badger automatisch op, zodat je te allen tijde herinneringen krijgt"
 
 #: src/Application.vala:161
 msgid "Blink your eyes"
@@ -126,6 +127,8 @@ msgstr "Herinneringen"
 #: src/MainGrid.vala:50
 msgid "If on, Badger will remind you to take care of yourself"
 msgstr ""
+"Schakel in om Badger je eraan te herinneren dat je aan je eigen "
+"gesteldheid moet denken"
 
 #. **********************************************
 #. Label to explain
@@ -139,22 +142,22 @@ msgstr ""
 #: src/MainGrid.vala:134 src/MainGrid.vala:144
 #, c-format
 msgid "%.0f min"
-msgstr "%.0f min"
+msgstr "%.0f min."
 
 #. ******************************************
 #. DnD Label
 #. ******************************************
 #: src/MainGrid.vala:174
 msgid "Make sure Do Not Disturb is not on!"
-msgstr ""
+msgstr "Let op: zorg dat niet storen is uitgeschakeld!"
 
 #: src/Marks.vala:29
 msgid "1 min"
-msgstr "1 min"
+msgstr "1 min."
 
 #: src/Marks.vala:34
 msgid "30 min"
-msgstr "30 min"
+msgstr "30 min."
 
 #: src/Marks.vala:39
 msgid "1 hour"
