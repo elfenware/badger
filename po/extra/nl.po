@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 21:41+0200\n"
-"PO-Revision-Date: 2021-10-26 14:02+0200\n"
+"PO-Revision-Date: 2025-06-23 21:56+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <vistausss@outlook.com>\n"
 "Language: nl_NL\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.6\n"
 
 #: data/com.github.elfenware.badger.desktop.in:4
 #: data/com.github.elfenware.badger.metainfo.xml.in:7
@@ -97,11 +97,11 @@ msgstr "Houd jezelf gezond."
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:33
 msgid "Update: Modern tech under the hood! (GTK4)"
-msgstr ""
+msgstr "Nieuw: moderne snufjes onder de motorkap! (GTK4)"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:40
 msgid "Update: Use elementary Platform 7"
-msgstr ""
+msgstr "Bijgewerkt: elementary-platform 7"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:47
 msgid "Add: Two new reminders (@disegnovitruviano)"
@@ -109,7 +109,7 @@ msgstr "[NIEUW] Twee nieuwe herinneringen (met dank aan @disegnovitruviano)"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:48
 msgid "Update: Make window compact"
-msgstr ""
+msgstr "Verbeterd: venster compacter gemaakt"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:55
 msgid "Update: Italian translations (@albanobattistella)"
