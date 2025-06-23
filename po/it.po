@@ -143,9 +143,8 @@ msgstr "%.di minunti"
 #. DnD Label
 #. ******************************************
 #: src/MainGrid.vala:176
-#, fuzzy
 msgid "Make sure Do Not Disturb is off!"
-msgstr "Assicurati che la modalità Non disturbare non sia attiva!"
+msgstr "Assicurati che la modalità Non disturbare sia disattivata!"
 
 #: src/Marks.vala:30
 msgid "1 min"
