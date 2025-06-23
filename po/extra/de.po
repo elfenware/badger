@@ -96,19 +96,19 @@ msgstr "Update: Moderne Technik unter der Haube! (GTK4)"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:34
 msgid "Bugfix: Give Badger permission to send reminders"
-msgstr ""
+msgstr "Bugfix: Gib Badger die Erlaubnis, Erinnerungen zu senden"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:35
 msgid "Bugfix: Repaired Badger's autostart feature"
-msgstr ""
+msgstr "Bugfix: Die Autostart-Funktion von Badger wurde repariert"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:36
 msgid "Enhancement: Pretty window animation"
-msgstr ""
+msgstr "Verbesserung: Mit hübscher Fensteranimation"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:37
 msgid "Enhancement: Updated translations"
-msgstr ""
+msgstr "Verbesserung: Aktualisierte Übersetzungen"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:44
 msgid "Update: Use elementary Platform 7"
