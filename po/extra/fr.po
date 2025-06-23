@@ -267,9 +267,8 @@ msgid "Reminders"
 msgstr ""
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:248
-#, fuzzy
 msgid "Reminder"
-msgstr "Rappels pour une meilleure ergonomie"
+msgstr "Rappels"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:249
 msgid "Selfcare"
