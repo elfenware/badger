@@ -107,7 +107,9 @@ public class Badger.MainGrid : Gtk.Box {
 
             Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
                 margin_top = 12,
-                margin_bottom = 12
+                margin_bottom = 12,
+                margin_start = 6,
+                margin_end = 6
             };
 
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
@@ -171,7 +173,7 @@ public class Badger.MainGrid : Gtk.Box {
         /*               DnD Label                  */
         /********************************************/
 
-        var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is not on!")) {
+        var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is off!")) {
             halign = Gtk.Align.START,
             margin_top = 12,
             margin_bottom = 6

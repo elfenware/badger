@@ -31,6 +31,22 @@ built for [elementary OS].
 [![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)][AppCenter]
 
 
+## Re-set autostart
+
+You can simply run
+
+
+```bash
+flatpak run com.github.elfenware.badger --request-autostart
+```
+
+To run in headless mode (in the background)
+
+
+```bash
+flatpak run com.github.elfenware.badger --headless
+```
+
 ## Developing and building
 
 Development is targeted at [elementary OS]. If you want to hack on and

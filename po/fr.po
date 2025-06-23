@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 19:46+0530\n"
+"POT-Creation-Date: 2025-06-23 21:41+0200\n"
 "PO-Revision-Date: 2021-08-28 19:53+0530\n"
 "Last-Translator: Stella and Charlie <teamcons.carrd.co>\n"
 "Language-Team: Français\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: src/Application.vala:149
 msgid "Autostart Badger in background to send reminders"
-msgstr ""
+msgstr "Démarre automatiquement Badger en arrière-plan pour envoyer des rappels"
 
 #: src/Application.vala:161
 msgid "Blink your eyes"
@@ -129,7 +129,7 @@ msgstr "Si activé, Badger te rappellera de prendre soin de toi."
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr "Décide de la fréquence à laquelle Badger doit te rappeler de relaxer :"
 
-#: src/MainGrid.vala:134 src/MainGrid.vala:144
+#: src/MainGrid.vala:136 src/MainGrid.vala:146
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f min"
@@ -137,21 +137,19 @@ msgstr "%.0f min"
 #. ******************************************
 #. DnD Label
 #. ******************************************
-#: src/MainGrid.vala:174
-msgid "Make sure Do Not Disturb is not on!"
-msgstr "Assure-toi que le mode \"Ne pas déranger\" ne soit pas activé!"
+#: src/MainGrid.vala:176
+msgid "Make sure Do Not Disturb is off!"
+msgstr "Assure-toi que le mode \"Ne pas déranger\" soit éteint!"
 
-#: src/Marks.vala:29
+#: src/Marks.vala:30
 msgid "1 min"
 msgstr "1 min"
 
-#: src/Marks.vala:34
+#: src/Marks.vala:35
 msgid "30 min"
 msgstr "30 min"
 
-#: src/Marks.vala:39
+#: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 heure"
 
-#~ msgid "Badger"
-#~ msgstr "Badger"

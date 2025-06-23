@@ -27,10 +27,14 @@
     <p>Stay healthy.</p>
   </description>
   <releases>
-    <release version="5.0.0" date="2025-06-05">
+    <release version="5.0.0" date="2025-06-27">
       <description>
         <ul>
           <li>Update: Modern tech under the hood! (GTK4)</li>
+          <li>Bugfix: Give Badger permission to send reminders</li>
+          <li>Bugfix: Repaired Badger's autostart feature</li>
+          <li>Enhancement: Pretty window animation</li>
+          <li>Enhancement: Updated translations</li>
         </ul>
       </description>
     </release>
