@@ -171,7 +171,7 @@ public class Badger.MainGrid : Gtk.Box {
         /*               DnD Label                  */
         /********************************************/
 
-        var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is not on!")) {
+        var hey = new Gtk.Label (_ ("Make sure Do Not Disturb is off!")) {
             halign = Gtk.Align.START,
             margin_top = 12,
             margin_bottom = 6
