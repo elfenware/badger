@@ -144,8 +144,7 @@ public class Badger.Application : Gtk.Application {
         cmd.add ("com.github.elfenware.badger");
         cmd.add ("--headless");
 
-        // TODO: Implicit .begin is deprecated but i have no idea how to fix that
-        portal.request_background (
+        portal.request_background.begin (
             null,
             _("Autostart Badger in background to send reminders"),
             cmd,
