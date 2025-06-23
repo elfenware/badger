@@ -1,15 +1,15 @@
 # ITALIAN TRANSLATION FOR BADGER.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.elfenware.badger package.
-# ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2021.
+# ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2021,2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 21:41+0200\n"
-"PO-Revision-Date: 2021-10-26 17:58+0100\n"
-"Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
+"PO-Revision-Date: 2025-06-23 20:21+0100\n"
+"Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -95,11 +95,11 @@ msgstr "Rimani in salute."
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:33
 msgid "Update: Modern tech under the hood! (GTK4)"
-msgstr ""
+msgstr "Aggiornamento: tecnologia moderna sotto il cofano! (GTK4)"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:40
 msgid "Update: Use elementary Platform 7"
-msgstr ""
+msgstr "Aggiornamento: usa la piattaforma 7 di elementary"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:47
 msgid "Add: Two new reminders (@disegnovitruviano)"
@@ -107,7 +107,7 @@ msgstr "Aggiunto: Due nuovi promemoria (@disegnovitruviano)"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:48
 msgid "Update: Make window compact"
-msgstr ""
+msgstr "Aggiornamento: Rende compatta la finestra"
 
 #: data/com.github.elfenware.badger.metainfo.xml.in:55
 msgid "Update: Italian translations (@albanobattistella)"
