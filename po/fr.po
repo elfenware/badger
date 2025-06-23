@@ -14,7 +14,7 @@ msgstr ""
 
 #: src/Application.vala:149
 msgid "Autostart Badger in background to send reminders"
-msgstr ""
+msgstr "Démarre automatiquement Badger en arrière-plan pour envoyer des rappels"
 
 #: src/Application.vala:161
 msgid "Blink your eyes"
@@ -138,9 +138,8 @@ msgstr "%.0f min"
 #. DnD Label
 #. ******************************************
 #: src/MainGrid.vala:176
-#, fuzzy
 msgid "Make sure Do Not Disturb is off!"
-msgstr "Assure-toi que le mode \"Ne pas déranger\" ne soit pas activé!"
+msgstr "Assure-toi que le mode \"Ne pas déranger\" soit éteint!"
 
 #: src/Marks.vala:30
 msgid "1 min"
@@ -154,5 +153,3 @@ msgstr "30 min"
 msgid "1 hour"
 msgstr "1 heure"
 
-#~ msgid "Badger"
-#~ msgstr "Badger"
