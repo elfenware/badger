@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 21:41+0200\n"
+"POT-Creation-Date: 2025-06-23 21:42+0200\n"
 "PO-Revision-Date: 2021-10-29 10:15+0200\n"
 "Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -19,7 +19,6 @@ msgstr ""
 "X-Generator: Gtranslator 41.0\n"
 
 #: data/com.github.elfenware.badger.desktop.in:4
-#: data/com.github.elfenware.badger.metainfo.xml.in:7
 msgid "Badger"
 msgstr "Badger"
 
@@ -97,144 +96,192 @@ msgstr "Zůstaňte zdraví."
 msgid "Update: Modern tech under the hood! (GTK4)"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:40
+#: data/com.github.elfenware.badger.metainfo.xml.in:34
+msgid "Bugfix: Give Badger permission to send reminders"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:35
+msgid "Bugfix: Repaired Badger's autostart feature"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:36
+msgid "Enhancement: Pretty window animation"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:37
+msgid "Enhancement: Updated translations"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:44
 msgid "Update: Use elementary Platform 7"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:47
+#: data/com.github.elfenware.badger.metainfo.xml.in:51
 msgid "Add: Two new reminders (@disegnovitruviano)"
 msgstr "Přidáno: Dvě nové připomínky (@disegnovitruviano)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:48
+#: data/com.github.elfenware.badger.metainfo.xml.in:52
 msgid "Update: Make window compact"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:55
+#: data/com.github.elfenware.badger.metainfo.xml.in:59
 msgid "Update: Italian translations (@albanobattistella)"
 msgstr "Aktualizováno: Italský překlad (@albanobattistella)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:62
+#: data/com.github.elfenware.badger.metainfo.xml.in:66
 msgid "Add: Czech translations (@pervoj)"
 msgstr "Přidáno: Český překlad (@pervoj)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:63
+#: data/com.github.elfenware.badger.metainfo.xml.in:67
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Přidáno: Italský překlad (@albanobattistella)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:69
-#: data/com.github.elfenware.badger.metainfo.xml.in:77
+#: data/com.github.elfenware.badger.metainfo.xml.in:73
+#: data/com.github.elfenware.badger.metainfo.xml.in:81
 msgid "Odin update 🎉️"
 msgstr "Aktualizace pro Odin 🎉️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:71
-#: data/com.github.elfenware.badger.metainfo.xml.in:79
+#: data/com.github.elfenware.badger.metainfo.xml.in:75
+#: data/com.github.elfenware.badger.metainfo.xml.in:83
 msgid "Add: Dark style support"
 msgstr "Přidáno: Podpora tmavého režimu"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:86
+#: data/com.github.elfenware.badger.metainfo.xml.in:90
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr "Přidáno: Portugalský překlad (@rottenpants466)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:93
+#: data/com.github.elfenware.badger.metainfo.xml.in:97
 msgid "Add: Spanish translations (@fitojb)"
 msgstr "Přidáno: Španělský překlad (@fitojb)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:94
+#: data/com.github.elfenware.badger.metainfo.xml.in:98
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Přidáno: Ukrajinský překlad (@IhorHordiichuk)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:101
-#: data/com.github.elfenware.badger.metainfo.xml.in:124
+#: data/com.github.elfenware.badger.metainfo.xml.in:105
+#: data/com.github.elfenware.badger.metainfo.xml.in:128
 msgid "Update: Screenshot"
 msgstr "Aktualizováno: Screenshot"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:108
+#: data/com.github.elfenware.badger.metainfo.xml.in:112
 msgid "Add: New reminder for correcting your posture"
 msgstr "Přidáno: Nová připomínka pro správné držení těla"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:115
+#: data/com.github.elfenware.badger.metainfo.xml.in:119
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
 msgstr ""
 "Přidáno: Zaškrtávací políčka pro vypínání/zapínání jednotlivých připomínek "
 "(@andreasomaini)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:116
+#: data/com.github.elfenware.badger.metainfo.xml.in:120
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
 msgstr "Opraveno: Správná práce s Centrem oznámení (@nathanaelhoun)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:117
+#: data/com.github.elfenware.badger.metainfo.xml.in:121
 msgid "Update: Improved icon"
 msgstr "Aktualizováno: Vylepšena ikona"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:131
+#: data/com.github.elfenware.badger.metainfo.xml.in:135
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr "Přidáno: 🎉️ Globální přepínač pro vypnutí všech připomínek 🎉️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:138
+#: data/com.github.elfenware.badger.metainfo.xml.in:142
 msgid "Add: Turkish translations (@libreajans)"
 msgstr "Přidáno: Turecký překlad (@libreajans)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:145
+#: data/com.github.elfenware.badger.metainfo.xml.in:149
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Přidáno: Holandský překlad (@Vistaus)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:152
+#: data/com.github.elfenware.badger.metainfo.xml.in:156
 msgid "Fix: \"Never\" option not disabling the timer"
 msgstr "Opraveno: Možnost \"Nikdy\" nevypíná časovač"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:159
+#: data/com.github.elfenware.badger.metainfo.xml.in:163
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr "Přidáno: 🎉️ Nejočekávanější funkce, vlastní časovače! 🎉️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:160
-#: data/com.github.elfenware.badger.metainfo.xml.in:170
+#: data/com.github.elfenware.badger.metainfo.xml.in:164
+#: data/com.github.elfenware.badger.metainfo.xml.in:174
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Aktualizováno: Francouzský překlad (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:161
+#: data/com.github.elfenware.badger.metainfo.xml.in:165
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr "Aktualizováno: Litevský překlad (@welaq)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:162
+#: data/com.github.elfenware.badger.metainfo.xml.in:166
 msgid "Update: Danish translations (@siigdev)"
 msgstr "Aktualizováno: Dánský překlad (@siigdev)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:169
+#: data/com.github.elfenware.badger.metainfo.xml.in:173
 msgid "Add: Danish translations (@siigdev)"
 msgstr "Přidáno: Dánský překlad (@siigdev)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:176
+#: data/com.github.elfenware.badger.metainfo.xml.in:180
 msgid "Fix: Empty window on launch"
 msgstr "Opraveno: Prázdné okno po spuštění"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:181
+#: data/com.github.elfenware.badger.metainfo.xml.in:185
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr "Přidáno: Litevský překlad (@welaq)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:182
+#: data/com.github.elfenware.badger.metainfo.xml.in:186
 msgid "Fix: Illegible heading in dark mode"
 msgstr "Opraveno: Nečitelný nadpis v tmavém režimu"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:187
+#: data/com.github.elfenware.badger.metainfo.xml.in:191
 msgid "Add: French translations (@NathanBnm)"
 msgstr "Přidáno: Francouzský překlad (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:192
+#: data/com.github.elfenware.badger.metainfo.xml.in:196
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr "Opraveno: Vícenásobná oznámení při otevření okna &gt;1 krát"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:197
+#: data/com.github.elfenware.badger.metainfo.xml.in:201
 msgid "Fix: Remove manual line breaks from metainfo"
 msgstr "Opraveno: Odstranění ručního zalamování řádků z metainfo"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:202
+#: data/com.github.elfenware.badger.metainfo.xml.in:206
 msgid "Fix: Use smaller window size by default"
 msgstr "Opraveno: Použití menší velikosti okna ve výchozím nastavení"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:207
+#: data/com.github.elfenware.badger.metainfo.xml.in:211
 msgid "Initial Release 🎉️"
 msgstr "První verze 🎉️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:217
-msgid "Elfenware"
-msgstr "Elfenware"
+#: data/com.github.elfenware.badger.metainfo.xml.in:232
+msgid "Darshak Parikh"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:247
+msgid "Reminders"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:248
+#, fuzzy
+msgid "Reminder"
+msgstr "Ergonomický upomínač"
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:249
+msgid "Selfcare"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:250
+msgid "Health"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:251
+msgid "Cute"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:252
+msgid "Simple"
+msgstr ""
+
+#: data/com.github.elfenware.badger.metainfo.xml.in:257
+msgid "The Badger automatically adapts to your set periodical reminders"
+msgstr ""
+
+#~ msgid "Elfenware"
+#~ msgstr "Elfenware"
