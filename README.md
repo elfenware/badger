@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="data/icons/hicolor/128.png" alt="Icon" />
+    <img src="data/icons/hicolor/128.svg" alt="Icon" />
 </p>
 
 <h1 align="center">Badger</h1>
