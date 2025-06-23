@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 19:46+0530\n"
+"POT-Creation-Date: 2025-06-23 21:41+0200\n"
 "PO-Revision-Date: 2025-106-23 20:22+0100\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr "Se attivo, Badger ti ricorderà di prenderti cura di te stesso"
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr "Decidi quanto spesso Badger dovrebbe ricordarti di rilassarti:"
 
-#: src/MainGrid.vala:134 src/MainGrid.vala:144
+#: src/MainGrid.vala:136 src/MainGrid.vala:146
 #, c-format
 msgid "%.0f min"
 msgstr "%.di minunti"
@@ -142,19 +142,19 @@ msgstr "%.di minunti"
 #. ******************************************
 #. DnD Label
 #. ******************************************
-#: src/MainGrid.vala:174
-msgid "Make sure Do Not Disturb is not on!"
-msgstr "Assicurati che la modalità Non disturbare non sia attiva!"
+#: src/MainGrid.vala:176
+msgid "Make sure Do Not Disturb is off!"
+msgstr "Assicurati che la modalità Non disturbare sia disattivata!"
 
-#: src/Marks.vala:29
+#: src/Marks.vala:30
 msgid "1 min"
 msgstr "1 minuto"
 
-#: src/Marks.vala:34
+#: src/Marks.vala:35
 msgid "30 min"
 msgstr "30 minuti"
 
-#: src/Marks.vala:39
+#: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 ora"
 

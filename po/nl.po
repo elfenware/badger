@@ -139,7 +139,7 @@ msgstr ""
 "Hoe vaak Badger je eraan moet herinneren de volgende lichaamsdelen te "
 "ontspannen:"
 
-#: src/MainGrid.vala:134 src/MainGrid.vala:144
+#: src/MainGrid.vala:136 src/MainGrid.vala:146
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f min."
@@ -147,19 +147,20 @@ msgstr "%.0f min."
 #. ******************************************
 #. DnD Label
 #. ******************************************
+
 #: src/MainGrid.vala:174
 msgid "Make sure Do Not Disturb is not on!"
 msgstr "Let op: zorg dat niet storen is uitgeschakeld!"
 
-#: src/Marks.vala:29
+#: src/Marks.vala:30
 msgid "1 min"
 msgstr "1 min."
 
-#: src/Marks.vala:34
+#: src/Marks.vala:35
 msgid "30 min"
 msgstr "30 min."
 
-#: src/Marks.vala:39
+#: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 uur"
 

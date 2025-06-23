@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 19:46+0530\n"
+"POT-Creation-Date: 2025-06-23 21:41+0200\n"
 "PO-Revision-Date: 2019-10-23 22:39+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: \n"
@@ -144,7 +144,7 @@ msgstr ""
 "Badger'ın size ne sıklıkta rahatlamanız gerektiğini hatırlatması gerektiğine "
 "karar verin:"
 
-#: src/MainGrid.vala:134 src/MainGrid.vala:144
+#: src/MainGrid.vala:136 src/MainGrid.vala:146
 #, c-format
 msgid "%.0f min"
 msgstr "%.0f dak"
@@ -152,19 +152,19 @@ msgstr "%.0f dak"
 #. ******************************************
 #. DnD Label
 #. ******************************************
-#: src/MainGrid.vala:174
-msgid "Make sure Do Not Disturb is not on!"
+#: src/MainGrid.vala:176
+msgid "Make sure Do Not Disturb is off!"
 msgstr ""
 
-#: src/Marks.vala:29
+#: src/Marks.vala:30
 msgid "1 min"
 msgstr "1 dak"
 
-#: src/Marks.vala:34
+#: src/Marks.vala:35
 msgid "30 min"
 msgstr "30 dak"
 
-#: src/Marks.vala:39
+#: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 saat"
 
