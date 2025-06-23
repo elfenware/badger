@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 11:58+0200\n"
+"POT-Creation-Date: 2025-06-23 19:46+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,104 +17,104 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Application.vala:132
-msgid "Blink your eyes"
-msgstr ""
-
-#: src/Application.vala:133
-msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
-msgstr ""
-
-#: src/Application.vala:134
-msgid "Eyes:"
-msgstr ""
-
-#: src/Application.vala:139
-msgid "Stretch your fingers"
-msgstr ""
-
-#: src/Application.vala:140
-msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
-msgstr ""
-
-#: src/Application.vala:141
-msgid "Fingers:"
-msgstr ""
-
-#: src/Application.vala:146
-msgid "Stretch your arms"
-msgstr ""
-
-#: src/Application.vala:147
-msgid "Stretch your arms, and twist your wrists for 10 seconds."
-msgstr ""
-
-#: src/Application.vala:148
-msgid "Arms:"
-msgstr ""
-
-#: src/Application.vala:153
-msgid "Stretch your legs"
-msgstr ""
-
-#: src/Application.vala:154
-msgid "Stand up, twist each ankle, and bend each knee."
-msgstr ""
-
-#: src/Application.vala:155
-msgid "Legs:"
-msgstr ""
-
-#: src/Application.vala:160
-msgid "Turn your neck"
+#: src/Application.vala:149
+msgid "Autostart Badger in background to send reminders"
 msgstr ""
 
 #: src/Application.vala:161
-msgid "Turn your head in all directions. Repeat 3 times."
+msgid "Blink your eyes"
 msgstr ""
 
 #: src/Application.vala:162
-msgid "Neck:"
+msgid "Look away from the screen and slowly blink your eyes for 10 seconds."
 msgstr ""
 
-#: src/Application.vala:167
-msgid "Hydrate yourself"
+#: src/Application.vala:163
+msgid "Eyes:"
 msgstr ""
 
 #: src/Application.vala:168
-msgid "Drink a glass of water."
+msgid "Stretch your fingers"
 msgstr ""
 
 #: src/Application.vala:169
-msgid "Water:"
+msgid "Spread out your palm wide, then close it into a fist. Repeat 5 times."
 msgstr ""
 
-#: src/Application.vala:174
-msgid "Watch your posture"
+#: src/Application.vala:170
+msgid "Fingers:"
 msgstr ""
 
 #: src/Application.vala:175
-msgid "Make sure your back is straight."
+msgid "Stretch your arms"
 msgstr ""
 
 #: src/Application.vala:176
-msgid "Posture:"
+msgid "Stretch your arms, and twist your wrists for 10 seconds."
 msgstr ""
 
-#: src/Application.vala:181
-msgid "Focus on your breath"
+#: src/Application.vala:177
+msgid "Arms:"
 msgstr ""
 
 #: src/Application.vala:182
-msgid "Inhale and exhale deeply, thrice."
+msgid "Stretch your legs"
 msgstr ""
 
 #: src/Application.vala:183
-msgid "Breath:"
+msgid "Stand up, twist each ankle, and bend each knee."
 msgstr ""
 
-#: src/MainWindow.vala:43 src/MainWindow.vala:44
-msgid "Badger"
+#: src/Application.vala:184
+msgid "Legs:"
+msgstr ""
+
+#: src/Application.vala:189
+msgid "Turn your neck"
+msgstr ""
+
+#: src/Application.vala:190
+msgid "Turn your head in all directions. Repeat 3 times."
+msgstr ""
+
+#: src/Application.vala:191
+msgid "Neck:"
+msgstr ""
+
+#: src/Application.vala:196
+msgid "Hydrate yourself"
+msgstr ""
+
+#: src/Application.vala:197
+msgid "Drink a glass of water."
+msgstr ""
+
+#: src/Application.vala:198
+msgid "Water:"
+msgstr ""
+
+#: src/Application.vala:203
+msgid "Watch your posture"
+msgstr ""
+
+#: src/Application.vala:204
+msgid "Make sure your back is straight."
+msgstr ""
+
+#: src/Application.vala:205
+msgid "Posture:"
+msgstr ""
+
+#: src/Application.vala:210
+msgid "Focus on your breath"
+msgstr ""
+
+#: src/Application.vala:211
+msgid "Inhale and exhale deeply, thrice."
+msgstr ""
+
+#: src/Application.vala:212
+msgid "Breath:"
 msgstr ""
 
 #: src/MainGrid.vala:48
@@ -128,11 +128,11 @@ msgstr ""
 #. **********************************************
 #. Label to explain
 #. **********************************************
-#: src/MainGrid.vala:63
+#: src/MainGrid.vala:65
 msgid "Decide how often Badger should remind you to relax these:"
 msgstr ""
 
-#: src/MainGrid.vala:152 src/MainGrid.vala:167
+#: src/MainGrid.vala:134 src/MainGrid.vala:144
 #, c-format
 msgid "%.0f min"
 msgstr ""
@@ -140,20 +140,18 @@ msgstr ""
 #. ******************************************
 #. DnD Label
 #. ******************************************
-#. User may wonder why they get no notification
-#. Ok also this looks better
-#: src/MainGrid.vala:200
+#: src/MainGrid.vala:174
 msgid "Make sure Do Not Disturb is not on!"
 msgstr ""
 
-#: src/Marks.vala:30
+#: src/Marks.vala:29
 msgid "1 min"
 msgstr ""
 
-#: src/Marks.vala:35
+#: src/Marks.vala:34
 msgid "30 min"
 msgstr ""
 
-#: src/Marks.vala:40
+#: src/Marks.vala:39
 msgid "1 hour"
 msgstr ""
