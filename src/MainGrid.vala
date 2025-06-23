@@ -107,7 +107,9 @@ public class Badger.MainGrid : Gtk.Box {
 
             Gtk.Box box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
                 margin_top = 12,
-                margin_bottom = 12
+                margin_bottom = 12,
+                margin_start = 6,
+                margin_end = 6
             };
 
             Gtk.CheckButton check_box = new Gtk.CheckButton.with_label (reminder.display_label) {
