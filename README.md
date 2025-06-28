@@ -31,21 +31,20 @@ built for [elementary OS].
 [![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)][AppCenter]
 
 
-## Re-set autostart
+## Reset autostart
 
-You can simply run
+You can run:
 
-
-```bash
+```shell
 flatpak run com.github.elfenware.badger --request-autostart
 ```
 
 To run in headless mode (in the background)
 
-
-```bash
+```shell
 flatpak run com.github.elfenware.badger --headless
 ```
+
 
 ## Developing and building
 
@@ -78,12 +77,9 @@ Then run it with:
 com.github.elfenware.badger
 ```
 
-Alternatively, with flatpak-builder, installation is as simple as downloading and extracting the zip archive, changing to the new repo's directory,
-and run the following command:
+Alternatively, on elementary OS or with its AppCenter remote installed, you run the following command:
 
-On elementary OS or with its appcenter remote installed
-
-```bash
+```shell
 flatpak-builder --force-clean --user --install-deps-from=appcenter --install builddir ./com.github.elfenware.badger.yml
 ```
 
