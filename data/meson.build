@@ -1,7 +1,7 @@
 
 #======== SETTINGS ========
 install_data (
-    'com.github.elfenware.badger.gschema.xml',
+    'badger.gschema.xml',
     install_dir: get_option('datadir') / 'glib-2.0' / 'schemas',
     rename: meson.project_name() + '.gschema.xml'
 )
@@ -9,7 +9,7 @@ install_data (
 #======== Internationalization ========
 #Translate and install our .desktop file
 i18n.merge_file(
-    input: 'com.github.elfenware.badger.desktop.in',
+    input: 'badger.desktop.in',
     output: meson.project_name() + '.desktop',
     po_dir: meson.project_source_root() / 'po' / 'extra',
     type: 'desktop',
@@ -19,7 +19,7 @@ i18n.merge_file(
 
 #Translate and install our .metainfo file
 i18n.merge_file(
-    input: 'com.github.elfenware.badger.metainfo.xml.in',
+    input: 'badger.metainfo.xml.in',
     output: meson.project_name() + '.metainfo.xml',
     po_dir: meson.project_source_root() / 'po' / 'extra',
     install: true,
