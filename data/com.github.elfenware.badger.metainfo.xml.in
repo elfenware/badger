@@ -26,6 +26,10 @@
 
     <p>Stay healthy.</p>
   </description>
+  <branding>
+    <color type="primary" scheme_preference="light">#fafafa</color>
+    <color type="primary" scheme_preference="dark">#1a1a1a</color>
+  <branding>
   <releases>
     <release version="5.0.0" date="2025-06-27">
       <description>
@@ -251,20 +255,13 @@
     <keyword>Cute</keyword>
     <keyword>Simple</keyword>
   </keywords>
-
   <screenshots>
     <screenshot type="default">
       <caption>The Badger automatically adapts to your set periodical reminders</caption>
       <image>https://raw.githubusercontent.com/elfenware/badger/master/data/window-screenshot.png</image>
     </screenshot>
   </screenshots>
-  <branding>
-    <color type="primary" scheme_preference="light">#fff</color>
-    <color type="primary" scheme_preference="dark">#333</color>
-  </branding>
   <custom>
-    <value key="x-appcenter-color-primary">#fff</value>
-    <value key="x-appcenter-color-primary-text">#333</value>
     <value key="x-appcenter-suggested-price">0</value>
   </custom>
 </component>
