@@ -40,7 +40,7 @@ public class Badger.MainWindow : Gtk.Window {
         set_resizable (false);
 
 
-        set_title ("Badger");
+        set_title (_("Badger"));
         Gtk.Label title_widget = new Gtk.Label (this.get_title ());
         title_widget.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
 
