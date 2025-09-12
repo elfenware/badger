@@ -104,15 +104,10 @@ public class Badger.Application : Gtk.Application {
     public override int command_line (ApplicationCommandLine command_line) {
         stdout.printf ("\n💲️ Command line mode started");
 
-        OptionEntry[] options = new OptionEntry[2];
-        options[0] = {
-            "headless", 0, 0, OptionArg.NONE,
-            ref headless, "Run without window", null
-        };
-        options[1] = {
-            "request-autostart", 0, 0, OptionArg.NONE,
-            ref ask_autostart, "Request autostart permission", null
-        };
+        OptionEntry[] options = {
+            {"request-autostart", 'r', 0, OptionArg.NONE, ref ask_autostart, "Request autostart permission", null},
+            {"headless", 'h', 0, OptionArg.NONE, ref headless, "Run without window", null},
+        }
 
         // We have to make an extra copy of the array, since .parse assumes
         // that it can remove strings from the array without freeing them.
