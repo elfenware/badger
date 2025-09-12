@@ -73,11 +73,11 @@ public class Badger.MainWindow : Gtk.Window {
     }
 
     private void on_toggle_changed () {
-        debug ("\nToggle changed!");
+        debug ("Toggle changed!");
         main.revealer.reveal_child = settings.get_boolean ("all");
 
         if (!settings.get_boolean ("all")) {
-            debug ("\nToggle is off! Resizing window");
+            debug ("Toggle is off! Resizing window");
             set_size_request (12, 12);
             queue_resize ();
         }
