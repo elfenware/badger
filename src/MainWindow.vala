@@ -33,6 +33,7 @@ public class Badger.MainWindow : Gtk.Window {
 
     construct {
         Intl.setlocale ();
+        hide_on_close = true;
         settings = new GLib.Settings ("com.github.elfenware.badger.timers");
 
         // We cannot resize window if it is allowed to change
@@ -84,7 +85,6 @@ public class Badger.MainWindow : Gtk.Window {
 
     // Avoid a bug whence reopened windows cannot be closed
     private bool before_destroy () {
-        hide ();
-        return true;
+        return false;
     }
 }
