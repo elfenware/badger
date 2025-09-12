@@ -85,6 +85,7 @@ public class Badger.MainWindow : Gtk.Window {
 
     // Avoid a bug whence reopened windows cannot be closed
     private bool before_destroy () {
+        if (!settings.get_boolean ("all")) { application.quit ();};
         return false;
     }
 }
