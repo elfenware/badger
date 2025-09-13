@@ -68,7 +68,6 @@ public class Badger.Reminder : GLib.Object {
 
     public bool remind () {
         if (global_active && checkbox_active) {
-            app.withdraw_notification (name);
             app.send_notification (name, notification);
         }
         return true;
