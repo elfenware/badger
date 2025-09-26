@@ -1,4 +1,4 @@
-app-id: com.github.elfenware.badger
+id: com.github.elfenware.badger
 
 # elementary SDK is not available on Flathub, so use the elementary BaseApp instead
 base: io.elementary.BaseApp

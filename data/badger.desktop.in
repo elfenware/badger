@@ -1,5 +1,6 @@
 [Desktop Entry]
 Type=Application
+Version=1.5
 Name=Badger
 GenericName=Ergonomic Reminder
 Comment=Remind yourself to relax your eyes and limbs
@@ -8,4 +9,6 @@ Icon=com.github.elfenware.badger
 Terminal=false
 Categories=Office;Utility;GTK;
 Keywords=Ergonomics;Health;Eyes;Muscles;
+StartupNotify=true
+SingleMainWindow=true
 X-GNOME-UsesNotifications=true

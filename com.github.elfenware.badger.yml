@@ -1,4 +1,4 @@
-app-id: com.github.elfenware.badger
+id: com.github.elfenware.badger
 
 runtime: io.elementary.Platform
 runtime-version: '8.2'
