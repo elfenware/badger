@@ -89,8 +89,8 @@ public class Badger.MainWindow : Gtk.Window {
 
         if (!settings.get_boolean ("all")) {
             debug ("All reminders are disabled, Badger will now go to sleep");
-            application.quit ();
-        };
+            ((Badger.Application)this.application).tidy_up ();
+        }
 
         return false;
     }

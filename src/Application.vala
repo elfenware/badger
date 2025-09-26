@@ -21,6 +21,7 @@
 public class Badger.Application : Gtk.Application {
     public bool headless = false;
     public bool ask_autostart = false;
+    public Reminder[] reminders;
 
     private Badger.MainWindow window;
 
@@ -40,7 +41,7 @@ public class Badger.Application : Gtk.Application {
         var quit_action = new SimpleAction ("quit", null);
         add_action (quit_action);
         set_accels_for_action ("app.quit", {"<Control>q"});
-        quit_action.activate.connect (quit);
+        quit_action.activate.connect (tidy_up);
     }
 
     protected override void activate () {
@@ -76,7 +77,7 @@ public class Badger.Application : Gtk.Application {
         }
 
         if (window == null) {
-            var reminders = set_up_reminders ();
+            reminders = set_up_reminders ();
             var main = new MainGrid (reminders);
             window = new MainWindow (this, main);
 
@@ -213,5 +214,12 @@ public class Badger.Application : Gtk.Application {
             this
         );
         return reminders;
+    }
+
+    public void tidy_up () {
+        foreach (var reminder in reminders) {
+            withdraw_notification (reminder.name);
+        };
+        quit ();
     }
 }
