@@ -85,6 +85,13 @@ public class Badger.MainWindow : Gtk.Window {
 
     // Avoid a bug whence reopened windows cannot be closed
     private bool before_destroy () {
+        debug ("Window closed!");
+
+        if (!settings.get_boolean ("all")) {
+            debug ("All reminders are disabled, Badger will now go to sleep");
+            application.quit ();
+        };
+
         return false;
     }
 }
