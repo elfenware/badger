@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.elfenware.badger', 'vala', 'c', version: '5.0.0')
+project('com.github.elfenware.badger', 'vala', 'c', version: '5.0.1')
 
 gnome = import('gnome')
 i18n = import('i18n')
