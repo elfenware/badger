@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 21:42+0200\n"
+"POT-Creation-Date: 2025-09-26 22:03+0200\n"
 "PO-Revision-Date: 2025-06-23 20:21+0100\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -92,198 +92,198 @@ msgstr "Respira in modo consapevole"
 msgid "Stay healthy."
 msgstr "Rimani in salute."
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:33
+#: data/com.github.elfenware.badger.metainfo.xml.in:37
 msgid "Update: Modern tech under the hood! (GTK4)"
 msgstr "Aggiornamento: tecnologia moderna sotto il cofano! (GTK4)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:34
+#: data/com.github.elfenware.badger.metainfo.xml.in:38
 msgid "Bugfix: Give Badger permission to send reminders"
 msgstr "Correzione di bug: dare a Badger il permesso di inviare promemoria"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:35
+#: data/com.github.elfenware.badger.metainfo.xml.in:39
 msgid "Bugfix: Repaired Badger's autostart feature"
 msgstr "Correzione di bug: riparata la funzione di avvio automatico di Badger"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:36
+#: data/com.github.elfenware.badger.metainfo.xml.in:40
 msgid "Enhancement: Pretty window animation"
 msgstr "Miglioramento: Animazione finestra graziosa"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:37
+#: data/com.github.elfenware.badger.metainfo.xml.in:41
 msgid "Enhancement: Updated translations"
 msgstr "Miglioramento: Traduzioni aggiornate"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:44
+#: data/com.github.elfenware.badger.metainfo.xml.in:48
 msgid "Update: Use elementary Platform 7"
 msgstr "Aggiornamento: usa la piattaforma 7 di elementary"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:51
+#: data/com.github.elfenware.badger.metainfo.xml.in:55
 msgid "Add: Two new reminders (@disegnovitruviano)"
 msgstr "Aggiunto: Due nuovi promemoria (@disegnovitruviano)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:52
+#: data/com.github.elfenware.badger.metainfo.xml.in:56
 msgid "Update: Make window compact"
 msgstr "Aggiornamento: Rende compatta la finestra"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:59
+#: data/com.github.elfenware.badger.metainfo.xml.in:63
 msgid "Update: Italian translations (@albanobattistella)"
 msgstr "Aggiornato: traduzione italiana (@albanobattistella)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:66
+#: data/com.github.elfenware.badger.metainfo.xml.in:70
 msgid "Add: Czech translations (@pervoj)"
 msgstr "Aggiunto: traduzione in ceco (@pervoj)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:67
+#: data/com.github.elfenware.badger.metainfo.xml.in:71
 msgid "Add: Italian translations (@albanobattistella)"
 msgstr "Aggiunto: traduzione italiana (@albanobattistella)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:73
-#: data/com.github.elfenware.badger.metainfo.xml.in:81
+#: data/com.github.elfenware.badger.metainfo.xml.in:77
+#: data/com.github.elfenware.badger.metainfo.xml.in:85
 msgid "Odin update 🎉️"
 msgstr "Aggiornamento Odino 🎉️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:75
-#: data/com.github.elfenware.badger.metainfo.xml.in:83
+#: data/com.github.elfenware.badger.metainfo.xml.in:79
+#: data/com.github.elfenware.badger.metainfo.xml.in:87
 msgid "Add: Dark style support"
 msgstr "Aggiunto: supporto per lo stile scuro"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:90
+#: data/com.github.elfenware.badger.metainfo.xml.in:94
 msgid "Add: Portuguese (Portugal) translations (@rottenpants466)"
 msgstr "Aggiunto: traduzione in portoghese (Portogallo) (@rottenpants466)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:97
+#: data/com.github.elfenware.badger.metainfo.xml.in:101
 msgid "Add: Spanish translations (@fitojb)"
 msgstr "Aggiunto: traduzione in spagnolo (@fitojb)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:98
+#: data/com.github.elfenware.badger.metainfo.xml.in:102
 msgid "Add: Ukrainian translations (@IhorHordiichuk)"
 msgstr "Aggiunto: traduzione in ucraine (@IhorHordiichuk)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:105
-#: data/com.github.elfenware.badger.metainfo.xml.in:128
+#: data/com.github.elfenware.badger.metainfo.xml.in:109
+#: data/com.github.elfenware.badger.metainfo.xml.in:132
 msgid "Update: Screenshot"
 msgstr "Aggiornato: screenshot"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:112
+#: data/com.github.elfenware.badger.metainfo.xml.in:116
 msgid "Add: New reminder for correcting your posture"
 msgstr "Aggiunto: Nuovo promemoria per correggere la postura"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:119
+#: data/com.github.elfenware.badger.metainfo.xml.in:123
 msgid "Add: Checkboxes to toggle each timer (@andreasomaini)"
 msgstr ""
 "Aggiunto: caselle di controllo per attivare o disattivare ogni timer "
 "(@andreasomaini)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:120
+#: data/com.github.elfenware.badger.metainfo.xml.in:124
 msgid "Fix: Work correctly with the Notification Center (@nathanaelhoun)"
 msgstr ""
 "Corretto: funziona correttamente con il Centro notifiche (@nathanaelhoun)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:121
+#: data/com.github.elfenware.badger.metainfo.xml.in:125
 msgid "Update: Improved icon"
 msgstr "Aggiornato: icona migliorata"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:135
+#: data/com.github.elfenware.badger.metainfo.xml.in:139
 msgid "Add: 🎉️ Global switch to turn off all reminders 🎉️"
 msgstr ""
 "Aggiunto: 🎉️ Interruttore globale per disattivare tutti i promemoria 🎉️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:142
+#: data/com.github.elfenware.badger.metainfo.xml.in:146
 msgid "Add: Turkish translations (@libreajans)"
 msgstr "Aggiunto: traduzione in turco (@libreajans)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:149
+#: data/com.github.elfenware.badger.metainfo.xml.in:153
 msgid "Add: Dutch translations (@Vistaus)"
 msgstr "Aggiunto: traduzione in olandese (@Vistaus)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:156
+#: data/com.github.elfenware.badger.metainfo.xml.in:160
 msgid "Fix: \"Never\" option not disabling the timer"
 msgstr "Corretto: l'opzione \"Mai\" non disabilita il timer"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:163
+#: data/com.github.elfenware.badger.metainfo.xml.in:167
 msgid "Add: 🎉️ Most awaited feature, custom timers! 🎉️"
 msgstr "Aggiunto: 🎉️ La funzione più attesa, timer personalizzati! ️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:164
-#: data/com.github.elfenware.badger.metainfo.xml.in:174
+#: data/com.github.elfenware.badger.metainfo.xml.in:168
+#: data/com.github.elfenware.badger.metainfo.xml.in:178
 msgid "Update: French translations (@NathanBnm)"
 msgstr "Aggiornato: traduzione francese (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:165
+#: data/com.github.elfenware.badger.metainfo.xml.in:169
 msgid "Update: Lithuanian translations (@welaq)"
 msgstr "Aggiornato: traduzione in lituano (@welaq)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:166
+#: data/com.github.elfenware.badger.metainfo.xml.in:170
 msgid "Update: Danish translations (@siigdev)"
 msgstr "Aggiornato: traduzione in danese (@siigdev)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:173
+#: data/com.github.elfenware.badger.metainfo.xml.in:177
 msgid "Add: Danish translations (@siigdev)"
 msgstr "Aggiungi: traduzione danese (@siigdev)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:180
+#: data/com.github.elfenware.badger.metainfo.xml.in:184
 msgid "Fix: Empty window on launch"
 msgstr "Corretto: finestra vuota all'avvio"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:185
+#: data/com.github.elfenware.badger.metainfo.xml.in:189
 msgid "Add: Lithuanian translations (@welaq)"
 msgstr "Aggiunto: traduzione in lituano (@welaq)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:186
+#: data/com.github.elfenware.badger.metainfo.xml.in:190
 msgid "Fix: Illegible heading in dark mode"
 msgstr "Corretto: titolo illeggibile in modalità scura"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:191
+#: data/com.github.elfenware.badger.metainfo.xml.in:195
 msgid "Add: French translations (@NathanBnm)"
 msgstr "Aggiunto: traduzione francese (@NathanBnm)"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:196
+#: data/com.github.elfenware.badger.metainfo.xml.in:200
 msgid "Fix: Multiple notifications when window is opened &gt;1 times"
 msgstr "Corretto: più notifiche quando la finestra viene aperta &gt;1 volte"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:201
+#: data/com.github.elfenware.badger.metainfo.xml.in:205
 msgid "Fix: Remove manual line breaks from metainfo"
 msgstr "Corretto: rimosso le interruzioni di riga manuali da metainfo"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:206
+#: data/com.github.elfenware.badger.metainfo.xml.in:210
 msgid "Fix: Use smaller window size by default"
 msgstr ""
 "Corretto: utilizza dimensioni della finestra più piccole per impostazione "
 "predefinita"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:211
+#: data/com.github.elfenware.badger.metainfo.xml.in:215
 msgid "Initial Release 🎉️"
 msgstr "Rilascio iniziale 🎉️"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:232
+#: data/com.github.elfenware.badger.metainfo.xml.in:236
 msgid "Darshak Parikh"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:247
+#: data/com.github.elfenware.badger.metainfo.xml.in:251
 msgid "Reminders"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:248
+#: data/com.github.elfenware.badger.metainfo.xml.in:252
 #, fuzzy
 msgid "Reminder"
 msgstr "Promemoria ergonomico"
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:249
+#: data/com.github.elfenware.badger.metainfo.xml.in:253
 msgid "Selfcare"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:250
+#: data/com.github.elfenware.badger.metainfo.xml.in:254
 msgid "Health"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:251
+#: data/com.github.elfenware.badger.metainfo.xml.in:255
 msgid "Cute"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:252
+#: data/com.github.elfenware.badger.metainfo.xml.in:256
 msgid "Simple"
 msgstr ""
 
-#: data/com.github.elfenware.badger.metainfo.xml.in:257
+#: data/com.github.elfenware.badger.metainfo.xml.in:260
 msgid "The Badger automatically adapts to your set periodical reminders"
 msgstr ""
 
