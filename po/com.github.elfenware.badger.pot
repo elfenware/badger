@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 21:41+0200\n"
+"POT-Creation-Date: 2025-09-26 22:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,6 +115,10 @@ msgstr ""
 
 #: src/Application.vala:212
 msgid "Breath:"
+msgstr ""
+
+#: src/MainWindow.vala:44
+msgid "Badger"
 msgstr ""
 
 #: src/MainGrid.vala:48

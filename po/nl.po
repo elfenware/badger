@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 19:46+0530\n"
+"POT-Creation-Date: 2025-09-26 22:03+0200\n"
 "PO-Revision-Date: 2025-06-23 21:55+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <vistausss@outlook.com>\n"
@@ -120,6 +120,10 @@ msgstr "Adem driemaal diep in en uit."
 msgid "Breath:"
 msgstr "Ademhaling:"
 
+#: src/MainWindow.vala:44
+msgid "Badger"
+msgstr "Badger"
+
 #: src/MainGrid.vala:48
 msgid "Reminders"
 msgstr "Herinneringen"
@@ -127,8 +131,8 @@ msgstr "Herinneringen"
 #: src/MainGrid.vala:50
 msgid "If on, Badger will remind you to take care of yourself"
 msgstr ""
-"Schakel in om Badger je eraan te herinneren dat je aan je eigen "
-"gesteldheid moet denken"
+"Schakel in om Badger je eraan te herinneren dat je aan je eigen gesteldheid "
+"moet denken"
 
 #. **********************************************
 #. Label to explain
@@ -147,9 +151,9 @@ msgstr "%.0f min."
 #. ******************************************
 #. DnD Label
 #. ******************************************
-
-#: src/MainGrid.vala:174
-msgid "Make sure Do Not Disturb is not on!"
+#: src/MainGrid.vala:176
+#, fuzzy
+msgid "Make sure Do Not Disturb is off!"
 msgstr "Let op: zorg dat niet storen is uitgeschakeld!"
 
 #: src/Marks.vala:30
@@ -163,6 +167,3 @@ msgstr "30 min."
 #: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 uur"
-
-#~ msgid "Badger"
-#~ msgstr "Badger"

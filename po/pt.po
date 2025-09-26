@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.elfenware.badger\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 21:41+0200\n"
+"POT-Creation-Date: 2025-09-26 22:03+0200\n"
 "PO-Revision-Date: 2020-08-18 00:43+0100\n"
 "Last-Translator: André Barata <andretiagob@protonmail.com\n"
 "Language-Team: Portuguese (Portugal)\n"
@@ -121,6 +121,10 @@ msgstr ""
 msgid "Breath:"
 msgstr ""
 
+#: src/MainWindow.vala:44
+msgid "Badger"
+msgstr "Badger"
+
 #: src/MainGrid.vala:48
 msgid "Reminders"
 msgstr "Lembretes"
@@ -159,6 +163,3 @@ msgstr "30 min"
 #: src/Marks.vala:40
 msgid "1 hour"
 msgstr "1 hora"
-
-#~ msgid "Badger"
-#~ msgstr "Badger"
